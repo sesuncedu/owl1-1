@@ -1,0 +1,82 @@
+package id4qfsjesylhqwfesymp1bq;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dig.Request:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dig.Response:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference5 {
+}/**
+@__ref <oiref:java#Class#dig.Error:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference6 {
+}/**
+@__ref <oiref:java#Class#dig.Confirmation:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference13 {
+}/**
+@__ref <oiref:java#Class#dig.RequestToOntology:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference27 {
+}/**
+@__ref <oiref:java#Class#dig.RequestMessage:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#dig.ResponseMessage:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference9 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Extends#dig.Tell#dig.Request:oiref>=223,282,223,191:oigroup>
+<oigroup:<oiref:java#Class#dig.Response:oiref>=486,209,67,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.RequestMessage#requests:oiref>=201,182,27,19,0:oigroup>
+<oigroup:<oiref:java#Class#dig.Confirmation:oiref>=559,338,82,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.ResponseMessage#responses:oiref>=489,180,27,19,0:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.RequestMessage#requests:oiref>=174,148,64,32,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.RequestMessage#requests:oiref>=246,118,55,19,0:oigroup>
+<oigroup:<oiref:java#Class#dig.ResponseMessage:oiref>=459,62,118,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.Request:oiref>=209,210,63,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.Error#dig.Response:oiref>=439,337,439,306,519,306,519,268:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.ResponseMessage#responses:oiref>=522,149,64,32,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.ResponseMessage#responses:oiref>=530,121,66,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.Confirmation#dig.Response:oiref>=611,338,611,306,519,306,519,268:oigroup>
+<oigroup:<oiref:java#Class#dig.RequestToOntology:oiref>=168,337,128,68,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Request#response:oiref>=291,241,471,241:oigroup>
+<oigroup:<oiref:java#Extends#dig.RequestToOntology#dig.Request:oiref>=240,337,240,269:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.ResponseMessage#responses:oiref>=522,121,522,209:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.RequestMessage#requests:oiref>=238,118,238,210:oigroup>
+<oigroup:<oiref:java#Class#dig.RequestMessage:oiref>=179,59,108,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.Error:oiref>=370,337,138,87,1:oigroup>
+*/
+class __positions {
+}

@@ -1,0 +1,115 @@
+package id4dhsdesylhqwfesynzfmt;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dig.Request:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dig.Response:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference40 {
+}/**
+@__ref <oiref:java#Class#dig.BooleanValue:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference41 {
+}/**
+@__ref <oiref:java#Class#dig.RequestToOntology:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference42 {
+}/**
+@__ref <oiref:java#Class#owl.Description:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference43 {
+}/**
+@__ref <oiref:java#Class#dig.IsClassSatisfiable:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference44 {
+}/**
+@__ref <oiref:java#Class#dig.IsClassSubsumedBy:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference46 {
+}/**
+@__ref <oiref:java#Class#dig.AreClassesDisjoint:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference48 {
+}/**
+@__ref <oiref:java#Class#dig.AreClassesEquivalent:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference1 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#dig.Request:oiref>=232,50,63,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsClassSubsumedBy#subClass:oiref>=277,371,277,451,196,451:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.IsClassSubsumedBy#subClass:oiref>=281,371,60,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.RequestToOntology#dig.Request:oiref>=263,155,263,109:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsInstanceOf#individual:oiref>=551,371,551,500:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.AreClassesDisjoint#classes:oiref>=239,491,65,32,0:oigroup>
+<oigroup:<oiref:java#Class#owl.Description:oiref>=98,421,98,59,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.IsClassSatisfiable#_class:oiref>=66,370,36,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.AreClassesEquivalent#dig.RequestToOntology:oiref>=452,308,452,271,266,271,266,223:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsInstanceOf#_class:oiref>=504,371,504,574,120,574,120,480:oigroup>
+<oigroup:<oiref:java#Class#dig.IsClassSubsumedBy:oiref>=222,312,126,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsClassSubsumedBy#superClass:oiref>=222,347,163,347,163,421:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.AreClassesDisjoint#classes:oiref>=141,487,27,19,0:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.AreClassesEquivalent#classes:oiref>=256,543,65,32,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.IsClassSubsumedBy#superClass:oiref>=152,400,13,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.IsInstanceOf#dig.RequestToOntology:oiref>=527,312,527,271,215,271,215,240:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.IsClassSubsumedBy#superClass:oiref>=149,324,71,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsClassSatisfiable#_class:oiref>=62,370,62,451,98,451:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.AreClassesEquivalent#classes:oiref>=450,367,450,575,127,575,127,480:oigroup>
+<oigroup:<oiref:java#Class#dig.RequestToOntology:oiref>=202,155,128,68,1:oigroup>
+<oigroup:<oiref:java#Class#dig.IsClassSatisfiable:oiref>=24,311,111,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.BooleanValue#dig.Response:oiref>=571,160,571,111:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.AreClassesEquivalent#classes:oiref>=96,487,27,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.AreClassesDisjoint#class1:oiref>=418,369,418,511,174,511,174,480:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.IsClassSubsumedBy#subClass:oiref>=200,430,13,19,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.AreClassesEquivalent#classes:oiref>=454,367,50,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.AreClassesDisjoint#class2:oiref>=465,369,465,543,131,543,131,480:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsInstanceOf#class1:oiref>=487,347,344,347,344,439,196,439:oigroup>
+<oigroup:<oiref:java#Class#dig.BooleanValue:oiref>=520,160,105,68,1:oigroup>
+<oigroup:<oiref:java#Class#dig.AreClassesDisjoint:oiref>=316,392,117,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsInstanceOf#class2:oiref>=487,323,344,323,344,430,196,430:oigroup>
+<oigroup:<oiref:java#Extends#dig.IsClassSatisfiable#dig.RequestToOntology:oiref>=79,311,79,271,266,271,266,223:oigroup>
+<oigroup:<oiref:java#Extends#dig.AreClassesDisjoint#dig.RequestToOntology:oiref>=374,392,374,271,266,271,266,223:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.AreClassesDisjoint#classes:oiref>=373,451,373,523,170,523,170,480:oigroup>
+<oigroup:<oiref:java#Class#dig.Response:oiref>=538,52,67,59,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.AreClassesDisjoint#classes:oiref>=377,451,50,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Request#response:oiref>=284,83,512,83:oigroup>
+<oigroup:<oiref:java#Extends#dig.IsClassSubsumedBy#dig.RequestToOntology:oiref>=285,312,285,271,266,271,266,223:oigroup>
+<oigroup:<oiref:java#Class#dig.AreClassesEquivalent:oiref>=386,308,133,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.IsOntologySatisfiable#dig.RequestToOntology:oiref>=594,310,594,271,350,271,350,226:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.IsClassSatisfiable#_class:oiref>=87,430,13,19,0:oigroup>
+*/
+class __positions {
+}

@@ -1,0 +1,136 @@
+package idwx89eszrj63eeszrkb7f;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dig.Request:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dig.RequestToOntology:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference7 {
+}/**
+@__ref <oiref:java#Class#dig.Response:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference8 {
+}/**
+@__ref <oiref:java#Class#dig.CreateOntology:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference9 {
+}/**
+@__ref <oiref:java#Class#dig.Confirmation:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference12 {
+}/**
+@__ref <oiref:java#Class#dig.ReleaseOntology:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference16 {
+}/**
+@__ref <oiref:java#Class#owl.Annotation:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference18 {
+}/**
+@__ref <oiref:java#Class#dig.GetOntologyAnnotations:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference19 {
+}/**
+@__ref <oiref:java#Class#dig.SetOfAnnotations:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference21 {
+}/**
+@__ref <oiref:java#Class#dig.CreateOntologyAllocateURI:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#dig.OntologyCreated:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference14 {
+}/**
+@__ref <oiref:java#Class#dig.GetImportedOntologies:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference2 {
+}/**
+@__ref <oiref:java#Class#dig.SetOfImports:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference17 {
+}/**
+@__ref <oiref:java#Class#dig.Imports:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference22 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions 
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.SetOfImports#importedOntologies:oiref>=917,380,24,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.Annotation:oiref>=659,401,168,68,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.SetOfImports#dig.Response:oiref>=905,213,905,183,711,183,711,144:oigroup>
+<oigroup:<oiref:java#Class#dig.CreateOntology:oiref>=144,346,97,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.Response:oiref>=678,85,67,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.Confirmation:oiref>=539,214,82,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.ReleaseOntology:oiref>=288,346,105,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.SetOfAnnotations#dig.Response:oiref>=739,214,739,183,711,183,711,144:oigroup>
+<oigroup:<oiref:java#Class#dig.GetImportedOntologies:oiref>=194,432,140,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.OntologyCreated:oiref>=578,307,104,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.OntologyCreated#dig.Response:oiref>=642,307,642,183,711,183,711,144:oigroup>
+<oigroup:<oiref:java#Extends#dig.CreateOntology#dig.RequestToOntology:oiref>=192,346,192,326,388,326,388,272:oigroup>
+<oigroup:<oiref:java#Class#dig.Request:oiref>=252,88,63,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.CreateOntologyAllocateURI#dig.Request:oiref>=211,219,211,187,283,187,283,147:oigroup>
+<oigroup:<oiref:java#Extends#dig.Confirmation#dig.Response:oiref>=580,214,580,183,711,183,711,144:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetOntologyAnnotations#dig.RequestToOntology:oiref>=436,432,436,326,388,326,388,272:oigroup>
+<oigroup:<oiref:java#Class#dig.RequestToOntology:oiref>=328,213,120,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.SetOfAnnotations:oiref>=685,214,109,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetImportedOntologies#dig.RequestToOntology:oiref>=264,432,264,326,388,326,388,272:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.SetOfImports#importedOntologies:oiref>=912,241,947,241,947,403:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Request#response:oiref>=315,120,680,120:oigroup>
+<oigroup:<oiref:java#Extends#dig.RequestToOntology#dig.Request:oiref>=392,213,392,187,283,187,283,147:oigroup>
+<oigroup:<oiref:java#Class#dig.SetOfImports:oiref>=827,213,85,59,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.SetOfImports#importedOntologies:oiref>=926,215,48,19,0:oigroup>
+<oigroup:<oiref:java#Class#dig.Imports:oiref>=883,403,128,68,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.SetOfAnnotations#annotations:oiref>=743,273,743,401:oigroup>
+<oigroup:<oiref:java#Class#dig.GetOntologyAnnotations:oiref>=363,432,146,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.ReleaseOntology#dig.RequestToOntology:oiref>=340,346,340,326,388,326,388,272:oigroup>
+<oigroup:<oiref:java#Class#dig.CreateOntologyAllocateURI:oiref>=130,219,162,59,1:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.SetOfImports#importedOntologies:oiref>=947,306,65,32,0:oigroup>
+
+*/
+class __positions {
+}

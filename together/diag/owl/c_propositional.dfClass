@@ -1,0 +1,81 @@
+package id3ivx5esvqn2qzesvuyt8q;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#owl.Description:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#owl.ObjectUnionOf:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference24 {
+}/**
+@__ref <oiref:java#Class#owl.ObjectComplementOf:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference25 {
+}/**
+@__ref <oiref:java#Class#owl.ObjectOneOf:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference26 {
+}/**
+@__ref <oiref:java#Class#owl.Individual:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference27 {
+}/**
+@__ref <oiref:java#Class#owl.ObjectIntersectionOf:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference28 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectIntersectionOf#classes:oiref>=471,121,27,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectComplementOf#_class:oiref>=393,94,13,19,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.ObjectComplementOf#owl.Description:oiref>=384,258,384,214,437,214,437,179:oigroup>
+<oigroup:<oiref:java#Extends#owl.ObjectIntersectionOf#owl.Description:oiref>=616,256,616,214,437,214,437,179:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectOneOf#individuals:oiref>=480,370,27,19,0:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.ObjectUnionOf#classes:oiref>=250,150,65,32,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectIntersectionOf#classes:oiref>=658,235,50,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectIntersectionOf:oiref>=583,256,127,59,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectComplementOf#_class:oiref>=390,317,36,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.Individual:oiref>=485,395,63,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Description:oiref>=387,120,75,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectUnionOf#classes:oiref>=352,123,30,19,0:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.ObjectIntersectionOf#classes:oiref>=523,148,65,32,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.ObjectUnionOf#classes:oiref>=179,253,179,150,387,150:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectOneOf:oiref>=470,256,82,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.ObjectComplementOf#_class:oiref>=386,317,386,353,122,353,122,80,410,80,410,120:oigroup>
+<oigroup:<oiref:java#Extends#owl.ObjectUnionOf#owl.Description:oiref>=240,253,240,214,437,214,437,179:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.ObjectOneOf#individuals:oiref>=513,339,65,32,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectUnionOf#classes:oiref>=187,232,50,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.ObjectIntersectionOf#classes:oiref>=650,256,650,148,462,148:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectOneOf#individuals:oiref>=521,315,65,19,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.ObjectOneOf#owl.Description:oiref>=511,256,511,214,437,214,437,179:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.ObjectOneOf#individuals:oiref>=513,315,513,395:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectUnionOf:oiref>=166,253,91,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectComplementOf:oiref>=310,258,131,59,1:oigroup> 
+*/
+class __positions {
+}

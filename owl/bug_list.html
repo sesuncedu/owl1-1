@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>OWL 1.1 Web Ontology Language: Issues in the Specification</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <link href="images/owl-icon.png" rel="shortcut icon">
+  <link href="css/W3C-Member-SUBM.css" type="text/css" rel="stylesheet">
+  <link href="css/owl.css" type="text/css" rel="stylesheet">
+  <style type="text/css">
+    li { margin-bottom: 10px }
+  </style>
+</head>
+<body>
+
+<div class="head">
+<h1 class="mainTitle"><img style="float: right; height: 200px;" alt="owl" src="images/owl.png">OWL 1.1 Web Ontology Language<br>
+Issues in the Specification</h1>
+<h2><a id="editordraft" name="editordraft"></a>Editor's Draft of 07 February 2007</h2>
+<dl>
+  <dt>This version:</dt>
+  <dd><a href="http://owl1-1.cs.manchester.ac.uk/bug_list.html">http://owl1-1.cs.manchester.ac.uk/bug_list.html</a></dd>
+  <dt>Latest version:</dt>
+  <dd><a href="http://owl1-1.cs.manchester.ac.uk/bug_list.html">http://owl1-1.cs.manchester.ac.uk/bug_list.html</a></dd>
+</dl>
+</div>
+
+<hr>
+
+<div class="abstract">
+<h2 class="notoc"><a id="abstract" name="abstract">Abstract</a></h2>
+
+<p>Entire community of OWL users, developers, and interested parties is invited
+to sent their comments through the <a href="http://lists.w3.org/Archives/Public/public-owl-dev/">W3C mailing list</a>.
+These issues will be logged on this page and will be discussed
+during the pending standardization process.</p>
+
+</div>
+
+<div class="status">
+<h2 class="notoc"><a id="status" name="status">Status of this Document</a></h2>
+<p><strong>This is a editor's draft, for comment by the OWL community.</strong></p>
+<p>This document has been produced for approval of the ad-hoc OWL
+community. Comments, both from within and without the community, are
+welcome. Although the development of OWL 1.1 is not a W3C activity, public comments
+should be sent to the <a href="mailto:public-owl-dev@w3.org">
+public-owl-dev@w3.org </a> list to ensure widest visibility.</p>
+</div>
+
+<hr>
+
+<ul>
+
+<li><a href="http://lists.w3.org/Archives/Public/public-owl-dev/2006OctDec/0013.html">http://lists.w3.org/Archives/Public/public-owl-dev/2006OctDec/0013.html</a><br>
+RDF Mapping maps disjoint properties to owl:disjointWith, which may cause confusion (esp. with punning).</li>
+
+<li>Annotation values are restricted to strings (that is, are more restricted than in OWL DL)</li>
+
+<li>The current OWL 1.1 specification only allows one facet restriction per data range.  This makes it
+cumbersome (and unintuitive) to specify ranges such as integer between 30 and 50.
+t should be possible to specify multiple facet restrictions for a data range.</li>
+
+<li>Ontology consistency, concept satisfiability and subsumption are known to be EXPTIME-Complete for HORN-SHIQ</li>
+
+<li>Entity annotations are currently allowed only in the entity declaration axioms. This makes it impossible to
+annotate an entity without declaring it. A potential correction to this problem would be to separate the entity
+declaration from the entity annotation axioms.</li>
+
+<li>OWL 1.1 seems to provide for antisymmetric properties, but, by their semantics, the properties are asymmetric.</li>
+
+</ul>
+
+</body>
+
+</html>

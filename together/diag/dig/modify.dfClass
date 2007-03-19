@@ -1,0 +1,127 @@
+package idqisyesylhqwfesymxwqv;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dig.Tell:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dig.Request:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference11 {
+}/**
+@__ref <oiref:java#Class#dig.Response:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference12 {
+}/**
+@__ref <oiref:java#Class#owl.Axiom:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference15 {
+}/**
+@__ref <oiref:java#Class#dig.Retract:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference17 {
+}/**
+@__ref <oiref:java#Class#dig.Confirmation:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference19 {
+}/**
+@__ref <oiref:java#Class#dig.RequestToOntology:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference28 {
+}/**
+@__ref <oiref:java#Class#dig.RetractAll:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#owl.Annotation:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference2 {
+}/**
+@__ref <oiref:java#Class#dig.Imports:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference29 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.Tell#annotations:oiref>=240,364,71,19,0:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.Retract#axioms:oiref>=425,401,65,32,0:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.Retract#annotations:oiref>=519,341,65,32,0:oigroup>
+<oigroup:<oiref:java#Class#dig.Imports:oiref>=132,605,128,68,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=467,502,71,19,0:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=484,470,65,32,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Tell#imports:oiref>=220,333,165,333,165,605:oigroup>
+<oigroup:<oiref:java#Extends#dig.RetractAll#dig.RequestToOntology:oiref>=99,304,99,267,261,267,261,235:oigroup>
+<oigroup:<oiref:java#Extends#dig.Tell#dig.Request:oiref>=143,258,143,143,227,143,227,115:oigroup>
+<oigroup:<oiref:java#Class#dig.Request:oiref>=223,52,63,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Retract#annotations:oiref>=442,341,633,341,633,459:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.Retract#imports:oiref>=264,612,11,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.RequestToOntology#dig.Request:oiref>=254,167,254,111:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.Retract#annotations:oiref>=622,438,11,19,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.Retract#imports:oiref>=457,288,48,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.Annotation:oiref>=570,459,168,87,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.Tell#annotations:oiref>=649,546,11,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Retract#imports:oiref>=442,311,836,311,836,633,260,633:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.Tell#axioms:oiref>=328,402,65,32,0:oigroup>
+<oigroup:<oiref:java#Class#owl.Axiom:oiref>=395,474,68,59,1:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.Retract#imports:oiref>=836,456,65,32,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.Tell#axioms:oiref>=370,480,27,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Retract#axioms:oiref>=425,361,425,474:oigroup>
+<oigroup:<oiref:java#Extends#dig.Error#dig.Response:oiref>=484,174,484,151,548,151,548,120:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.Tell#annotations:oiref>=414,551,65,32,0:oigroup>
+<oigroup:<oiref:java#Class#dig.RetractAll:oiref>=67,304,65,59,1:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.Tell#imports:oiref>=165,453,65,32,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.Tell#dig.RequestToOntology:oiref>=251,305,251,267,261,267,261,235:oigroup>
+<oigroup:<oiref:java#Class#dig.RequestToOntology:oiref>=197,167,128,68,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Tell#axioms:oiref>=283,335,328,335,328,502,395,502:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.Retract#axioms:oiref>=398,453,27,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.Tell#imports:oiref>=154,584,11,19,0:oigroup>
+<oigroup:<oiref:java#Class#dig.Confirmation:oiref>=452,171,82,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=555,478,11,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.Retract#dig.RequestToOntology:oiref>=410,302,410,267,261,267,261,235:oigroup>
+<oigroup:<oiref:java#Extends#dig.Retract#dig.Request:oiref>=304,257,304,143,227,143,227,115:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Tell#annotations:oiref>=232,364,232,583,660,583,660,546:oigroup>
+<oigroup:<oiref:java#Extends#dig.Confirmation#dig.Response:oiref>=485,171,485,111:oigroup>
+<oigroup:<oiref:java#Class#dig.Retract:oiref>=379,302,63,59,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.Retract#annotations:oiref>=455,318,71,19,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.Retract#axioms:oiref>=433,361,46,19,0:oigroup>
+<oigroup:<oiref:java#Class#dig.Tell:oiref>=220,305,63,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.Response:oiref>=452,52,67,59,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.Tell#imports:oiref>=170,310,48,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Request#response:oiref>=285,83,437,83:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=463,502,570,502:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.Tell#axioms:oiref>=287,312,46,19,0:oigroup>
+*/
+class __positions {
+}

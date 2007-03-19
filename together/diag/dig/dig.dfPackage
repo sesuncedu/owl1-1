@@ -1,0 +1,412 @@
+package id18ig9esylhqwfesymp1av;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dig.Request:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dig.Response:oiref><oihard>
+@__modelType reference 
+*/
+class reference2 {
+}/**
+@__ref <oiref:java#Class#dig.Error:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}/**
+@__ref <oiref:java#Class#dig.TellRequest:oiref><oihard>
+@__modelType reference 
+*/
+class reference4 {
+}/**
+@__ref <oiref:java#Class#dig.Tell:oiref><oihard>
+@__modelType reference 
+*/
+class reference10 {
+}/**
+@__ref <oiref:java#Class#dig.Confirmation:oiref><oihard>
+@__modelType reference 
+*/
+class reference14 {
+}/**
+@__ref <oiref:java#Class#dig.Retract:oiref><oihard>
+@__modelType reference 
+*/
+class reference16 {
+}/**
+@__ref <oiref:java#Class#dig.GetAllOWLCLasses:oiref><oihard>
+@__modelType reference 
+*/
+class reference21 {
+}/**
+@__ref <oiref:java#Class#dig.RequestToOntology:oiref><oihard>
+@__modelType reference 
+*/
+class reference26 {
+}/**
+@__ref <oiref:java#Class#dig.GetAllObjectProperties:oiref><oihard>
+@__modelType reference 
+*/
+class reference30 {
+}/**
+@__ref <oiref:java#Class#dig.GetAllIndividuals:oiref><oihard>
+@__modelType reference 
+*/
+class reference32 {
+}/**
+@__ref <oiref:java#Class#dig.GetAllDataProperties:oiref><oihard>
+@__modelType reference 
+*/
+class reference34 {
+}/**
+@__ref <oiref:java#Class#dig.BooleanValue:oiref><oihard>
+@__modelType reference 
+*/
+class reference36 {
+}/**
+@__ref <oiref:java#Class#dig.IsClassSatisfiable:oiref><oihard>
+@__modelType reference 
+*/
+class reference38 {
+}/**
+@__ref <oiref:java#Class#dig.IsClassSubsumedBy:oiref><oihard>
+@__modelType reference 
+*/
+class reference45 {
+}/**
+@__ref <oiref:java#Class#dig.AreClassesDisjoint:oiref><oihard>
+@__modelType reference 
+*/
+class reference47 {
+}/**
+@__ref <oiref:java#Class#dig.GetParentClassHierarchyNodes:oiref><oihard>
+@__modelType reference 
+*/
+class reference57 {
+}/**
+@__ref <oiref:java#Class#dig.GetChildClassHierarchyNodes:oiref><oihard>
+@__modelType reference 
+*/
+class reference59 {
+}/**
+@__ref <oiref:java#Class#dig.GetAllDatatypes:oiref><oihard>
+@__modelType reference 
+*/
+class reference66 {
+}/**
+@__ref <oiref:java#Class#dig.GetClassHierarchyNodeByClass:oiref><oihard>
+@__modelType reference 
+*/
+class reference68 {
+}/**
+@__ref <oiref:java#Class#dig.IsOntologySatisfiable:oiref><oihard>
+@__modelType reference 
+*/
+class reference87 {
+}/**
+@__ref <oiref:java#Class#dig.GetChildObjectPropertyHierarchyNodes:oiref><oihard>
+@__modelType reference 
+*/
+class reference95 {
+}/**
+@__ref <oiref:java#Class#dig.GetParentObjectPropertyHierarchyNodes:oiref><oihard>
+@__modelType reference 
+*/
+class reference97 {
+}/**
+@__ref <oiref:java#Class#dig.GetObjectPropertyHieararchyNodeByObjectProperty:oiref><oihard>
+@__modelType reference 
+*/
+class reference103 {
+}/**
+@__ref <oiref:java#Class#dig.GetClassInstances:oiref><oihard>
+@__modelType reference 
+*/
+class reference112 {
+}/**
+@__ref <oiref:java#Class#dig.SetOfEntites:oiref><oihard>
+@__modelType reference 
+*/
+class reference118 {
+}/**
+@__ref <oiref:java#Class#dig.GetIndividualTypes:oiref><oihard>
+@__modelType reference 
+*/
+class reference122 {
+}/**
+@__ref <oiref:java#Class#dig.IndividualFillers:oiref><oihard>
+@__modelType reference 
+*/
+class reference9 {
+}/**
+@__ref <oiref:java#Class#dig.RetractAll:oiref><oihard>
+@__modelType reference 
+*/
+class reference6 {
+}/**
+@__ref <oiref:java#Class#dig.CreateOntology:oiref><oihard>
+@__modelType reference 
+*/
+class reference11 {
+}/**
+@__ref <oiref:java#Class#dig.ReleaseOntology:oiref><oihard>
+@__modelType reference 
+*/
+class reference17 {
+}/**
+@__ref <oiref:java#Class#dig.GetOntologyAnnotations:oiref><oihard>
+@__modelType reference 
+*/
+class reference20 {
+}/**
+@__ref <oiref:java#Class#dig.SetOfAnnotations:oiref><oihard>
+@__modelType reference 
+*/
+class reference22 {
+}/**
+@__ref <oiref:java#Class#dig.DIGDescribe:oiref><oihard>
+@__modelType reference 
+*/
+class reference25 {
+}/**
+@__ref <oiref:java#Class#dig.DIGDescription:oiref><oihard>
+@__modelType reference 
+*/
+class reference29 {
+}/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:design#Class#id4suvhesnkfgx6esnkjzjs.diagram:oiref><oihard>
+@automatic 
+*/
+class link {
+}/**
+@shapeType DependencyLink
+@__modelType link
+@__ref <oiref:design#Class#id4rgm2esnkfgx6esnkjua4.diagram:oiref><oihard>
+@automatic 
+*/
+class link31 {
+}/**
+@__ref <oiref:java#Class#dig.SupportedRequest:oiref><oihard>
+@__modelType reference 
+*/
+class reference33 {
+}/**
+@__ref <oiref:java#Class#dig.RequestMessage:oiref><oihard>
+@__modelType reference 
+*/
+class reference8 {
+}/**
+@__ref <oiref:java#Class#dig.ResponseMessage:oiref><oihard>
+@__modelType reference 
+*/
+class reference12 {
+}/**
+@__ref <oiref:java#Class#dig.CreateOntologyAllocateURI:oiref><oihard>
+@__modelType reference 
+*/
+class reference13 {
+}/**
+@__ref <oiref:java#Class#dig.OntologyCreated:oiref><oihard>
+@__modelType reference 
+*/
+class reference18 {
+}/**
+@__ref <oiref:java#Class#dig.IsObjectPropertySatisfiable:oiref><oihard>
+@__modelType reference 
+*/
+class reference23 {
+}/**
+@__ref <oiref:java#Class#dig.IsObjectPropertySubsumedBy:oiref><oihard>
+@__modelType reference 
+*/
+class reference27 {
+}/**
+@__ref <oiref:java#Class#dig.AreObjectPropertiesDisjoint:oiref><oihard>
+@__modelType reference 
+*/
+class reference31 {
+}/**
+@__ref <oiref:java#Class#dig.GetImportedOntologies:oiref><oihard>
+@__modelType reference 
+*/
+class reference15 {
+}/**
+@__ref <oiref:java#Class#dig.SetOfImports:oiref><oihard>
+@__modelType reference 
+*/
+class reference19 {
+}/**
+@__ref <oiref:java#Class#dig.Imports:oiref><oihard>
+@__modelType reference 
+*/
+class reference28 {
+}/**
+@__ref <oiref:java#Class#dig.AreClassesEquivalent:oiref><oihard>
+@__modelType reference 
+*/
+class reference35 {
+}/**
+@__ref <oiref:java#Class#dig.AreObjectPropertiesEquivalent:oiref><oihard>
+@__modelType reference 
+*/
+class reference41 {
+}/**
+@__ref <oiref:java#Class#dig.IsTBoxSatisfiable:oiref><oihard>
+@__modelType reference 
+*/
+class reference43 {
+}/**
+@__ref <oiref:java#Class#dig.IsOntologyStructurallyConsistent:oiref><oihard>
+@__modelType reference 
+*/
+class reference46 {
+}/**
+@__ref <oiref:java#Class#dig.GetIndividualFillers:oiref><oihard>
+@__modelType reference 
+*/
+class reference48 {
+}/**
+@__ref <oiref:java#Class#dig.GetObjectPropertiesBetween:oiref><oihard>
+@__modelType reference 
+*/
+class reference50 {
+}/**
+@__ref <oiref:java#Class#dig.IsObjectPropertyTransitive:oiref><oihard>
+@__modelType reference 
+*/
+class reference53 {
+}/**
+@__ref <oiref:java#Class#dig.ClassHierarchyNode:oiref><oihard>
+@__modelType reference 
+*/
+class reference5 {
+}/**
+@__ref <oiref:java#Class#dig.SetOfClassHierarchyNodes:oiref><oihard>
+@__modelType reference 
+*/
+class reference37 {
+}/**
+@__ref <oiref:java#Class#dig.GetClassHierarchyNodeByID:oiref><oihard>
+@__modelType reference 
+*/
+class reference39 {
+}/**
+@__ref <oiref:java#Class#dig.OneClassHierarchyNode:oiref><oihard>
+@__modelType reference 
+*/
+class reference42 {
+}/**
+@__ref <oiref:java#Class#dig.GetClassHierarchy:oiref><oihard>
+@__modelType reference 
+*/
+class reference44 {
+}/**
+@__ref <oiref:java#Class#dig.IsObjectPropertyXXX:oiref><oihard>
+@__modelType reference 
+*/
+class reference49 {
+}/**
+@__ref <oiref:java#Class#dig.ObjectPropertyHierarchyNode:oiref><oihard>
+@__modelType reference 
+*/
+class reference51 {
+}/**
+@__ref <oiref:java#Class#dig.SetOfObjectPropertyHierarchyNodes:oiref><oihard>
+@__modelType reference 
+*/
+class reference54 {
+}/**
+@__ref <oiref:java#Class#dig.OneObjectPropertyHierarchyNode:oiref><oihard>
+@__modelType reference 
+*/
+class reference56 {
+}/**
+@__ref <oiref:java#Class#dig.GetObjectPropertyHierarchy:oiref><oihard>
+@__modelType reference 
+*/
+class reference58 {
+}/**
+@__ref <oiref:java#Class#dig.GetObjectPropertyHierarchyNodeByNodeID:oiref><oihard>
+@__modelType reference 
+*/
+class reference60 {
+}/**
+@__ref <oiref:java#Class#dig.GetDataPropertiesBetween:oiref><oihard>
+@__modelType reference 
+*/
+class reference69 {
+}/**
+@__ref <oiref:java#Class#dig.ObjectPropertyFiller:oiref><oihard>
+@__modelType reference 
+*/
+class reference75 {
+}/**
+@__ref <oiref:java#Class#dig.DataPropertyFiller:oiref><oihard>
+@__modelType reference 
+*/
+class reference79 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#dig.Request:oiref>=149,53,115,68,1:oigroup>
+<oigroup:<oiref:java#Class#dig.GetChildClassHierarchyNodes:oiref>=502,504,129,68,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetAllObjectProperties#dig.RequestToOntology:oiref>=316,268,316,267,436,267,436,237:oigroup>
+<oigroup:<oiref:java#Extends#dig.RequestToOntology#dig.Request:oiref>=436,169,436,145,206,145,206,121:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.Request#response:oiref>=268,82,59,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetAllDataProperties#dig.RequestToOntology:oiref>=296,444,296,267,436,267,436,237:oigroup>
+<oigroup:<oiref:java#Class#dig.GetAllOWLCLasses:oiref>=326,368,101,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.IsClassSubsumedBy:oiref>=158,340,157,87,1:oigroup>
+<oigroup:Composite#clientCardinality#MemberLink#<oiref:java#Member#dig.Request#response:oiref>=268,59,13,19,0:oigroup>
+<oigroup:<oiref:java#Class#dig.Error:oiref>=521,184,138,87,1:oigroup>
+<oigroup:<oiref:java#Class#dig.TellRequest:oiref>=122,192,76,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetParentClassHierarchyNodes#dig.RequestToOntology:oiref>=426,484,426,267,436,267,436,237:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.Request#response:oiref>=502,59,13,19,0:oigroup>
+<oigroup:<oiref:java#Class#dig.GetAllDatatypes:oiref>=726,278,80,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.Error#dig.Response:oiref>=590,184,590,151,577,151,577,121:oigroup>
+<oigroup:Composite#label#MemberLink#<oiref:java#Member#dig.Request#response:oiref>=350,61,88,19,0:oigroup>
+<oigroup:<oiref:java#Class#dig.GetAllIndividuals:oiref>=625,287,83,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.Tell#dig.RequestToOntology:oiref>=666,425,666,267,436,267,436,237:oigroup>
+<oigroup:<oiref:java#Class#dig.RequestToOntology:oiref>=367,169,139,68,1:oigroup>
+<oigroup:<oiref:java#Class#dig.IsClassSatisfiable:oiref>=652,14,129,68,1:oigroup>
+<oigroup:<oiref:java#Class#dig.GetAllObjectProperties:oiref>=256,268,120,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.BooleanValue#dig.Response:oiref>=352,151,577,151,577,121:oigroup>
+<oigroup:<oiref:java#Class#dig.GetClassHierarchyNodeByClass:oiref>=722,354,129,68,1:oigroup>
+<oigroup:<oiref:java#Class#dig.Confirmation:oiref>=365,97,82,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.Retract#dig.RequestToOntology:oiref>=566,325,566,267,436,267,436,237:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetChildClassHierarchyNodes#dig.RequestToOntology:oiref>=566,504,566,267,436,267,436,237:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetAllDatatypes#dig.RequestToOntology:oiref>=766,278,766,267,436,267,436,237:oigroup>
+<oigroup:<oiref:java#Class#dig.BooleanValue:oiref>=240,132,112,68,1:oigroup>
+<oigroup:<oiref:java#Class#dig.AreClassesDisjoint:oiref>=672,94,129,87,1:oigroup>
+<oigroup:<oiref:java#Class#dig.GetParentClassHierarchyNodes:oiref>=362,484,129,68,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetAllIndividuals#dig.RequestToOntology:oiref>=666,287,666,267,436,267,436,237:oigroup>
+<oigroup:<oiref:java#Extends#dig.IsClassSatisfiable#dig.RequestToOntology:oiref>=716,82,716,267,436,267,436,237:oigroup>
+<oigroup:<oiref:java#Extends#dig.AreClassesDisjoint#dig.RequestToOntology:oiref>=736,181,736,267,436,267,436,237:oigroup>
+<oigroup:<oiref:java#Class#dig.Retract:oiref>=523,325,87,68,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.Confirmation#dig.Response:oiref>=447,151,577,151,577,121:oigroup>
+<oigroup:<oiref:java#Class#dig.Tell:oiref>=623,425,87,68,1:oigroup>
+<oigroup:<oiref:java#Class#dig.Response:oiref>=519,53,115,68,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetClassHierarchyNodeByClass#dig.RequestToOntology:oiref>=786,354,786,267,436,267,436,237:oigroup>
+<oigroup:<oiref:java#Class#dig.GetAllDataProperties:oiref>=242,444,109,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetAllOWLCLasses#dig.RequestToOntology:oiref>=376,368,376,267,436,267,436,237:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Request#response:oiref>=264,82,519,82:oigroup>
+<oigroup:<oiref:java#Extends#dig.IsClassSubsumedBy#dig.RequestToOntology:oiref>=236,340,236,267,436,267,436,237:oigroup>
+*/
+class __positions {
+}

@@ -1,0 +1,58 @@
+package id4ao5pesr9r7aqesr9w043;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#owl.Ontology:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#owl.elements.Annotation:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference6 {
+}/**
+@__ref <oiref:java#Class#owl.Axiom:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference7 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options option.detail = Design
+filter.a.state = off 
+*/
+class __options {
+}/**
+@__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=556,271,11,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Ontology#importedOntologies:oiref>=381,97,11,19,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Ontology#importedOntologies:oiref>=217,150,115,19,0:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.Ontology#importedOntologies:oiref>=266,40,65,32,0:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.Ontology#axioms:oiref>=321,204,65,32,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Ontology#axioms:oiref>=375,243,11,19,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Ontology#annotations:oiref>=462,159,71,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Ontology#importedOntologies:oiref>=330,150,264,150,264,72,392,72,392,118:oigroup>
+<oigroup:<oiref:java#Class#owl.elements.Annotation:oiref>=565,252,168,87,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Ontology#annotations:oiref>=634,229,11,19,0:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=470,261,65,32,0:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.Ontology#annotations:oiref>=571,127,65,32,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=443,293,71,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.Axiom:oiref>=334,264,105,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=439,293,565,293:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Ontology#axioms:oiref>=394,186,46,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Ontology#annotations:oiref>=458,159,649,159,649,252:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Ontology#axioms:oiref>=386,186,386,264:oigroup>
+<oigroup:<oiref:java#Class#owl.Ontology:oiref>=330,118,128,68,1:oigroup>
+*/
+class __positions {
+}
