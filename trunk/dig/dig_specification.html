@@ -1,0 +1,909 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>DIG 2.0 Specification</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <link href="images/owl-icon.png" rel="shortcut icon">
+  <link href="css/W3C-Member-SUBM.css" type="text/css" rel="stylesheet">
+  <link href="css/owl.css" type="text/css" rel="stylesheet">
+<body>
+
+<div class="head">
+<h1 class="mainTitle">DIG 2.0 Specification</h1>
+<h2><a id="editordraft" name="editordraft"></a>Editor's Draft of 02 January 2007</h2>
+<dl>
+  <dt>This version:</dt>
+  <dd><a href="http://dig.cs.manchester.ac.uk/sig_specification.html">http://dig.cs.manchester.ac.uk/sig_specification.html</a></dd>
+  <dt>Latest version:</dt>
+  <dd><a href="http://dig.cs.manchester.ac.uk/sig_specification.html">http://dig.cs.manchester.ac.uk/sig_specification.html</a></dd>
+  <dt>Authors:</dt>
+  <dd><a href="http://www.cs.man.ac.uk/~seanb/">Sean Bechhofer</a>, The University of Manchester</dd>
+  <dd><a href="http://www.cs.man.ac.uk/~bmotik">Boris Motik</a>, The University of Manchester</dd>
+</dl>
+</div>
+
+<hr>
+
+<div class="abstract">
+<h2 class="notoc"><a id="abstract" name="abstract">Abstract</a></h2>
+<p>This document defines the Description Logics Implementors Group (DIG) 2.0
+interface. It covers the conceptual apsects of the interface, as well as a
+binding into HTTP/1.1 and XML Schema. It relies on OWL 1.1 for the primitives
+of the ontology language, and is thus fully compatible with OWL. The set of
+DIG 2.0 primitives described in this document can be easily extended by
+DIG 2.0 implemnentations with additional functionality.</p>
+</div>
+
+<hr>
+
+
+
+<div class="toc">
+<h2 class="notoc"><a id="toc" name="toc">Table of Contents</a></h2>
+
+<ul class="toc">
+  <li class="tocline1"><a href="#1">1 Introduction</a></li>
+  <li class="tocline1"><a href="#2">2 Basic Definitions</a>
+    <ul class="toc">
+      <li class="tocline2"><a href="#2.1">2.1 Definitions and Constructs of OWL 1.1</a></li>
+      <li class="tocline2"><a href="#2.2">2.2 Annotations</a></li>
+      <li class="tocline2"><a href="#2.3">2.3 Imports</a></li>
+    </ul>
+  </li>
+  <li class="tocline2"><a href="#3">3 Protocol</a>
+    <ul class="toc">
+      <li class="tocline2"><a href="#3.1">3.1 DIG Sessions</a></li>
+      <li class="tocline2"><a href="#3.2">3.2 Messages</a></li>
+      <li class="tocline2"><a href="#3.3">3.3 Binding to HTTP/1.1 and XML</a></li>
+      <li class="tocline2"><a href="#3.4">3.4 Confirmations and Error Handling</a></li>
+      <li class="tocline2"><a href="#3.5">3.5 Extensibility</a></li>
+      <li class="tocline2"><a href="#3.6">3.6 <span class="name">DIGDescription</span> Request</a></li>
+    </ul>
+  </li>
+  <li class="tocline1"><a href="#4">4 Managing Ontologies at a DIG Server</a></li>
+  <li class="tocline1"><a href="#5">5 Tells and Retracts</a></li>
+  <li class="tocline1"><a href="#6">6 Asking Questions</a>
+    <ul class="toc">
+      <li class="tocline2"><a href="#6.1">6.1 Retrieving Ontology Entities</a></li>
+      <li class="tocline2"><a href="#6.2">6.2 Questions about the Ontology</a></li>
+      <li class="tocline2"><a href="#6.3">6.3 Questions about Classes</a></li>
+      <li class="tocline2"><a href="#6.4">6.4 Questions about the Class Hierarchy</a></li>
+      <li class="tocline2"><a href="#6.5">6.5 Questions about Object Properties</a></li>
+      <li class="tocline2"><a href="#6.6">6.6 Questions about the Object Property Hierarchy</a></li>
+      <li class="tocline2"><a href="#6.7">6.7 Questions about the Data Properties and the Data Property Hierarchy</a></li>
+      <li class="tocline2"><a href="#6.8">6.8 Questions about Individuals</a></li>
+    </ul>
+  </li>
+  <li class="tocline1"><a href="#references">References</a></li>
+</ul>
+</div>
+
+<hr>
+
+
+
+<h2><a name="1"></a>1 Introduction</h2>
+
+<p>Description Logics Implementors Group (DIG) 2.0 interface is a programmatic
+interface to description logic (DL) reasoners and ontology management tools. It provides
+primitives for manipulation of DL ontologies, such as asserting and retracting axioms, as
+well as primitives for asking questions about ontology entities.</p>
+
+<p>DIG 2.0 is specified by means of class diagrams expressed in the Unified Modeling
+Language (UML). Such a style of specification allows for an unambiguous specification
+specification of the API primitives at a conceptual level. The conceptual aspects of API
+primitives, such as the types of arguments and the semantics, are thus decoupled from a
+concrete protocol and syntax used to actually access DIG 2.0 implementations. Hence,
+the same primitives can be realized using different access protocols. This document
+describes an access protocol based on [<cite><a href="#ref-http-1.1">HTTP/1.1</a></cite>]
+and [<cite><a href="#ref-xml-schema">XML Schema</a></cite>]; however,
+access protocols using Web services or other remote procedure call mechanisms could be
+provided in the future.</p>
+
+<p>DIG 2.0 uses the [<cite><a href="#ref-owl-1.1-specification">OWL 1.1 Specification</a></cite>]
+for the definition of the language describing ontologies. In this way, any DIG 2.0 implementation
+is guaranteed to be compatible with OWL 1.1. Furthermore, this is expected to reduce the
+burden on the implementors of DL reasoners and ontology management systems.</p>
+
+<p>DIG 2.0 is an extensible specification. Implementations that offer functionality
+beyond this specification are free to provide their own primitives and
+use them simultaneously with the core DIG 2.0 primitives.</p>
+
+
+
+<h2><a name="2"></a>2 Basic Definitions</h2>
+
+<p> The UML notation used in this document is restricted to a very limited subset of
+UML class diagram notation. The names of abstract classes (that is, the classes that are
+not intended to be instantiated) are written in italic.</p>
+
+
+<h3><a name="2.1"></a>2.1 Definitions and Constructs of OWL 1.1</h3>
+
+<p>DIG 2.0 relies on the [<cite><a href="#ref-owl-1.1-specification">OWL 1.1 Specification</a></cite>]
+for the language used to express  ontology entities and axioms. OWL 1.1 has also been specified using UML,
+so DIG 2.0  simply reuses many UML classes provided by OWL 1.1. The names of all OWL 1.1
+UML classes are prefixed with <span class="name">owl.</span> to emphasize that they are
+not defined in this specification. We briefly recapitulate the most important classes of OWL 1.1.</p>
+
+<ul>
+
+  <li><span class="name">owl.OWLEntity</span> is the base abstract class for all entities that have a URI.</li>
+
+  <li><span class="name">owl.Description</span> is the base abstract class for all class descriptions.</li>
+
+  <li><span class="name">owl.Axiom</span> is the base abstract class for all axioms.</li>
+
+  <li><span class="name">owl.Annotation</span> represents a single annotation of an ontology, ontology entity, or an ontology axiom.</li>
+
+</ul>
+
+<p>Many OWL 1.1 constructs are defined in terms of sets or lists. Furthermore,
+OWL 1.1 defines a notion of <i>structural equivalence</i> of objects. Intuitively, two
+OWL 1.1 objects are structurally equivalent if the fields of both objects are structurally
+equivalent (while taking into account that sets are not ordered, but lists are ordered). For
+example, the class <span class="name">ObjectUnionOf(A B)</span> is structurally equivalent
+to the class <span class="name">ObjectUnionOf(B A)</span> because <span class="name">ObjectUnionOf</span>
+is defined to take a set of objects, and the order of
+objects in a set is not relevant. Note that structural equivalence is not a semantic notion,
+as it does not require application of OWL 1.1 semantics. It merely defines an equivalence relation
+on object structures by taking into account that the order of elements in sets is not important.
+For a precise definition of this notion and a further discussion, please refer to
+[<cite><a href="#ref-owl-1.1-specification">OWL 1.1 Specification</a></cite>].</p>
+
+<p>DIG 2.0 reuses the notion of structural equivalence of OWL 1.1 to define the syntax
+and the semantics of its primitives. As in OWL 1.1, a DIG 2.0 implementation may
+choose to accept sets containing repetitions of objects without raising an error.</p>
+
+
+<h3><a name="2.2"></a>2.2 Annotations</h3>
+
+<p>OWL 1.1 provides mechanisms for associating annotations with ontology axioms and entities.
+DIG 2.0 implementations whose main purpose is to serve as ontology management tools
+should manage annotations just like any other type of OWL 1.1 information. Some
+implementations, however, might not be interested in providing full ontology
+management functionality and might only want to provide access to reasoning services
+through DIG 2.0. For them, management of annotations might incur unnecessary
+implementation and run-time overhead. Therefore, a DIG 2.0 implementation might
+choose to ignore annotations. Such implementations should indicate this in the
+<span class="name">DIGDescription</span> response by setting the
+<span class="name">supportsAnnotations</span> flag to <span class="name">false</span>.
+Such servers should still accept annotations in the requets -- that is, the server should not raise
+an error if a request contains annotations, but should simply ignore them.</p>
+
+<p>DIG 2.0 implementations that choose to ignore annotations should still employ the
+notion of structural equivalence of OWL 1.1, with the provision that annotations are not
+taken into account when comparing objects.</p>
+
+<p>The flag <span class="name">supportsAnnotations</span> also determines how ontology
+annotations are treated; that is, if this flag is <span class="name">true</span>,
+the ontology annotations are ignored as well.</p>
+
+
+<h3><a name="2.3"></a>2.3 Imports</h3>
+
+<p>As explained in [<cite><a href="#ref-owl-1.1-specification">OWL 1.1 Specification</a></cite>],
+an ontology can import another ontology. A DIG 2.0 implementation can, but is not
+required to, implement this feature of OWL 1.1. An implementation should indicate this in the
+<span class="name">DIGDescription</span> response by setting the
+<span class="name">supportsImports</span> flag appropriately. If a server does not support imports,
+it should silently ignore the import statements in an ontology.</p>
+
+<p>In OWL 1.1, the imported ontology is identified by the ontology URI. The imported ontology need
+not be located at its ontology URI; the ontology URI simply provides a logical identifier of the
+ontology. A DIG 2.0 implementation is expected to provide a mechanism for locating an ontology based
+on an ontology URI. A specification of such a mechanism is out of scope of this specification. Namely, this
+is a complex issue that is highly application dependent; therefore, it is doubtful that this problem
+can be addressed in a general way.</p>
+
+
+
+<h2><a name="3"></a>3 Protocol</h2>
+
+<p>DIG 2.0 is a client-server protocol. It is specified in two parts: the first part
+defines the abstract protocol, and the second part defines the binding of the protocol
+into a concrete transport mechanism. The fundamental objects used in the protocol are
+presented in Figure 1. The basic interaction pattern is that of request-response:</p>
+
+<ul>
+
+  <li>All DIG 2.0 primitives from this specification are subclasses of the
+  <span class="name">Request</span> UML class. Each request is defined by its type and the
+  (possibly empty) set of parameters. To request a service from a DIG 2.0 server, a client constructs
+  a request of the appropriate type and sends it to the server.</li>
+
+  <li>After receiving a request and processing it, a DIG 2.0 server constructs an appropriate
+  response object and sends it to the client. Depending on the type of the request, the server
+  should select the appropriate subclass of the <span class="name">Response</span> UML class.</li>
+
+</ul>
+
+<p>Each request is paired with exactly one response. The way in which requests
+are matched with their respective responses depends on the binding of the DIG
+protocol into a transport mechanism. A way to match requests with responses
+is to use messages; see Section 3.2.</p>
+
+
+<p class="image"><img src="images/basic.gif" border="0" alt="Protocol Objects"><br>
+<span class="caption">Figure 1.</span> Protocol Objects</p>
+
+
+<h3><a name="3.1"></a>3.1 DIG Sessions</h3>
+
+<p>Before sending a request to a DIG 2.0 server, a client must establish a <i>DIG
+session</i> to the server. How this is done is specific to the transport protocol used to
+access the server. For example, if the server is accessed through HTTP/1.1, establishing a
+session corresponds to opening an HTTP/1.1 connection to the server. (The notion of a
+DIG session should not be confused with an HTTP/1.1 session.)</p>
+
+<p>A DIG session is a concept of DIG 2.0 that abstracts the actual bidirectional
+communication channel between the client and the server. It provides primitives to
+transport requests and responses. The actual implementation of the session is defined
+by the transport mechanism used to access a DIG 2.0 server.</p>
+
+<p>A DIG session also provides an abstraction for concurrent processing of requests.
+Namely, DIG servers are allowed to service several clients concurrently; however,
+interaction within one DIG session is not concurrent. A DIG session is assumed to transport
+requests and responses sequentially, one at the time. Each request should be processed
+by the DIG server such that the results are the same as if the requests were processed
+sequentially in the order they were dispatched. Furthermore, the server must send
+the responses to the client in exactly the same order in which the requests arrived.</p>
+
+<p>DIG 2.0 does not prescribe how concurrent requests issued through different DIG sessions
+are to be handled. Servers are free to provide their own mechanisms for isolating interaction
+between different DIG sessions.</p>
+
+<p>A DIG session can be terminated by the client or the server. Furthermore, due to
+environmental circumstances (e.g., network problems or timeouts), a DIG session can be broken
+asynchronously. Regardless of the cause, all requests issued on a DIG session that were not completed
+when the DIG session was terminated must be made invalid. The exact meaning of this is not precisely
+specified. A DIG server can, but is not required to, implement a transaction
+mechanism for rolling back not completed requests. If a client establishes a different DIG
+session, a DIG server should not send any responses for the invalid requests: each
+response can be transmitted only through the DIG session through which the request was
+initiated.</p>
+
+
+<h3><a name="3.2"></a>3.2 Messages</h3>
+
+<p>Depending on the transport mechanism, it might be inefficient to send individual requests
+to a DIG server separately. For example, to avoid problems with network latency, it might be
+better to bundle several requests to a DIG HTTP/1.1 server in one GET method than to send each
+request separately. Therefore, DIG 2.0 allows requests to be bundled into messages. As shown
+in Figure 1, a <span class="name">RequestMessage</span> object encapsulates a list of
+<span class="name">Request</span> objects, whereas a
+<span class="name">ResponseMessage</span> object encapsulates a list of
+<span class="name">Response</span> objects. A transport mechanism should communicate
+either by sending each request separately or by using messages.</p>
+
+<p>If a transport mechanism uses messages, then each request message <span class="name">REQM</span>
+must correspond to exactly one response message <span class="name">RESM</span>. The message
+<span class="name">RESM</span> must contain the responses to all the requests from
+<span class="name">REQM</span>, and all responses must be listed in <span class="name">RESM</span>
+in the order matching with the order of the requests in <span class="name">REQM</span>.
+The responses must be the same as if the requests were executed sequentially in the order
+specified in <span class="name">REQM</span>. (A DIG server is free to execute the requests in
+any way it wishes, as long as the requests are seemingly executed sequentially. For example,
+if a reuqest to update the ontology is followed by a query request, the responses to the
+query must take the updates into account.)</p>
+
+
+<h3><a name="3.3"></a>3.3 Binding to HTTP/1.1 and XML</h3>
+
+<p>A common transport mechanism for communicating with a DIG 2.0 server is through
+[<cite><a href="#ref-http-1.1">HTTP/1.1</a></cite>] protocol and communication
+by messages (see Section 3.2). A DIG session is mapped to an HTTP
+connection and is typically established upon sending the first request. HTTP servers
+are in general allowed to close the HTTP connection at their own discretion, which in
+effect terminates the DIG session. In order to prevent this from happening, the client
+can include the <span class="name">keepAlive</span> in the header of each HTTP request
+it sends. DIG 2.0 HTTP servers are required to recognize this HTTP header and implement
+its functionality according to the HTTP/1.1 specification.</p>
+
+<p>Messages are sent using the HTTP <span class="name">POST</span> requests. The
+content type for messages is <span class="name">text/xml</span>. The length of
+messages is determined according to the HTTP standard; however, both clients and
+servers are encouraged to specify the length of the message explicitly through the
+<span class="name">Content-Length</span> HTTP header.</p>
+
+<p> HTTP messages are encoded using an XML schema available at <a
+href="schema/dig2.0.xsd">http://dig.manchester.ac.uk/schema/dig2.0.xsd</a>. The
+schema is obtained by a straightforward translation of the objects from UML diagrams in
+this specification. It declares two top-level elements:
+<span class="name">RequestMessage</span> represents the request messages and
+<span class="name">ResponseMessage</span> represents the response messages. The names
+of all other elements correspond to the names of the classes in UML diagrams.</p>
+
+<p>If either party (the DIG client of the DIG server) detects a violation of the
+HTTP protocol (e.g., invalid headers), it should respond as specified in the HTTP
+standard and then close the HTTP connection.</p>
+
+<p>If the DIG client detects an invalid DIG message (e.g., the XML content cannot be
+parsed, the message is not formatted according to the DIG specification, or inappropriate
+response was sent), it should simply close the HTTP connection.</p>
+
+<p>The DIG server can operate in two modes. In the <i>message-at-the-time</i> mode, the server
+first parses the entire message, validates it, and then executes it. If the message cannot
+be parsed or if it is not a valid DIG message, the server sends the following response
+(<span class="name">errorMessage</span> is an optional element describing the type of error)
+and closes the HTTP connection:</p>
+
+<pre>
+&lt;dig:ResponseMessage&gt;
+  &lt;dig:MessageFormatError errorMessage="..."/&gt;
+&lt;/dig:ResponseMessage&gt;
+</pre>
+
+<p>In the <i>request-at-the-time</i> mode, the server parses and validates the message incrementally.
+After each request is extracted from the message, the server executes it and sends the response
+to the client. The server can detect an error in the message before parsing and processing
+the first request; in that case, the response is the same as in the message-at-the-time case.
+The server can detect an error in the message after several requests have
+already been processed and the repsonse sent to the client. If that happens, the server should
+write a <span class="name">dig:ResponseMessage</span> element into the response and close
+the HTTP connection. Thus, the response message in this case might look like this:</p>
+
+<pre>
+&lt;dig:ResponseMessage&gt;
+  [responses for some requests]
+  &lt;dig:MessageFormatError errorMessage="..."/&gt;
+&lt;/dig:ResponseMessage&gt;
+</pre>
+
+<p>Closing the HTTP connection after protocol errors ensures that both the client and
+the server can safely recover from errors and resume normal operation.</p>
+
+<p>OWL 1.1 allows <span class="name">xml:base</span> on all elements (for
+information about XML Base, please see [<cite><a href="#ref-xml-base">XML Base</a></cite>]).
+Since DIG 2.0 reuses the XML schema of OWL, it must support <span class="name">xml:base</span>
+on OWL elements. DIG 2.0 does not, however, support <span class="name">xml:base</span> on DIG
+most elements, thus requiring URIs to be fully specified. The elements <span class="name">Tell</span>
+and <span class="name">Retract</span> are exceptions: they contain axioms so, to make them
+compatible with OWL 1.1, they support <span class="name">xml:base</span>.</p>
+
+
+<h3><a name="3.4"></a>3.4 Confirmations and Error Handling</h3>
+
+<p>As already mentioned, each request in DIG 2.0 must be accompanied by a corresponding response.
+If a request has been successful, the type of the response returned depends on the request and
+may contain additional data. If a request does not produce any specific data, the DIG server
+should return a <span class="name">Confirmation</span> response to the client. For
+example, if a request to write axioms into an ontology succeeds, only a confirmation
+response is returned indicating that all axioms were written successfully.</p>
+
+<p>If a request cannot be executed, the DIG server should return an
+<span class="name">Error</span> response to the DIG client containing an error code and a
+message specifying the cause for failure. The following error codes are used in this
+specification:</p>
+
+<table border="1" cellspacing="0">
+  <tr>
+    <th>Error Code</th><th>Error Type</th>
+  </tr>
+  <tr>
+    <td>100</td><td>General Unspecified error</td>
+  </tr>
+  <tr>
+    <td>101</td><td>The request of the given type is not supported</td>
+  </tr>
+  <tr>
+    <td>201</td><td>Cannot create new ontology</td>
+  </tr>
+  <tr>
+    <td>202</td><td>The ontology with given URI already exists</td>
+  </tr>
+  <tr>
+    <td>203</td><td>Unknown ontology URI</td>
+  </tr>
+  <tr>
+    <td>300</td><td>Unsupported axiom in Tell request</td>
+  </tr>
+  <tr>
+    <td>400</td><td>Invalid hierarchy node ID</td>
+  </tr>
+  <tr>
+    <td>401</td><td>No hierarchy node for the given entity</td>
+  </tr>
+</table>
+
+<p>If a server cannot process a request, it should attempt to recover gracefully and
+process other pending requests as if the error did not happen. If, however, this recovery
+is not possible, after sending the <span class="name">Error</span> response, the server
+should close the DIG session. The state of the server after such an action is not
+prescribed by this specification.</p>
+
+<p>This specification does not require requests that modify an ontology to execute
+atomically. For example, a <span class="name">Tell</span> request for writing axioms
+into an ontology might fail after several axioms have been already written into
+the ontology. In this case, the DIG server is not required to roll back the already written
+axioms -- the behavior of the server is implementation-specific. Nevertheless,
+DIG 2.0 implementors are encouraged to ensure that requests which modify an
+ontology are executed atomically.</p>
+
+
+<h3><a name="3.5"></a>3.5 Extensibility</h3>
+
+<p>DIG 2.0 implementors are free to extend the set of supported DIG primitives. This
+can be simply done by providing adequate subclasses of
+<span class="name">Request</span> and <span class="name">Response</span> with
+appropriate parameters. Since <span class="name">RequestMessage</span> and
+<span class="name">ResponseMessage</span> objects contain lists of
+<span class="name">Request</span> and <span class="name">Response</span> objects,
+respectively, such proprietary extensions can readily be passed in messages.</p>
+
+<p>To enable the embedding of new requests and responses into XML messages passed through
+HTTP/1.1, implementors should use the redefinition mechanism of XML Schema and extend the
+<span class="name">dig:Request</span> and <span class="name">dig:Response</span> element groups.
+For example, let us assume that some extension of DIG defines new request and response elements.
+These elements should be defined in a separate XML schema file with a separate namespace
+(in this example, the extension file is <span class="name">extension.xsd</span>, the namespace is
+<span class="name">http://example.com/ext#</span>, and it is abbreviated as <span class="name">ext</span>):</p>
+
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsd:schema
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://example.com/ext#"
+    elementFormDefault="qualified" attributeFormDefault="qualified"&gt;
+
+  &lt;xsd:element name="NewRequest"&gt;
+    ...
+  &lt;/xsd:element&gt;
+  &lt;xsd:element name="NewResponse"&gt;
+    ...
+  &lt;/xsd:element&gt;
+&lt;/xsd:schema&gt;</pre>
+
+<p>The next step is to redefine the DIG 2.0 schema. It is not necessary to modify the original
+DIG 2.0 file; rahter, a new file (e.g., <span class="name">dig2.0-ext.xsd</span>) of the following form
+can be used:</p>
+
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsd:schema
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:dig="http://dl.kr.org/dig2.0#"
+    xmlns:ext="http://example.com/ext#"
+    targetNamespace="http://dl.kr.org/dig2.0#"
+    elementFormDefault="qualified" attributeFormDefault="qualified"&gt;
+
+  &lt;xsd:import namespace="http://example.com/ext#" schemaLocation="extension.xsd"/&gt;
+  &lt;xsd:redefine schemaLocation="http://dig.manchester.ac.uk/schema/dig2.0.xsd"&gt;
+    &lt;xsd:group name="Request"&gt;
+      &lt;xsd:choice&gt;
+        &lt;xsd:group ref="dig:Request"/&gt;
+        &lt;xsd:element ref="ext:NewRequest"/&gt;
+      &lt;/xsd:choice&gt;
+    &lt;/xsd:group&gt;
+    &lt;xsd:group name="Response"&gt;
+      &lt;xsd:choice&gt;
+        &lt;xsd:group ref="dig:Response"/&gt;
+        &lt;xsd:element ref="ext:NewResponse"/&gt;
+      &lt;/xsd:choice&gt;
+    &lt;/xsd:group&gt;
+  &lt;/xsd:redefine&gt;
+&lt;/xsd:schema&gt;
+</pre>
+
+<p>Note that the XML schema <span class="name">dig2.0-ext.xsd</span> has the same namespace
+as the original DIG 2.0 schema. This is necessary because of the redefinition mechanism of XML schema:
+the namespace of the redefining schema must be the same as the namespace of the redefined schema. Therefore,
+we need to use two files: <span class="name">extension.xsd</span> to define the extension in the namespace
+<span class="name">http://example.com/ext#</span> and <span class="name">dig2.0-ext.xsd</span> to
+redefine the core DIG 2.0 namespace.</p>
+
+<p>One can avoid creating two files if the extension is defined in DIG 2.0 namespace. For example, if
+<span class="name">NewRequest</span> and <span class="name">NewResponse</span> were to be parts of DIG 2.0 namespace,
+one might use the following schema:</p>
+
+<pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsd:schema
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:dig="http://dl.kr.org/dig2.0#"
+    targetNamespace="http://dl.kr.org/dig2.0#"
+    elementFormDefault="qualified" attributeFormDefault="qualified"&gt;
+
+  &lt;xsd:redefine schemaLocation="dig2.0.xsd"&gt;
+    &lt;xsd:group name="Request"&gt;
+      &lt;xsd:choice&gt;
+        &lt;xsd:group ref="dig:Request"/&gt;
+        &lt;xsd:element ref="dig:NewRequest"/&gt;
+      &lt;/xsd:choice&gt;
+    &lt;/xsd:group&gt;
+    &lt;xsd:group name="Response"&gt;
+      &lt;xsd:choice&gt;
+        &lt;xsd:group ref="dig:Response"/&gt;
+        &lt;xsd:element ref="dig:NewResponse"/&gt;
+      &lt;/xsd:choice&gt;
+    &lt;/xsd:group&gt;
+  &lt;/xsd:redefine&gt;
+
+  &lt;xsd:element name="NewRequest"&gt;
+
+  &lt;/xsd:element&gt;
+    ...
+  &lt;xsd:element name="NewResponse"&gt;
+    ...
+  &lt;/xsd:element&gt;
+&lt;/xsd:schema&gt;
+</pre>
+
+<p>This type of extension is, however, strongly discouraged: if two extension
+files <span class="name">ext1.xsd</span> and <span class="name">ext2.xsd</span>
+both directly extend the DIG 2.0 schema (without defining a new namespace), it
+is not possible to use them at the same time, because XML schema does not allow
+for the redefinition of two schemas at the same time.</p>
+
+
+<h3><a name="3.6"></a>3.6 <span class="name">DIGDescription</span> Request</h3>
+
+<p>All DIG servers must support the <span class="name">DIGDescribe</span>
+request, shown in Figure 2. The response to this request is
+<span class="name">DIGDescription</span>, containing the name of the DIG server, its
+version, an optional identification message, a flag specifying whether the server
+supports annotations, and a set of names of supported requests. In this way,
+each DIG client can learn about the capabilities of the DIG server.</p>
+
+<p class="image"><img src="images/management.gif" border="0" alt="DIGDescribe Request"><br>
+<span class="caption">Figure 2.</span> <span class="name">DIGDescribe</span> Request</p>
+
+<p>The <span class="name">supportsLanguage</span> attribute of the <span class="name">DIGDescription</span>
+response contains the name of the ontology language that the DIG implementation supports.
+The language is simply identified by a string identifier. DIG 2.0 defines the following identifiers,
+based on the OWL 1.1 specification:</p>
+
+<ul>
+  <li>"<span class="name">OWL-1.0</span>" denotes the OWL 1.0 language,</li>
+  <li>"<span class="name">OWL-1.1</span>" denotes the OWL 1.1 language,</li>
+  <li>"<span class="name">EL++</span>" denotes the EL++ tractable fragment of OWL 1.1,</li>
+  <li>"<span class="name">DL-Lite</span>" denotes the DL-Lite tractable fragment of OWL 1.1,</li>
+  <li>"<span class="name">Horn-SHIQ</span>" denotes the Horn-SHIQ tractable fragment of OWL 1.1,</li>
+  <li>"<span class="name">DLP</span>" denotes the DLP tractable fragment of OWL 1.1, and</li>
+  <li>"<span class="name">RDF(S)</span>" denotes the RDF Schema tractable fragment of OWL 1.1.</li>
+</ul>
+
+<p>Other fragment identifiers may be introduced in future, with each fragment being described by
+a natural language specification. Proposals were made to represent each fragment using an XML schema.
+This, however, turned to be quite a complex solution; furthermore, many fragments cannot be fully
+described using a context free grammar (which roughly corresponds to the expressivity of the XML Schema
+language). Therefore, such solutions were not included into DIG 2.0.</p>
+
+<p>The meainings of <span class="name">supportsAnnotations</span> and <span class="name">supportsImports</span>
+were explained in sections 2.2 and 2.3, respectively.</p>
+
+
+
+<h2><a name="4"></a>4 Managing Ontologies at a DIG Server</h2>
+
+<p>DIG servers can manage more than one ontology simultaneously. As in OWL
+1.1, each ontology is identified with a unique URI. Most DIG 2.0 requests are derived
+from the <span class="name">RequestToOntology</span> class, which has an
+<span class="name">ontologyURI</span> parameter identifying the ontology to which the
+request applies. If an ontology with the given URI cannot be found, the server should
+return the error code 203 (Unknown ontology URI).</p>
+
+<p>DIG 2.0 provides several primitives for management of ontologies available at the
+server, which are shown in Figure 3.</p>
+
+
+<p class="image"><img src="images/ontology.gif" border="0" alt="Primitives for Management of Ontologies"><br>
+<span class="caption">Figure 3.</span> Primitives for Management of Ontologies</p>
+
+<p>The <span class="name">CreateOntology</span> request instructs the server to
+create a new ontology with a given <span class="name">ontologyURI</span>. The
+request <span class="name">CreateOntologyAllocateURI</span> instructs the server
+to allocate a new URI and to create a new ontology with that URI. Both of these
+requests return the <span class="name">OntologyCreated</span> response containing
+the URI of the created ontology.</p>
+
+<p>It is good practice for clients to release an ontology once it is not in use any more, as
+this allows the DIG server to free the resources allocated for the ontology. This can be
+done using the <span class="name">ReleaseOntology</span>, to which the server should
+respond with the <span class="name">Confirmation</span> response.</p>
+
+<p>OWL 1.1 allows each ontology to import other otnologies. The set of all imported ontologies
+can be determined using the <span class="name">GetImportedOntologies</span> request, to which the
+server should issue the <span class="name">SetOfImports</span> response. If a DIG server
+does not support imports, it should respond with an empty set.</p>
+
+<p>OWL 1.1 allows each ontology to contain several annotations. These can be retrieved
+using the <span class="name">GetOntologyAnnotations</span> request, to which the
+server should issue the <span class="name">SetOfAnnotations</span> response. If a DIG server
+does not support annotations, it should respond with an empty set.</p>
+
+<h2><a name="5"></a>5 Tells and Retracts</h2>
+
+<p>The primitives that allow changing the contents of an ontology are shown in Figure 4.</p>
+
+
+<p class="image"><img src="images/modify.gif" border="0" alt="Tells and Retracts"><br>
+<span class="caption">Figure 4.</span> Tells and Retracts</p>
+
+<p>The <span class="name">Tell</span> request takes a set of OWL 1.1 imports, a set of ontology annotations
+and a set of axioms and adds them to the ontology with a given <span class="name">ontologyURI</span>.
+In [<cite><a href="#ref-owl-1.1-specification">OWL 1.1 Specification</a></cite>],
+an ontology is defined as a set of axioms; thus, an  ontology cannot contain two axioms
+that are structurally equivalent. A DIG server must follow this definition. A server is not required to
+respond with an error if a structurally equivalent axiom is already a part of the ontology; it should,
+however, keep only one copy of the structurally equivalent axiom. If all axioms are successfully added to
+the ontology, the server should respond with a <span class="name">Confirmation</span> response.</p>
+
+<p>The <span class="name">Retract</span> request takes a set of OWL 1.1 imports, a set of ontology annotations
+and a set of axioms and removes them from the ontology with a given <span class="name">ontologyURI</span>.
+The removal must obey the rules of structural equivalence of OWL 1.1: an axiom
+<span class="name">Ax</span> is removed from an ontology if and only if the <span class="name">Retract</span>
+request contains an axiom that is structurally equivalent to <span class="name">Ax</span>. A server is not required to
+respond with an error if an ontology does not contain a structurally equivalent axiom. If all axioms are successfully
+removed from the ontology, the server should respond with a <span class="name">Confirmation</span> response.</p>
+
+<p>As mentioned in Section 3.4, DIG implementations are not required to support
+atomic tells and retracts; however, they are strongly encouraged to do so. Please refer to
+Section 3.4 for a discussion of this issue.</p>
+
+<p>The concept language of DIG 2.0 is based on OWL 1.1, which removes many potential sources of incompatibility.
+Note that the XML schema for the <span class="name">dig:Tell</span> element corresponds exactly to the structure
+of the <span class="name">owl11xml:Ontology</span> element, so it is trivial to pass an OWL 1.1 ontology to a DIG
+reasoner through the DIG 2.0 interface.</p>
+
+
+
+<h2><a name="6"></a>6 Asking Questions</h2>
+
+<p>Many DIG 2.0 requests retrieve information about an ontology. For clarity, they are
+separated into several groups.</p>
+
+
+<h3><a name="6.1"></a>6.1 Retrieving Ontology Entities</h3>
+
+<p>The requests and responses for retrieving entities of an ontology are shown in Figure 5.
+The names of the requests are self-explanatory: each <span class="name">GetAll<i>XXX</i></span>
+returns all entities of type <span class="name"><i>XXX</i></span> that occur in some axiom
+(including declarations) in the ontology or some of the included ontologies.
+Note that, as a consequence of this definition, to remove an entity, one must remove
+from the ontology all axioms (including declarations) in which the entity ocucrs.
+The entities are returned as a <span class="name">SetOfEntities</span> response.</p>
+
+<p class="image"><img src="images/asks_entities.gif" border="0" alt="Retrieving Ontology Entities"><br>
+<span class="caption">Figure 5.</span> Retrieving Ontology Entities</p>
+
+
+<h3><a name="6.2"></a>6.2 Questions about the Ontology</h3>
+
+<p>Figure 6 shows requests that ask questions about the ontology. All questions return a Boolean
+value encapsulated in a <span class="name">BooleanValue</span> response.</p>
+
+<p class="image"><img src="images/asks_ontology.gif" border="0" alt="Questions about the Ontology"><br>
+<span class="caption">Figure 6.</span> Questions about the Ontology</p>
+
+<p>The <span class="name">IsOntologySatisfiable</span> request returns
+<span class="name">true</span> if the ontology is satisfiable (that is, if the TBox and the
+ABox together are consistent).</p>
+
+<p>The <span class="name">IsTBoxSatisfiable</span> request returns <span class="name">true</span>
+if the TBox of the ontology is satisfiable.</p>
+
+<p>The <span class="name">IsOntologyStructurallyConsistent</span> request returns
+<span class="name">true</span> if the ontology is structurally consistent according to the definition from
+[<cite><a href="#ref-owl-1.1-specification">OWL 1.1 Specification</a></cite>].</p>
+
+
+<h3><a name="6.3"></a>6.3 Questions about Classes</h3>
+
+<p>Figure 7 shows requests that ask questions about classes. All questions return a Boolean
+value encapsulated in a <span class="name">BooleanValue</span> response.</p>
+
+<p class="image"><img src="images/asks_classes.gif" border="0" alt="Questions about Classes"><br>
+<span class="caption">Figure 7.</span> Questions about Classes</p>
+
+<p>The <span class="name">IsClassSatisfiable</span> request takes a class and returns
+<span class="name">true</span> if the class is satisfiable w.r.t. the ontology.</p>
+
+<p>The <span class="name">IsClassSubsumedBy</span> request takes two classes and returns
+<span class="name">true</span> if the first class is subsumed by the other w.r.t. the ontology.
+(The <span class="name">dig:IsClassSubsumedBy</span> element in XML messages contains two
+<span class="name">dig:Description</span> elements: the first one is the subclass and
+the second one is the superclass.)</p>
+
+<p>The <span class="name">AreClassesEquivalent</span> request takes a set of classes and
+returns <span class="name">true</span> if they are equivalent w.r.t. the ontology.</p>
+
+<p>The <span class="name">AreClassesDisjoint</span> request takes a set of classes and
+returns <span class="name">true</span> if they are pair-wise disjoint w.r.t. the ontology.</p>
+
+
+<h3><a name="6.4"></a>6.4 Questions about the Class Hierarchy</h3>
+
+<p>Figure 8 presents the requests for retrieving information about the inferred class hierarchy.
+A class hierachy is represented in DIG 2.0 as a set of <span class="name">ClassHierarchyNode</span>
+objects. Each node is uniquely identified by a <span class="name">nodeID</span>; these IDs are assigned
+to nodes by the DIG server and have no semantic meaning other than providing means to uniquely identify
+a node in a hierachy. Furthermore, a node contains a set of equivalent classes (the classes in the node),
+a set of IDs of parent nodes, and a set of IDs of child nodes.</p>
+
+<p class="image"><img src="images/asks_class_hierarchy.gif" border="0" alt="Questions about the Class Hierarchy"><br>
+<span class="caption">Figure 8.</span> Questions about the Class Hierarchy</p>
+
+<p>The <span class="name">GetClassHierarchy</span> request returns the entire class hierarchy of the
+specified ontology; the response is <span class="name">SetOfClassHierarchyNodes</span>.</p>
+
+<p>The <span class="name">GetClassHierarchyNodeByNodeID</span> request returns the class hierarchy node
+with the given ID; the response is <span class="name">OneClassHierarchyNode</span>. If a node with
+the supplied node ID does not exist, an error with code 400 (invalid node ID) is returned.</p>
+
+<p>The <span class="name">GetClassHierarchyNodeByClass</span> request returns the class hierarchy node
+that contains the specified class; the response is <span class="name">OneClassHierarchyNode</span>.
+If a node with the supplied class does not exist, an error with code 401 (no hierarchy node for given entity)
+is returned.</p>
+
+<p>The <span class="name">GetParentClassHierarchyNodes</span> request takes a class and returns the parent nodes
+of the node containing the given class. If there is no node for the given class, an error with code 401 is returned.
+If the Boolean flag <span class="name">onlyDirectNodes</span> is set to <span class="name">true</span>, then only
+direct parent nodes are returned; otherwise, all (direct and indirect) parent nodes are returned. The response is
+<span class="name">SetOfClassHierarchyNodes</span>.</p>
+
+<p>The <span class="name">GetChildClassHierarchyNodes</span> request takes a class and returns the child nodes
+of the node containing the given class. If there is no node for the given class, an error with code 401 is returned.
+If the Boolean flag <span class="name">onlyDirectNodes</span> is set to <span class="name">true</span>, then only
+direct child nodes are returned; otherwise, all (direct and indirect) child nodes are returned. The response is
+<span class="name">SetOfClassHierarchyNodes</span>.</p>
+
+
+<h3><a name="6.5"></a>6.5 Questions about Object Properties</h3>
+
+<p>Figure 9 shows requests that ask questions about object properties. All questions return a Boolean value
+encapsulated in a <span class="name">BooleanValue</span> response.</p>
+
+<p class="image"><img src="images/asks_object_properties.gif" border="0" alt="Questions about Object Properties"><br>
+<span class="caption">Figure 9.</span> Questions about Object Properties</p>
+
+<p>The <span class="name">IsObjectPropertySatisfiable</span> request takes an object property expression and returns
+<span class="name">true</span> if the object property is satisfiable w.r.t. the ontology.</p>
+
+<p>The <span class="name">IsObjectPropertySubsumedBy</span> request takes two object property expressions and returns
+<span class="name">true</span> if the first expression is subsumed by the second w.r.t. the ontology.
+(The <span class="name">dig:IsObjectPropertySubsumedBy</span> element in XML messages contains two
+properties: the first one is the subproperty and the second one is the superproperty.)</p>
+
+<p>The <span class="name">AreObjectPropertiesEquivalent</span> request takes a set of object property expressions and
+returns <span class="name">true</span> if they are equivalent w.r.t. the ontology.</p>
+
+<p>The <span class="name">AreObjectPropertiesDisjoint</span> request takes a set of object property expressions and
+returns <span class="name">true</span> if they are pair-wise disjoint w.r.t. the ontology.</p>
+
+<p>The <span class="name">IsObjectProperty<i>XXX</i></span> is a placeholder for several requests that
+take an object property expression and return <span class="name">true</span> if it has the property
+<span class="name"><i>XXX</i></span>, where <span class="name"><i>XXX</i></span> can be
+<span class="name">Functional</span>, <span class="name">InverseFunctional</span>,
+<span class="name">Symmetric</span>, <span class="name">Antisymmetric</span>,
+<span class="name">Reflexive</span>, <span class="name">Ireflexive</span>, and
+<span class="name">Transitive</span>.</p>
+
+
+<h3><a name="6.6"></a>6.6 Questions about the Object Property Hierarchy</h3>
+
+<p>Figure 10 presents the requests for retrieving information about the inferred hierarchy
+of object properties. These requests are completely analogous to the requests from Section 6.4.
+Just like the class hierarchy, an object property hierachy is represented in DIG 2.0 as a set of
+<span class="name">ObjectPropertyHierarchyNode</span> objects. Each node is uniquely identified by
+a <span class="name">nodeID</span>; these IDs are assigned to nodes by the DIG server and have no
+semantic meaning other than providing means to uniquely identify a node in a hierachy. Furthermore,
+a node contains a set of equivalent classes (the classes in the node), a set of IDs of parent nodes,
+and a set of IDs of child nodes.</p>
+
+<p class="image"><img src="images/asks_object_property_hierarchy.gif" border="0" alt="Questions about the Property Hierarchy"><br>
+<span class="caption">Figure 10.</span> Questions about the Property Hierarchy</p>
+
+<p>The <span class="name">GetObjectPropertyHierarchy</span> request returns the entire object property hierarchy of the
+specified ontology; the response is <span class="name">SetOfObjectPropertyHierarchyNodes</span>.</p>
+
+<p>The <span class="name">GetObjectPropertyHierarchyNodeByNodeID</span> request returns the object property hierarchy node
+with the given ID; the response is <span class="name">OneObjectPropertyHierarchyNode</span>. If a node with
+the supplied node ID does not exist, an error with code 400 (invalid node ID) is returned.</p>
+
+<p>The <span class="name">GetObjectPropertyHierarchyNodeByObjectProperty</span> request returns the object property hierarchy node
+that contains the specified object property; the response is <span class="name">OneObjectPropertyHierarchyNode</span>.
+If a node with the supplied object property does not exist, an error with code 401 (no hierarchy node for given entity)
+is returned.</p>
+
+<p>The <span class="name">GetParentObjectPropertyHierarchyNodes</span> request takes a class and returns the parent nodes
+of the node containing the given object property. If there is no node for the given object property, an error with code 401 is returned.
+If the Boolean flag <span class="name">onlyDirectNodes</span> is set to <span class="name">true</span>, then only
+direct parent nodes are returned; otherwise, all (direct and indirect) parent nodes are returned. The response is
+<span class="name">SetOfObjectPropertyHierarchyNodes</span>.</p>
+
+<p>The <span class="name">GetChildObjectPropertyHierarchyNodes</span> request takes a class and returns the child nodes
+of the node containing the given object property. If there is no node for the given object property, an error with code 401 is returned.
+If the Boolean flag <span class="name">onlyDirectNodes</span> is set to <span class="name">true</span>, then only
+direct child nodes are returned; otherwise, all (direct and indirect) child nodes are returned. The response is
+<span class="name">SetOfObjectPropertyHierarchyNodes</span>.</p>
+
+
+<h3><a name="6.7"></a>6.7 Questions about the Data Properties and the Data Property Hierarchy</h3>
+
+<p>For data properties, DIG 2.0 supports the requests and responses that are completely analogous to
+the requests and responses for asking questions about the object properties and the object property
+hierarchy from Sections 6.5 and 6.6. For the sake of brevity, the requests and responses for data
+properties are not repeated in this section. The names of requests and responses for data properties
+are identical to the corresponing names for requests and responses for object properties, with the word
+<span class="name">Object</span> replaced with the word <span class="name">Data</span>.</p>
+
+<p>The <span class="name">IsDataProperty<i>XXX</i></span> requests is available only for
+<span class="name"><i>XXX</i></span> equal to <span class="name">Functional</span>.</p>
+
+
+<h3><a name="6.8"></a>6.8 Questions about Individuals</h3>
+
+<p>Figure 11 presents the requests for retrieving information about the inferred facts
+concerning individuals. Questions that return individuals as answers (e.g., retrieving
+the individuals that are connected to some individual through some role) are not covered
+by this specification; rather, they are handled by the DIG 2.0 Query Interface proposal
+[<cite><a href="#ref-dig-2.0-query">DIG 2.0 Query</a></cite>].</p>
+
+<p class="image"><img src="images/asks_individuals.gif" border="0" alt="Questions about Individuals"><br>
+<span class="caption">Figure 11.</span> Questions about Individuals</p>
+
+<p>The <span class="name">GetIndividualTypes</span> request takes an individual and
+returns a set of most specific OWL classes that this individual is an instance of.
+If <span class="name">onlyDirectNodes</span> is <span class="name">true</span>,
+then only the nodes from the class hierarchy that the given individual is a direct
+instance of are returned; otherwise, all nodes are returned; the response is a
+<span class="name">SetOfClassHierarchyNodes</span>.</p>
+
+<p>The <span class="name">GetObjectPropertiesInBetween</span> takes two individuals and returns
+the set of object properties that connect them; the response is a <span class="name">SetOfEntities</span>.</p>
+
+<p>The <span class="name">GetDataPropertiesInBetween</span> takes an individual and a constant and returns
+the set of data properties that connect them; the response is a <span class="name">SetOfEntities</span>.</p>
+
+<p>The <span class="name">GetIndividualFillers</span> takes an individual I and returns
+the pairs (P,V) such that P(I,V) is entailed by the ontology. The respones are separated into two
+distinct sets: the object property and the data property fillers.
+The response to this request is a <span class="name">IndividualFillers</span>.</p>
+
+
+
+
+
+<hr>
+
+<h2><a name="references"></a>References</h2>
+
+<dl>
+
+  <dt><a id="ref-http-1.1">[HTTP/1.1]</a></dt>
+  <dd>
+    <cite><a href="ftp://ftp.isi.edu/in-notes/rfc2616.txt">Hypertext Transfer Protocol -- HTTP/1.1, Request for Comments 2616</a></cite>.
+    R. Fielding, J. Gettys, J. Mogul, H. Frystyk, L. Masinter, P. Leach, and T. Berners-Lee.
+  </dd>
+
+  <dt><a id="ref-owl-1.1-specification">[OWL 1.1 Specification]</a></dt>
+  <dd>
+    <cite><a href="http://owl1-1.cs.manchester.ac.uk/owl_specification.html">OWL 1.1 Web Ontology Language: Structural Specification and Functional-Style Syntax</a></cite>.
+    Peter F. Patel-Schneider, Ian Horrocks, and Boris Motik, eds., 2006.
+  </dd>
+
+  <dt><a id="ref-xml-base">[XML Base]</a></dt>
+  <dd>
+    <cite><a href="http://www.w3.org/TR/xmlbase/">XML Base</a></cite>.
+    Jonathan Marsh, ed.
+    W3C Recommendation 27 June 2001.
+  </dd>
+
+  <dt><a id="ref-xml-schema">[XML Schema]</a></dt>
+  <dd>
+    <cite><a href="http://www.w3.org/TR/xmlschema-1/">XML Schema Part 1: Structures Second Edition</a></cite>.
+    Henry S. Thompson, David Beech, Murray Maloney, Noah Mendelsohn, eds.
+    W3C Recommendation 28 October 2004.
+  </dd>
+
+  <dt><a id="ref-dig-2.0-query">[DIG 2.0 Query]</a></dt>
+  <dd>
+    <cite><a href="http://www.sts.tu-harburg.de/~al.kaplunova/dig-query-interface.html">DIG 2.0 Proposal for a Query Interface</a></cite>.
+    Alissa Kaplunova, Ralf Möller.
+  </dd>
+
+</dl>
+
+</body>
+</html>

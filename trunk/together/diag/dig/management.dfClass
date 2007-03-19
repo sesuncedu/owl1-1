@@ -1,0 +1,62 @@
+package id46p8ueszrj63eeszrm2y4;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dig.Request:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dig.Response:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference23 {
+}/**
+@__ref <oiref:java#Class#dig.DIGDescribe:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference24 {
+}/**
+@__ref <oiref:java#Class#dig.DIGDescription:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference28 {
+}/**
+@__ref <oiref:java#Class#dig.SupportedRequest:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference32 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#dig.DIGDescription:oiref>=372,198,188,163,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Request#response:oiref>=256,105,396,105:oigroup>
+<oigroup:<oiref:java#Class#dig.Response:oiref>=415,71,67,59,1:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.DIGDescription#supportedRequests:oiref>=461,381,65,32,0:oigroup>
+<oigroup:<oiref:java#Class#dig.SupportedRequest:oiref>=393,434,137,68,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.DIGDescription#supportedRequests:oiref>=465,361,71,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.DIGDescription#dig.Response:oiref>=448,198,448,130:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.DIGDescription#supportedRequests:oiref>=430,411,27,19,0:oigroup>
+<oigroup:<oiref:java#Class#dig.Request:oiref>=215,71,63,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.DIGDescribe#dig.Request:oiref>=246,199,246,130:oigroup>
+<oigroup:<oiref:java#Class#dig.DIGDescribe:oiref>=210,199,79,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.DIGDescription#supportedRequests:oiref>=461,361,461,434:oigroup>
+*/
+class __positions {
+}

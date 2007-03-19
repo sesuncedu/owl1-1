@@ -1,0 +1,140 @@
+package id1notesylhqwfesyo9tey;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dig.RequestToOntology:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dig.Request:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference49 {
+}/**
+@__ref <oiref:java#Class#dig.Response:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference50 {
+}/**
+@__ref <oiref:java#Class#dig.GetParentClassHierarchyNodes:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference56 {
+}/**
+@__ref <oiref:java#Class#dig.GetChildClassHierarchyNodes:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference58 {
+}/**
+@__ref <oiref:java#Class#dig.GetClassHierarchyNodeByClass:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference67 {
+}/**
+@__ref <oiref:java#Class#dig.ClassHierarchyNode:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#owl.OWLClass:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference6 {
+}/**
+@__ref <oiref:java#Class#dig.SetOfClassHierarchyNodes:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference7 {
+}/**
+@__ref <oiref:java#Class#dig.GetClassHierarchyNodeByID:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference38 {
+}/**
+@__ref <oiref:java#Class#dig.OneClassHierarchyNode:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference40 {
+}/**
+@__ref <oiref:java#Class#dig.GetClassHierarchy:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference43 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:MemberLink#<oiref:java#Member#dig.GetChildClassHierarchyNodes#_class:oiref>=392,367,392,535:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.ClassHierarchyNode#entities:oiref>=782,348,782,425,615,425,615,503:oigroup>
+<oigroup:<oiref:java#Implements#owl.OWLClass#owl.Description:oiref>=739,514,373,514:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.ClassHierarchyNode#equivalentClasses:oiref>=345,594,24,19,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.ClassHierarchyNode#equivalentClasses:oiref>=753,402,109,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.SetOfEntites#dig.Response:oiref>=720,167,720,149,636,149,636,107:oigroup>
+<oigroup:<oiref:java#Class#dig.Request:oiref>=241,53,63,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.GetParentClassHierarchyNodes#_class:oiref>=511,462,511,563,416,563:oigroup>
+<oigroup:<oiref:java#Class#dig.GetChildClassHierarchyNodes:oiref>=303,299,179,68,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.OneClassHierarchyNode#node:oiref>=782,228,782,296:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.GetClassHierarchyNodeByClass#_class:oiref>=287,451,36,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.RequestToOntology#dig.Request:oiref>=272,165,272,112:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.GetChildClassHierarchyNodes#entity:oiref>=199,442,199,463,581,463,581,484:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.GetParentClassHierarchyNodes#entity:oiref>=120,355,120,533,574,533:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetParentClassHierarchyNodes#dig.RequestToOntology:oiref>=511,394,511,271,296,271,296,233:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.SetOfClassHierarchyNodes#nodes:oiref>=575,236,65,32,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.GetChildClassHierarchyNodes#_class:oiref>=396,367,36,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.GetParentClassHierarchyNodes#_class:oiref>=424,537,13,19,0:oigroup>
+<oigroup:<oiref:java#Class#dig.GetClassHierarchyNodeByID:oiref>=96,300,169,68,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.SetOfClassHierarchyNodes#nodes:oiref>=648,224,41,19,0:oigroup>
+<oigroup:<oiref:java#Class#dig.SetOfClassHierarchyNodes:oiref>=558,165,164,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.ClassHierarchyNode:oiref>=670,296,128,106,1:oigroup>
+<oigroup:<oiref:java#Class#dig.RequestToOntology:oiref>=227,165,128,68,1:oigroup>
+<oigroup:<oiref:java#Class#dig.OneClassHierarchyNode:oiref>=755,169,148,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.SetOfClassHierarchyNodes#dig.Response:oiref>=640,165,640,151,737,151,737,121:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.ClassHierarchyNode#equivalentClasses:oiref>=745,402,745,647,375,647,375,594:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.ClassHierarchyNode#equivalentClasses:oiref>=528,615,65,32,0:oigroup>
+<oigroup:<oiref:java#Class#dig.GetClassHierarchyNodeByClass:oiref>=188,392,190,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.GetClassHierarchyNodeByClass#_class:oiref>=283,451,283,567,324,567:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.GetChildClassHierarchyNodes#_class:oiref>=374,510,13,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.OneClassHierarchyNode#dig.Response:oiref>=829,169,829,151,737,151,737,121:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetChildClassHierarchyNodes#dig.RequestToOntology:oiref>=392,299,392,271,296,271,296,233:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetClassHierarchyNodeByID#dig.RequestToOntology:oiref>=180,300,180,271,296,271,296,233:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.GetParentClassHierarchyNodes#_class:oiref>=515,462,36,19,0:oigroup>
+<oigroup:<oiref:java#Class#dig.GetParentClassHierarchyNodes:oiref>=417,394,189,68,1:oigroup>
+<oigroup:<oiref:java#Class#owl.OWLClass:oiref>=324,535,92,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.SetOfClassHierarchyNodes#nodes:oiref>=640,224,640,260,722,260,722,296:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.SetOfEntites#entities:oiref>=718,226,718,369,618,369:oigroup>
+<oigroup:<oiref:java#Class#dig.GetClassHierarchy:oiref>=17,391,115,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.Response:oiref>=704,62,67,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetClassHierarchyNodeByClass#dig.RequestToOntology:oiref>=283,392,283,271,296,271,296,233:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.SetOfClassHierarchyNodes#nodes:oiref>=695,273,24,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetClassHierarchy#dig.RequestToOntology:oiref>=74,391,74,271,296,271,296,233:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Request#response:oiref>=356,86,570,86:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.GetClassHierarchyNodeByClass#_class:oiref>=308,537,13,19,0:oigroup>
+
+
+
+*/
+class __positions {
+}

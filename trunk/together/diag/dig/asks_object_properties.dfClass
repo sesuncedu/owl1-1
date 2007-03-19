@@ -1,0 +1,126 @@
+package id3junhet4ib8h2et4icrg8;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dig.Request:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dig.Response:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#dig.RequestToOntology:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference2 {
+}/**
+@__ref <oiref:java#Class#dig.BooleanValue:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference3 {
+}/**
+@__ref <oiref:java#Class#dig.IsObjectPropertySatisfiable:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference4 {
+}/**
+@__ref <oiref:java#Class#dig.IsObjectPropertySubsumedBy:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference24 {
+}/**
+@__ref <oiref:java#Class#dig.AreObjectPropertiesDisjoint:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference28 {
+}/**
+@__ref <oiref:java#Class#dig.AreObjectPropertiesEquivalent:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference40 {
+}/**
+@__ref <oiref:java#Class#owl.ObjectPropertyExpression:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference45 {
+}/**
+@__ref <oiref:java#Class#dig.IsObjectPropertyXXX:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference46 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.IsObjectPropertySubsumedBy#superObjectProperty:oiref>=277,528,13,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.AreObjectPropertiesDisjoint#property2:oiref>=414,391,414,496,349,496:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.IsObjectPropertyXXX#objectProperty:oiref>=708,467,84,19,0:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.AreObjectPropertiesDisjoint#objectProperties:oiref>=413,445,65,32,0:oigroup>
+<oigroup:<oiref:java#Class#dig.Request:oiref>=256,61,63,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.IsObjectPropertySatisfiable#dig.RequestToOntology:oiref>=165,314,165,284,286,284,286,249:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectPropertyExpression:oiref>=269,549,183,77,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.AreObjectPropertiesEquivalent#dig.RequestToOntology:oiref>=591,314,591,284,286,284,286,249:oigroup>
+<oigroup:<oiref:java#Extends#dig.RequestToOntology#dig.Request:oiref>=287,181,287,120:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsObjectPropertySubsumedBy#superProperty:oiref>=305,389,305,499:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.AreObjectPropertiesEquivalent#objectProperties:oiref>=456,553,27,19,0:oigroup>
+<oigroup:<oiref:java#Class#dig.IsObjectPropertyXXX:oiref>=642,408,129,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.AreObjectPropertiesEquivalent:oiref>=499,314,184,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.IsObjectPropertySubsumedBy:oiref>=148,418,180,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.AreObjectPropertiesDisjoint#dig.RequestToOntology:oiref>=388,315,388,284,286,284,286,249:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.IsObjectPropertySubsumedBy#subObjectProperty:oiref>=162,477,107,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsObjectPropertySubsumedBy#superObjectProperty:oiref>=288,477,288,549:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.IsObjectPropertySubsumedBy#superObjectProperty:oiref>=292,477,118,19,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.IsObjectPropertySatisfiable#objectProperty:oiref>=122,373,84,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.IsObjectPropertyXXX#objectProperty:oiref>=398,626,13,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.AreObjectPropertiesDisjoint#properties:oiref>=422,391,422,499:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.AreObjectPropertiesDisjoint#objectProperties:oiref>=388,528,27,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.AreObjectPropertiesEquivalent#objectProperties:oiref>=581,373,581,574,452,574:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.AreObjectPropertiesEquivalent#objectProperties:oiref>=585,373,96,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsObjectPropertySubsumedBy#subProperty:oiref>=228,389,228,444,377,444,377,499:oigroup>
+<oigroup:<oiref:java#Class#dig.RequestToOntology:oiref>=222,181,128,68,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.AreObjectPropertiesDisjoint#objectProperties:oiref>=413,374,413,549:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.IsObjectPropertySatisfiable#objectProperty:oiref>=286,626,13,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.BooleanValue#dig.Response:oiref>=571,184,571,122:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.AreObjectPropertiesEquivalent#objectProperties:oiref>=581,477,65,32,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.AreObjectPropertiesEquivalent#properties:oiref>=626,392,626,524,468,524:oigroup>
+<oigroup:<oiref:java#Class#dig.BooleanValue:oiref>=522,184,105,68,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsObjectPropertySatisfiable#objectProperty:oiref>=118,373,118,666,305,666,305,626:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsObjectPropertyXXX#objectProperty:oiref>=704,467,704,664,417,664,417,626:oigroup>
+<oigroup:<oiref:java#Class#dig.IsObjectPropertySatisfiable:oiref>=83,314,165,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.IsObjectPropertyXXX#dig.RequestToOntology:oiref>=706,408,706,284,286,284,286,249:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsObjectPropertySatisfiable#property:oiref>=142,387,142,524,286,524:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsObjectPropertySatisfiable#_class:oiref>=124,387,124,427,291,427,291,467:oigroup>
+<oigroup:<oiref:java#Class#dig.Response:oiref>=538,63,67,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.AreObjectPropertiesDisjoint:oiref>=304,315,168,59,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.AreObjectPropertiesDisjoint#objectProperties:oiref>=417,374,96,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Request#response:oiref>=335,85,513,85:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.IsObjectPropertySubsumedBy#subObjectProperty:oiref>=258,566,13,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.IsObjectPropertySubsumedBy#subObjectProperty:oiref>=158,477,158,587,269,587:oigroup>
+<oigroup:<oiref:java#Extends#dig.IsObjectPropertySubsumedBy#dig.RequestToOntology:oiref>=276,418,276,284,286,284,286,249:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.AreObjectPropertiesDisjoint#property1:oiref>=479,391,479,565,339,565,339,535:oigroup>
+*/
+class __positions {
+}

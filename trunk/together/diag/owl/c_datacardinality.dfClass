@@ -1,0 +1,97 @@
+package idpu97esvhxhoaesvigiui;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#owl.Description:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#owl.DataMinCardinality:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference206 {
+}/**
+@__ref <oiref:java#Class#owl.DataMaxCardinality:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference207 {
+}/**
+@__ref <oiref:java#Class#owl.DataExactCardinality:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference208 {
+}/**
+@__ref <oiref:java#Class#owl.DataRange:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference209 {
+}/**
+@__ref <oiref:java#Class#owl.DataPropertyExpression:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference210 {
+}/**
+@__ref <oiref:design#Class#idpu97esvhxhoaesvigiui.node:oiref><oihard>
+@__modelType reference 
+*/
+class reference211 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DataMaxCardinality#datarange:oiref>=287,248,61,17,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataProperty:oiref>=459,248,75,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataProperty:oiref>=109,224,68,224,68,463,355,463,355,405:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataProperty:oiref>=35,201,69,17,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataRange:oiref>=152,248,152,359,239,359:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataMaxCardinality#dataProperty:oiref>=367,248,367,328:oigroup>
+<oigroup:<oiref:java#Extends#owl.DataExactCardinality#owl.Description:oiref>=484,180,484,141,312,141,312,109:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataRange:oiref>=156,248,61,17,0:oigroup>
+<oigroup:<oiref:java#Class#owl.DataExactCardinality:oiref>=421,180,127,68,1:oigroup>
+<oigroup:<oiref:java#Class#owl.DataRange:oiref>=239,327,73,68,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DataMaxCardinality#dataProperty:oiref>=371,248,69,17,0:oigroup>
+<oigroup:<oiref:design#Class#idpu97esvhxhoaesvigiui.node:oiref>=200,484,229,50,0:oigroup>
+<oigroup:<oiref:java#Class#owl.Description:oiref>=275,50,75,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.DataMinCardinality:oiref>=109,180,115,68,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataProperty:oiref>=455,248,455,328:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataRange:oiref>=556,200,67,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataRange:oiref>=264,399,26,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.DataPropertyExpression:oiref>=342,328,150,77,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataMaxCardinality#datarange:oiref>=259,306,20,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataProperty:oiref>=344,405,7,17,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.DataMinCardinality#owl.Description:oiref>=210,180,210,141,312,141,312,109:oigroup>
+<oigroup:<oiref:java#Class#owl.DataMaxCardinality:oiref>=264,180,119,68,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataRange:oiref>=548,224,582,224,582,429,296,429,296,395:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataMaxCardinality#dataProperty:oiref>=356,307,7,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataProperty:oiref>=444,307,13,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataRange:oiref>=215,338,20,17,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataMaxCardinality#datarange:oiref>=283,248,283,327:oigroup>
+<oigroup:<oiref:java#Extends#owl.DataMaxCardinality#owl.Description:oiref>=323,180,323,141,312,141,312,109:oigroup>
+*/
+class __positions {
+}/**
+@shapeType Note
+@__modelType node
+@name Note1
+@text The atiry of a data range used in all
+cardinality restrictions must be one. 
+*/
+class node {
+}

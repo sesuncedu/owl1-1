@@ -1,0 +1,74 @@
+package id3ed38ewer6szrewero4ov;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dig.Request:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dig.RequestToOntology:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference36 {
+}/**
+@__ref <oiref:java#Class#dig.IsOntologySatisfiable:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference37 {
+}/**
+@__ref <oiref:java#Class#dig.Response:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference38 {
+}/**
+@__ref <oiref:java#Class#dig.BooleanValue:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference39 {
+}/**
+@__ref <oiref:java#Class#dig.IsTBoxSatisfiable:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference42 {
+}/**
+@__ref <oiref:java#Class#dig.IsOntologyStructurallyConsistent:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference44 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#dig.IsOntologySatisfiable:oiref>=47,294,129,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.IsTBoxSatisfiable:oiref>=232,293,108,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.BooleanValue:oiref>=325,172,105,68,1:oigroup>
+<oigroup:<oiref:java#Class#dig.Response:oiref>=346,58,67,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.IsOntologyStructurallyConsistent:oiref>=106,377,196,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.RequestToOntology#dig.Request:oiref>=208,169,208,115:oigroup>
+<oigroup:<oiref:java#Class#dig.RequestToOntology:oiref>=138,169,128,68,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.IsTBoxSatisfiable#dig.RequestToOntology:oiref>=286,293,286,267,202,267,202,237:oigroup>
+<oigroup:<oiref:java#Class#dig.Request:oiref>=177,56,63,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.IsOntologyStructurallyConsistent#dig.RequestToOntology:oiref>=204,377,204,267,202,267,202,237:oigroup>
+<oigroup:<oiref:java#Extends#dig.BooleanValue#dig.Response:oiref>=379,172,379,117:oigroup>
+<oigroup:<oiref:java#Extends#dig.IsOntologySatisfiable#dig.RequestToOntology:oiref>=111,294,111,267,202,267,202,237:oigroup>
+*/
+class __positions {
+}

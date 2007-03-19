@@ -1,0 +1,17 @@
+span.nonterminal {
+    font-weight: bold;
+    font-style: italic;
+    font-family: sans-serif;
+}
+span.name {
+    font-family: monospace;
+}
+p.grammar {
+    font-family: monospace; padding-left: 20px; font-size: 10pt;
+}
+p.image {
+    text-align: center;
+}
+span.caption {
+    font-weight: bold;
+}

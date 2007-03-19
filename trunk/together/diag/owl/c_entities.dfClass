@@ -1,0 +1,104 @@
+package id414jresvhxhoaesvibq9u;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#owl.OWLEntity:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#owl.OWLClass:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference198 {
+}/**
+@__ref <oiref:java#Class#owl.Datatype:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference199 {
+}/**
+@__ref <oiref:java#Class#owl.ObjectProperty:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference200 {
+}/**
+@__ref <oiref:java#Class#owl.DataProperty:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference201 {
+}/**
+@__ref <oiref:java#Class#owl.DataRange:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference202 {
+}/**
+@__ref <oiref:java#Class#owl.Individual:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference203 {
+}/**
+@__ref <oiref:java#Class#owl.Constant:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference204 {
+}/**
+@__ref <oiref:design#Class#id414jresvhxhoaesvibq9u.node:oiref><oihard>
+@__modelType reference 
+*/
+class reference205 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Implements#owl.OWLClass#owl.OWLEntity:oiref>=303,182,303,148,380,148,380,104:oigroup>
+<oigroup:<oiref:java#Extends#owl.Individual#owl.OWLEntity:oiref>=630,188,630,148,380,148,380,104:oigroup>
+<oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=339,36,82,68,1:oigroup>
+<oigroup:<oiref:java#Implements#owl.Datatype#owl.OWLEntity:oiref>=226,183,226,148,380,148,380,104:oigroup>
+<oigroup:<oiref:java#Implements#owl.Datatype#owl.DataRange:oiref>=204,183,204,109:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectProperty:oiref>=368,185,95,59,1:oigroup>
+<oigroup:<oiref:java#Implements#owl.ObjectProperty#owl.OWLEntity:oiref>=415,185,415,148,380,148,380,104:oigroup>
+<oigroup:<oiref:design#Class#id414jresvhxhoaesvibq9u.node:oiref>=194,294,291,45,0:oigroup>
+<oigroup:<oiref:java#Class#owl.DataProperty:oiref>=485,187,84,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.DataRange:oiref>=174,41,73,68,1:oigroup>
+<oigroup:<oiref:java#Implements#owl.DataProperty#owl.OWLEntity:oiref>=527,187,527,148,380,148,380,104:oigroup>
+<oigroup:<oiref:java#Class#owl.Individual:oiref>=599,188,63,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.OWLClass:oiref>=269,182,69,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Constant:oiref>=506,38,128,87,1:oigroup>
+<oigroup:<oiref:design#Class#id414jresvhxhoaesvibq9u.node.link:oiref>=303,241,303,294:oigroup>
+<oigroup:<oiref:java#Class#owl.Datatype:oiref>=182,183,63,59,1:oigroup> 
+*/
+class __positions {
+}/**
+@shapeType Note
+@__modelType node
+@name Note1
+@text owl:Thing and owl:Nothing are predefined URIs
+of OWL classes with predefined semantics. 
+*/
+class node {
+/**
+@shapeType NoteLink
+@__modelType link
+@__ref <oiref:java#Class#owl.OWLClass:oiref><oihard>
+@__reversed 
+*/
+class link {
+}}

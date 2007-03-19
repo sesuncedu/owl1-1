@@ -1,0 +1,50 @@
+package idceasesvqn2qzesvy5lsf;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#owl.Axiom:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#owl.Declaration:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference65 {
+}/**
+@__ref <oiref:java#Class#owl.OWLEntity:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference7 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=431,331,82,68,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Axiom:oiref>=431,75,112,68,1:oigroup>
+<oigroup:<oiref:java#Extends#owl.EntityAnnotation#owl.Axiom:oiref>=395,218,395,174,462,174,462,134:oigroup>
+<oigroup:<oiref:java#Extends#owl.Declaration#owl.Axiom:oiref>=466,209,466,143:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Declaration#entity:oiref>=452,308,13,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationValue:oiref>=156,279,156,338:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Declaration#entity:oiref>=475,268,34,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Declaration#entity:oiref>=471,268,471,331:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.EntityAnnotation#entity:oiref>=384,277,384,372,412,372:oigroup>
+<oigroup:<oiref:java#Class#owl.Declaration:oiref>=428,209,74,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.EntityAnnotation#entityAnnotations:oiref>=342,247,224,247:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=431,103,154,103,154,211:oigroup>
+*/
+class __positions {
+}

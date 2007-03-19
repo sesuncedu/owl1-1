@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:owl11xml="http://www.w3.org/2006/12/owl11-xml#"
+    xmlns:dig="http://dl.kr.org/dig2.0#"
+    targetNamespace="http://dl.kr.org/dig2.0#"
+    elementFormDefault="qualified" attributeFormDefault="qualified">
+
+  <xsd:import namespace="http://www.w3.org/2006/12/owl11-xml#" schemaLocation="../../owl/schema/owl1.1.xsd"/>
+  <xsd:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+
+  <xsd:complexType name="Request"/>
+
+  <xsd:complexType name="RequestToOntology">
+    <xsd:complexContent>
+      <xsd:extension base="dig:Request">
+        <xsd:attribute name="ontologyURI" type="xsd:anyURI"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithAxiomsAnnotationsImports">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:element ref="owl11xml:Imports" minOccurs="0" maxOccurs="unbounded"/>
+          <xsd:group ref="owl11xml:Annotation" minOccurs="0" maxOccurs="unbounded"/>
+          <xsd:group ref="owl11xml:Axiom" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attributeGroup ref="xml:specialAttrs"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithOneDescription">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:group ref="owl11xml:Description"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithTwoDescriptions">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:group ref="owl11xml:Description"/>
+          <xsd:group ref="owl11xml:Description"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithTwoOrMoreDescriptions">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:group ref="owl11xml:Description" minOccurs="2" maxOccurs="unbounded"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithOneObjectPropertyExpression">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:group ref="owl11xml:ObjectPropertyExpression"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithTwoObjectPropertyExpressions">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:group ref="owl11xml:ObjectPropertyExpression"/>
+          <xsd:group ref="owl11xml:ObjectPropertyExpression"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithTwoOrMoreObjectPropertyExpressions">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:group ref="owl11xml:ObjectPropertyExpression" minOccurs="2" maxOccurs="unbounded"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithOneDataPropertyExpression">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:group ref="owl11xml:DataPropertyExpression"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithTwoDataPropertyExpressions">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:group ref="owl11xml:DataPropertyExpression"/>
+          <xsd:group ref="owl11xml:DataPropertyExpression"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithTwoOrMoreDataPropertyExpressions">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:group ref="owl11xml:DataPropertyExpression" minOccurs="2" maxOccurs="unbounded"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithNodeID">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:element  name="nodeID" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithOneClass">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:element  ref="owl11xml:OWLClass"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithOneClassBoolean">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestWithOneClass">
+        <xsd:sequence>
+          <xsd:element  name="onlyDirectNodes" type="xsd:boolean"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithOneObjectProperty">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:element  ref="owl11xml:ObjectProperty"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithOneObjectPropertyBoolean">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestWithOneObjectProperty">
+        <xsd:sequence>
+          <xsd:element  name="onlyDirectNodes" type="xsd:boolean"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithOneDataProperty">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:element  ref="owl11xml:DataProperty"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithOneDataPropertyBoolean">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestWithOneDataProperty">
+        <xsd:sequence>
+          <xsd:element  name="onlyDirectNodes" type="xsd:boolean"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithOneIndividual">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:element ref="owl11xml:Individual"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithOneIndividualBoolean">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestWithOneIndividual">
+        <xsd:sequence>
+          <xsd:element  name="onlyDirectNodes" type="xsd:boolean"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithTwoIndividuals">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:element ref="owl11xml:Individual"/>
+          <xsd:element ref="owl11xml:Individual"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="RequestWithIndividualConstant">
+    <xsd:complexContent>
+      <xsd:extension base="dig:RequestToOntology">
+        <xsd:sequence>
+          <xsd:element ref="owl11xml:Individual"/>
+          <xsd:element ref="owl11xml:Constant"/>
+        </xsd:sequence>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:group name="Request">
+    <xsd:choice>
+      <xsd:element name="DIGDescribe" type="dig:Request"/>
+      <xsd:element name="Tell" type="dig:RequestWithAxiomsAnnotationsImports"/>
+      <xsd:element name="Retract" type="dig:RequestWithAxiomsAnnotationsImports"/>
+      <xsd:element name="RetractAll" type="dig:RequestToOntology"/>
+      <xsd:element name="CreateOntology" type="dig:RequestToOntology"/>
+      <xsd:element name="CreateOntologyAllocateURI" type="dig:Request"/>
+      <xsd:element name="ReleaseOntology" type="dig:RequestToOntology"/>
+      <xsd:element name="GetImportedOntologies" type="dig:RequestToOntology"/>
+      <xsd:element name="GetOntologyAnnotations" type="dig:RequestToOntology"/>
+      <xsd:element name="GetAllDatatypes" type="dig:RequestToOntology"/>
+      <xsd:element name="GetAllOWLClasses" type="dig:RequestToOntology"/>
+      <xsd:element name="GetAllObjectProperties" type="dig:RequestToOntology"/>
+      <xsd:element name="GetAllDataProperties" type="dig:RequestToOntology"/>
+      <xsd:element name="GetAllIndividuals" type="dig:RequestToOntology"/>
+      <xsd:element name="IsOntologySatisfiable" type="dig:RequestToOntology"/>
+      <xsd:element name="IsTBoxSatisfiable" type="dig:RequestToOntology"/>
+      <xsd:element name="IsOntologyStructurallyConsistent" type="dig:RequestToOntology"/>
+      <xsd:element name="IsClassSatisfiable" type="dig:RequestWithOneDescription"/>
+      <xsd:element name="IsClassSubsumedBy" type="dig:RequestWithTwoDescriptions"/> <!-- The first class is the subclass and the second one is the superclass -->
+      <xsd:element name="AreClassesEquivalent" type="dig:RequestWithTwoOrMoreDescriptions"/>
+      <xsd:element name="AreClassesDisjoint" type="dig:RequestWithTwoOrMoreDescriptions"/>
+      <xsd:element name="GetClassHierarchy" type="dig:RequestToOntology"/>
+      <xsd:element name="GetClassHierarchyNodeByNodeID" type="dig:RequestWithNodeID"/>
+      <xsd:element name="GetClassHierarchyNodeByClass" type="dig:RequestWithOneClass"/>
+      <xsd:element name="GetParentClassHierarchyNodes" type="dig:RequestWithOneClassBoolean"/>
+      <xsd:element name="GetChildClassHierarchyNodes" type="dig:RequestWithOneClassBoolean"/>
+      <xsd:element name="IsObjectPropertySatisfiable" type="dig:RequestWithOneObjectPropertyExpression"/>
+      <xsd:element name="IsObjectPropertySubsumedBy" type="dig:RequestWithTwoObjectPropertyExpressions"/> <!-- The first property is the subproperty and the second one is the superproperty -->
+      <xsd:element name="AreObjectPropertiesEquivalent" type="dig:RequestWithTwoOrMoreObjectPropertyExpressions"/>
+      <xsd:element name="AreObjectPropertiesDisjoint" type="dig:RequestWithTwoOrMoreObjectPropertyExpressions"/>
+      <xsd:element name="IsObjectPropertyFunctional" type="dig:RequestWithOneObjectPropertyExpression"/>
+      <xsd:element name="IsObjectPropertyInverseFunctional" type="dig:RequestWithOneObjectPropertyExpression"/>
+      <xsd:element name="IsObjectPropertySymmetric" type="dig:RequestWithOneObjectPropertyExpression"/>
+      <xsd:element name="IsObjectPropertyAntisymmetric" type="dig:RequestWithOneObjectPropertyExpression"/>
+      <xsd:element name="IsObjectPropertyReflexive" type="dig:RequestWithOneObjectPropertyExpression"/>
+      <xsd:element name="IsObjectPropertyIrreflexive" type="dig:RequestWithOneObjectPropertyExpression"/>
+      <xsd:element name="IsObjectPropertyTransitive" type="dig:RequestWithOneObjectPropertyExpression"/>
+      <xsd:element name="GetObjectPropertyHierarchy" type="dig:RequestToOntology"/>
+      <xsd:element name="GetObjectPropertyHierarchyNodeByNodeID" type="dig:RequestWithNodeID"/>
+      <xsd:element name="GetObjectPropertyHierarchyNodeByObjectProperty" type="dig:RequestWithOneObjectProperty"/>
+      <xsd:element name="GetParentObjectPropertyHierarchyNodes" type="dig:RequestWithOneObjectPropertyBoolean"/>
+      <xsd:element name="GetChildObjectPropertyHierarchyNodes" type="dig:RequestWithOneObjectPropertyBoolean"/>
+      <xsd:element name="IsDataPropertySatisfiable" type="dig:RequestWithOneDataPropertyExpression"/>
+      <xsd:element name="IsDataPropertySubsumedBy" type="dig:RequestWithTwoDataPropertyExpressions"/> <!-- The first property is the subproperty and the second one is the superproperty -->
+      <xsd:element name="AreDataPropertiesEquivalent" type="dig:RequestWithTwoOrMoreDataPropertyExpressions"/>
+      <xsd:element name="AreDataPropertiesDisjoint" type="dig:RequestWithTwoOrMoreDataPropertyExpressions"/>
+      <xsd:element name="IsDataPropertyFunctional" type="dig:RequestWithOneObjectPropertyExpression"/>
+      <xsd:element name="GetDataPropertyHierarchy" type="dig:RequestToOntology"/>
+      <xsd:element name="GetDataPropertyHierarchyNodeByNodeID" type="dig:RequestWithNodeID"/>
+      <xsd:element name="GetDataPropertyHierarchyNodeByDataProperty" type="dig:RequestWithOneDataProperty"/>
+      <xsd:element name="GetParentDataPropertyHierarchyNodes" type="dig:RequestWithOneDataPropertyBoolean"/>
+      <xsd:element name="GetChildDataPropertyHierarchyNodes" type="dig:RequestWithOneDataPropertyBoolean"/>
+      <xsd:element name="GetIndividualTypes" type="dig:RequestWithOneIndividualBoolean"/>
+      <xsd:element name="GetIndividualFillers" type="dig:RequestWithOneIndividual"/>
+      <xsd:element name="GetObjectPropertiesBetween" type="dig:RequestWithTwoIndividuals"/>
+      <xsd:element name="GetDataPropertiesBetween" type="dig:RequestWithIndividualConstant"/>
+    </xsd:choice>
+  </xsd:group>
+
+  <xsd:element name="RequestMessage">
+    <xsd:complexType>
+      <xsd:group ref="dig:Request" minOccurs="1" maxOccurs="unbounded"/>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="ClassHierarchyNode">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="nodeID" type="xsd:string"/>
+        <xsd:element ref="owl11xml:OWLClass" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element name="SuperNodeID" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+        <xsd:element name="SubNodeID" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="ObjectPropertyHierarchyNode">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="nodeID" type="xsd:string"/>
+        <xsd:element ref="owl11xml:ObjectProperty" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element name="SuperNodeID" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+        <xsd:element name="SubNodeID" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="DataPropertyHierarchyNode">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="nodeID" type="xsd:string"/>
+        <xsd:element ref="owl11xml:DataProperty" minOccurs="0" maxOccurs="unbounded"/>
+        <xsd:element name="SuperNodeID" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+        <xsd:element name="SubNodeID" minOccurs="0" maxOccurs="unbounded" type="xsd:string"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:group name="Response">
+    <xsd:choice>
+      <xsd:element name="MessageFormatError">
+        <xsd:complexType>
+          <xsd:attribute name="errorMessage" type="xsd:string"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Error">
+        <xsd:complexType>
+          <xsd:attribute name="errorCode" type="xsd:nonNegativeInteger"/>
+          <xsd:attribute name="errorMessage" type="xsd:string"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Confirmation"/>
+      <xsd:element name="BooleanValue">
+        <xsd:complexType>
+          <xsd:attribute name="result" type="xsd:boolean"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DIGDescription">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="SupportedRequest" minOccurs="0" maxOccurs="unbounded">
+              <xsd:complexType>
+                <xsd:attribute name="requestName" type="xsd:anyURI"/>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+          <xsd:attribute name="name" type="xsd:string"/>
+          <xsd:attribute name="version" type="xsd:string"/>
+          <xsd:attribute name="message" type="xsd:string"/>
+          <xsd:attribute name="supportedLanguage" type="xsd:string"/>
+          <xsd:attribute name="supportsAnnotations" type="xsd:boolean"/>
+          <xsd:attribute name="supportsImports" type="xsd:boolean"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SetOfImports">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="owl11xml:Imports" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SetOfAnnotations">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:group ref="owl11xml:Annotation" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="OntologyCreated">
+        <xsd:complexType>
+          <xsd:attribute name="ontologyURI" type="xsd:anyURI"/>
+        </xsd:complexType>
+      </xsd:element>
+    <xsd:element name="SetOfEntities">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:group ref="owl11xml:OWLEntity" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="OneClassHierarchyNode">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="dig:ObjectPropertyHierarchyNode"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SetOfClassHierarchyNodes">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="dig:ObjectPropertyHierarchyNode" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="OneObjectPropertyHierarchyNode">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="dig:ObjectPropertyHierarchyNode"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SetOfObjectPropertyHierarchyNodes">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="dig:ObjectPropertyHierarchyNode" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="OneDataPropertyHierarchyNode">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="dig:DataPropertyHierarchyNode"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SetOfDataPropertyHierarchyNodes">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="dig:DataPropertyHierarchyNode" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="IndividualFillers">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ObjectPropertyFiller" minOccurs="0" maxOccurs="unbounded">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element ref="owl11xml:ObjectProperty"/>
+                  <xsd:element ref="owl11xml:Individual"/>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="DataPropertyFiller" minOccurs="0" maxOccurs="unbounded">
+              <xsd:complexType>
+                <xsd:sequence>
+                  <xsd:element ref="owl11xml:DataProperty"/>
+                  <xsd:element ref="owl11xml:Constant"/>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:choice>
+  </xsd:group>
+
+  <xsd:element name="ResponseMessage">
+    <xsd:complexType>
+      <xsd:group ref="dig:Response" minOccurs="1" maxOccurs="unbounded"/>
+    </xsd:complexType>
+  </xsd:element>
+
+</xsd:schema>

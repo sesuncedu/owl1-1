@@ -1,0 +1,105 @@
+package id38cm7esylhqwfesyncitn;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dig.Request:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dig.Response:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference22 {
+}/**
+@__ref <oiref:java#Class#dig.GetAllOWLCLasses:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference23 {
+}/**
+@__ref <oiref:java#Class#dig.RequestToOntology:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference29 {
+}/**
+@__ref <oiref:java#Class#dig.GetAllObjectProperties:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference31 {
+}/**
+@__ref <oiref:java#Class#dig.GetAllIndividuals:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference33 {
+}/**
+@__ref <oiref:java#Class#dig.GetAllDataProperties:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference35 {
+}/**
+@__ref <oiref:java#Class#dig.GetAllDatatypes:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference65 {
+}/**
+@__ref <oiref:java#Class#dig.SetOfEntites:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference10 {
+}/**
+@__ref <oiref:java#Class#owl.OWLEntity:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference11 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Extends#dig.GetAllOWLCLasses#dig.Request:oiref>=145,249,145,145,141,145,141,115:oigroup>
+<oigroup:<oiref:java#Class#dig.GetAllObjectProperties:oiref>=180,326,139,59,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.SetOfEntites#entities:oiref>=532,201,46,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetAllDatatypes#dig.RequestToOntology:oiref>=82,324,82,287,253,287,253,233:oigroup>
+<oigroup:<oiref:java#Class#dig.Response:oiref>=450,49,67,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.SetOfEntites:oiref>=448,172,80,59,1:oigroup>
+<oigroup:<oiref:java#Class#dig.GetAllIndividuals:oiref>=377,330,102,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetAllObjectProperties#dig.RequestToOntology:oiref>=240,326,240,287,253,287,253,233:oigroup>
+<oigroup:<oiref:java#Member#dig.Request#requestID:oiref>=253,78,0,0,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.SetOfEntites#entities:oiref>=528,201,662,201:oigroup>
+<oigroup:<oiref:java#Class#dig.Request:oiref>=225,51,63,59,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetAllIndividuals#dig.RequestToOntology:oiref>=418,330,418,287,253,287,253,233:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetAllDataProperties#dig.RequestToOntology:oiref>=350,410,350,287,253,287,253,233:oigroup>
+<oigroup:<oiref:java#Class#dig.RequestToOntology:oiref>=189,165,128,68,1:oigroup>
+<oigroup:<oiref:java#Class#dig.GetAllDataProperties:oiref>=296,410,128,59,1:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.SetOfEntites#entities:oiref>=563,169,65,32,0:oigroup>
+<oigroup:<oiref:java#Class#dig.GetAllDatatypes:oiref>=42,324,99,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dig.Request#response:oiref>=259,81,429,81:oigroup>
+<oigroup:<oiref:java#Extends#dig.RequestToOntology#dig.Request:oiref>=256,165,256,110:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.SetOfEntites#entities:oiref>=634,177,24,19,0:oigroup>
+<oigroup:<oiref:java#Extends#dig.GetAllOWLCLasses#dig.RequestToOntology:oiref>=157,405,157,287,253,287,253,233:oigroup>
+<oigroup:<oiref:java#Extends#dig.BooleanValue#dig.Response:oiref>=805,171,805,138,724,138,724,108:oigroup>
+<oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=662,169,93,68,1:oigroup>
+<oigroup:<oiref:java#Extends#dig.SetOfEntites#dig.Response:oiref>=483,172,483,108:oigroup>
+<oigroup:<oiref:java#Class#dig.GetAllOWLCLasses:oiref>=107,405,120,59,1:oigroup>
+*/
+class __positions {
+}
