@@ -1,0 +1,12 @@
+#summary List of implementations claiming to support OWL 1.1
+
+= Tools supporting OWL 1.1 =
+
+This is just a summary table at the moment, scraped from the [http://owl1_1.cs.manchester.ac.uk/ OWL 1.1 page] at the Univeristy of Manchetser. (I'm not sure a table is the best way because "coverage" seems to need a lot of description to be useful. --Bijan)
+
+|| Name || Type || Maturity || Coverage ||
+|| [http://protege.stanford.edu/download/prerelease-alpha/prototype.html Protege] || Editor || Alpha || Complete ||
+|| [http://pellet.owldl.com/#Download SWOOP] || Editor || Experimental || Browse only ||
+|| [http://pellet.owldl.com/#Download Pellet 1.4] || Reasoner || Final release || No nary datatypes||
+|| [http://owl.man.ac.uk/factplusplus FaCT++]|| Reasoner || ?? || ?? ||
+|| [http://www.topbraidcomposer.com/ TopBraid Composer 2.0]|| Editor || Final release?? || ?? ||
