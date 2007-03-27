@@ -1,4 +1,5 @@
 #summary List of implementations claiming to support OWL 1.1
+#labels Featured
 
 This is just a summary table at the moment, scraped from the [http://owl1_1.cs.manchester.ac.uk/ OWL 1.1 page] at the Univeristy of Manchetser. (I'm not sure a table is the best way because "coverage" seems to need a lot of description to be useful. --Bijan)
 
