@@ -1,0 +1,4 @@
+#summary A list of example ontologies using OWL 1.1 features, syntax, etc.
+
+|| Name || Syntax || Comment ||
+|| [http://www.owldl.com/ontologies/family.owl family.owl]|| RDF/XML || Hand crafted example ontology ||
