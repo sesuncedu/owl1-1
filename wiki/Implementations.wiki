@@ -4,7 +4,7 @@ This is just a summary table at the moment, scraped from the [http://owl1_1.cs.m
 
 || Name || Type || Maturity || Coverage || Comment ||
 || [http://protege.stanford.edu/download/prerelease-alpha/prototype.html Protege] || Editor || Alpha || Complete || Uses OWL API; connects directly to Pellet or FaCT++||
-|| [http://pellet.owldl.com/#Download SWOOP] || Editor || Experimental || Browse only || ??||
+|| [http://pellet.owldl.com/#Download SWOOP] || Editor || Experimental || Browse only || ?? ||
 || [http://pellet.owldl.com/#Download Pellet 1.4] || Reasoner || Final release || No nary datatypes|| ||
 || [http://owl.man.ac.uk/factplusplus FaCT++]|| Reasoner || ?? || ?? || ||
 || [http://www.topbraidcomposer.com/ TopBraid Composer 2.0]|| Editor || Final release?? || ?? || Bundles Pellet||
