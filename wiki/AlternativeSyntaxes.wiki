@@ -1,0 +1,20 @@
+#summary Discussion and pointers to various syntaxes for OWL 1.1
+
+The OWL 1.1 specs contain at least three concrete syntaxes: Functional, an XML variant of the Functional, and the RDF versions. However, people are proposing more all the time! Some are, perhaps, merely UI, that is, not intended for exchange. For example, the only standardized exchange syntax for OWL 1.0 is the RDF/XML syntax (even though the Functions/"Abstract" syntax is also "standard", and several tools parse and emit it).
+
+Also, sometimes a completely independantly developed language turns out to be a notational variant of OWL (or OWL 1.1; e.g., [http://www.mindswap.org/2005/services-policies/ WS-Policy]).
+
+== RDF based ==
+All of these are determined by the RDF Mapping.
+
+ * RDF/XML
+ * Turtle
+
+== Natural Language-esque ==
+ * Sydny Syntax
+ * Attempto
+ * others...
+
+== Other ==
+ * OBO
+ * SOF
