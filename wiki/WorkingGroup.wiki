@@ -1,0 +1,5 @@
+#summary Contains discussion of OWL 1.1 standardization efforts
+
+The OWL 1.1 documents were accepted as a [http://www.w3.org/Submission/2006/10/ Member Submission] by the W3C. This does _not_ give them any official status; it merely communicates to the W3C that some members are interested in persuing this work and publishes the work in a highly visible location.
+
+There is a [http://webontowl.googlepages.com/26-03-2007NextOntProposedCharter.html proposed charter] for a "NextWebOnt" working group that would take the OWL 1.1 submission as a starting point. (BJP: My [http://clarkparsia.com/weblog/2007/02/21/owl-11-submission-accepted/ blog post] on the submission has links to some charter discussion.)
