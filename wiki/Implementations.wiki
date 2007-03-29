@@ -10,3 +10,6 @@ This is just a summary table at the moment, scraped from the [http://owl1_1.cs.m
 || [http://owl.man.ac.uk/factplusplus FaCT++]|| Reasoner || ?? || ?? || ||
 || [http://www.topbraidcomposer.com/ TopBraid Composer 2.0]|| Editor || Final release?? || ?? || Bundles Pellet||
 || [http://sourceforge.net/projects/owlapi OWL API] || API || ?? || Complete || ||
+
+
+Other OWL implementations may support OWL 1.1 features, but perhaps not the specific syntax (though this might be a namespace change away). For example, both RacerPro and KAON2 support qualified number restrictions.
