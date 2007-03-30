@@ -16,5 +16,7 @@ All of these are determined by the RDF Mapping.
  * others...
 
 == Other ==
+ * Manchester Syntax (for class expressions)
  * OBO
  * SOF
+ * UML?
