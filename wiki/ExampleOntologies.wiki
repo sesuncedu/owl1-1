@@ -1,4 +1,5 @@
 #summary A list of example ontologies using OWL 1.1 features, syntax, etc.
+#labels Featured
 
 (Feel free to send Bijan pointers or examples. We can host them in svn on this server, or in a number of alternative places. Tutorial style examples are welcome.)
 
