@@ -1,5 +1,7 @@
 #summary A list of example ontologies using OWL 1.1 features, syntax, etc.
 
+(Feel free to send Bijan pointers or examples. We can host them in svn on this server, or in a number of alternative places. Tutorial style examples are welcome.)
+
 || Name || Syntax || Comment ||
 || [http://www.owldl.com/ontologies/family.owl family.owl]|| RDF/XML || Example ontology demoing OWL 1.1 features||
 ||[http://owl1-1.googlecode.com/svn/trunk/ontologies/galen-original-owl1.1.owl Galen] ([http://owl1-1.googlecode.com/svn/trunk/ontologies/galen-simplified-owl1.1.owl simplified version] || RDF/XML|| A version of the [http://www.co-ode.org/galen/index.php Galen] biomedical ontology. It has some role inclusion axioms, e.g, involving the "hasLocation" property (submitted by Dmitry Tsarkov)||
