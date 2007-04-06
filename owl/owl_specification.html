@@ -6,51 +6,56 @@
   <link href="images/owl-icon.png" rel="shortcut icon">
   <link href="css/W3C-Member-SUBM.css" type="text/css" rel="stylesheet">
   <link href="css/owl.css" type="text/css" rel="stylesheet">
+</head>
 <body>
 
 <div class="head">
 <h1 class="mainTitle"><img style="float: right; height: 200px;" alt="owl" src="images/owl.png">OWL 1.1 Web Ontology Language<br>
 Structural Specification and Functional-Style Syntax</h1>
-<h2><a id="editordraft" name="editordraft"></a>Editor's Draft of 07 February 2007</h2>
+<h2><a id="editordraft" name="editordraft"></a>Editor's Draft of 10 April 2007</h2>
 <dl>
   <dt>This version:</dt>
-  <dd><a href="http://owl1-1.cs.manchester.ac.uk/syntax.html">http://owl1-1.cs.manchester.ac.uk/syntax.html</a></dd>
+  <dd><a href="http://webont.com/owl/1.1/owl_specification.html">http://webont.com/owl/1.1/owl_specification.html</a></dd>
   <dt>Latest version:</dt>
-  <dd><a href="http://owl1-1.cs.manchester.ac.uk/syntax.html">http://owl1-1.cs.manchester.ac.uk/syntax.html</a></dd>
+  <dd><a href="http://webont.com/owl/1.1/owl_specification.html">http://webont.com/owl/1.1/owl_specification.html</a></dd>
+  <dt>Previous version:</dt>
+  <dd><a href="http://www.w3.org/Submission/2006/SUBM-owl11-owl_specification-20061219/">http://www.w3.org/Submission/2006/SUBM-owl11-owl_specification-20061219/</a></dd>
   <dt>Authors:</dt>
+  <dd><a href="http://www.cs.man.ac.uk/~bmotik">Boris Motik</a>, The University of Manchester</dd> 
   <dd><a href="http://www.bell-labs.com/user/pfps/">Peter F. Patel-Schneider</a>, Bell Labs Research, Lucent Technologies</dd>
   <dd><a href="http://www.cs.man.ac.uk/~horrocks">Ian Horrocks</a>, The University of Manchester</dd>
-  <dd><a href="http://www.cs.man.ac.uk/~bmotik">Boris Motik</a>, The University of Manchester</dd>
 </dl>
-</div>
-
+<p class=copyright>Copyright &copy; 2006-2007 by the Authors. This document is available under the
+<a href="http://www.w3.org/Consortium/Legal/copyright-documents" shape=rect>W3C Document License</a>.
+See the <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright" shape=rect>W3C Intellectual Rights Notice and Legal Disclaimers</a>
+for additional information.</p>
 <hr>
+</div>
 
 <div class="abstract">
 <h2 class="notoc"><a id="abstract" name="abstract">Abstract</a></h2>
-<p>OWL 1.1 extends OWL DL in several ways: the underlying Description Logic is extended to
-[<cite><a href="#ref-sroiq">SROIQ</a></cite>], which provides increased expressive
-power with respect to properties and cardinality restrictions;
-user-defined datatypes and restrictions involving datatype predicates;
-a weak form of meta-modelling known as punning; and a semantics-free comment mechanism.
-This document defines a functional-style syntax for OWL 1.1, and provides an
+<p>OWL 1.1 extends the W3C OWL Web Ontology Language with a small but useful set of features 
+that have been requested by users, for which effective reasoning algorithms are now available, 
+and that OWL tool developers are willing to support. The new features include extra syntactic 
+sugar, additional property and qualified cardinality constructors, extended datatype support, 
+simple metamodelling, and extended annotations. This document defines a functional-style syntax 
+for OWL 1.1, and provides an
 informal discussion of the meaning of the additional constructs.</p>
 </div>
 
 <div class="status">
 <h2 class="notoc"><a id="status" name="status">Status of this Document</a></h2>
-<p><strong>This is a editor's draft, for comment by the OWL community.</strong></p>
-<p>When approved, this document will serve as a target for
-implementation by the major developers of OWL systems.</p>
-<p>This document has been produced for approval of the ad-hoc OWL
-community. Comments, both from within and without the community, are
-welcome. Although the development of OWL 1.1 is not a W3C activity,
-public comments should be sent to <a href="mailto:semantic-web@w3c.org">semantic-web@w3c.org</a> (<a href="http://lists.w3.org/Archives/Public/semantic-web/">archive</a>)
-to ensure wide visibility.</p>
-</div>
+<p><strong>This is an editor's draft, for comment by the OWL community.</strong></p>
 
+<p>This document is an evolution of the 
+<a href="http://www.w3.org/Submission/2006/SUBM-owl11-owl_specification-20061219/">OWL 1.1 Web Ontology Language: Structural 
+Specification and Functional-Style Syntax</a> document that forms part of the 
+<a href="http://www.w3.org/Submission/2006/10/">OWL 1.1 Web Ontology Language W3C Member Submission</a>.
+Comments are welcome. Please send feedback to <a href="mailto:public-owl-dev@w3.org">public-owl-dev@w3.org</a>,
+which has a <a href="http://lists.w3.org/Archives/Public/public-owl-dev/">public archive</a>. Bug reports
+can be directed there. Please check the <a href="http://code.google.com/p/owl1-1/issues/list">issues list</a>
+first.</p></div>
 <hr>
-
 
 <div class="toc">
 <h2 class="notoc"><a id="toc" name="toc">Table of Contents</a></h2>
@@ -1072,9 +1077,8 @@ of a name. For example, the above mentioned axiom can be represented in OWL 1.1 
 is intended to be interpreted as an object property and
 <span class="name">Animal</span> as a class.</p>
 
-
-
 <hr>
+
 
 <h2><a name="references"></a>References</h2>
 
