@@ -3,50 +3,55 @@
 <head>
   <title>OWL 1.1 Web Ontology Language: Mapping to RDF Graphs</title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-  <link href="images/owl-icon.png" rel="shortcut icon">
-  <link href="css/W3C-Member-SUBM.css" type="text/css" rel="stylesheet">
   <link href="css/owl.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="http://www.w3.org/StyleSheets/TR/W3C-Member-SUBM">
+  <link href="images/owl-icon.png" rel="shortcut icon">
 </head>
 <body>
 
 <div class="head">
 <h1 class="mainTitle"><img style="float: right; height: 200px;" alt="owl" src="images/owl.png">OWL 1.1 Web Ontology Language<br>
 Mapping to RDF Graphs</h1>
-<h2><a id="editordraft" name="editordraft"></a>Editor's Draft of 07 February 2007</h2>
+<h2><a id="editordraft" name="editordraft"></a>Editor's Draft of 10 April 2007</h2>
 <dl>
   <dt>This version:</dt>
   <dd><a href="http://owl1-1.cs.manchester.ac.uk/rdf_mapping.html">http://owl1-1.cs.manchester.ac.uk/rdf_mapping.html</a></dd>
   <dt>Latest version:</dt>
   <dd><a href="http://owl1-1.cs.manchester.ac.uk/rdf_mapping.html">http://owl1-1.cs.manchester.ac.uk/rdf_mapping.html</a></dd>
-  <dt>Authors:</dt>
+  <dt>Previous version:</dt>
+  <dd><a href="http://www.w3.org/Submission/2006/SUBM-owl11-rdf_mapping-20061219/">http://www.w3.org/Submission/2006/SUBM-owl11-rdf_mapping-20061219/</a></dd><dt>Authors:</dt>
   <dd><a href="http://www.cs.man.ac.uk/~bcg">Bernardo Cuenca Grau</a>, The University of Manchester</dd>
   <dd><a href="http://www.cs.man.ac.uk/~bmotik">Boris Motik</a>, The University of Manchester</dd>
   <dt>Contributors:</dt>
   <dd><a href="http://www.cs.man.ac.uk/~horrocks/">Ian Horrocks</a>, The University of Manchester</dd>
-  <dd>Bijan Parsia, The University of Manchester</dd>
+  <dd><a href="http://www.cs.man.ac.uk/~bparsia">Bijan Parsia</a>, The University of Manchester</dd>
 </dl>
+<p class="copyright">Copyright &copy; 2006-2007 by the Authors. 
+This document is available under the
+<a href="http://www.w3.org/Consortium/Legal/copyright-documents" shape="rect">W3C Document License</a>.
+See the <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright" shape="rect">W3C Intellectual Rights Notice and Legal Disclaimers</a>
+for additional information.</p>
 </div>
-
 <hr>
 
 <div class="abstract">
 <h2 class="notoc"><a id="abstract" name="abstract">Abstract</a></h2>
-<p> This document defines the mapping from the functional-style syntax
-for OWL 1.1 to the RDF/XML exchange syntax and back.</p>
+<p>OWL 1.1 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodelling, and extended annotations. This document provides a mapping from the functional-style syntax of OWL 1.1
+to the RDF exchange syntax for OWL 1.1,
+and vice versa.</p>
 </div>
 
 <div class="status">
 <h2 class="notoc"><a id="status" name="status">Status of this Document</a></h2>
-<p><strong>This is a editor's draft, for comment by the OWL community.</strong></p>
-<p>This document has been produced for approval of the ad-hoc OWL
-community. Comments, both from within and without the community, are
-welcome. Although the development of OWL 1.1 is not a W3C activity,
-public comments
-should be sent to the <a href="mailto:public-owl-dev@w3.org">
-public-owl-dev@w3.org </a> list
-to ensure widest visibility.</p>
+<p><strong>This is an editor's draft, for comment by the OWL community.</strong></p>
+<p>This document is an evolution of the 
+<a href="http://www.w3.org/Submission/2006/SUBM-owl11-rdf_mapping-20061219/">OWL 1.1 Web Ontology Language: Mapping to RDF Graphs</a> document that forms part of the 
+<a href="http://www.w3.org/Submission/2006/10/">OWL 1.1 Web Ontology Language W3C Member Submission</a>.
+Comments are welcome. Please send feedback to <a href="mailto:public-owl-dev@w3.org">public-owl-dev@w3.org</a>,
+which has a <a href="http://lists.w3.org/Archives/Public/public-owl-dev/">public archive</a>. Bug reports
+can be directed there. Please check the <a href="http://code.google.com/p/owl1-1/issues/list">issues list</a>
+first.</p>
 </div>
-
 <hr>
 
 <div class="toc">
@@ -115,7 +120,7 @@ Full URIs are abbreviated using namespaces as usual.</p>
 </div>
 
 
-<h2>1 <a name="2">Translation from Functional-Style Syntax to RDF Graphs</a></h2>
+<h2>2 <a name="2">Translation from Functional-Style Syntax to RDF Graphs</a></h2>
 
 <p>As explained in [<cite><a href="#ref-owl-1.1-specification">OWL 1.1 Specification</a></cite>],
 OWL 1.1 syntax is fully typed -- that is, from the syntax, one can immediately see
@@ -500,7 +505,7 @@ in functional-style syntax into a set of RDF triples. This table does not consid
   <td>
     _:x rdf:type RESTRICTION[dp]<br>
     _:x owl:minCardinality "n"^^xsd:nonNegativeInteger<br>
-    _:x owl:onProperty T(op)
+    _:x owl:onProperty T(dp)
   </td>
   <td>_:x</td>
 </tr>
@@ -509,7 +514,7 @@ in functional-style syntax into a set of RDF triples. This table does not consid
   <td>
     _:x rdf:type RESTRICTION[dp]<br>
     _:x owl:maxCardinality "n"^^xsd:nonNegativeInteger<br>
-    _:x owl:onProperty T(op)
+    _:x owl:onProperty T(dp)
   </td>
   <td>_:x</td>
 </tr>
@@ -518,7 +523,7 @@ in functional-style syntax into a set of RDF triples. This table does not consid
   <td>
     _:x rdf:type RESTRICTION[dp]<br>
     _:x owl:cardinality "n"^^xsd:nonNegativeInteger<br>
-    _:x owl:onProperty T(op)
+    _:x owl:onProperty T(dp)
   </td>
   <td>_:x</td>
 </tr>
@@ -809,7 +814,7 @@ added if an assertion contains an annotation:</p>
   
 
 
-<h2>2 <a name="2">Translation from RDF Graphs to Functional-Style Syntax</a></h2>
+<h2>3 <a name="3">Translation from RDF Graphs to Functional-Style Syntax</a></h2>
 
 <p>This section specifies how to translate a set of RDF triples <span class="name">G</span> into an
 OWL 1.1 ontology in functional-style syntax <span class="name">O</span>, if possible.
@@ -1641,6 +1646,7 @@ occurring in the second column of Table 7 for each triple pattern from the first
 (including the patterns used to define <span class="name">Type(x)</span>), then
 <span class="name">G</span> cannot be translated into an OWL 1.1 ontology.</p>
 
+
 <hr>
 
 <h2><a id="References" name="References">References</a></h2>
@@ -1656,6 +1662,12 @@ occurring in the second column of Table 7 for each triple pattern from the first
   <dd>
     <cite><a href="semantics.html">OWL 1.1 Web Ontology Language: Model-Theoretic Semantics</a></cite>.
     Bernardo Cuenca Grau and Boris Motik, eds., 2006.
+  </dd>
+
+  <dt><a id="ref-rdf-semantics">[RDF Semantics]</a></dt>
+  <dd>
+    <cite><a href="http://www.w3.org/TR/rdf-mt/">RDF Semantics</a></cite>.
+    Patrick Hayes, Editor, W3C Recommendation, 10 February 2004, http://www.w3.org/TR/2004/REC-rdf-mt-20040210/.
   </dd>
 
 </dl>
