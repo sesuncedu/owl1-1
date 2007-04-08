@@ -1,0 +1,3 @@
+#summary What's this term?
+
+The [http://www.w3.org/2001/sw/WebOnt/ Web Ontology Working Group], which standardize OWL, was colloquially refered to as "WebOnt". Some people have taken to refering to a future working group to extend OWL as "NextWebOnt".
