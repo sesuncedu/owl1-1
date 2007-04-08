@@ -1,0 +1,3 @@
+#summary What's *this* term?
+
+A colloquial name for the (now closed) [http://www.w3.org/2001/sw/WebOnt/ Web Ontology] Working Group.
