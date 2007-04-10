@@ -35,7 +35,17 @@
     <owl:Class rdf:about="#Casing"/>
     
     <!-- An example of qualified cardinality restricitons. Note that #Pump is unsatisfiable 
-	 due to the conflicting numbers of casings required/allowed. -->
+	 due to the conflicting numbers of casings required/allowed.
+    
+    Seeded from:
+    <http://lists.w3.org/Archives/Public/public-owl-dev/2007AprJun/0010.html>
+    "Any member of the Pump class hasAsPart:
+	- 2 to 6 members of the Bearing class
+	- 1 member of the Casing class
+	- 0 to 1 member of the VibrationMonitor class "
+    
+    There's a spurious min restriciton in order to generate an unsatisfiable class.
+    -->
     <owl:Class rdf:about="#Pump">
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -65,6 +75,8 @@
                 <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
+        
+        <!-- Added by Bijan Parsia in order to generate an unsatisfiability -->
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="#hasAsPart"/>
