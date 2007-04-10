@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!DOCTYPE owl11xml:Ontology [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY owl11 "http://www.w3.org/2006/12/owl11#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl11xml "http://www.w3.org/2006/12/owl11-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY example-for-teijgeler-qcrs "http://owl1-1.googlecode.com/svn/trunk/ontologies/example-for-teijgeler-qcrs.owl#" >
+]>
+
+<!-- Axioms: 5 -->
+
+<Ontology xmlns="http://www.w3.org/2006/12/owl11-xml#"
+    xml:base="http://owl1-1.googlecode.com/svn/trunk/ontologies/example-for-teijgeler-qcrs.owl"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:owl11="http://www.w3.org/2006/12/owl11#"
+     xmlns:o="http://www.w3.org/2006/12/owl11-xml#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:example-for-teijgeler-qcrs="http://owl1-1.googlecode.com/svn/trunk/ontologies/example-for-teijgeler-qcrs.owl#"
+    xsi:schemaLocation="http://www.w3.org/2006/12/owl11-xml#
+    http://www.cs.man.ac.uk/~bparsia/2007/temp/owl1.1.xsd"
+    o:ontologyURI="http://owl1-1.googlecode.com/svn/trunk/ontologies/example-for-teijgeler-qcrs.owl">
+    <Declaration>
+        <Comment> An example of qualified cardinality restricitons. Note that #Pump is unsatisfiable 
+            due to the conflicting numbers of casings required/allowed.
+            
+            Seeded from:
+            &http://lists.w3.org/Archives/Public/public-owl-dev/2007AprJun/0010.html&
+                "Any member of the Pump class hasAsPart:
+                - 2 to 6 members of the Bearing class
+                - 1 member of the Casing class
+                - 0 to 1 member of the VibrationMonitor class "
+                
+                There's a spurious min restriciton in order to generate an unsatisfiable class.
+                There is a comment on that axiom.
+        </Comment>
+        
+        <OWLClass o:URI="#Pump"/>
+    </Declaration>
+
+    <SubClassOf>
+        <OWLClass o:URI="#Pump"/>
+        <ObjectMaxCardinality o:cardinality="6">
+            <ObjectProperty o:URI="#hasAsPart"/>
+            <OWLClass o:URI="#Bearing"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass o:URI="#Pump"/>
+        <ObjectMinCardinality o:cardinality="2">
+            <ObjectProperty o:URI="#hasAsPart"/>
+            <OWLClass o:URI="#Bearing"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass o:URI="#Pump"/>
+        <ObjectMaxCardinality o:cardinality="1">
+            <ObjectProperty o:URI="#hasAsPart"/>
+            <OWLClass o:URI="#VibrationMonitor"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass o:URI="#Pump"/>
+        <ObjectExactCardinality o:cardinality="1">
+            <ObjectProperty o:URI="#hasAsPart"/>
+            <OWLClass o:URI="#Casing"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Comment>This axiom was added by me, Bijan Parsia, to make the class unsatisfiable. I did it in
+        order to show that qualified cardinality reasoning was really working :)</Comment>
+        <OWLClass o:URI="#Pump"/>
+        <ObjectMinCardinality o:cardinality="10">
+            <ObjectProperty o:URI="#hasAsPart"/>
+            <OWLClass o:URI="#Casing"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+</Ontology>
