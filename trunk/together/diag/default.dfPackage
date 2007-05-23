@@ -33,7 +33,7 @@ class link {
 */
 class link30 {
 }/**
-@__ref <oiref:design#Class#id4x6s3exvxa9j1exvxaup6.diagram:oiref><oihard>
+@__ref <oiref:design#Class#id3pq60f21us95kf21usvyq.diagram:oiref><oihard>
 @__modelType reference
 @__fqn <oiref:#Package#*svn:oiref> 
 */
@@ -50,7 +50,7 @@ class __options {
 }/**
 @__positions <oigroup:<oiref:design#Class#id4suvhesnkfgx6esnkjzjs.diagram:oiref>=10,10,63,63,1:oigroup>
 <oigroup:<oiref:design#Class#id18ig9esylhqwfesymp1av.diagram:oiref>=93,10,63,63,1:oigroup>
-<oigroup:<oiref:design#Class#id4x6s3exvxa9j1exvxaup6.diagram:oiref>=540,319,63,63,1:oigroup>
+<oigroup:<oiref:design#Class#id3pq60f21us95kf21usvyq.diagram:oiref>=540,319,63,63,1:oigroup>
 <oigroup:<oiref:design#Class#id18ig9esylhqwfesymp1av.diagram.link:oiref>=93,41,73,41:oigroup>
 */
 class __positions {
