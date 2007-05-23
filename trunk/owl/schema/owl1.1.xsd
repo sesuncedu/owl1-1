@@ -558,7 +558,7 @@
     </xsd:complexType>
   </xsd:element>
 
-  <xsd:element name="AntisymmetricObjectProperty">
+  <xsd:element name="AsymmetricObjectProperty">
     <xsd:complexType>
       <xsd:sequence>
         <xsd:group ref="owl11xml:Annotation" minOccurs="0" maxOccurs="unbounded"/>
@@ -766,7 +766,7 @@
       <xsd:element ref="owl11xml:FunctionalObjectProperty"/>
       <xsd:element ref="owl11xml:InverseFunctionalObjectProperty"/>
       <xsd:element ref="owl11xml:SymmetricObjectProperty"/>
-      <xsd:element ref="owl11xml:AntisymmetricObjectProperty"/>
+      <xsd:element ref="owl11xml:AsymmetricObjectProperty"/>
       <xsd:element ref="owl11xml:ReflexiveObjectProperty"/>
       <xsd:element ref="owl11xml:IrreflexiveObjectProperty"/>
       <xsd:element ref="owl11xml:TransitiveObjectProperty"/>

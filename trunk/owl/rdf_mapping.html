@@ -12,7 +12,7 @@
 <div class="head">
 <h1 class="mainTitle"><img style="float: right; height: 200px;" alt="owl" src="images/owl.png">OWL 1.1 Web Ontology Language<br>
 Mapping to RDF Graphs</h1>
-<h2><a id="editordraft" name="editordraft"></a>Editor's Draft of 6 April 2007</h2>
+<h2><a id="editordraft" name="editordraft"></a>Editor's Draft of 23 May 2007</h2>
 <dl>
   <dt>This version:</dt>
   <dd><a href="http://webont.com/owl/1.1/rdf_mapping.html">http://webont.com/owl/1.1/rdf_mapping.html</a></dd>
@@ -665,8 +665,8 @@ in functional-style syntax into a set of RDF triples. This table does not consid
   <td>&nbsp;</td>
 </tr>
 <tr>
-  <td class="name">AntisymmetricObjectProperty(op)</td>
-  <td>T(op) rdf:type owl11:AntisymmetricProperty</td>
+  <td class="name">AsymmetricObjectProperty(op)</td>
+  <td>T(op) rdf:type owl11:AsymmetricProperty</td>
   <td>&nbsp;</td>
 </tr>
 <tr>
@@ -868,7 +868,7 @@ conditions from Table 3.</p>
   <td>owl:ObjectProperty</td>
 </tr>
 <tr>
-  <td class="name">x rdf:type owl11:AntisymmetricProperty</td>
+  <td class="name">x rdf:type owl11:AsymmetricProperty</td>
   <td>owl:ObjectProperty</td>
 </tr>
 <tr>
@@ -980,7 +980,7 @@ such that there are no cyclic dependencies in the second condition; if this is n
     _:x rdf:type owl:DataRange<br>
     _:x owl:complementOf y
   </td>
-  <td class="name">DataComplementOf( DESC(y) )</td>
+  <td class="name">DataComplementOf( DRANGE(y) )</td>
 </tr>
 <tr>
   <td>
@@ -995,7 +995,7 @@ such that there are no cyclic dependencies in the second condition; if this is n
     _:x owl11:onDataRange y<br>
     _:x owl11:<i>facet</i> ct
   </td>
-  <td class="name">DatatypeRestriction( OP(y) facet ct )</td>
+  <td class="name">DatatypeRestriction( DRANGE(y) facet ct )</td>
 </tr>
 </table>
 </div>
@@ -1474,8 +1474,8 @@ occurring in the second column of Table 7 for each triple pattern from the first
   <td class="name">SymmetricObjectProperty( OP(x) )</td>
 </tr>
 <tr>
-  <td>x rdf:type owl11:AntisymmetricProperty</td>
-  <td class="name">AntisymmetricObjectProperty( OP(x) )</td>
+  <td>x rdf:type owl11:AsymmetricProperty</td>
+  <td class="name">AsymmetricObjectProperty( OP(x) )</td>
 </tr>
 <tr>
   <td>x owl11:subDataPropertyOf y</td>

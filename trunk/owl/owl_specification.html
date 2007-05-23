@@ -12,7 +12,7 @@
 <div class="head">
 <h1 class="mainTitle"><img style="float: right; height: 200px;" alt="owl" src="images/owl.png">OWL 1.1 Web Ontology Language<br>
 Structural Specification and Functional-Style Syntax</h1>
-<h2><a id="editordraft" name="editordraft"></a>Editor's Draft of 6 April 2007</h2>
+<h2><a id="editordraft" name="editordraft"></a>Editor's Draft of 23 May 2007</h2>
 <dl>
   <dt>This version:</dt>
   <dd><a href="http://webont.com/owl/1.1/owl_specification.html">http://webont.com/owl/1.1/owl_specification.html</a></dd>
@@ -106,8 +106,8 @@ first.</p></div>
 <h2><a name="1"></a>1 Introduction</h2>
 
 <p>This document defines the structure of Web Ontology Language
-(OWL) 1.1. Unified Modeling
-Language (UML) class diagrams are used in order to make the definition precise; the structure of OWL 1.1 ontologies is thus specified in a
+(OWL) 1.1. Unified Modeling Language (UML) class diagrams are used in order to make the definition precise.
+The structure of OWL 1.1 ontologies is thus specified in a
 structural way, by considering an ontology to be a collection of interconnected
 objects. Moreover, since the structure of OWL 1.1 objects (ontologies, axioms, etc.)
 is defined using well-understood notions of composition, sets, and lists,
@@ -138,7 +138,7 @@ zero or more instances of a symbol is denoted with curly braces
 (e.g., <span class="name">{ </span><span class="nonterminal">description</span><span class="name"> }</span>),
 alternative productions are denoted with the vertical bar (e.g.,
 <span class="nonterminal">fact</span><span class="name"> | </span><span class="nonterminal">declaration</span>),
-and zero ore one instances of a symbol are denoted with square brackets
+and zero or one instances of a symbol are denoted with square brackets
 (e.g., <span class="name">[ </span><span class="nonterminal">description</span><span class="name"> ]</span>).</p>
 
 <h3><a name="2.1"></a>2.1 Associations and Object Equivalence</h3>
@@ -734,7 +734,7 @@ axioms are described by the following grammar:</p>
   <span class="nonterminal">reflexiveObjectProperty</span> := 'ReflexiveObjectProperty' '(' { <span class="nonterminal">annotation</span> } <span class="nonterminal">objectPropertyExpression</span> ')'<br>
   <span class="nonterminal">irreflexiveObjectProperty</span> := 'IrreflexiveObjectProperty' '(' { <span class="nonterminal">annotation</span> } <span class="nonterminal">objectPropertyExpression</span> ')'<br>
   <span class="nonterminal">symetricObjectProperty</span> := 'SymmetricObjectProperty' '(' { <span class="nonterminal">annotation</span> } <span class="nonterminal">objectPropertyExpression</span> ')'<br>
-  <span class="nonterminal">antisymetricObjectProperty</span> := 'AntisymmetricObjectProperty' '(' { <span class="nonterminal">annotation</span> } <span class="nonterminal">objectPropertyExpression</span> ')'<br>
+  <span class="nonterminal">asymetricObjectProperty</span> := 'AsymmetricObjectProperty' '(' { <span class="nonterminal">annotation</span> } <span class="nonterminal">objectPropertyExpression</span> ')'<br>
   <span class="nonterminal">transitiveObjectProperty</span> := 'TransitiveObjectProperty' '(' { <span class="nonterminal">annotation</span> } <span class="nonterminal">objectPropertyExpression</span> ')'
 </p>
 
@@ -750,7 +750,7 @@ axioms are described by the following grammar:</p>
   &nbsp;&nbsp;&nbsp; <span class="nonterminal">objectPropertyDomain</span> | <span class="nonterminal">objectPropertyRange</span> |<br>
   &nbsp;&nbsp;&nbsp; <span class="nonterminal">functionalObjectProperty</span> | <span class="nonterminal">inverseFunctionalObjectProperty</span> |<br>
   &nbsp;&nbsp;&nbsp; <span class="nonterminal">reflexiveObjectProperty</span> | <span class="nonterminal">irreflexiveObjectProperty</span> |<br>
-  &nbsp;&nbsp;&nbsp; <span class="nonterminal">symetricObjectProperty</span> | <span class="nonterminal">antisymetricObjectProperty</span> |<br>
+  &nbsp;&nbsp;&nbsp; <span class="nonterminal">symetricObjectProperty</span> | <span class="nonterminal">asymetricObjectProperty</span> |<br>
   &nbsp;&nbsp;&nbsp; <span class="nonterminal">transitiveObjectProperty</span>
 </p>
 
@@ -874,7 +874,7 @@ that are simple in <span class="name">Ax</span> are allowed to occur in
 
   <li><span class="name">ObjectPropertyFunctional</span> and <span class="name">InverseFunctionalObjectProperty</span> axioms, and</li>
 
-  <li><span class="name">ObjectPropertyIrreflexive</span>, <span class="name">ObjectPropertyAntisymetric</span> and <span class="name">DisjointObjectProperty</span> axioms.</li>
+  <li><span class="name">ObjectPropertyIrreflexive</span>, <span class="name">ObjectPropertyAsymetric</span> and <span class="name">DisjointObjectProperty</span> axioms.</li>
 
 </ul>
 
@@ -890,16 +890,16 @@ fulfils the following conditions:</p>
   <li><span class="name">SUB</span> is of the form <span class="name">InverseObjectProperty(PE)</span>, or</li>
 
   <li><span class="name">SUB</span> is of the form
-  <span class="name">SubObjectPropertyChain(SPE<sub>1</sub> ... SPE<sub>n</sub>)</span> and
-  <span class="name">SPE<sub>i</sub> &lt; PE</span> for each 1 &lt;= i &lt;= n, or</li>
+  <span class="name">SubObjectPropertyChain(PE<sub>1</sub> ... PE<sub>n</sub>)</span> and
+  <span class="name">PE<sub>i</sub> &lt; PE</span> for each 1 &lt;= i &lt;= n, or</li>
 
   <li><span class="name">SUB</span> is of the form
-  <span class="name">SubObjectPropertyChain(PE SPE<sub>1</sub> ... SPE<sub>n</sub>)</span> and
-  <span class="name">SPE<sub>i</sub> &lt; PE</span> for each 1 &lt;= i &lt;= n, or</li>
+  <span class="name">SubObjectPropertyChain(PE PE<sub>1</sub> ... PE<sub>n</sub>)</span> and
+  <span class="name">PE<sub>i</sub> &lt; PE</span> for each 1 &lt;= i &lt;= n, or</li>
 
   <li><span class="name">SUB</span> is of the form
-  <span class="name">SubObjectPropertyChain(SPE<sub>1</sub> ... SPE<sub>n</sub> PE)</span> and
-  <span class="name">SPE<sub>i</sub> &lt; PE</span> for each 1 &lt;= i &lt;= n.</li>
+  <span class="name">SubObjectPropertyChain(PE<sub>1</sub> ... PE<sub>n</sub> PE)</span> and
+  <span class="name">PE<sub>i</sub> &lt; PE</span> for each 1 &lt;= i &lt;= n.</li>
 
 </ul>
 
