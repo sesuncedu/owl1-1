@@ -42,7 +42,7 @@
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ObjectPropertyExpression" abstract="true"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AntisymmetricObjectProperty" eSuperTypes="#//ObjectPropertyAxiom">
+  <eClassifiers xsi:type="ecore:EClass" name="AsymmetricObjectProperty" eSuperTypes="#//ObjectPropertyAxiom">
     <eStructuralFeatures xsi:type="ecore:EReference" name="objectPropertyExpression"
         lowerBound="1" eType="#//ObjectPropertyExpression"/>
   </eClassifiers>
