@@ -11,8 +11,8 @@ public class DataHasValue extends Description {
     /*#Constant constant;*/
     /**
      * @supplierCardinality 1
-     * @clientRole dataProperties
+     * @clientRole dataProperty
      * @directed
      */
-    /*#DataPropertyExpression dataProperties;*/
+    /*#DataPropertyExpression dataProperty;*/
 }
