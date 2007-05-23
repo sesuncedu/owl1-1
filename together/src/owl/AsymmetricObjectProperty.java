@@ -2,7 +2,7 @@
 
 package owl;
 
-public class AntisymmetricObjectProperty extends Axiom {
+public class AsymmetricObjectProperty extends Axiom {
     /**
      * @supplierCardinality 1
      * @clientRole objectProperty
