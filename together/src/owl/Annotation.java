@@ -4,10 +4,4 @@ package owl;
 
 public class Annotation {
     public String annotationURI;
-    /**
-     * @supplierCardinality 1
-     * @clientRole annotationValue
-     * @directed
-     */
-    public Constant annotationValue;
 }
