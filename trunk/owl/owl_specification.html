@@ -220,10 +220,11 @@ such as retraction of axioms.</p>
 
 <p>Ontologies and their elements are
 identified using International Resource Identifiers (IRIs) that are
-defined in IETF RFC 3987. The syntax of full IRIs in OWL 1.1 is as follows:</p>
+defined in [<cite><a href="#ref-rfc-3987">RFC-3987</a></cite>].
+The syntax of full IRIs in OWL 1.1 is as follows:</p>
 
 <p class="grammar">
-  <span class="nonterminal">Full-IRI</span> := '&lt;' IRI from RFC 3987 '&gt;'
+  <span class="nonterminal">Full-IRI</span> := '&lt;' IRI as defined in [<cite><a href="#ref-rfc-3987">RFC-3987</a></cite>] '&gt;'
 </p>
 
 <p>For readability, IRIs can be abbreviated using namespaces.
@@ -307,11 +308,26 @@ are, however, not expected to enforce this and can simply eliminate duplicates.<
 <p>Apart from a set of axioms, an OWL 1.1 ontology contains a
 set of annotations. These can be used to associate information with an
 ontology, such as the name of the ontology creator or the version of the
-ontology. An annotation consists of an annotation URI that specifies the type
-of annotation and a constant specifying the value of the annotation.
-An annotation URI can be any arbitrary URI. In OWL 1.0, <i>owl:imports</i>
-was a special annotation URI, which denotes that an ontology imports another
-ontology. In OWL 1.1, imports are not ontology annotations, but are a separate
+ontology. An annotation consists of an arbitrary annotation URI that specifies
+the type of annotation and a constant specifying the value of the annotation.
+OWL 1.1 allows for two kinds of annotation values:</p>
+
+<ul>
+
+  <li>Annotation values can be constants. Note that these need not be just
+  strings; rather, any OWL 1.1 constant can be used. For example, one can
+  create an annotation whose value is a URI formatted according to the
+  XML Schema <i>xsd:anyURI</i> type specification.</li>
+
+  <li>Annotation values can be ontology entities. Such annotations
+  make it clearer that the value is not just some constant, but an entity
+  from this or some other ontology.</li>
+
+</ul>
+
+<p>In OWL 1.0, <i>owl:imports</i> was a special annotation URI,
+which denotes that an ontology imports another ontology. In OWL 1.1, imports
+are not ontology annotations, but are a separate
 primitive, as discussed next; the <i>owl:imports</i> annotation property
 has no built-in meaning.</p>
 
@@ -357,8 +373,10 @@ axioms. For example, the axiom</p>
 
 <p class="grammar">
   <span class="nonterminal">annotationURI</span> := <span class="nonterminal">URI</span><br>
-  <span class="nonterminal">explicitAnnotation</span> := 'Annotation' '(' <span class="nonterminal">annotationURI</span> <span class="nonterminal">constant</span>')'<br>
-  <span class="nonterminal">annotation</span> := <span class="nonterminal">explicitAnnotation</span> | <span class="nonterminal">labelAnnotation</span> | <span class="nonterminal">commentAnnotation</span>
+  <span class="nonterminal">explicitAnnotationByConstant</span> := 'Annotation' '(' <span class="nonterminal">annotationURI</span> <span class="nonterminal">constant</span>')'<br>
+  <span class="nonterminal">annotationByConstant</span> := <span class="nonterminal">explicitAnnotationByConstant</span> | <span class="nonterminal">labelAnnotation</span> | <span class="nonterminal">commentAnnotation</span><br>
+  <span class="nonterminal">annotationByEntity</span> := 'Annotation' '(' <span class="nonterminal">annotationURI</span> <span class="nonterminal">entity</span>')'<br>
+  <span class="nonterminal">annotation</span> := <span class="nonterminal">annotationByConstant</span> | <span class="nonterminal">annotationByEntity</span>
 </p>
 
 <p>The syntax for OWL 1.1 ontology files is defined as follows:</p>
@@ -433,11 +451,12 @@ ontologies, and their hierarchy is shown in Figure 2.</p>
 
 <p>OWL 1.1 uses constants to describe atomic values, such as
 strings or integers. Constants consist of a string value optionally
-followed by a datatype URI, as specified in the RDF specification:</p>
+followed by a datatype URI, as specified in the RDF specification
+[<cite><a href="#ref-rdf-syntax">RDF Syntax</a></cite>]:</p>
 
 <p class="grammar">
   <span class="nonterminal">string</span> := '"' a Unicode string in normal form C '"'<br>
-  <span class="nonterminal">languageTag</span> := an XML language tag<br>
+  <span class="nonterminal">languageTag</span> := a language tag specified in [<cite><a href="#ref-rfc-3066">RFC-3066</a></cite>]<br>
   <span class="nonterminal">untypedConstant</span> := <span class="nonterminal">string</span> [ '@' <span class="nonterminal">languageTag</span> ]<br>
   <span class="nonterminal">typedConstant</span> := <span class="nonterminal">string</span> '^^' <span class="nonterminal">datatypeURI</span><br>
   <span class="nonterminal">constant</span> := <span class="nonterminal">typedConstant</span> | <span class="nonterminal">untypedConstant</span>
@@ -848,58 +867,114 @@ states the opposite. The grammar is as follows:</p>
 
 <p>As explained in [<cite><a href="#ref-sroiq">SROIQ</a></cite>], to obtain a decidable
 language, the axiom closure <span class="name">Ax</span> of each OWL 1.1 ontology must
-obey certain restrictions, as defined next.</p>
+obey certain <i>nonstructural restrictions</i>, as defined next. In this section, we assume that
+all object property expressions in <span class="name">Ax</span> are either object properties
+or inverses of an object property. This can be ensured by replacing all expressions
+<span class="name">InverseObjectProperty( InverseObjectProperty(PE) )</span>
+with <span class="name">PE</span>.</p>
 
-<p>An object property expression <span class="name">PE</span> is <i>simple</i> in <span class="name">Ax</span> if</p>
+<p>For an object property expression <span class="name">PE</span>, the <i>inverse property expression</i>
+<span class="name">INV(PE)</span> is defined as follows:</p>
 
 <ul>
 
-  <li>it is an object property and it does not occur in an axiom of the form <span class="name">SubObjectPropertyOf(SUB PE)</span>,</li>
+  <li>if <span class="name">PE</span> is an object property <span class="name">OP</span>,
+  then <span class="name">INV(PE) = InverseObjectProperty(OP)</span>;</li>
 
-  <li>it is of the form <span class="name ">InverseObjectProperty(IPE)</span> and <span class="name">IPE</span> is simple,</li>
-
-  <li>it does not occur in an <span class="name">ObjectPropertyTransitive</span> axiom and, in each axiom of the form
-  <span class="name">SubObjectPropertyOf(SUB PE)</span>, the expression <span class="name">SUB</span> is a single object
-  property expression and it is simple.</li>
+  <li>if <span class="name">PE</span> is of the form <span class="name">InverseObjectProperty(OP)</span> for
+  <span class="name">OP</span> an object property, then <span class="name">INV(PE) = OP</span>.</li>
 
 </ul>
 
-<p>In each axiom from <span class="name">Ax</span>, only object properties
-that are simple in <span class="name">Ax</span> are allowed to occur in
+<p>An object property expression <span class="name">PE</span> is <i>composite</i> in <span class="name">Ax</span> if
+<span class="name">Ax</span> contains an axiom of the form</p>
 
 <ul>
 
-  <li><span class="name">ObjectMinCardinality</span>, <span class="name">ObjectMaxCardinality</span>,
-  <span class="name">ObjectExactCardinality</span>, and <span class="name">ObjectExistsSelf</span> classes,</li>
+  <li><span class="name">SubObjectPropertyOf(SubObjectPropertyChain(PE<sub>1</sub> ... PE<sub>n</sub>) PE)</span> with n > 1, or</li>
 
-  <li><span class="name">ObjectPropertyFunctional</span> and <span class="name">InverseFunctionalObjectProperty</span> axioms, and</li>
+  <li><span class="name">SubObjectPropertyOf(SubObjectPropertyChain(PE<sub>1</sub> ... PE<sub>n</sub>) INV(PE))</span> with n > 1, or</li>
 
-  <li><span class="name">ObjectPropertyIrreflexive</span>, <span class="name">ObjectPropertyAsymetric</span> and <span class="name">DisjointObjectProperty</span> axioms.</li>
+  <li><span class="name">ObjectPropertyTransitive(PE)</span>, or</li>
+
+  <li><span class="name">ObjectPropertyTransitive(INV(PE))</span>.</li>
 
 </ul>
 
-<p>Furthermore, <span class="name">Ax</span> must be <i>regular</i> -- that is, a regular
-order <span class="name">&lt;</span> on the object property expressions must exist such that
-each <span class="name">SubObjectPropertyOf(SUB PE)</span> axiom in <span class="name">Ax</span>
-fulfils the following conditions:</p>
+<p>The <i>object property hierarchy relation</i> &rarr; is the smallest relation on object property expressions
+for which the following conditions hold (<span class="name">A</span> &rarr; <span class="name">B</span> means
+that &rarr; holds for <span class="name">A</span> and <span class="name">B</span>):</p>
 
 <ul>
 
-  <li><span class="name">SUB</span> is of the form <span class="name">SubObjectPropertyChain(PE PE)</span>, or</li>
+  <li>if <span class="name">Ax</span> contains an axiom
+  <span class="name">SubObjectPropertyOf(PE<sub>1</sub> PE<sub>2</sub>)</span>, then
+  <span class="name">PE<sub>1</sub></span> &rarr; <span class="name">PE<sub>2</sub></span> holds; and</li>
 
-  <li><span class="name">SUB</span> is of the form <span class="name">InverseObjectProperty(PE)</span>, or</li>
+  <li>if <span class="name">Ax</span> contains an axiom <span class="name">EquivalentObjectProperties(PE<sub>1</sub> PE<sub>2</sub>)</span>, then
+  <span class="name">PE<sub>1</sub></span> &rarr; <span class="name">PE<sub>2</sub></span> and
+  <span class="name">PE<sub>2</sub></span> &rarr; <span class="name">PE<sub>1</sub></span> hold; and</li>
 
-  <li><span class="name">SUB</span> is of the form
-  <span class="name">SubObjectPropertyChain(PE<sub>1</sub> ... PE<sub>n</sub>)</span> and
-  <span class="name">PE<sub>i</sub> &lt; PE</span> for each 1 &lt;= i &lt;= n, or</li>
+  <li>if <span class="name">Ax</span> contains an axiom <span class="name">InverseObjectProperties(PE<sub>1</sub> PE<sub>2</sub>)</span>, then
+  <span class="name">PE<sub>1</sub></span> &rarr; <span class="name">INV(PE<sub>2</sub>)</span> and
+  <span class="name">INV(PE<sub>2</sub>)</span> &rarr; <span class="name">PE<sub>1</sub></span> hold; and</li>
 
-  <li><span class="name">SUB</span> is of the form
-  <span class="name">SubObjectPropertyChain(PE PE<sub>1</sub> ... PE<sub>n</sub>)</span> and
-  <span class="name">PE<sub>i</sub> &lt; PE</span> for each 1 &lt;= i &lt;= n, or</li>
+  <li>if <span class="name">Ax</span> contains an axiom <span class="name">SymmetriceObjectProperty(PE)</span>, then
+  <span class="name">PE</span> &rarr; <span class="name">INV(PE)</span> holds; and</li>
 
-  <li><span class="name">SUB</span> is of the form
-  <span class="name">SubObjectPropertyChain(PE<sub>1</sub> ... PE<sub>n</sub> PE)</span> and
-  <span class="name">PE<sub>i</sub> &lt; PE</span> for each 1 &lt;= i &lt;= n.</li>
+  <li>if <span class="name">PE<sub>1</sub></span> &rarr; <span class="name">PE<sub>2</sub></span> holds, then
+  <span class="name">INV(PE<sub>1</sub>)</span> &rarr; <span class="name">INV(PE<sub>2</sub>)</span> holds as well.
+
+</ul>
+
+<p>The relation &rarr;<sup>*</sup> is the reflexive-transitive closure of &rarr;.
+An object property expression <span class="name">PE</span> is <i>simple</i> in <span class="name">Ax</span> if,
+for each object property expression <span class="name">PE'</span> such that
+<span class="name">PE'</span> &rarr;<sup>*</sup> <span class="name">PE</span> holds,
+<span class="name">PE'</span> is not composite.</p>
+
+<p>The axioms <span class="name">Ax</span> satisfy the <i>nonstructural restrictions</i> of OWL 1.1 if the
+following two conditions hold:</p>
+
+<ul>
+
+  <li>Only simple object properties are allowed to occur in <span class="name">Ax</span> in
+
+  <ul>
+
+    <li><span class="name">ObjectMinCardinality</span>, <span class="name">ObjectMaxCardinality</span>,
+    <span class="name">ObjectExactCardinality</span>, and <span class="name">ObjectExistsSelf</span> classes, and</li>
+
+    <li><span class="name">ObjectPropertyFunctional</span>, <span class="name">InverseFunctionalObjectProperty</span>,
+    <span class="name">ObjectPropertyIrreflexive</span>, <span class="name">ObjectPropertyAsymetric</span>,
+    and <span class="name">DisjointObjectProperty</span> axioms.</li>
+
+  </ul></li>
+
+
+  <li>A strict partial order <span class="name">&lt;</span> on the object property expressions must exist
+  such that each <span class="name">SubObjectPropertyOf(SUB PE)</span> axiom in <span class="name">Ax</span>
+  fulfils the following conditions:
+
+  <ul>
+
+    <li><span class="name">SUB</span> is of the form <span class="name">SubObjectPropertyChain(PE PE)</span>, or</li>
+
+    <li><span class="name">SUB</span> is of the form <span class="name">InverseObjectProperty(PE)</span>, or</li>
+
+    <li><span class="name">SUB</span> is of the form
+    <span class="name">SubObjectPropertyChain(PE<sub>1</sub> ... PE<sub>n</sub>)</span> and
+    <span class="name">PE<sub>i</sub> &lt; PE</span> for each 1 &le; i &le; n, or</li>
+
+    <li><span class="name">SUB</span> is of the form
+    <span class="name">SubObjectPropertyChain(PE PE<sub>1</sub> ... PE<sub>n</sub>)</span> and
+    <span class="name">PE<sub>i</sub> &lt; PE</span> for each 1 &le; i &le; n, or</li>
+
+    <li><span class="name">SUB</span> is of the form
+    <span class="name">SubObjectPropertyChain(PE<sub>1</sub> ... PE<sub>n</sub> PE)</span> and
+    <span class="name">PE<sub>i</sub> &lt; PE</span> for each 1 &le; i &le; n.
+
+  </ul></li>
 
 </ul>
 
@@ -934,12 +1009,13 @@ imported by <span class="name">O</span> contains a declaration axiom for the ent
 Note that an ontology may contain multiple declarations for the same entity, and that imported ontologies may do so as well. An ontology
 <span class="name">O</span> is <i>structurally consistent</i>
 if each entity occurring in an axiom from the axiom closure of <span class="name">O</span> is
-declared in <span class="name">O</span>.</p>
+declared in <span class="name">O</span>. Note that, by this definition, the check applies also the entities
+used in annotations; that is, these entities must be properly declared as well for an ontology to be structurally consistent.</p>
 
 <p>Note that, although structurally consistency can be a very useful feature in some applications, OWL 1.1 <i>does not require</i>
 ontologies to be structurally consistent. Thus, an ontology can be used even if it does not contain any declarations.</p>
 
-<p>As shown in Figure 19, a declaration is a kind of axiom; this is in order to allows an ontology to be treated as simply a set axioms.
+<p>As shown in Figure 19, a declaration is a kind of axiom; this is in order to allow an ontology to be treated as simply a set axioms.
 A declaration, however, imposes no constraints on the model-theoretic interpretation of an ontology (in the sense
 of [<cite><a href="#ref-owl-1.1-semantics">OWL 1.1 Semantics</a></cite>]).</p>
 
@@ -1109,6 +1185,24 @@ is intended to be interpreted as an object property and
     <cite><a href="http://www.w3.org/TR/xmlschema-2/">XML Schema Part 2: Datatypes Second Edition</a></cite>.
     Paul V. Biron and Ashok Malhotra, eds.
     W3C Recommendation 28 October 2004.
+  </dd>
+
+  <dt><a id="ref-rdf-syntax">[RDF Syntax]</a></dt>
+  <dd>
+    <cite><a href="http://www.w3.org/TR/rdf-syntax-grammar/">RDF/XML Syntax Specification (Revised)</a></cite>.
+    Dave Beckett, Editor, W3C Recommendation, 10 February 2004, http://www.w3.org/TR/rdf-syntax-grammar/.
+  </dd>
+
+  <dt><a id="ref-rfc-3066">[RFC-3066]</a></dt>
+  <dd>
+    <cite><a href="http://www.ietf.org/rfc/rfc3066.txt">RFC 3066 - Tags for the Identification of Languages</a></cite>.
+    H. Alvestrand. IETF, January 2004, http://www.ietf.org/rfc/rfc3066.txt.
+  </dd>
+
+  <dt><a id="ref-rfc-3987">[RFC-3987]</a></dt>
+  <dd>
+    <cite><a href="http://www.ietf.org/rfc/rfc3987.txt">RFC 3066 - Tags for the Identification of Languages</a></cite>.
+    M. Duerst, M. Suignard. IETF, January 2005, http://www.ietf.org/rfc/rfc3987.txt.
   </dd>
 
 </dl>
