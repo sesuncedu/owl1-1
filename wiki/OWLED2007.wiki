@@ -21,14 +21,14 @@ If you're willing to be principle scribe for a session, please drop Bijan a line
  * S1: Applications in Industry
  * S2: OWL and Rules in Applications
  * S3: Query languages and Extensions 
- * Panel 1
+ * Panel 1: SPARQL, Rules and OWL ?
  * OWL: Present and beyond? *VERY IMPORTANT SESSION FOR SCRIBING*
  * S4 : Implementations  and API
- * Panel 2
+ * Panel 2: What is needed in Industry, new extensions, editors, tools … ?
  * S5: OWL and Requirements in Life Sciences  
  * S6: Experiences in Sciences and Life-Sciences
  * S7: Ontology formats
- * Panel 3
+ * Panel 3: Life Sciences: Lessons, Formats, Future Developments?
  * Ongoing and Future Standarization Efforts *VERY IMPORTANT SESSION FOR SCRIBING*
  * S8: Ontology Reasoning and Engineering
  * Business Meeting and Closing *IMPORTANT FOR SCRIBING*
