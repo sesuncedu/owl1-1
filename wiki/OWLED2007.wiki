@@ -14,7 +14,7 @@ Since OWLED is a "working" workshop, most of the interesting activity takes plac
 
 The way it will work is that someone (likely the principle scribe) will set up a new document to share at the start of each session, and anyone will be free to subscribe to the document. The syntax will be Google Code's [http://code.google.com/p/support/wiki/WikiSyntax wiki syntax], which will enable us to publish the sessions to the web immediately.
 
-So, please download  [http://ace.iserver.ch/index.php ACE] and play with it.
+So, please download  [http://ace.iserver.ch/index.php ACE] and play with it. (*NOTE:* this "ACE" is an editor which has nothing to do with [http://owled2007.iut-velizy.uvsq.fr/PapersPDF/submission_22.pdf Attempto Controlled English], which is also known as ACE.)
 
 If you're willing to be principle scribe for a session, please drop Bijan a line. As we produce minutes, they'll be linked to from here.
 
