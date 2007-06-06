@@ -24,7 +24,7 @@ If you're willing to be principle scribe for a session, please drop Bijan a line
  * S2: OWL and Rules in Applications [S2NotesOwled2007 session notes]
  * S3: Query languages and Extensions [S3NotesOwled2007 session notes]
  * Panel 1: SPARQL, Rules and OWL ? [P1NotesOwled2007 session notes]
- * OWL: Present and beyond? *VERY IMPORTANT SESSION FOR SCRIBING*
+ * OWL: Present and beyond? *VERY IMPORTANT SESSION FOR SCRIBING* [OWLPresentAndBeyondNotesOwled2007 session notes]
  * S4 : Implementations  and API
  * Panel 2: What is needed in Industry, new extensions, editors, tools … ?
  * S5: OWL and Requirements in Life Sciences  
