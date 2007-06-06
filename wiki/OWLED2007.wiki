@@ -21,7 +21,7 @@ So, please download  [http://ace.iserver.ch/index.php ACE] and play with it. (*N
 If you're willing to be principle scribe for a session, please drop Bijan a line. As we produce minutes, they'll be linked to from here.
 
  * S1: Applications in Industry *Bijan Parsia* [S1NotesOwled2007 session notes]
- * S2: OWL and Rules in Applications
+ * S2: OWL and Rules in Applications [S2NotesOwled2007 session notes]
  * S3: Query languages and Extensions [S3NotesOwled2007 session notes]
  * Panel 1: SPARQL, Rules and OWL ? [P1NotesOwled2007 session notes]
  * OWL: Present and beyond? *VERY IMPORTANT SESSION FOR SCRIBING*
