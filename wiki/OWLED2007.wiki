@@ -23,7 +23,7 @@ If you're willing to be principle scribe for a session, please drop Bijan a line
  * S1: Applications in Industry *Bijan Parsia* [S1NotesOwled2007 session notes]
  * S2: OWL and Rules in Applications
  * S3: Query languages and Extensions 
- * Panel 1: SPARQL, Rules and OWL ?
+ * Panel 1: SPARQL, Rules and OWL ? [P1NotesOwled2007 session notes]
  * OWL: Present and beyond? *VERY IMPORTANT SESSION FOR SCRIBING*
  * S4 : Implementations  and API
  * Panel 2: What is needed in Industry, new extensions, editors, tools … ?
