@@ -8,6 +8,7 @@
  * [http://owled2007.iut-velizy.uvsq.fr/FinalProgramme.html Schedule]
  * [http://code.google.com/p/support/wiki/WikiSyntax Wiki Syntax]
  * [http://webont.org/owled/process.html Process proposal] This is roughly what shall guide, overall, the standardization session discussions.
+ * [http://spreadsheets.google.com/pub?key=pTmcCXR-dV6TdDo24Tse-fQ Features to consider for standardization] I (Bijan) read through all the papers and tried to extract expressed needs and capabilities, plus what people have requested via email. If you would like to help maintain/update/clean up this, please let me know and I'll add you to the Google Spreadsheet.
 
 = Scribing =
 
