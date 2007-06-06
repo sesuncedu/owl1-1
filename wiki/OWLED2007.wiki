@@ -20,7 +20,7 @@ So, please download  [http://ace.iserver.ch/index.php ACE] and play with it. (*N
 
 If you're willing to be principle scribe for a session, please drop Bijan a line. As we produce minutes, they'll be linked to from here.
 
- * S1: Applications in Industry *Bijan Parsia*
+ * S1: Applications in Industry *Bijan Parsia* [OWLED2007-S1-Notes session notes]
  * S2: OWL and Rules in Applications
  * S3: Query languages and Extensions 
  * Panel 1: SPARQL, Rules and OWL ?
