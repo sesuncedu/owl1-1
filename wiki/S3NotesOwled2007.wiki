@@ -1,4 +1,4 @@
-#Notes from Session on Query Languages and Extensions
+#summary Notes from Session on Query Languages and Extensions
 
 = Session3: Query Languages and Extensions =
 
