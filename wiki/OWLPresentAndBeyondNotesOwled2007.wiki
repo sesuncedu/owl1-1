@@ -1,4 +1,4 @@
-#Notes from Session on OWL Present and Beyond
+#summary Notes from Session on OWL Present and Beyond
 
 = OWL Present and Beyond =
 
@@ -115,4 +115,3 @@
    * Confidence in feature set. Detailed spec and experience
   * Specification
    * Design done and agreeable. Ready to use it in anger. Ready to take it to a standard body
-
