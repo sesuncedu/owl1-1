@@ -118,14 +118,14 @@ Francois-Paul: you want me to use set operators?
 
 ?: Well ... in owl it is just composition ... 
 
-Chris (?): If you are not using OWL then you are not really getting anything... It is really just an interchange format that you are looking for. 
+Rob Shearer: If you are not using OWL then you are not really getting anything... It is really just an interchange format that you are looking for. 
 
 Boris: Are your constraints in the sense of constraint satisfaction?
 Renault: exactly.
 
 Renault: I want to use owl as an exhange language without any reasong capabilities.
 
-Chris (?): I find this interesting, a requirment from industry: we just want an exchange language.
+Rob S.: I find this interesting, a requirment from industry: we just want an exchange language.
 
 Bijan: You want to do propositional logic, and as OWL really is a superset of propositional logic, you should actually be able to do this. Would a syntax help to sell the solution?
 
@@ -142,7 +142,7 @@ Olivier: We never trust the computer
 Ian: You like the answers to be really the right ones, so you do care for precision and recall. 
 Olivier: But the people still read the PDF. Incorrect answers are not necessarily bad, it is just an advice.
 Ian: But still people would like to have good/correct advice...
-*: You would at least want to make 'some' statement about completeness: a measure of how complete the answer will be?
+Rob S. (?): You would at least want to make 'some' statement about completeness: a measure of how complete the answer will be?
 Olivier: right.
 
 Francois-Paul: we do not need the information now, but later is good as well.
@@ -179,7 +179,6 @@ IBM Watson: we are working on a scalable reasoner, I'll give a demo, it can do r
 *closing*
 
  
-
 
 
 
