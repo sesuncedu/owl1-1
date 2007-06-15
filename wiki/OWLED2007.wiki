@@ -32,5 +32,5 @@ If you're willing to be principle scribe for a session, please drop Bijan a line
  * S7: Ontology formats
  * Panel 3: Life Sciences: Lessons, Formats, Future Developments?
  * Ongoing and Future Standarization Efforts *VERY IMPORTANT SESSION FOR SCRIBING*
- * S8: Ontology Reasoning and Engineering [S8NotesOwled2007 session notes]
+ * S8: Ontology Reasoning and Engineering [S8NotesOwlEd2007 session notes]
  * Business Meeting and Closing *IMPORTANT FOR SCRIBING* [BusinessMeetingNotesOwled2007 notes]
