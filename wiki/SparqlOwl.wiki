@@ -4,13 +4,30 @@
 
 Given that the [http://www.w3.org/TR/rdf-sparql-query/ SPARQL query language] will be a W3C recommendation in 2007, that several OWL implementations use SPARQL syntax as a query langauge, that many users want a (standard) query language for OWL and expect to be able to use SPARQL to query OWL, and that, nominally, SPARQL is designed to be extensible to OWL, there should be an extension of SPARQL to query OWL.
 
+Three goals:
+  # to cover what we "know" how to do
+  # to describe existing implementations
+  # to meet user desires with minimal "surprise" when transitioning from RDF(S)
 
-= Details =
+= Features =
 
+  * Arbitrary conjunctive queries
+  * Syntactic higher orderness:
+    * Property variables
+    * TBox queries and mixed ABox/TBox queries
+  * Sensible profiles
+    * ABox query only
+    * All distinguished variables
+ 
+= Big Issues =
+
+  * Alternative syntaxes (e.g., for the XML and functional syntaxes?)
+  * Syntax for non-distinguished vars
 
 = Bibliography =
 
- * [http://webont.org/owled/2007/PapersPDF/submission_23.pdf SPARQL/DL: SPARQL Query for OWL-DL]
+  * [http://webont.org/owled/2007/PapersPDF/submission_23.pdf SPARQL/DL: SPARQL Query for OWL-DL]
+  * ...
 
 
 = Implementations = 
