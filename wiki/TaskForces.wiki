@@ -1,0 +1,16 @@
+#summary Coordination page for OWLED task forces
+
+= Introduction =
+
+Participants at an OWLED may agree to pursue certain goals (for example, an extension to OWL such as OWL 1.) for the subsequent OWLEDs. Pursuit of these goals are organized into task forces, each of which has a coordination point person. 
+
+There is a fairly extensive description of OWLED task forces on the task force [http://webont.org/owled/taskforces/ home page].
+
+This page is to aid with coordination.
+
+= Specs =
+
+ * SparqlOwl
+
+= Reports =
+
