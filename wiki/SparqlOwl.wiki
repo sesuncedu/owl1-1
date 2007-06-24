@@ -17,9 +17,12 @@ Given that the [http://www.w3.org/TR/rdf-sparql-query/ SPARQL query language] wi
 
 For brevity and clarity we only list implmenetations that cover a significant fraction of OWL, e.g., one of the named fragments (more than RDFS).
 
+== Query Engines ==
+
 || Name || Sparql Syntax ||DL || TBox || Non-dist vars || Property vars || Algebra || Comments ||
-|| Pellet || Yes || OWL 1.1 || No || Yes || No || Yes (via ARQ) || ||
+|| Pellet || Yes || OWL 1.1/SHROIQ || No || Yes || No || Yes (via ARQ) || ||
 || KAON2|| Yes || SHIQ || No || No || No || No|| DL safe rules ||
+|| Racer || No || SHIQ || No || No || ? || ? || nRQL is rather expressive ||
 
 = People =
 
