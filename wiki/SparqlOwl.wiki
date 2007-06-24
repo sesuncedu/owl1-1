@@ -8,6 +8,11 @@ Given that the [http://www.w3.org/TR/rdf-sparql-query/ SPARQL query language] wi
 = Details =
 
 
+= Bibliography =
+
+ * [http://webont.org/owled/2007/PapersPDF/submission_23.pdf SPARQL/DL: SPARQL Query for OWL-DL]
+
+
 = Implementations = 
 
 For brevity and clarity we only list implmenetations that cover a significant fraction of OWL, e.g., one of the named fragments (more than RDFS).
