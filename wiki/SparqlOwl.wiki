@@ -1,0 +1,21 @@
+#summary Page for the SPARQL/OWL OWLED task force
+
+= Rationale =
+
+Given that the [http://www.w3.org/TR/rdf-sparql-query/ SPARQL query language] will be a W3C recommendation in 2007, that several OWL implementations use SPARQL syntax as a query langauge, that many users want a (standard) query language for OWL and expect to be able to use SPARQL to query OWL, and that, nominally, SPARQL is designed to be extensible to OWL, there should be an extension of SPARQL to query OWL.
+
+
+= Details =
+
+
+= Implementations = 
+
+For brevity and clarity we only list implmenetations that cover a significant fraction of OWL, e.g., one of the named fragments (more than RDFS).
+
+|| Name || Sparql Syntax ||DL || TBox || Non-dist vars || Property vars || Algebra || Comments ||
+|| Pellet || Yes || OWL 1.1 || No || Yes || No || Yes (via ARQ) || ||
+|| KAON2|| Yes || SHIQ || No || No || No || No|| DL safe rules ||
+
+= People =
+
+ * Bijan Parsia (task force point person)
