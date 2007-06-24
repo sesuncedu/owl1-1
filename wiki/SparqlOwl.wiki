@@ -42,6 +42,15 @@ For brevity and clarity we only list implmenetations that cover a significant fr
 || [http://www.racer-systems.com/ Racer] || No || SHIQ || No || No || ? || ? || nRQL is rather expressive ||
 || [http://www.dis.uniroma1.it/~quonto/ QuOnto] || No || DL-Lite || No || ? || ? || ? || ||
 
+== Clients ==
+
+|| Name || Type || Notes ||
+|| [http://protege.stanford.edu/download/prerelease-alpha/ Protege 4 alpha] || Editor || ||
+|| [http://code.google.com/p/swoop/ Swoop] || Editor || ||
+|| [http://www.topbraidcomposer.com/ TopBraid Composer || Editor || ||
+|| [http://www.mindswap.org/2003/pellet/demo.shtml Pellet demo || Web demo || Examples of non-dist vars||
+|| [http://www.dis.uniroma1.it/quonto-demo/ QuOnto demo] || Web demo || Limited ontologies ||
+
 = People =
 
  * Bijan Parsia (task force point person)
