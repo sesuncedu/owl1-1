@@ -1,4 +1,5 @@
 #summary Coordination page for OWLED task forces
+#labels OWLED,Taskforce
 
 = Introduction =
 
