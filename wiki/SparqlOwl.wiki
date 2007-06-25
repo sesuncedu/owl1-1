@@ -39,8 +39,8 @@ For brevity and clarity we only list implmenetations that cover a significant fr
 || Name || Sparql Syntax ||DL || TBox || Non-dist vars || Property vars || Algebra || Comments ||
 || [http://pellet.owldl.com/ Pellet] || Yes || OWL 1.1/SROIQ || No || Yes || No || Yes (via ARQ) || ||
 || [http://kaon2.semanticweb.org/ KAON2]|| Yes || SHIQ || No || No || No || ? || DL safe rules might encode algebra ||
-|| [http://www.racer-systems.com/ Racer] || No || SHIQ || No || No || ? || ? || nRQL is rather expressive ||
-|| [http://www.dis.uniroma1.it/~quonto/ QuOnto] || No || DL-Lite || No || ? || ? || ? || ||
+|| [http://www.racer-systems.com/ Racer] || No (nRQL, OWL-QL) || SHIQ || No || No || ? || ? || nRQL is rather expressive ||
+|| [http://www.dis.uniroma1.it/~quonto/ QuOnto] || No (SQL, Datalog) || DL-Lite || No || ? || ? || ? || ||
 
 == Clients ==
 
