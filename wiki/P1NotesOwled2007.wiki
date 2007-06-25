@@ -1,4 +1,5 @@
 #summary Notes from Panel 1
+#labels OWLED
 
 = Panel 1: SPARQL, Rules and OWL ? =
 
