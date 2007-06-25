@@ -1,0 +1,45 @@
+#summary Main page for the DL Safe SWRL Rules task force.
+
+= Introduction =
+
+The DL Safe SWRL Rules task force is chartered to produce a report on how to add DL Safe rules to OWL in a way compatible with the SWRL W3C member submission.
+
+= Participation =
+
+Participation is open to all interested parties.  See http://webont.org/owled/taskforces/ for more information on participation.
+
+= Expected Parts of the Report =
+
+(This is only a preliminary list.  More parts may be added as the task force progresses.)
+
+  * Use cases for rule extensions to OWL
+  * Options for DL Safe SWRL Rules, e.g., binary, n-ary
+  * Syntax for DL Safe SWRL Rules
+  * Implementation techniques for DL Safe SWRL Rules
+  * List of partial and complete implementations of DL Safe SWRL Rules
+
+Volunteers to create or edit parts of the report are very welcome.  If you have an existing document that could serve as the start of part of the report, don't hesitate to bring it forward.  
+
+= Activities =
+
+It is expected that most of the activities of the task force will play out in public-owl-dev@w3.org.  Messages related to this task force should be tagged with "[Rules]".   Progress will be documented in this wiki.  If needed, there will be occasional teleconferences.  Face-to-face meetings are not expected, except, perhaps, at OWLED meetings.
+
+= Timeline =
+
+It would be nice to have something concrete to report at the interim OWLED meeting in March/April 2008.  This means getting decent documents together by January/February 2008.
+
+= Bibliography =
+
+  * [http://www.w3.org/Submission/SWRL/ SWRL: A Semantic Web Rule Language. ]  Ian Horrocks, Peter F. Patel-Schneider, Harold Boley, Said Tabet, Benjamin Grosof, Mike Dean. W3C Member Submission 21 May 2004.  http://www.w3.org/Submission/SWRL/
+  * [http://www.fzi.de/KCMS/kcms_file.php?action=link&id=404 Query Answering for OWL-DL with Rules. ]  Boris Motik, Ulrike Sattler, and Rudi Studer. ISWC-2004, pp. 549-563.  http://www.fzi.de/KCMS/kcms_file.php?action=link&id=404
+
+
+= People (active participants please add yourselves) =
+
+Peter Patel-Schneider (point person)
+
+
+
+
+
+
