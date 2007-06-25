@@ -1,4 +1,5 @@
 #summary Page for the SPARQL/OWL OWLED task force
+#labels OWLED,Taskforce
 
 = Rationale =
 
