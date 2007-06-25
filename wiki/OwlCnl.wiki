@@ -3,7 +3,9 @@
 
 = Rationale =
 
-Many users would like to have a natural language/natural language like syntax for OWL.
+The mathematical nature of description logics has meant that domain experts find it hard to understand OWL-based ontologies. This forms a significant impediment to their creation and reuse. If domain experts' knowledge is to be represented and verified, an easily readable syntax for writing ontologies is needed.  
+
+= User Requirements and Task Force Goals =
 
 = Features =
 
@@ -17,6 +19,8 @@ Many users would like to have a natural language/natural language like syntax fo
    * Some tractable fragments
    * Core OWL 1.1 axioms (no annotations etc.)
  * Strict roundtrippability
+ * Task - what's the language trying to do? Ontology specification, Querying and Reasoning may each be suited to different specifications.
+ * Testing - how do we actually know people find it easy/easier than other syntaxes?
 
 
 = Bibliography =
@@ -25,11 +29,12 @@ Many users would like to have a natural language/natural language like syntax fo
     * http://attempto.ifi.unizh.ch/site/
   * Rabbit structured English 
     * [http://webont.org/owled/2007/PapersPDF/submission_1.pdf Using Structured English to represent a Topographic Hydrology Ontology]
+    * Ontologies written in Rabbit - http://www.ordnancesurvey.co.uk/ontology
   * [http://webont.org/owled/2007/PapersPDF/submission_24.pdf Sydney OWL Syntax - towards a Controlled Natural Language Syntax for OWL 1.1]
     * http://www.ics.mq.edu.au/~rolfs/peng/
   * [http://webont.org/owled/2007/PapersPDF/submission_45.pdf Requirements for the treatment of multilinguality in ontologies at FAO] 
   * [http://image.ntua.gr/swamm2006/resources/paper11.pdf Image Browsing and Natural Language Paraphrases of Semantic Web Annotations] -- Contains pilot user student measuring "understandability"
-  * Avi Bernstein's group (not sure how to group more specifically; someone should contact them) 
+  * Avi Bernstein's group 
    * [http://www.ifi.uzh.ch/ddis/staff/goehring/btw/files/BernsteinEtAl_Gino_ISWC_2006.pdf GINO - A Guided Input Natural Language Ontology Editor]
    * [http://www.ifi.uzh.ch/ddis/staff/goehring/btw/files/Kaufmann_Querix_Demo_ISWC2006.pdf Querix: A Natural Language Interface to Query Ontologies Based on Clarification Dialogs]
    * [http://www.ifi.uzh.ch/ddis/staff/goehring/btw/files/Kaufmann_NLP-Reduce_ESWC2007.pdf NLP-Reduce: A "naïve" but Domain-independent Natural Language Interface for Querying Ontologies] 
@@ -38,5 +43,6 @@ Many users would like to have a natural language/natural language like syntax fo
 
  * Catherine Dolbear (point person)
  * Bijan Parsia
+
 
 
