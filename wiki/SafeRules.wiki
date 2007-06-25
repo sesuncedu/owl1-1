@@ -23,7 +23,9 @@ Volunteers to create or edit parts of the report are very welcome.  If you have 
 
 = Activities =
 
-It is expected that most of the activities of the task force will play out in public-owl-dev@w3.org.  Messages related to this task force should be tagged with "[Rules]".   Progress will be documented in this wiki.  If needed, there will be occasional teleconferences.  Face-to-face meetings are not expected, except, perhaps, at OWLED meetings.
+It is expected that most of the activities of the task force will play out in public-owl-dev@w3.org.  Messages related to this task force should be tagged with "Rules:".   Progress will be documented in this wiki.  Results (interim and final) of the taskforce, in particular versions of parts of the report suitable for discussion by the larger OWLED community, will be placed in the [http://webont.org/owled/taskforces/ WebOnt task force] pages. 
+
+If needed, there will be occasional teleconferences.  Face-to-face meetings are not expected, except, perhaps, at OWLED meetings.
 
 = Timeline =
 
