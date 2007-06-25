@@ -24,6 +24,7 @@ Three goals:
 
   * Alternative syntaxes (e.g., for the XML and functional syntaxes?)
   * Syntax for non-distinguished vars
+  * BNodes (in data and in results)
 
 = Bibliography =
 
