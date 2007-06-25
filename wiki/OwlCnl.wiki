@@ -1,0 +1,35 @@
+#summary Page for the OWL/CNL OWLED task force
+
+= Rationale =
+
+Many users would like to have a natural language/natural language like syntax for OWL.
+
+= Features =
+
+ * Reading (rendering) and writing
+
+= Big Issues =
+
+ * Language coverage
+   * All of OWL 1.1?
+   * Concept langauge
+   * Some tractable fragments
+   * Core OWL 1.1 axioms (no annotations etc.)
+ * Strict roundtrippability
+
+= Bibliography =
+
+  * [http://webont.org/owled/2007/PapersPDF/submission_22.pdf Verbalizing OWL in Attempto Controlled English]
+    * http://attempto.ifi.unizh.ch/site/
+  * [http://webont.org/owled/2007/PapersPDF/submission_1.pdf Using Structured English to represent a Topographic Hydrology Ontology]
+  * [http://webont.org/owled/2007/PapersPDF/submission_24.pdf Sydney OWL Syntax - towards a Controlled Natural Language Syntax for OWL 1.1]
+    * http://www.ics.mq.edu.au/~rolfs/peng/
+  * [http://webont.org/owled/2007/PapersPDF/submission_45.pdf Requirements for the treatment of multilinguality in ontologies at FAO] 
+  * [http://image.ntua.gr/swamm2006/resources/paper11.pdf Image Browsing and Natural Language Paraphrases of 
+Semantic Web Annotations] -- Contains pilot user student measuring "understandability"
+  * Avi Bernstein's group (not sure how to group it all;
+   * [http://www.ifi.uzh.ch/ddis/staff/goehring/btw/files/BernsteinEtAl_Gino_ISWC_2006.pdf GINO - A Guided Input Natural Language Ontology Editor]
+   * [http://www.ifi.uzh.ch/ddis/staff/goehring/btw/files/Kaufmann_Querix_Demo_ISWC2006.pdf Querix: A Natural Language Interface to Query Ontologies Based on Clarification Dialogs]
+   * [http://www.ifi.uzh.ch/ddis/staff/goehring/btw/files/Kaufmann_NLP-Reduce_ESWC2007.pdf NLP-Reduce: A "naïve" but Domain-independent Natural Language Interface for Querying Ontologies] 
+
+= People =
