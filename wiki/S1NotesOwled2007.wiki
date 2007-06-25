@@ -1,4 +1,5 @@
 #summary Minutes for session S1: Applications in Industry
+#labels OWLED
 
 Presentations:
 # Suzette Stoutenburg presenting: [http://owled2007.iut-velizy.uvsq.fr/PapersPDF/submission_2.pdfOntologies in OWL for Rapid Enterprise Integration]
