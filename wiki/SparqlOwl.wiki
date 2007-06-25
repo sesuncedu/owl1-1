@@ -49,6 +49,7 @@ For brevity and clarity we only list implmenetations that cover a significant fr
 
 || Name || Type || Notes ||
 || [http://protege.stanford.edu/download/prerelease-alpha/ Protege 4 alpha] || Editor || ||
+|| [http://protege.stanford.edu/doc/sparql/ Protege/OWL 3.2] || Editor || May be tricky to get OWL semantics||
 || [http://code.google.com/p/swoop/ Swoop] || Editor || ||
 || [http://www.topbraidcomposer.com/ TopBraid Composer] || Editor || ||
 || [http://www.mindswap.org/2003/pellet/demo.shtml Pellet demo] || Web demo || Examples of non-dist vars||
