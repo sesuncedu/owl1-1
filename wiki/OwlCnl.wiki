@@ -1,5 +1,5 @@
 #summary Page for the OWL/CNL OWLED task force
-#labels OWLED,Taskforce
+#labels Taskforce
 
 = Rationale =
 
@@ -13,16 +13,18 @@ Many users would like to have a natural language/natural language like syntax fo
 
  * Language coverage
    * All of OWL 1.1?
-   * Concept langauge
+   * Concept language
    * Some tractable fragments
    * Core OWL 1.1 axioms (no annotations etc.)
  * Strict roundtrippability
+
 
 = Bibliography =
 
   * [http://webont.org/owled/2007/PapersPDF/submission_22.pdf Verbalizing OWL in Attempto Controlled English]
     * http://attempto.ifi.unizh.ch/site/
-  * [http://webont.org/owled/2007/PapersPDF/submission_1.pdf Using Structured English to represent a Topographic Hydrology Ontology]
+  * Rabbit structured English 
+    * [http://webont.org/owled/2007/PapersPDF/submission_1.pdf Using Structured English to represent a Topographic Hydrology Ontology]
   * [http://webont.org/owled/2007/PapersPDF/submission_24.pdf Sydney OWL Syntax - towards a Controlled Natural Language Syntax for OWL 1.1]
     * http://www.ics.mq.edu.au/~rolfs/peng/
   * [http://webont.org/owled/2007/PapersPDF/submission_45.pdf Requirements for the treatment of multilinguality in ontologies at FAO] 
@@ -36,3 +38,5 @@ Many users would like to have a natural language/natural language like syntax fo
 
  * Catherine Dolbear (point person)
  * Bijan Parsia
+
+
