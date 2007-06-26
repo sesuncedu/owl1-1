@@ -53,6 +53,6 @@ The mathematical nature of description logics has meant that domain experts find
 
  * Catherine Dolbear (point person)
  * Bijan Parsia
-
+ * Kaarel Kaljurand
 
 
