@@ -12,7 +12,7 @@ The mathematical nature of description logics has meant that domain experts find
 = Scoping Issues =
 
  * Language coverage alternatives
-   * All of OWL 1.1, including extralogical features, annoations, datatypes, etc.
+   * All of OWL 1.1, including extralogical features, annotations, datatypes, etc.
    * Concept expression language only (with axiomatic structure indicated otherwise, e.g., by indentation)
    * Some tractable fragment(s)
    * Core OWL 1.1 axioms only (i.e., logical content only) 
