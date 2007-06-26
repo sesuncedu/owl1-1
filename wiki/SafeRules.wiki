@@ -7,7 +7,7 @@ The DL Safe SWRL Rules task force is chartered to produce a report on how to add
 
 = Participation =
 
-Participation is open to all interested parties.  See http://webont.org/owled/taskforces/ for more information on participation.
+Participation is open to all interested parties.  To join, send email to [mailto:pfpschneider@gmail.com Peter F. Patel-Schneider].
 
 = Expected Parts of the Report =
 
