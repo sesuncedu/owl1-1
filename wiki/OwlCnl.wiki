@@ -29,8 +29,10 @@ The mathematical nature of description logics has meant that domain experts find
 
 = Bibliography =
 
-  * [http://webont.org/owled/2007/PapersPDF/submission_22.pdf Verbalizing OWL in Attempto Controlled English]
-    * http://attempto.ifi.unizh.ch/site/
+  * [http://attempto.ifi.unizh.ch/site/ Attempto group]'s work on CNL for OWL
+    * [http://webont.org/owled/2007/PapersPDF/submission_22.pdf Verbalizing OWL in Attempto Controlled English]
+    * [http://attempto.ifi.unizh.ch/site/docs/writing_owl_in_ace.html Writing OWL ontologies in ACE]
+    * [http://attempto.ifi.unizh.ch/site/docs/owlace_constructionrules.html OWL ACE Construction Rules]
   * Rabbit structured English 
     * [http://webont.org/owled/2007/PapersPDF/submission_1.pdf Using Structured English to represent a Topographic Hydrology Ontology]
     * Ontologies written in Rabbit - http://www.ordnancesurvey.co.uk/ontology
