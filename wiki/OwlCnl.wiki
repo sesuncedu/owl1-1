@@ -11,11 +11,11 @@ The mathematical nature of description logics has meant that domain experts find
 
 = Scoping Issues =
 
- * Language coverage
-   * All of OWL 1.1?
-   * Concept language
-   * Some tractable fragments
-   * Core OWL 1.1 axioms ( or should we consider how to express annotations, imports and other metalogical constructs in natural language as well?)
+ * Language coverage alternatives
+   * All of OWL 1.1, including extralogical features, annoations, datatypes, etc.
+   * Concept expression language only (with axiomatic structure indicated otherwise, e.g., by indentation)
+   * Some tractable fragment(s)
+   * Core OWL 1.1 axioms only (i.e., logical content only) 
  * Strict roundtrippability
  * Task - what's the language trying to do? Ontology specification, Querying and Reasoning may each be suited to different specifications.
  * Testing - how do we actually know people find it easy/easier than other syntaxes?
@@ -48,6 +48,5 @@ The mathematical nature of description logics has meant that domain experts find
 
  * Catherine Dolbear (point person)
  * Bijan Parsia
-
 
 
