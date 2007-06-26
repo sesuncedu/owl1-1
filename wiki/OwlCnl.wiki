@@ -37,7 +37,9 @@ The mathematical nature of description logics has meant that domain experts find
   * Rabbit structured English 
     * [http://webont.org/owled/2007/PapersPDF/submission_1.pdf Using Structured English to represent a Topographic Hydrology Ontology]
     * Ontologies written in Rabbit - http://www.ordnancesurvey.co.uk/ontology
-  * [http://webont.org/owled/2007/PapersPDF/submission_24.pdf Sydney OWL Syntax - towards a Controlled Natural Language Syntax for OWL 1.1]
+  * Sydney OWL Syntax
+    * [http://webont.org/owled/2007/PapersPDF/submission_24.pdf Sydney OWL Syntax - towards a Controlled Natural Language Syntax for OWL 1.1]
+    * http://www.ics.mq.edu.au/~rolfs/sos/
     * http://www.ics.mq.edu.au/~rolfs/peng/
   * [http://webont.org/owled/2007/PapersPDF/submission_45.pdf Requirements for the treatment of multilinguality in ontologies at FAO] 
   * [http://image.ntua.gr/swamm2006/resources/paper11.pdf Image Browsing and Natural Language Paraphrases of Semantic Web Annotations] -- Contains pilot user student measuring "understandability"
