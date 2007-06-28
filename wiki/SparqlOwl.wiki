@@ -31,8 +31,9 @@ has three variables (`?x`, `_:x`, and `?y`), `?x` and `?y` are distinguished (th
 
 This query is equivalent to retrieving the instances of the following concept (assuming that in your ABox that for every distinct name of an individual you add the type assertion that they are an instance of the dummy class :O):
 
-{{{ObjectSomeValuesFrom(ObjectProperty(loves) ObjectSomeValuesFrom(ObjectProperty(loves) OWLClass(O)))}}}
-
+    {{{ObjectSomeValuesFrom(ObjectProperty(loves) 
+                    ObjectSomeValuesFrom(ObjectProperty(loves) 
+                                       OWLClass(O)))}}}
   * BNodes (in data and in results)
 
 = Bibliography =
