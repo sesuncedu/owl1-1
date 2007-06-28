@@ -24,6 +24,13 @@ Three goals:
 
   * Alternative syntaxes (e.g., for the XML and functional syntaxes?)
   * Syntax for non-distinguished vars
+    * Currently, in Pellet, BNodes in BGPs are non-distinguished variables; all query variables are distinguished, though they may be projected away. I.e.,
+     {{{SELECT ?x WHERE {?x loves _:x. _:x loves ?y}}}}
+has three variables (?x, _:x, and ?y), ?x and ?y are distinguished (though ?y is projected away) and _:x is non-distinguished.
+
+This query is equivalent to retrieving the instances of the following concept (assuming that in your ABox that for every distinct name of an individual you add the type assertion that they are an instance of the dummy class :O):
+{{{[ObjectSomeValuesFrom(ObjectProperty(loves) ObjectSomeValuesFrom(ObjectProperty(loves) OWLClass(O)))}}}
+
   * BNodes (in data and in results)
 
 = Bibliography =
