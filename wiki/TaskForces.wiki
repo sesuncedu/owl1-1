@@ -11,13 +11,14 @@ This page is to aid with coordination.
 
 = Specs =
 
- * SparqlOwl
- * OwlCnl
+ * SparqlOwl - [TF:SPARQL]
+ * OwlCnl - [TF:CNL]
 
 = Reports =
 
- * SafeRules
- * ImportsManagement
+ * SafeRules - [TF:Rules]
+ * ImportsManagement - [TF:Imports]
+
 
 
 
