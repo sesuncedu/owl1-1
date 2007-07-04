@@ -3,7 +3,12 @@
 
 = Rationale =
 
+= Current Resources =
+
+ * [http://www.w3.org/2001/sw/BestPractices/ SWBPD WG] (Closed)
+   * Their [http://www.w3.org/2001/sw/BestPractices/#FreqLinks1 specs and drafts] (we may update or finish some of these)
+
+
 = People =
 
  * Alan Rector (point person)
-
