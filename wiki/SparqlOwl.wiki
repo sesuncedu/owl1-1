@@ -67,3 +67,4 @@ For brevity and clarity we only list implmenetations that cover a significant fr
 = People =
 
  * [http://www.cs.man.ac.uk/~bparsia/ Bijan Parsia] (point person)
+ * [http://intranet.cs.man.ac.uk/img/people/#dts Dmitry Tsarkov]
