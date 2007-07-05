@@ -19,6 +19,7 @@ Three goals:
   * Sensible profiles
     * ABox query only
     * All distinguished variables
+ * Specification using OWL1.1 functional syntax
  
 = Big Issues =
 
