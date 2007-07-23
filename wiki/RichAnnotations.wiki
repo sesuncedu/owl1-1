@@ -6,6 +6,10 @@ Annotation are a key part of many ontologies. Often, the either point of an onto
 
 In OWL 1.1, both entities (class, properties, etc.) and axioms can have annotions, but these have no defined semantics and little defined structuring. For example, annotationUris, as with OWL 1.1, can not form a property heirarchy.
 
+= Features =
+
+ * Extended Axiom Annoations: I.e., multiple distinct annotations on an axom. (For example, there might be two comments from different people on the same axiom.)
+
 = People =
 
  * Joanne Luciano
