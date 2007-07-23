@@ -1,0 +1,12 @@
+#summary Page for the Rich Annotation OWLED task force
+
+= Rationale =
+
+Annotation are a key part of many ontologies. Often, the either point of an ontology is to manage the annotations on terms, but annotations may be used by editing tools (e.g., author, time modified, etc.), or for semantic extensions (.e.g, P-SHOIN), or for supporting analysis (e.g., Ontoclean).
+
+In OWL 1.1, both entities (class, properties, etc.) and axioms can have annotions, but these have no defined semantics and little defined structuring. For example, annotationUris, as with OWL 1.1, can not form a property heirarchy.
+
+= People =
+
+ * Joanne Luciano
+ * Bijan Parsia
