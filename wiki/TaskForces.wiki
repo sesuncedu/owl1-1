@@ -13,12 +13,12 @@ This page is to aid with coordination.
 
  * SparqlOwl - [TF:SPARQL]
  * OwlCnl - [TF:CNL]
+ * RichAnnotations- [TF:RA]
 
 = Reports =
 
  * SafeRules - [TF:Rules]
  * ImportsManagement - [TF:Imports]
  * [Education] - [TF:Edu]
-
 
 
