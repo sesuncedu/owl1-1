@@ -3,10 +3,14 @@
 
 = Rationale =
 
+At OWLED 2007, several participants identified the need for tutorial and explanatory material at many levels, in particular the "intermediate" level.
+
 = Current Resources =
 
  * [http://www.w3.org/2001/sw/BestPractices/ SWBPD WG] (Closed)
    * Their [http://www.w3.org/2001/sw/BestPractices/#FreqLinks1 specs and drafts] (we may update or finish some of these)
+ * [http://www.w3.org/2001/sw/sweo/ SWEO WG]
+   * Need to work out a relationship with them. Perhaps they will absorb the TF?
 
 
 = People =
