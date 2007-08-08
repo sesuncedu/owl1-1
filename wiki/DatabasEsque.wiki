@@ -1,0 +1,23 @@
+#summary Page for the Databasesque features OWLED task force
+
+= Rationale =
+
+There are a number of features familiar to people working with databases that either work differently in OWL (inheritence), are currently restricted (keys) or missing (integrity constraints). There is a great deal of work e.g., from the description logic community for adding variants of these features. There is also quite a bit of folk knowledge of how to work around the lack (either at the ontology level or the system level).
+
+= Current Topics =
+
+The TF is working on three topics at the moment:
+
+ # Keys
+ # Constraints
+ # ABox closure (i.e., Closed World Assumption and Unique Name assumptions)
+
+= Dependancies =
+
+Sometimes these features are realized in or in conjunction with rules or query languages, so SafeRules and SparqlOwl are relevant.
+
+= People =
+
+ * [http://www.cs.man.ac.uk/~sattler/ Uli Sattler] (point person)
+ * [http://www.cs.man.ac.uk/~horrocks/ Ian Horrocks]
+ * [http://www.cs.man.ac.uk/~bparsia/ Bijan Parsia] 
