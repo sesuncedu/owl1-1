@@ -18,3 +18,5 @@ Exercise commonsense:
   * Basically "Be nice", "Avoid misunderstanding", and "Better to ask permission than be suspended and reverted" :)
 
 In general, if you surprise the admins, it is reasonable for them to pre-emptively "suspend and revert".
+
+Please don't edit this page. Feel more than free to leave a comment though!
