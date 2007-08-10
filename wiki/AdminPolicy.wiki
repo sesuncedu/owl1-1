@@ -1,4 +1,5 @@
 #summary Describes acceptible behavior for this project
+#labels Featured
 
 Google code does not have particularly fine grained ACL capabilities, so everything is pretty much open to every user, including SVN access to specifications, OWLED web pages, etc. So, if the owners grant access to a user so they can access the Wiki then can then change anything.
 
