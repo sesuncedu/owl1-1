@@ -13,7 +13,7 @@ The latter is what we shall do.
 Exercise commonsense:
 
   * Don't vandalize or spam Wiki pages. Think about Wikipedia policies.
-  * Don't directly touch anything in the subversion repository unless you are pretty clear it's ok. For pages with a "maintained by", check with that person. Otherwise, contact a project owner.
+  * Don't directly touch anything in the subversion repository unless you are pretty clear it's ok. For pages with a "maintained by" check with that person. Otherwise, contact a project owner.
   * Don't add new projects, large files, etc. etc. to the SVN without clearing it first.
   * Leave breadcrumbs for what you do. Admins will make reasonable efforts to find you.
   * Basically "Be nice", "Avoid misunderstanding", and "Better to ask permission than be suspended and reverted" :)
