@@ -1,0 +1,20 @@
+#summary Describes acceptible behavior for this project
+
+Google code does not have particularly fine grained ACL capabilities, so everything is pretty much open to every user, including SVN access to specifications, OWLED web pages, etc. So, if the owners grant access to a user so they can access the Wiki then can then change anything.
+
+Two ways of handling the vandalism or other inappropriate content problems that might arise:
+  
+  # Be very very selective in granting project membership, and thus access. We really don't want to do that! We think community effort is best fostered in an open environment.
+  # Be ready to, at least, temporarily remove members who, purposely or inadvertantly, are causing problems.
+
+The latter is what we shall do.
+
+Exercise commonsense:
+
+  * Don't vandalize or spam Wiki pages. Think about Wikipedia policies.
+  * Don't directly touch anything in the subversion repository unless you are pretty clear it's ok. For pages with a "maintained by", check with that person. Otherwise, contact a project owner.
+  * Don't add new projects, large files, etc. etc. to the SVN without clearing it first.
+  * Leave breadcrumbs for what you do. Admins will make reasonable efforts to find you.
+  * Basically "Be nice", "Avoid misunderstanding", and "Better to ask permission than be suspended and reverted" :)
+
+In general, if you surprise the admins, it is reasonable for them to pre-emptively "suspend and revert".
