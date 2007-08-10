@@ -1,5 +1,5 @@
 #summary Coordination page for OWLED 2007, esp. for scribing
-#labels Featured,OWLED,Taskforce
+#labels OWLED,Taskforce
 
 = Some key links =
 
