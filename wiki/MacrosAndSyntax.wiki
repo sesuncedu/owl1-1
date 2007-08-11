@@ -2,7 +2,7 @@
 
 Point person: [mailto:alanruttenberg@gmail.com Alan Ruttenberg]
 
-Idea is to allow for programmable extensions to syntax to enable easy constructions of [http://en.wikipedia.org/wiki/Domain-specific_programming_language domain specific languages] based on OWL. Inspired by the [http://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node97.html Common Lisp macro facility]
+Idea is to allow for programmable extensions to syntax to enable easy construction of [http://en.wikipedia.org/wiki/Domain-specific_programming_language domain specific languages](DSLs) based on OWL. Inspired by the [http://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node97.html Common Lisp macro facility]
 
 = Details =
 
