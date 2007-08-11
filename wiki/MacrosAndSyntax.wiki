@@ -12,5 +12,8 @@ Starting point is the abstract (sans followup paper, unfortunately) submitted to
 
 See also, an example of macros prototyped in [http://esw.w3.org/topic/LSW LSW], in [http://svn.mumble.net:8080/svn/lsw/trunk/owl/reactions.lisp reactions.lisp] that allows one to write: `(reaction !reaction1 ((2 !h) !o) <=> !h2o)`
 
+My initial thoughts are to have macros expand into the functional syntax, represented as some data structure in the language in which the macros are implemented.  An open question is whether that structure should be modified from the "outside", as with a DOM, or from the "inside", by implementing a lisp-like interpreter to do the macro-expansion.
+
+This page maintained by [mailto:alanruttenberg@gmail.com Alan Ruttenberg]. Feel free to edit.
 
 
