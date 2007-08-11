@@ -1,0 +1,16 @@
+= Macros and Syntax Task Force =
+
+Point person: [mailto:alanruttenberg@gmail.com Alan Ruttenberg]
+
+Idea is to allow for programmable extensions to syntax to enable easy constructions of [http://en.wikipedia.org/wiki/Domain-specific_programming_language domain specific languages] based on OWL. Inspired by the [http://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node97.html Common Lisp macro facility]
+
+= Details =
+
+Starting point is the abstract (sans followup paper, unfortunately) submitted to OWLED 2007:
+
+[http://ftp.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-258/paper44.pdf Hey! You Got Imperative in My Declarative! or  A Mashup Made in Heaven: Making OWL friendlier with Javascript. ]
+
+See also, an example of macros prototyped in [http://esw.w3.org/topic/LSW LSW], in [http://svn.mumble.net:8080/svn/lsw/trunk/owl/reactions.lisp reactions.lisp] that allows one to write: `(reaction !reaction1 ((2 !h) !o) <=> !h2o)`
+
+
+
