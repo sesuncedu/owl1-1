@@ -16,7 +16,8 @@ The TF is working on three topics at the moment:
  * Constraints
    * [http://webont.org/owled/2007/PapersPDF/submission_9.pdf Adding Integrity Constraints to OWL]
    * [http://www.cs.man.ac.uk/~bmotik/publications/papers/mhs07bridging.pdf Bridging the Gap Between OWL and Relational Databases]
-   * (Need to add K and A stuff.)
+   * [http://www.cs.man.ac.uk/~bmotik/publications/papers/mr06closing-report.pdf Closing Semantic Web Ontologies]
+   * (Need to add classic K and A stuff.)
 
 = Dependancies =
 
