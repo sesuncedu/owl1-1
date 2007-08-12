@@ -11,8 +11,7 @@ In OWL 1.1, both entities (class, properties, etc.) and axioms can have annotion
  * Extended Axiom Annoations: I.e., multiple distinct annotations on an axom. (For example, there might be two comments from different people on the same axiom.)
 
 = References =
- * [http://www.cs.man.ac.uk/~bmotik/metaviews/paper-full.pdf Making Metalogical Information in Ontologies 
-Logical Using Metaviews]
+ * [http://www.cs.man.ac.uk/~bmotik/metaviews/paper-full.pdf Making Metalogical Information in Ontologies Logical Using Metaviews]
 
 = People =
 
