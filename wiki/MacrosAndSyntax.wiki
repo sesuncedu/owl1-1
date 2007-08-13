@@ -1,3 +1,6 @@
+#labels OWLED,Taskforce
+# Page for the Macros and Syntax OWLED task force
+
 = Macros and Syntax Task Force =
 
 Point person: [mailto:alanruttenberg@gmail.com Alan Ruttenberg]
@@ -15,5 +18,4 @@ See also, an example of macros prototyped in [http://esw.w3.org/topic/LSW LSW], 
 My initial thoughts are to have macros expand into the functional syntax, represented as some data structure in the language in which the macros are implemented.  An open question is whether that structure should be modified from the "outside", as with a DOM, or from the "inside", by implementing a lisp-like interpreter to do the macro-expansion.
 
 This page maintained by [mailto:alanruttenberg@gmail.com Alan Ruttenberg]. Feel free to edit.
-
 
