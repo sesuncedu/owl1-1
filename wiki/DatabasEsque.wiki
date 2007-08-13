@@ -29,3 +29,4 @@ Sometimes these features are realized in or in conjunction with rules or query l
  * [http://www.cs.man.ac.uk/~sattler/ Uli Sattler] (point person)
  * [http://www.cs.man.ac.uk/~horrocks/ Ian Horrocks]
  * [http://www.cs.man.ac.uk/~bparsia/ Bijan Parsia] 
+ * Evan Wallace 
