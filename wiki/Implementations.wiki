@@ -3,7 +3,8 @@
 
 || Name || Type || Maturity || Coverage || Comment ||
 || [http://www.co-ode.org/downloads/protege-x/ Protege] || Editor || Alpha || Complete || Uses OWL API; connects directly to Pellet or FaCT++||
-|| [http://pellet.owldl.com/#Download SWOOP] || Editor || Experimental || Browse only, old syntax || ?? ||
+|| [http://pellet.owldl.com/#Download SWOOP] || Editor || Experimental || Browse only, old syntax || OWL 1.1 branch defunct ||
+|| [http://pellet.owldl.com/ontology-browser/ OWLSight] || Browser || pre-Alpha || Complete|| Uses OWL API; Pellet backed ||
 || [http://pellet.owldl.com/#Download Pellet 1.4] || Reasoner || Final release || No nary datatypes|| ||
 || [http://owl.man.ac.uk/factplusplus FaCT++]|| Reasoner || ?? || ?? || ||
 || [http://www.topbraidcomposer.com/ TopBraid Composer 2.0]|| Editor || Final release?? || ?? || Bundles Pellet||
