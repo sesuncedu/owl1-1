@@ -1,4 +1,4 @@
- #summary Page for the User Requirements OWLED task force.
+#summary Page for the User Requirements OWLED task force.
 = Introduction =
 
 The User Requirements Task Force  aims to identify requirements to improve the utility and deployment of the OWL language by users communities esp. in industrial organizations.
@@ -49,5 +49,4 @@ The TF will produce a report including use cases, requirements, and recommendati
  * Kent Spackman
  * Holger Stenzhorn
  * Suzette Stoutenburg
-
 
