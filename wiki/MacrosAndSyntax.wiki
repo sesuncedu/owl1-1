@@ -15,7 +15,7 @@ Starting point is the abstract (sans followup paper, unfortunately) submitted to
 
 See also, an example of macros prototyped in [http://esw.w3.org/topic/LSW LSW], in [http://svn.mumble.net:8080/svn/lsw/trunk/owl/reactions.lisp reactions.lisp] that allows one to write: `(reaction !reaction1 ((2 !h) !o) <=> !h2o)`
 
-Another example developed to illustrate how to write a certain class of rules useful for medical diagnosis.
+Another example developed to illustrate how to write a certain class of
 [http://lists.w3.org/Archives/Public/public-semweb-lifesci/2007Feb/0076.html rules useful for medical diagnosis]. This one lets you write things like: `(patient-with-symptoms !patient3 !coughs !sneezes !turnsBlue)`
 
 My initial thoughts are to have macros expand into the functional syntax, represented as some data structure in the language in which the macros are implemented.  An open question is whether that structure should be modified from the "outside", as with a DOM, or from the "inside", by implementing a lisp-like interpreter to do the macro-expansion.
