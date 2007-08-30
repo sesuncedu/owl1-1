@@ -41,12 +41,13 @@ The TF will produce a report including use cases, requirements, and recommendati
    * See their [http://www.w3.org/2001/sw/sweo/public/UseCases/  use cases] page.
 = People =
 
- * Christine Golbreich (point person)
- * William Bug
- * Michel Dumontier
- * Maryann Martone
- * Anne Monceaux
- * François-Paul Servant
- * Kent Spackman
- * Holger Stenzhorn
- * Suzette Stoutenburg
+ * Christine Golbreich, UVSQ (point person)
+ * William Bug, BIRN and Drexel University - Laboratory for Bioimaging & Anatomical Informatics
+ * Michel Dumontier, Carleton University - Department of Biology
+ * Maryann Martone, BIRN and UCSD - Department of Neurosciences
+ * Anne Monceaux, EADS
+ * François-Paul Servant, RENAULT
+ * Kent Spackman, SNOMED
+ * Holger Stenzhorn, IFOMIS and University Hospital Freiburg - Medical Informatics Department
+ * Suzette Stoutenburg, MITRE Corporation
+
