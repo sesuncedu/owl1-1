@@ -1,5 +1,3 @@
 #summary For playing with WikiSyntax
 
-This is an example
-
 [OwlCnl OWL/CNL]
