@@ -1,0 +1,22 @@
+#summary Page for the Uncertainty and OWL OWLED task force
+
+= Rationale =
+
+Reasoning with various sorts of uncertainty is critical for many tasks from representing the results of medical experiments to working with the output of ontology alignment tools. However, there are many, many sorts of uncertainty formalisms and several active research programs working in this area. This task force will try to present the state of the area in such a way that the OWLED participants can start to understand what questions they need to ask and answer.
+
+= Current Topics =
+
+
+= References =
+ * P-SHOIQ
+ * Fuzzy stuff
+
+= Related =
+
+ * W3C Incubator group on [http://www.w3.org/2005/Incubator/urw3/ Uncertainty Reasoning]
+
+= People =
+
+ * Jeff Pan (point person)
+ * Giorgos Stamou (point person)
+ * [http://www.cs.man.ac.uk/~bparsia/ Bijan Parsia] 
