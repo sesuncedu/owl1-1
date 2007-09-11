@@ -42,9 +42,8 @@ It would be nice to have something concrete to report at the interim OWLED meeti
 
 = People (active participants please add yourselves) =
 
- *[mailto:pfpschneider@gmail.com Peter F. Patel-Schneider] (point person)
- *[http://www.cs.man.ac.uk/~bparsia/ Bijan Parsia]
-
+ * [mailto:pfpschneider@gmail.com Peter F. Patel-Schneider] (point person)
+ * [http://www.cs.man.ac.uk/~bparsia/ Bijan Parsia]
 
 
 
