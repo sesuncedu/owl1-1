@@ -14,12 +14,20 @@ The TF is working on three topics at the moment:
  # ABox closure (i.e., Closed World Assumption and Unique Name assumptions)
 
 = References =
+ * Keys
+    * [http://www.cs.man.ac.uk/~horrocks/Publications/download/2004/LAHS04a.pdf  On the effects of using keys on datatype properties] 
  * Constraints
    * [http://webont.org/owled/2007/PapersPDF/submission_9.pdf Adding Integrity Constraints to OWL]
    * [http://www.cs.man.ac.uk/~bmotik/publications/papers/mhs07bridging.pdf Bridging the Gap Between OWL and Relational Databases]
-   * [http://www.cs.man.ac.uk/~bmotik/publications/papers/mr06closing-report.pdf Closing Semantic Web Ontologies]
-   * [http://www.dis.uniroma1.it/~ai/citations/Len-91b.html Careful closure of inheritance networks]
-   * (Need to add classic K and A stuff.)
+ * Closing some aspect of your knowledge 
+  * [http://www.cs.man.ac.uk/~bmotik/publications/papers/mr06closing-report.pdf Closing Semantic Web Ontologies]
+  * [http://www.dis.uniroma1.it/~ai/citations/Len-91b.html Careful closure of inheritance networks]
+  * [http://dx.doi.org/10.1016/S0004-3702(98)00009-5 An epistemic operator for description logics]
+
+ * Query languages with epistemic operators for "closing" your assumptions 
+  * [http://www.tonesproject.org/index.php?option=com_docman&Itemid=45&task=docclick&bid=87&limitstart=0&limit=20 Using epistemic operators in query languages]
+  * [http://www.ijcai.org/papers07/Papers/IJCAI07-042.pdf EQL-Lite: Effective First-Order Query Processing in Description Logics]
+
 
 = Dependancies =
 
@@ -32,3 +40,11 @@ Sometimes these features are realized in or in conjunction with rules or query l
  * [http://www.cs.man.ac.uk/~bparsia/ Bijan Parsia] 
  * Evan Wallace 
  * [http://dumontierlab.com/ Michel Dumontier] 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
