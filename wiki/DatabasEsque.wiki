@@ -11,7 +11,9 @@ The TF is working on three topics at the moment:
 
  # Keys
  # Constraints (aka, TBox closure)
- # ABox closure (i.e., Closed World Assumption and Unique Name assumptions)
+ # Closing some part of your knowledge base. We distinguish between 
+  * formalisms that allow to make general statements in your ontology and 
+  * query languages that allow you to query with "closing" constructs such as epistemic operators
 
 = References =
  * Keys
@@ -21,9 +23,10 @@ The TF is working on three topics at the moment:
    * [http://www.cs.man.ac.uk/~bmotik/publications/papers/mhs07bridging.pdf Bridging the Gap Between OWL and Relational Databases]
  * Closing some aspect of your knowledge 
   * [http://www.cs.man.ac.uk/~bmotik/publications/papers/mr06closing-report.pdf Closing Semantic Web Ontologies]
+  * [http://www.webont.org/owled/2006/acceptedLong/submission_22.pdf Implementing OWL defaults]
+  * [http://lat.inf.tu-dresden.de/research/papers.html Embedding Defaults into Terminological Representation Systems]
   * [http://www.dis.uniroma1.it/~ai/citations/Len-91b.html Careful closure of inheritance networks]
   * [http://dx.doi.org/10.1016/S0004-3702(98)00009-5 An epistemic operator for description logics]
-
  * Query languages with epistemic operators for "closing" your assumptions 
   * [http://www.tonesproject.org/index.php?option=com_docman&Itemid=45&task=docclick&bid=87&limitstart=0&limit=20 Using epistemic operators in query languages]
   * [http://www.ijcai.org/papers07/Papers/IJCAI07-042.pdf EQL-Lite: Effective First-Order Query Processing in Description Logics]
@@ -40,6 +43,10 @@ Sometimes these features are realized in or in conjunction with rules or query l
  * [http://www.cs.man.ac.uk/~bparsia/ Bijan Parsia] 
  * Evan Wallace 
  * [http://dumontierlab.com/ Michel Dumontier] 
+ 
+ 
+ 
+ 
  
  
  
