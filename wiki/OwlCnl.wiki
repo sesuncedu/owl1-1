@@ -79,11 +79,11 @@ What are their CNL counterparts?
 
 = Bibliography =
 
-  * [http://attempto.ifi.unizh.ch/site/ Attempto group]'s work on CNL for OWL
+  * [http://attempto.ifi.uzh.ch/site/ Attempto group]'s work on CNL for OWL
     * [http://webont.org/owled/2007/PapersPDF/submission_22.pdf Verbalizing OWL in Attempto Controlled English] is an OWLED07 paper which discusses the mapping of OWL 1.1 axioms to ACE sentences
-    * [http://attempto.ifi.unizh.ch/site/docs/owlace_constructionrules.html OWL ACE Construction Rules] define sentence structures which are used when mapping OWL ontologies to ACE
-    * [http://attempto.ifi.unizh.ch/site/docs/writing_owl_in_ace.html Writing OWL ontologies in ACE] discusses the other direction, i.e. mapping ACE sentences to OWL axioms. Note that a much larger subset of ACE than used for OWL->ACE is considered.
-      * Implementation of ACE->OWL, see http://attempto.ifi.unizh.ch/ape/ (switch on "OWL FSS" in the menu)
+    * [http://attempto.ifi.uzh.ch/site/docs/owlace_constructionrules.html OWL ACE Construction Rules] define sentence structures which are used when mapping OWL ontologies to ACE
+    * [http://attempto.ifi.uzh.ch/site/docs/writing_owl_in_ace.html Writing OWL ontologies in ACE] discusses the other direction, i.e. mapping ACE sentences to OWL axioms. Note that a much larger subset of ACE than used for OWL->ACE is considered.
+      * Implementation of ACE->OWL, see http://attempto.ifi.uzh.ch/ape/ (switch on "OWL FSS" in the menu)
   * Rabbit structured English 
     * [http://webont.org/owled/2007/PapersPDF/submission_1.pdf Using Structured English to represent a Topographic Hydrology Ontology]
     * Ontologies written in Rabbit - http://www.ordnancesurvey.co.uk/ontology
@@ -104,5 +104,3 @@ What are their CNL counterparts?
  * Catherine Dolbear (point person)
  * Bijan Parsia
  * Kaarel Kaljurand
-
-
