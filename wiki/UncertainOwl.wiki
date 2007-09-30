@@ -9,8 +9,10 @@ Reasoning with various sorts of uncertainty is critical for many tasks from repr
 
 
 = References =
- * P-SHOIQ
- * Fuzzy stuff
+ 
+ * Fuzzy extensions
+ * Probabilistic extensions
+ * Possiblistic extensions  
 
 = Related =
 
