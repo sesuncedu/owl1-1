@@ -17,9 +17,11 @@ Reasoning with various sorts of uncertainty is critical for many tasks from repr
 = Related =
 
  * W3C Incubator group on [http://www.w3.org/2005/Incubator/urw3/ Uncertainty Reasoning]
+ * [http://image.ntua.gr/FuzzyRuleML/ Fuzzy RuleML Technical Group]
 
 = People =
 
- * Jeff Pan (point person)
- * Giorgos Stamou (point person)
+ * [http://www.csd.abdn.ac.uk/~jpan/ Jeff Z. Pan (point person)]
+ * [http://image.ece.ntua.gr/~gstam/ Giorgos Stamou (point person)]
  * [http://www.cs.man.ac.uk/~bparsia/ Bijan Parsia] 
+ * [http://image.ntua.gr/~gstoil/ Giorgos Stoilos]
