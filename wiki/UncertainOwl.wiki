@@ -13,6 +13,13 @@ The TF is working on three topics at the moment:
  # Probabilistic extensions
  # Possiblistic extensions 
 
+= Current Tools =
+
+ * Fuzzy extensions
+   * [http://www.image.ece.ntua.gr/~nsimou FiRE] A fuzzy SHIN Reasoner
+ * Probabilistic extensions
+ * Possiblistic extensions  
+
 = References =
  
  * Fuzzy extensions
