@@ -16,7 +16,7 @@ The TF is working on three topics at the moment:
 = Current Tools =
 
  * Fuzzy extensions
-   * [http://www.image.ece.ntua.gr/~nsimou FiRE] A fuzzy SHIN Reasoner
+   * [http://www.image.ece.ntua.gr/~nsimou FiRE]: A fuzzy SHIN Reasoner
  * Probabilistic extensions
  * Possiblistic extensions  
 
