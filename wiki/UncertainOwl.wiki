@@ -35,7 +35,7 @@ The TF is working on three topics at the moment:
  * Possiblistic extensions  
    * [http://www.abdn.ac.uk/~csc280/QPJb07 Extending Description Logics with Uncertainty Reasoning in Possibilistic Logic]
 
- * General
+ * General extensions
    * [http://www.abdn.ac.uk/~csc280/FuzzyRuleML.pdf Representing Uncertainty in RuleML] 
 
 = Related =
