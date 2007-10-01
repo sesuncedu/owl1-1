@@ -17,7 +17,9 @@ The TF is working on three topics at the moment:
 
  * Fuzzy extensions
    * [http://www.image.ece.ntua.gr/~nsimou FiRE]: A fuzzy SHIN Reasoner
-   * [http://gaia.isti.cnr.it/~straccia /fuzzyDL/]: A mixed integer programming-based SHIf fuzzy reasoner
+   * [http://gaia.isti.cnr.it/~straccia fuzzyDL]: A mixed integer programming-based SHIf fuzzy reasoner
+   * [http://dipper.csd.abdn.ac.uk/OntoSearch/ ONTOSEARCH2]: A fuzzy DL-Lite reasoner and query engine
+
  * Probabilistic extensions
  * Possiblistic extensions  
 
