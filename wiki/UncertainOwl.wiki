@@ -26,8 +26,14 @@ The TF is working on three topics at the moment:
 = References =
  
  * Fuzzy extensions
+   * [http://www.image.ece.ntua.gr/papers/445.pdf Uncertainty and the Semantic Web]
+   * [http://gaia.isti.cnr.it/~straccia/download/papers/JAIR01/JAIR01.pdf Reasoning within Fuzzy Description Logics]
+   * [http://web.comlab.ox.ac.uk/oucl/work/ian.horrocks/Publications/download/2007/SSPTH07.pdf Reasoning with Very Expressive Fuzzy Description Logics]
+   * [http://dl-web.man.ac.uk/~panz/Zhilin/pubc.php?type=paper&id=PSSTH05 f-SWRL: A Fuzzy Extension of SWRL] 
  * Probabilistic extensions
  * Possiblistic extensions  
+ * General
+   * [http://www.abdn.ac.uk/~csc280/FuzzyRuleML.pdf Representing Uncertainty in RuleML] 
 
 = Related =
 
