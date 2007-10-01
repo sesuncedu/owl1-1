@@ -7,6 +7,11 @@ Reasoning with various sorts of uncertainty is critical for many tasks from repr
 
 = Current Topics =
 
+The TF is working on three topics at the moment:
+
+ # Fuzzy extensions
+ # Probabilistic extensions
+ # Possiblistic extensions 
 
 = References =
  
