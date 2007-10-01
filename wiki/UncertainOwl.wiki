@@ -21,7 +21,9 @@ The TF is working on three topics at the moment:
    * [http://dipper.csd.abdn.ac.uk/OntoSearch/ ONTOSEARCH2]: A fuzzy DL-Lite reasoner and query engine
 
  * Probabilistic extensions
+   * [http://www.kr.tuwien.ac.at/research/reports/rr0605.pdf Probabilistic Description Logics for the Semantic Web]
  * Possiblistic extensions  
+   * [http://www.abdn.ac.uk/~csc280/QPJb07 Extending Description Logics with Uncertainty Reasoning in Possibilistic Logic]
 
 = References =
  
