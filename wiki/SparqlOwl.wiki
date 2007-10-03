@@ -45,7 +45,7 @@ This query is equivalent to retrieving the instances of the following concept (a
 
 = Implementations = 
 
-For brevity and clarity we only list implmenetations that cover a significant fraction of OWL, e.g., one of the named fragments (more than RDFS).
+For brevity and clarity we only list implementations that cover a significant fraction of OWL, e.g., one of the named fragments (more than RDFS).
 
 == Query Engines ==
 
