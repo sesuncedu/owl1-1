@@ -1,4 +1,4 @@
-#summary Describes acceptable behavior for this project and protocol for handling behavior that isn't acceptable.
+#summary Describes acceptable behavior for this project and the protocol for handling behavior that isn't acceptable.
 #labels Featured
 
 Current project administrators are Boris Motik, Bijan Parsia, and Bernardo Cuenca Grau.
@@ -16,4 +16,4 @@ Therefore project policy needs to be defined, to be accepted by members, and to 
 
 Failure to follow these policies will result in access to the project being suspended and files/pages with offending changes being reverted.
 
-This page maintained by [http://www.cs.man.ac.uk/~bparsia/ Bijan Parsia]. Typos corrections only without consultation.
+This page maintained by [http://www.cs.man.ac.uk/~bparsia/ Bijan Parsia]. Typo corrections only without consultation.
