@@ -104,3 +104,4 @@ What are their CNL counterparts?
  * Catherine Dolbear (point person)
  * Bijan Parsia
  * Kaarel Kaljurand
+*  Anne Cregan
