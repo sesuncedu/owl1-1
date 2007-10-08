@@ -76,6 +76,11 @@ What are their CNL counterparts?
  * Some OWL 1.1 axioms (e.g. DisjointUnion) are a concise notation to express a large number of axioms. At least in some cases, graphical means seem better. e.g. the pie-chart visualization of DisjointUnion that Protege 4 offers seems better than any natural language representation.
  * Long syntactic patterns - useful to convey meaning the first time, but tiresome to type 100 times... 
 
+= Next Steps =
+  * Comparison of Rabbit, Sydney and ACE syntaxes
+  * Consideration of Empirical Studies - which approach has been found most effective?
+  * Start moving towards consensus on the best CNL translation for each OWL 1.1 construct
+
 
 = Bibliography =
 
