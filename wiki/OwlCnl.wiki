@@ -78,8 +78,8 @@ What are their CNL counterparts?
 
 = Next Steps =
   * Comparison of existing Controlled English syntaxes for OWL including Rabbit, Sydney and ACE. Download from [http://code.google.com/p/owl1-1/downloads/list]
-      TO DO
-      -----
+      *TO DO*
+      -------
       * Catherine: advise a standard set of examples for translation, provided in OWL syntax
       * Each group (Rabbit, Sydney and ACE): check/complete their column in the table, including a translation of the appropriate OWL example from the example set provided above 
 
