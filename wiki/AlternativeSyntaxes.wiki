@@ -16,7 +16,7 @@ All of these are determined by the RDF Mapping.
  * Attempto Controlled English (ACE)
  * others...
 
-There is a task force composed of Rabbit, Sydney Syntax and ACE members, working on a standard Controlled English syntax for OWL. 
+There is a task force here  composed of Rabbit, Sydney Syntax and ACE members, working on producing a standard Controlled English syntax for OWL.  See [http://code.google.com/p/owl1-1/wiki/OwlCnl]
 
 
 == Other ==
