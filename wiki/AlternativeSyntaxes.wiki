@@ -12,7 +12,7 @@ All of these are determined by the RDF Mapping.
 
 == Natural Language-esque ==
  * Rabbit
- * Sydney Syntax
+ * Sydney OWL Syntax (SOS)
  * Attempto Controlled English (ACE)
  * others...
 
