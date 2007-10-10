@@ -11,9 +11,13 @@ All of these are determined by the RDF Mapping.
  * Turtle
 
 == Natural Language-esque ==
- * Sydny Syntax
- * Attempto
+ * Rabbit
+ * Sydney Syntax
+ * Attempto Controlled English (ACE)
  * others...
+
+There is a task force composed of Rabbit, Sydney Syntax and ACE members, working on a standard Controlled English syntax for OWL. 
+
 
 == Other ==
  * Manchester Syntax (for class expressions)
