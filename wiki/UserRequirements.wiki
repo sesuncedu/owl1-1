@@ -50,4 +50,4 @@ The TF will produce a report including use cases, requirements, and recommendati
  * Kent Spackman, SNOMED
  * Holger Stenzhorn, IFOMIS and University Hospital Freiburg - Medical Informatics Department
  * Suzette Stoutenburg, MITRE Corporation
-
+ * Jean Rohmer, THALES
