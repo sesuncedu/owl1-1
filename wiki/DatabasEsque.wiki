@@ -9,7 +9,7 @@ There are a number of features familiar to people working with databases that ei
 
 The TF is working on three topics at the moment:
 
- # Keys
+ # Keys (EasyKeyProposal)
  # Constraints (aka, TBox closure)
  # Closing some part of your knowledge base. We distinguish between 
   * formalisms that allow to make general statements in your ontology and 
