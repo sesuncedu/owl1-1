@@ -1,0 +1,40 @@
+#summary Simple, easy to implement keys
+
+= Introduction =
+
+Keys (aka, inverse functional datatype properties) are clearly of vital importance to many applications. Key reasoning in general in the context of OWL can be unfeasibly difficult (given what we currently know and anticpate) or even undecidable. However, general inverse functional properties are often overkill for a lot of applications. Instead of tackling the general problem, we propose a restricted version which meets important use cases. We aim for robust implementations quickly, so are willing to forgo feasible features that unduely complicate the implementation (as far as we can currently tell). As our implementation knowledge advances, we can update the spec to cover more features.
+
+= Basic details =
+
+Easy Keys should be:
+ * Useful enough to be worth specifying
+ * Low impact on implementations
+ * Clear enough to specify
+
+Often, applications merely require a key checking on explicit data (i.e., named individuals and known key values). This alone is a big and effective reduction in expressivity since it allows us to (mostly) use DL Safe rules to specify key semantics. DL Safe rules degrade graceful as we step down the overall expressiveness of the langauge, making this spec useful for RDF + rules implementations.
+
+Keys in general have (or may have) the following properties
+# Missing keys raise an error (optional; non first order)
+# Functionality constraints on keys (optional)
+# If X and Y have the same key, then X=Y. (essential; this is what it is to be a key!)
+
+The first feature is not expressible directly in first order logic, thus not in OWL or OWL + DL Safe rules. So we forgo this for the moment. Functionality can be expressed in OWL and degrades to the known individual/value case just fine.
+
+The third feature can be expressed as a DL Safe rule (assuming safety restrictions on datatype atoms), e.g.,
+
+  {{{  keyProperty(X, Y), keyProperty(Z, Y) -> X = Z. }}}
+
+Key properties can be restricted to certain classes, e.g.,
+
+  {{{  keyProperty(X, Y),  keyProperty(Z, Y), aClass(X), aClass(Z) -> X = Z. }}}
+
+= Restricitons =
+
+
+= Compound Keys =
+
+We can extend this definition to compound keys.
+
+= Syntax =
+
+Because of the various restrictions, it seems reasonable to introduce special syntax for key properties so that people don't inadvertantly violate the restricitons, or when they wish to risk it, it is clearly indicated.
