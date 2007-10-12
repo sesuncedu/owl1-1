@@ -22,18 +22,27 @@ The first feature is not expressible directly in first order logic, thus not in 
 
 The third feature can be expressed as a DL Safe rule (assuming safety restrictions on datatype atoms), e.g.,
 
-  {{{  keyProperty(X, Y), keyProperty(Z, Y) -> X = Z. }}}
+  {{{  keyProperty(X, K), keyProperty(Y, K) -> X = Y. }}}
 
 Key properties can be restricted to certain classes, e.g.,
 
-  {{{  keyProperty(X, Y),  keyProperty(Z, Y), aClass(X), aClass(Z) -> X = Z. }}}
+  {{{  keyProperty(X, K),  keyProperty(Y, K), aClass(X), aClass(Y) -> X = Y. }}}
+
+= Compound Keys =
+
+We can extend this definition to compound keys. For example, if to be the same someone needs to have the same SS# _and_ be the same age (since, who knows, we might reuse SS# every year, or every generation):
+
+{{{ss(X, K1), age(X, K2), ss(Y, K1), age(Y, K2) -> X = Y.}}}
+
+If we can make sense of builtins, then we can go further and allow computed keys of various forms. The potentially tricky bits there are:
+ * What exactly the DL Safety restriction means here. Intuitively, we'd want any builtins to need _ground_ arguments, so that they are only verifying a simple relation, rather than solving a constraint problem.
+ * Prevelance of builtins.
+ * Computability of builtins.
 
 = Restricitons =
 
 
-= Compound Keys =
 
-We can extend this definition to compound keys.
 
 = Syntax =
 
