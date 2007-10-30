@@ -40,11 +40,10 @@ If we can make sense of builtins, then we can go further and allow computed keys
  * Prevelance of builtins.
  * Computability of builtins.
 
-= Restricitons =
-
+= Restrictons =
 
 
 
 = Syntax =
 
-Because of the various restrictions, it seems reasonable to introduce special syntax for key properties so that people don't inadvertantly violate the restricitons, or when they wish to risk it, it is clearly indicated.
+Because of the various restrictions, it seems reasonable to introduce special syntax for key properties so that people don't inadvertantly violate the restrictons, or when they wish to risk it, it is clearly indicated.
