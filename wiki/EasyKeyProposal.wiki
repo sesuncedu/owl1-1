@@ -14,9 +14,9 @@ Easy Keys should be:
 Often, applications merely require a key checking on explicit data (i.e., named individuals and known key values). This alone is a big and effective reduction in expressivity since it allows us to (mostly) use DL Safe rules to specify key semantics. DL Safe rules degrade graceful as we step down the overall expressiveness of the langauge, making this spec useful for RDF + rules implementations.
 
 Keys in general have (or may have) the following properties
-# Missing keys raise an error (optional; non first order)
-# Functionality constraints on keys (optional)
-# If X and Y have the same key, then X=Y. (essential; this is what it is to be a key!)
+ * Missing keys raise an error (optional; non first order)
+ * Functionality constraints on keys (optional)
+ * If X and Y have the same ke values y, then X=Y. (essential; this is what it is to be a key!)
 
 The first feature is not expressible directly in first order logic, thus not in OWL or OWL + DL Safe rules. So we forgo this for the moment. Functionality can be expressed in OWL and degrades to the known individual/value case just fine.
 
