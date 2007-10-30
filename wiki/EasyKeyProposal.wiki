@@ -14,23 +14,24 @@ Easy Keys should be:
 Often, applications merely require a key checking on explicit data (i.e., named individuals and known key values). This alone is a big and effective reduction in expressivity since it allows us to (mostly) use DL Safe rules to specify key semantics. DL Safe rules degrade graceful as we step down the overall expressiveness of the langauge, making this spec useful for RDF + rules implementations.
 
 Keys in general have (or may have) the following properties
- * Missing key values raise an error (optional; non first order)
- * Functionality constraints on keys (optional)
- * If X and Y have the same key values y, then X=Y. (essential; this is what it is to be a key!)
+ # Missing key values raise an error (optional; non first order)
+ # Functionality constraints on keys (optional)
+ # If X and Y have the same key values y, then X=Y. (essential; this is what it is to be a key!)
 
 The first feature is not expressible directly in first order logic, thus not in OWL or OWL + DL Safe rules. So we forgo this for the moment. Functionality can be expressed in OWL and degrades to the known individual/value case just fine.
 
-The third feature can be expressed as a DL Safe rule (assuming safety restrictions on datatype atoms), e.g.,
+The third feature can be expressed as a DL Safe rule (assuming safety restrictions on datatype atoms), e.g., the following DL safe rule expresses that `keyProperty` is a key property:
 
   {{{  keyProperty(X, K), keyProperty(Y, K) -> X = Y. }}}
 
-Key properties can be restricted to certain classes, e.g.,
+Key properties can be restricted to certain classes, e.g., the following DL safe rule expresses that `keyProperty` is a key property for the class `aClass`:
+
 
   {{{  keyProperty(X, K),  keyProperty(Y, K), aClass(X), aClass(Y) -> X = Y. }}}
 
 = Compound Keys =
 
-We can extend this definition to compound keys. For example, if to be the same someone needs to have the same SS# _and_ be the same age (since, who knows, we might reuse SS# every year, or every generation):
+We can extend this definition to compound keys. For example, assume we want to express that  having the same SS# _and_ being the same age (since, who knows, we might reuse SS# every year, or every generation) implies being the same individual (that is, we want to say that `ss` and  `age` act as a compound key). We can do this using the following DL safe rule:
 
 {{{ss(X, K1), age(X, K2), ss(Y, K1), age(Y, K2) -> X = Y.}}}
 
