@@ -48,7 +48,7 @@ Chapter 14 of the [http://www.omg.org/cgi-bin/doc?ptc/2007-09-09 ODM ]
 
 = People who developed this notation =
 
-  * Evan Wallace
+  * [ekwallace Evan Wallace]
   * Elisa Kendall
   * Peter Haase
   * Saartje Brockman
