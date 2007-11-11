@@ -16,7 +16,8 @@ Status of support for OWL 1.1?
 
 
 Some examples of OWL ontologies presented in this notation to go here please.
-If possible, pleaseuse of the same ontology that is being used for comparison for [OwlCnl OWL CNL ] syntaxes - download CNL.owl from [http://code.google.com/p/owl1-1/downloads/list]
+
+If possible, please use of the same ontology that is being used for comparison for [OwlCnl OWL CNL ] syntaxes - download CNL.owl from [http://code.google.com/p/owl1-1/downloads/list]
 
 
 
