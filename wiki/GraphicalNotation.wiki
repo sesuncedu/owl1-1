@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Graphical Notations developed for RDF and OWL
 
 = Introduction =
 
@@ -12,6 +12,6 @@ A graphical notation is simply a graphical alternative to the other OWL syntaxes
 = Graphical Notations developed for OWL =
 
 
-  * [[UML Graphical Notation]]
+  * [UMLGraphicalNotation UML Graphical Notation]
 
   UML Profiles for RDF and OWL have been developed as part of OMG's Ontology Definition Meta Model (ODM).
