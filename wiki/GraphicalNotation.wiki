@@ -21,4 +21,4 @@ A graphical notation is simply a graphical alternative to the other OWL syntaxes
 
 = Comparison =
 
-  * The [http://www.omg.org/cgi-bin/doc?ptc/2007-09-09 Ontology Definition Meta Model (ODM)] UML profiles appear to be the most mature approach.
+  * The [UMLGraphicalNotation UML Graphical Notation] developed within the ODM appears to be the most mature approach.
