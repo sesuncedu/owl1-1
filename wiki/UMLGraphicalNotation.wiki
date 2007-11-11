@@ -1,13 +1,13 @@
-#summary UML Profiles for RDF and OWL developed as part of OMG's Ontology Definition Meta Model (ODM).
+#summary UML Profiles for RDF and OWL developed as part of OMG's Ontology Definition Meta Model [http://www.omg.org/cgi-bin/doc?ptc/2007-09-09 ODM ].
 
 = Introduction =
 
-OMG's Ontology Definition Metamodel (ODM) includes UML profiles for RDF and OWL, which provide a standard graphical notation for UML-based RDF and OWL development. 
+OMG's [http://www.omg.org/cgi-bin/doc?ptc/2007-09-09 Ontology Definition MetaModel (ODM) ] includes UML profiles for RDF and OWL, which provide a standard graphical notation for UML-based RDF and OWL development. 
 
 
 = Current Status =
 
-The ontology definition metamodel (ODM) specification is close to finalization in the OMG and is slated to become an ISO standard in 2008.
+The [http://www.omg.org/cgi-bin/doc?ptc/2007-09-09 ODM ] specification is close to finalization in the OMG and is slated to become an ISO standard in 2008.
 
 Status of support for OWL 1.1?
 
@@ -27,7 +27,7 @@ Chapter 14 of the [http://www.omg.org/cgi-bin/doc?ptc/2007-09-09 ODM ]
 
 == Relationship to UML ==
 
-(To be written by Evan or Elisa)
+(To be written by one of the people who developed this notation)
 
 
 
@@ -48,7 +48,7 @@ Chapter 14 of the [http://www.omg.org/cgi-bin/doc?ptc/2007-09-09 ODM ]
 
 = People who developed this notation =
 
-  * [ekwallace Evan Wallace]
+  * Evan Wallace
   * Elisa Kendall
   * Peter Haase
   * Saartje Brockman
