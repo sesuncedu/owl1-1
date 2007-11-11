@@ -18,9 +18,12 @@ All of these are determined by the RDF Mapping.
 
 There is an OwlCnl task force composed of Rabbit, Sydney Syntax and ACE members, working on producing a standard Controlled English syntax for OWL.  
 
+== [GraphicalNotations Graphical Notations] ==
+ * See [GraphicalNotations Graphical Notations]
+ * includes [UMLGraphicalNotation UML Graphical Notation]
+
 
 == Other ==
  * Manchester Syntax (for class expressions)
  * OBO
  * SOF
- * UML?
