@@ -1,4 +1,4 @@
-#summary UML Profiles for RDF and OWL developed as part of OMG's Ontology Definition Meta Model [http://www.omg.org/cgi-bin/doc?ptc/2007-09-09 ODM ].
+#summary UML Profiles for RDF and OWL developed as part of OMG's Ontology Definition Meta Model
 
 = Introduction =
 
