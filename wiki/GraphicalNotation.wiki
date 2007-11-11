@@ -14,4 +14,11 @@ A graphical notation is simply a graphical alternative to the other OWL syntaxes
 
   * [UMLGraphicalNotation UML Graphical Notation]
 
-  UML Profiles for RDF and OWL have been developed as part of OMG's Ontology Definition Meta Model (ODM).
+  UML Profiles for RDF and OWL have been developed as part of OMG's [http://www.omg.org/cgi-bin/doc?ptc/2007-09-09 Ontology Definition Meta Model (ODM)].
+
+
+  * Add more here
+
+= Comparison =
+
+  * The [http://www.omg.org/cgi-bin/doc?ptc/2007-09-09 Ontology Definition Meta Model (ODM)] UML profiles appear to be the most mature approach.
