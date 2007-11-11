@@ -2,40 +2,51 @@
 
 = Introduction =
 
-The ODM includes UML profiles for RDF and OWL, which provide a standard graphical notation for UML-based RDF and OWL development. 
+OMG's Ontology Definition Metamodel (ODM) includes UML profiles for RDF and OWL, which provide a standard graphical notation for UML-based RDF and OWL development. 
 
-= Status =
+
+= Current Status =
 
 The ontology definition metamodel (ODM) specification is close to finalization in the OMG and is slated to become an ISO standard in 2008.
 
+Status of support for OWL 1.1?
 
-= Details =
+
+= Examples =
+
+
+Some examples of OWL ontologies presented in this notation to go here.
+Recommend use of the same ontology that is being used for comparison for [OwlCnl OWL CNL ] syntaxes
+
+
+
+= Details of this notation =
 
 Chapter 14 of the [http://www.omg.org/cgi-bin/doc?ptc/2007-09-09 ODM ]
+
 
 == Relationship to UML ==
 
 (To be written by Evan or Elisa)
 
-= Examples =
 
-Some examples of OWL ontologies rendered in this syntax to go here.
-Recommend use of the same ontology that is being used for comparison for OWLCnl syntaxes
 
 
 = Tool Support =
 
-== Implementations within UML tools:
+== Implementations within UML tools ==
   * An add-in to IBM Rational Rose developed by Sandpiper Software supports construction of UML profile for OWL 1.0
 
 
 
 = Organizations using this notation =
+
   * Sandpiper Software
   * IBM China Research 
 
 
-= People who worked on the specification =
+
+= People who developed this notation =
 
   * Evan Wallace
   * Elisa Kendall
@@ -45,4 +56,3 @@ Recommend use of the same ontology that is being used for comparison for OWLCnl 
   * Chris Welty
   * Pat Hayes
   * Deborah McGuinness
-
