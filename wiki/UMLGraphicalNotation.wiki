@@ -1,13 +1,48 @@
-#summary One-sentence summary of this page.
+#summary UML Profiles for RDF and OWL developed as part of OMG's Ontology Definition Meta Model (ODM).
 
 = Introduction =
 
-Add your content here.
+The ODM includes UML profiles for RDF and OWL, which provide a standard graphical notation for UML-based RDF and OWL development. 
+
+= Status =
+
+The ontology definition metamodel (ODM) specification is close to finalization in the OMG and is slated to become an ISO standard in 2008.
 
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Chapter 14 of the [http://www.omg.org/cgi-bin/doc?ptc/2007-09-09 ODM ]
+
+== Relationship to UML ==
+
+(To be written by Evan or Elisa)
+
+= Examples =
+
+Some examples of OWL ontologies rendered in this syntax to go here.
+Recommend use of the same ontology that is being used for comparison for OWLCnl syntaxes
+
+
+= Tool Support =
+
+== Implementations within UML tools:
+  * An add-in to IBM Rational Rose developed by Sandpiper Software supports construction of UML profile for OWL 1.0
+
+
+
+= Organizations using this notation =
+  * Sandpiper Software
+  * IBM China Research 
+
+
+= People who worked on the specification =
+
+  * Evan Wallace
+  * Elisa Kendall
+  * Peter Haase
+  * Saartje Brockman
+  * Jeremy Carroll
+  * Chris Welty
+  * Pat Hayes
+  * Deborah McGuinness
+
