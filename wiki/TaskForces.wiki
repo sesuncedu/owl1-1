@@ -24,3 +24,8 @@ This page is to aid with coordination.
  * [Education] - [TF:Edu]
  * MacrosAndSyntax - [TF:Mac]
  * UserRequirements - [TF:Req]
+
+
+= Joining =
+
+To join a task force you need to have a gmail address, available at https://www.google.com/accounts/NewAccount.  (You can always just forward any mail that goes to that address to your usual email address.)  Then you should email the point person for the task force asking to join the task force and providing your gmail address.  The point person will then get you added as a project member.  Once this is done, you can edit pages on the wiki, etc., etc.
