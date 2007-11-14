@@ -38,6 +38,9 @@ It would be nice to have something concrete to report at the interim OWLED meeti
   * [http://km.aifb.uni-karlsruhe.de/ws/prowl2006/ Practical Reasoning with OWL and DL-Safe Rules] a half-day tutorial at ESWC 2006
   * Understanding SWRL [http://clarkparsia.com/weblog/2007/08/12/understanding-swrl-part-1/ Part 1], [http://clarkparsia.com/weblog/2007/08/27/understanding-swrl-part-2-dl-safety/ Part 2], [http://clarkparsia.com/weblog/category/semweb/rules/swrl/ Part 3]
 
+= Usage =
+
+   * http://webont.org/owled/2007/PapersPDF/submission_36.pdf
 
 = People (active participants please add yourselves) =
 
