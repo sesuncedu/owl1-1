@@ -42,6 +42,10 @@ It would be nice to have something concrete to report at the interim OWLED meeti
 
    * http://webont.org/owled/2007/PapersPDF/submission_36.pdf
 
+= Implementations =
+
+  * [http://kaon2.semanticweb.org/ KAON2]
+
 = People (active participants please add yourselves) =
 
  * [mailto:pfpschneider@gmail.com Peter F. Patel-Schneider] (point person)
