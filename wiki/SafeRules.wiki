@@ -36,12 +36,10 @@ It would be nice to have something concrete to report at the interim OWLED meeti
   * [http://www.w3.org/Submission/SWRL/ SWRL: A Semantic Web Rule Language. ]  Ian Horrocks, Peter F. Patel-Schneider, Harold Boley, Said Tabet, Benjamin Grosof, Mike Dean. W3C Member Submission 21 May 2004.  http://www.w3.org/Submission/SWRL/
   * [http://www.fzi.de/KCMS/kcms_file.php?action=link&id=404 Query Answering for OWL-DL with Rules. ]  Boris Motik, Ulrike Sattler, and Rudi Studer. ISWC-2004, pp. 549-563.  http://www.fzi.de/KCMS/kcms_file.php?action=link&id=404
   * [http://km.aifb.uni-karlsruhe.de/ws/prowl2006/ Practical Reasoning with OWL and DL-Safe Rules] a half-day tutorial at ESWC 2006
-  * Understanding SWRL [http://clarkparsia.com/weblog/2007/08/12/understanding-swrl-part-1/ Part 1], [http://clarkparsia.com/weblog/2007/08/27/understanding-swrl-part-2-dl-safety/ Part 2],
-[http://clarkparsia.com/weblog/category/semweb/rules/swrl/ Part 3]
+  * Understanding SWRL [http://clarkparsia.com/weblog/2007/08/12/understanding-swrl-part-1/ Part 1], [http://clarkparsia.com/weblog/2007/08/27/understanding-swrl-part-2-dl-safety/ Part 2], [http://clarkparsia.com/weblog/category/semweb/rules/swrl/ Part 3]
 
 
 = People (active participants please add yourselves) =
 
  * [mailto:pfpschneider@gmail.com Peter F. Patel-Schneider] (point person)
  * [http://www.cs.man.ac.uk/~bparsia/ Bijan Parsia]
-
