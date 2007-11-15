@@ -33,7 +33,7 @@ The TF is working on three topics at the moment:
   * [http://www.ijcai.org/papers07/Papers/IJCAI07-042.pdf EQL-Lite: Effective First-Order Query Processing in Description Logics]
 
 
-= Dependancies =
+= Dependencies =
 
 Sometimes these features are realized in or in conjunction with rules or query languages, so SafeRules and SparqlOwl are relevant.
 
@@ -44,7 +44,7 @@ Sometimes these features are realized in or in conjunction with rules or query l
  * [http://www.cs.man.ac.uk/~bparsia/ Bijan Parsia] 
  * Evan Wallace 
  * [http://dumontierlab.com/ Michel Dumontier] 
- 
+ * [http://www.cs.man.ac.uk/~schneidt/ Thomas Schneider] 
  
  
  
