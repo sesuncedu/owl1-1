@@ -3,7 +3,6 @@
 package owl;
 
 public class DatatypeRestriction extends DataRange {
-    public String facetType;
     /**
      * @supplierCardinality 1
      * @clientRole dataRange
@@ -11,9 +10,10 @@ public class DatatypeRestriction extends DataRange {
      */
     /*#DataRange dataRange;*/
     /**
-     * @supplierCardinality 1
-     * @clientRole restrictionValue
+     * @supplierCardinality 1..*
+     * @clientRole restrictions
      * @directed
+     * @associationAsClass facetType
      */
-    /*#Constant restrictionValue;*/
+    /*#Constant restrictions;*/
 }
