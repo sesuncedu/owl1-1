@@ -58,6 +58,12 @@ class reference204 {
 @__modelType reference 
 */
 class reference205 {
+}/**
+@__ref <oiref:java#Class#owl.Description:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference1 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
@@ -68,22 +74,24 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:<oiref:java#Implements#owl.OWLClass#owl.OWLEntity:oiref>=303,182,303,148,380,148,380,104:oigroup>
-<oigroup:<oiref:java#Extends#owl.Individual#owl.OWLEntity:oiref>=630,188,630,148,380,148,380,104:oigroup>
-<oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=339,36,82,68,1:oigroup>
-<oigroup:<oiref:java#Implements#owl.Datatype#owl.OWLEntity:oiref>=226,183,226,148,380,148,380,104:oigroup>
-<oigroup:<oiref:java#Implements#owl.Datatype#owl.DataRange:oiref>=204,183,204,109:oigroup>
-<oigroup:<oiref:java#Class#owl.ObjectProperty:oiref>=368,185,95,59,1:oigroup>
-<oigroup:<oiref:java#Implements#owl.ObjectProperty#owl.OWLEntity:oiref>=415,185,415,148,380,148,380,104:oigroup>
-<oigroup:<oiref:design#Class#id414jresvhxhoaesvibq9u.node:oiref>=194,294,291,45,0:oigroup>
-<oigroup:<oiref:java#Class#owl.DataProperty:oiref>=485,187,84,59,1:oigroup>
-<oigroup:<oiref:java#Class#owl.DataRange:oiref>=174,41,73,68,1:oigroup>
-<oigroup:<oiref:java#Implements#owl.DataProperty#owl.OWLEntity:oiref>=527,187,527,148,380,148,380,104:oigroup>
-<oigroup:<oiref:java#Class#owl.Individual:oiref>=599,188,63,59,1:oigroup>
-<oigroup:<oiref:java#Class#owl.OWLClass:oiref>=269,182,69,59,1:oigroup>
-<oigroup:<oiref:java#Class#owl.Constant:oiref>=506,38,128,87,1:oigroup>
-<oigroup:<oiref:design#Class#id414jresvhxhoaesvibq9u.node.link:oiref>=303,241,303,294:oigroup>
-<oigroup:<oiref:java#Class#owl.Datatype:oiref>=182,183,63,59,1:oigroup> 
+@__positions <oigroup:<oiref:java#Implements#owl.DataProperty#owl.OWLEntity:oiref>=424,186,424,159,398,159,398,120:oigroup>
+<oigroup:<oiref:design#Class#id414jresvhxhoaesvibq9u.node.link:oiref>=605,249,605,311:oigroup>
+<oigroup:<oiref:java#Class#owl.DataRange:oiref>=179,53,73,68,1:oigroup>
+<oigroup:<oiref:java#Extends#owl.Individual#owl.OWLEntity:oiref>=519,188,519,159,398,159,398,120:oigroup>
+<oigroup:<oiref:java#Implements#owl.Datatype#owl.DataRange:oiref>=204,183,204,121:oigroup>
+<oigroup:<oiref:java#Implements#owl.Datatype#owl.OWLEntity:oiref>=226,183,226,159,398,159,398,120:oigroup>
+<oigroup:<oiref:java#Class#owl.Individual:oiref>=488,188,63,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectProperty:oiref>=266,185,95,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Description:oiref>=567,57,75,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Constant:oiref>=218,273,128,87,1:oigroup>
+<oigroup:<oiref:java#Class#owl.OWLClass:oiref>=571,190,69,59,1:oigroup>
+<oigroup:<oiref:java#Implements#owl.ObjectProperty#owl.OWLEntity:oiref>=313,185,313,159,398,159,398,120:oigroup>
+<oigroup:<oiref:java#Class#owl.DataProperty:oiref>=382,186,84,59,1:oigroup>
+<oigroup:<oiref:java#Implements#owl.OWLClass#owl.OWLEntity:oiref>=594,190,594,159,398,159,398,120:oigroup>
+<oigroup:<oiref:java#Implements#owl.OWLClass#owl.Description:oiref>=617,190,617,116:oigroup>
+<oigroup:<oiref:java#Class#owl.Datatype:oiref>=182,183,63,59,1:oigroup>
+<oigroup:<oiref:design#Class#id414jresvhxhoaesvibq9u.node:oiref>=462,311,291,45,0:oigroup>
+<oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=359,52,82,68,1:oigroup>
 */
 class __positions {
 }/**
