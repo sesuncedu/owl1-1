@@ -19,6 +19,7 @@ The TF is working on three topics at the moment:
  * Keys
     * [http://www.cs.man.ac.uk/~horrocks/Publications/download/2004/LAHS04a.pdf  On the effects of using keys on datatype properties] 
     * [http://webont.org/owled/taskforces/dbe/keys_poster.pdf Keys For Ontologies – You Choose]
+    * [http://webont.org/owled/2007/PapersPDF/paper_19.pdf Can OWL model football leagues?]
  * Constraints
    * [http://webont.org/owled/2007/PapersPDF/submission_9.pdf Adding Integrity Constraints to OWL]
    * [http://www.cs.man.ac.uk/~bmotik/publications/papers/mhs07bridging.pdf Bridging the Gap Between OWL and Relational Databases]
