@@ -20,6 +20,8 @@ Another example developed to illustrate how to write a certain class of
 
 My initial thoughts are to have macros expand into the functional syntax, represented as some data structure in the language in which the macros are implemented.  An open question is whether that structure should be modified from the "outside", as with a DOM, or from the "inside", by implementing a lisp-like interpreter to do the macro-expansion.
 
+Another approach would be to operate at the RDF level, defining a translation from a simpler RDF document to a more complicated one via the use of SPARQL construct statements. You can prototype such a thing now with the [http://pipes.deri.org:8080/pipes/ DERI pipes] transform pipe.
+
 Noteworthy:
   * [http://www.ordnancesurvey.co.uk/oswebsite/partnerships/research/publications/docs/2007/Rabbit_Language_v1.pdf The Rabbit Language]
 
