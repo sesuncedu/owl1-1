@@ -4,5 +4,5 @@ package owl;
 
 public class Constant {
     public String value;
-    public String datatypeURI;
+    public URI datatypeURI;
 }

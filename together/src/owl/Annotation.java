@@ -3,5 +3,5 @@
 package owl;
 
 public class Annotation {
-    public String annotationURI;
+    public URI annotationURI;
 }
