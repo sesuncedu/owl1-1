@@ -3,7 +3,7 @@
 package owl;
 
 public abstract class OWLEntity {
-    public String URI;
+    public URI entityURI;
 }
 
 

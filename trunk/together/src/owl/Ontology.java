@@ -3,7 +3,7 @@ package owl;
 import java.util.*;
 
 class Ontology {
-    public String ontologyURI;
+    public URI ontologyURI;
     /**
      * @link aggregation
      * @associates <{Axiom}>
