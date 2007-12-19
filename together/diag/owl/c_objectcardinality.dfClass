@@ -59,17 +59,17 @@ class __options {
 <oigroup:<oiref:java#Class#owl.Description:oiref>=368,96,75,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectMaxCardinality:oiref>=182,229,130,68,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectMaxCardinality#_class:oiref>=342,101,26,19,0:oigroup>
-<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectExactCardinality#objectProperty:oiref>=590,296,78,17,0:oigroup>
-<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectMaxCardinality#objectProperty:oiref>=227,297,78,17,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectExactCardinality#objectProperty:oiref>=590,296,84,19,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectMaxCardinality#objectProperty:oiref>=227,297,84,19,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectMinCardinality#_class:oiref>=449,98,26,19,0:oigroup>
-<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectMaxCardinality#_class:oiref>=227,208,30,17,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectMaxCardinality#_class:oiref>=227,208,36,19,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectMinCardinality#_class:oiref>=489,240,36,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectMinCardinality:oiref>=359,227,126,68,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectMaxCardinality#_class:oiref>=223,229,223,129,368,129:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectMaxCardinality#objectProperty:oiref>=327,366,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectMinCardinality#_class:oiref>=485,240,509,240,509,128,443,128:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectMinCardinality#objectProperty:oiref>=432,295,84,19,0:oigroup>
-<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectExactCardinality#_class:oiref>=619,207,30,17,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectExactCardinality#_class:oiref>=619,207,36,19,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectExactCardinality#_class:oiref>=373,68,26,19,0:oigroup>
 */
 class __positions {

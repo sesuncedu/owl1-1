@@ -83,7 +83,7 @@ class __options {
 <oigroup:<oiref:java#Class#owl.Individual:oiref>=488,188,63,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectProperty:oiref>=266,185,95,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.Description:oiref>=567,57,75,59,1:oigroup>
-<oigroup:<oiref:java#Class#owl.Constant:oiref>=218,273,128,87,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Constant:oiref>=218,273,117,87,1:oigroup>
 <oigroup:<oiref:java#Class#owl.OWLClass:oiref>=571,190,69,59,1:oigroup>
 <oigroup:<oiref:java#Implements#owl.ObjectProperty#owl.OWLEntity:oiref>=313,185,313,159,398,159,398,120:oigroup>
 <oigroup:<oiref:java#Class#owl.DataProperty:oiref>=382,186,84,59,1:oigroup>
@@ -91,7 +91,7 @@ class __options {
 <oigroup:<oiref:java#Implements#owl.OWLClass#owl.Description:oiref>=617,190,617,116:oigroup>
 <oigroup:<oiref:java#Class#owl.Datatype:oiref>=182,183,63,59,1:oigroup>
 <oigroup:<oiref:design#Class#id414jresvhxhoaesvibq9u.node:oiref>=462,311,291,45,0:oigroup>
-<oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=359,52,82,68,1:oigroup>
+<oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=359,52,99,68,1:oigroup>
 */
 class __positions {
 }/**
