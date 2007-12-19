@@ -75,8 +75,8 @@ class __options {
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.EquivalentClasses#classes:oiref>=335,342,27,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.SubClassOf:oiref>=193,220,76,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.SubClassOf#superClass:oiref>=223,279,223,398,330,398:oigroup>
-<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DisjointUnion#disjointClasses:oiref>=616,283,87,17,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DisjointUnion#disjointClasses:oiref>=370,347,21,17,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DisjointUnion#disjointClasses:oiref>=616,283,93,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DisjointUnion#disjointClasses:oiref>=370,347,27,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DisjointUnion#disjointClasses:oiref>=612,283,612,325,395,325,395,368:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=362,88,112,68,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.DisjointClasses#owl.Axiom:oiref>=514,222,514,196,418,196,418,156:oigroup>

@@ -64,7 +64,7 @@ class __options {
 <oigroup:<oiref:java#Class#owl.Individual:oiref>=328,365,63,59,1:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.NegativeDataPropertyAssertion#targetValue:oiref>=624,264,68,19,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DataPropertyAssertion#dataProperty:oiref>=168,205,75,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.Constant:oiref>=550,330,128,87,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Constant:oiref>=550,330,117,87,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataPropertyAssertion#sourceIndividual:oiref>=364,257,364,365:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DataPropertyAssertion#sourceIndividual:oiref>=368,257,96,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataPropertyAssertion#dataProperty:oiref>=248,233,196,233,196,515,366,515:oigroup>
