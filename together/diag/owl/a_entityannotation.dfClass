@@ -47,15 +47,15 @@ class __options {
 }/**
 @__positions <oigroup:<oiref:java#Class#owl.Annotation:oiref>=229,128,129,68,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.EntityAnnotation#entity:oiref>=554,321,13,19,0:oigroup>
-<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=388,167,65,32,0:oigroup>
+<oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=393,167,65,32,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.EntityAnnotation#owl.Axiom:oiref>=566,244,566,197:oigroup>
-<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=460,167,71,19,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=466,167,65,17,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.EntityAnnotation#entity:oiref>=571,303,34,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.EntityAnnotation#entityAnnotations:oiref>=323,196,11,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.EntityAnnotation#entityAnnotations:oiref>=296,201,33,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.Constant:oiref>=218,340,117,87,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=535,167,358,167:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationValue:oiref>=282,196,282,340:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=362,144,11,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=362,146,5,17,0:oigroup>
 <oigroup:<oiref:java#Class#owl.EntityAnnotation:oiref>=513,244,101,59,1:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.EntityAnnotation#entityAnnotations:oiref>=416,273,99,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.EntityAnnotation#entity:oiref>=567,303,567,342:oigroup>

@@ -370,6 +370,12 @@ class reference4 {
 @__modelType reference 
 */
 class reference7 {
+}/**
+@__ref <oiref:design#Class#id2sidefbj7vdozfbj7wbja.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#owl.*svn:oiref> 
+*/
+class reference2 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
