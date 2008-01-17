@@ -13,7 +13,7 @@ public class EntityAnnotation extends Axiom {
      * @link aggregation
      * @associates <{Annotation}>
      * @associationAsClass <<set>>
-     * @supplierCardinality *
+     * @supplierCardinality 1 ..  *
      * @clientRole entityAnnotations
      * @directed
      */
