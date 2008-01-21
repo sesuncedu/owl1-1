@@ -14,7 +14,7 @@ public class DataSomeValuesFrom extends Description {
      * @associates <{DataPropertyExpression}>
      * @associationAsClass <<list>>
      * @supplierCardinality 1 ..*
-     * @clientRole dataProperty
+     * @clientRole dataProperties
      * @directed
      */
     public List dataProperties;
