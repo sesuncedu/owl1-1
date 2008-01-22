@@ -101,7 +101,10 @@ OWL axioms and (possible) corresponding CNL function words. (Note: data property
 || DisjointUnion || ||
 
 || Object Property Axiom || CNL keywords ||
-|| || ||
+|| SubObjectPropertyOf || Everything that <relationship1> something that <relationship2> something will also <relationship3> that thing.; If something X <relationship1> something that <relationship2> something Y then X <relationship3> Y.; If X <relationship1> Y and Y <relationship2> Z then X <relationship3> Z. ||
+|| DisjointObjectProperties || mutually exclusive; If something X <relationship1> something Y then it is false that X <relationship2> Y. ||
+|| ... || ... ||
+
 
 
 || Fact || CNL keywords ||
