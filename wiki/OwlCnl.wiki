@@ -72,6 +72,27 @@ What are their CNL counterparts?
  
  
 = Syntax Issues =
+
+OWL descriptions and (possible) corresponding CNL function words.
+(Note: data property restrictions are missing.)
+
+|| Description || CNL function words ||
+|| owl:Thing || something, somebody ||
+|| ObjectUnionOf || or ||
+|| ObjectIntersectionOf || and, that ||
+|| ObjectComplementOf || no, not, does/do not, is/are not ||
+|| ObjectOneOf || or ||
+|| ObjectAllValuesFrom || nothing but, only ||
+|| ObjectSomeValuesFrom || a, some ||
+|| ObjectExistsSelf || itself, himself, herself, himself/herself ||
+|| ObjectHasValue || ||
+|| ObjectMinCardinality || at least N, more than N-1 ||
+|| ObjectMaxCardinality || at most N, less than N+1 ||
+|| ObjectExactCardinality || exactly ||
+
+
+== Some notes ==
+
  * Data-properties can be hard to handle, see e.g. the definition of data ranges in the OWL 1.1 spec: http://webont.org/owl/1.1/owl_specification.html#4.3
  * Some OWL 1.1 axioms (e.g. DisjointUnion) are a concise notation to express a large number of axioms. At least in some cases, graphical means seem better. e.g. the pie-chart visualization of DisjointUnion that Protege 4 offers seems better than any natural language representation.
  * Long syntactic patterns - useful to convey meaning the first time, but tiresome to type 100 times... 
