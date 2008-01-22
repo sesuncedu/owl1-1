@@ -92,6 +92,26 @@ OWL descriptions and (possible) corresponding CNL function words.
 || ObjectMaxCardinality || at most N, less than N+1 ||
 || ObjectExactCardinality || exactly N ||
 
+OWL axioms and (possible) corresponding CNL function words. (Note: data property axioms are missing.)
+
+|| Class Axiom || CNL keywords ||
+|| SubClassOf || every, if ... then ..., is a kind of ||
+|| EquivalentClasses || every, if ... then ..., classes ... are equivalent, every <class> is defined as, the class <class> is fully defined as ... ||
+|| DisjointClasses || no, if ... then ..., classes ... are mutually exclusive ||
+|| DisjointUnion || ||
+
+|| Object Property Axiom || CNL keywords ||
+|| || ||
+
+
+|| Fact || CNL keywords ||
+|| SameIndividual || is, are the same thing, are the same individual ||
+|| DifferentIndividuals || is not, are different things, are different individuals ||
+|| ClassAssertion || <individual> is a <country>, <individual> is not/does not/ ... ||
+|| ObjectPropertyAssertion || <individual1> <relationship> <individual2> ||
+|| NegativeObjectPropertyAssertion || <individual1> <relationship negation> <individual2> ||
+
+
 
 == Some notes ==
 
