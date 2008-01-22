@@ -17,6 +17,8 @@ The mathematical nature of description logics has meant that domain experts find
    * Some tractable fragment(s)
    * Core OWL 1.1 axioms only (i.e., logical content only) 
  * Strict roundtrippability
+   * Syntax-preserving round-tripping?
+   * Semantics-preserving round-tripping?
  * Task - what's the language trying to do? Ontology specification, Querying and Reasoning may each be suited to different specifications.
  * Testing - how do we actually know people find it easy/easier than other syntaxes?
 
