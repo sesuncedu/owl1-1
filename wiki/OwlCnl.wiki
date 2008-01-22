@@ -107,7 +107,7 @@ OWL axioms and (possible) corresponding CNL function words. (Note: data property
 || Fact || CNL keywords ||
 || SameIndividual || is, are the same thing, are the same individual ||
 || DifferentIndividuals || is not, are different things, are different individuals ||
-|| ClassAssertion || <individual> is a <country>, <individual> is not/does not/ ... ||
+|| ClassAssertion || <individual> is a <class>, <individual> is not/does not/ ... ||
 || ObjectPropertyAssertion || <individual1> <relationship> <individual2> ||
 || NegativeObjectPropertyAssertion || <individual1> <relationship negation> <individual2> ||
 
