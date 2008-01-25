@@ -3,7 +3,7 @@
 
 = Introduction =
 
-The DL Safe SWRL Rules task force is chartered to produce a report on how to add DL Safe rules to OWL in a way compatible with the SWRL W3C member submission.
+The DL Safe SWRL Rules task force is chartered to produce a report on how to add DL Safe rules to OWL in a way compatible with the SWRL W3C member submission.  The current proposal is in SafeRulesOverview.
 
 = Participation =
 
