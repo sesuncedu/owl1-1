@@ -9,9 +9,7 @@ The DL Safe SWRL Rules task force is chartered to produce a report on how to add
 
 Participation is open to all interested parties.  To join, send email to [mailto:pfpschneider@gmail.com Peter F. Patel-Schneider].
 
-= Expected Parts of the Report =
-
-(This is only a preliminary list.  More parts may be added as the task force progresses.)
+= Possible Parts of the Report =
 
   * Use cases for rule extensions to OWL
   * Options for DL Safe SWRL Rules, e.g., binary, n-ary
