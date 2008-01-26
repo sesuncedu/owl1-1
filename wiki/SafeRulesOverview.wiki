@@ -44,7 +44,7 @@ removed.
 === Example rule in RIF presentation syntax ===
 
 {{{
-  Forall(?x (Person(?x) :- And(Person(?x) age(?x,"15"^^xsd:integer))))
+  Forall(?x (Teenager(?x) :- And(Person(?x) age(?x,"15"^^xsd:integer))))
 }}}
 
 === Example rule in RIF XML syntax ===
