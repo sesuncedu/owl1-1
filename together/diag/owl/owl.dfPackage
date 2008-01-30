@@ -376,6 +376,11 @@ class reference7 {
 @__fqn <oiref:#Package#owl.*svn:oiref> 
 */
 class reference2 {
+}/**
+@__ref <oiref:java#Class#owl.URI:oiref><oihard>
+@__modelType reference 
+*/
+class reference8 {
 }}/**
 @__tags
 @shapeType ClassDiagram 

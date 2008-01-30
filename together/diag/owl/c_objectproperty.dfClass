@@ -29,6 +29,12 @@ class reference22 {
 @__imported 
 */
 class reference23 {
+}/**
+@__ref <oiref:java#Class#owl.URI:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference12 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
@@ -40,15 +46,19 @@ class __tags {
 class __options {
 }/**
 @__positions <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.InverseObjectProperty#objectProperty:oiref>=508,286,84,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=183,142,99,68,1:oigroup>
+<oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=183,142,70,59,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=121,148,49,17,0:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectProperty:oiref>=201,270,95,59,1:oigroup>
-<oigroup:<oiref:java#Implements#owl.ObjectProperty#owl.OWLEntity:oiref>=222,270,222,210:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.InverseObjectProperty#objectProperty:oiref>=504,286,543,286,543,206,466,206:oigroup>
+<oigroup:<oiref:java#Implements#owl.ObjectProperty#owl.OWLEntity:oiref>=224,270,224,201:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.InverseObjectProperty#objectProperty:oiref>=504,286,545,286,545,180,466,180:oigroup>
+<oigroup:<oiref:java#Class#owl.URI:oiref>=91,268,63,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=183,172,122,172,122,268:oigroup>
 <oigroup:<oiref:java#Class#owl.InverseObjectProperty:oiref>=367,275,137,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectPropertyExpression:oiref>=306,144,160,77,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=109,247,7,17,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.InverseObjectProperty#owl.ObjectPropertyExpression:oiref>=448,275,448,243,386,243,386,221:oigroup>
 <oigroup:<oiref:java#Implements#owl.ObjectProperty#owl.ObjectPropertyExpression:oiref>=259,270,259,243,386,243,386,221:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.InverseObjectProperty#objectProperty:oiref>=470,183,13,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.InverseObjectProperty#objectProperty:oiref>=470,157,13,19,0:oigroup>
 */
 class __positions {
 }
