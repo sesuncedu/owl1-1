@@ -23,6 +23,12 @@ class reference1 {
 @__imported 
 */
 class reference2 {
+}/**
+@__ref <oiref:java#Class#owl.URI:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference13 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
@@ -33,11 +39,15 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:<oiref:java#Class#owl.DataPropertyExpression:oiref>=284,89,150,77,1:oigroup>
-<oigroup:<oiref:java#Class#owl.DataProperty:oiref>=231,223,84,59,1:oigroup>
-<oigroup:<oiref:java#Implements#owl.DataProperty#owl.OWLEntity:oiref>=246,223,246,151:oigroup>
-<oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=180,83,99,68,1:oigroup>
-<oigroup:<oiref:java#Implements#owl.DataProperty#owl.DataPropertyExpression:oiref>=299,223,299,166:oigroup>
+@__positions <oigroup:<oiref:java#Class#owl.DataPropertyExpression:oiref>=305,73,150,77,1:oigroup>
+<oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=209,83,70,59,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=153,88,49,17,0:oigroup>
+<oigroup:<oiref:java#Class#owl.URI:oiref>=134,216,63,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=209,113,165,113,165,216:oigroup>
+<oigroup:<oiref:java#Implements#owl.DataProperty#owl.DataPropertyExpression:oiref>=272,217,272,188,382,188,382,150:oigroup>
+<oigroup:<oiref:java#Class#owl.DataProperty:oiref>=221,217,84,59,1:oigroup>
+<oigroup:<oiref:java#Implements#owl.DataProperty#owl.OWLEntity:oiref>=240,217,240,142:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=152,195,7,17,0:oigroup>
 */
 class __positions {
 }

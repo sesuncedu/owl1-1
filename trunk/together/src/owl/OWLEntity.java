@@ -3,6 +3,12 @@
 package owl;
 
 public abstract class OWLEntity {
+    /**
+     * @link aggregation
+     * @supplierCardinality 1
+     * @directed
+     * @clientRole entityURI 
+     */
     public URI entityURI;
 }
 

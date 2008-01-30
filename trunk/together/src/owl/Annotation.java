@@ -3,5 +3,11 @@
 package owl;
 
 public class Annotation {
+    /**
+     * @supplierCardinality 1
+     * @directed
+     * @link aggregation
+     * @clientRole annotationURI 
+     */
     public URI annotationURI;
 }
