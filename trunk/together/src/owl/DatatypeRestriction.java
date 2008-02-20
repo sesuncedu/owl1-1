@@ -5,10 +5,10 @@ package owl;
 public class DatatypeRestriction extends DataRange {
     /**
      * @supplierCardinality 1
-     * @clientRole dataRange
+     * @clientRole datatype
      * @directed
      */
-    /*#DataRange dataRange;*/
+    /*#Datatype datatype;*/
     /**
      * @supplierCardinality 1..*
      * @clientRole restrictions
