@@ -7,7 +7,7 @@ public class Annotation {
      * @supplierCardinality 1
      * @directed
      * @link aggregation
-     * @clientRole annotationURI 
+     * @clientRole annotationProperty
      */
-    public URI annotationURI;
+    public AnnotationProperty annotationProperty;
 }
