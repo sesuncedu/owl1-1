@@ -381,6 +381,16 @@ class reference2 {
 @__modelType reference 
 */
 class reference8 {
+}/**
+@__ref <oiref:java#Class#owl.AnnotationProperty:oiref><oihard>
+@__modelType reference 
+*/
+class reference10 {
+}/**
+@__ref <oiref:java#Class#owl.AnnotationProperty:oiref><oihard>
+@__modelType reference 
+*/
+class reference9 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
@@ -409,7 +419,6 @@ class __options {
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=391,331,65,17,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#targetIndividual:oiref>=568,77,568,159,413,159,413,242:oigroup>
 <oigroup:<oiref:java#Extends#owl.ReflexiveObjectProperty#owl.Axiom:oiref>=958,369,958,441,408,441,408,411:oigroup>
-<oigroup:<oiref:java#Extends#owl.AsymmetricObjectProperty#owl.Axiom:oiref>=968,300,968,441,408,441,408,411:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.NegativeDataPropertyAssertion#sourceIndividual:oiref>=375,221,7,17,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DisjointUnion#_class:oiref>=613,521,30,17,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.NegativeDataPropertyAssertion#dataProperty:oiref>=463,85,7,17,0:oigroup>
@@ -436,6 +445,7 @@ class __options {
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Annotation#annotationValue:oiref>=312,231,89,17,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.EquivalentObjectProperties#objectProperties:oiref>=982,440,90,17,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.ObjectIntersectionOf#owl.Description:oiref>=67,219,67,345,478,345,478,315:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.AsymmetricObjectProperty#objectProperty:oiref>=961,241,961,197,442,197,442,153:oigroup>
 <oigroup:<oiref:java#Extends#owl.DataHasValue#owl.Description:oiref>=185,218,185,345,478,345,478,315:oigroup>
 <oigroup:<oiref:java#Extends#owl.DataAllValuesFrom#owl.Description:oiref>=767,74,767,345,478,345,478,315:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectHasValue:oiref>=688,323,100,59,1:oigroup>
@@ -449,7 +459,6 @@ class __options {
 <oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.DataAllValuesFrom#dataProperties:oiref>=641,77,64,32,0:oigroup>
 <oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.DataSomeValuesFrom#dataProperties:oiref>=631,309,64,32,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectSomeValuesFrom#objectProperty:oiref>=149,499,78,17,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.AsymmetricObjectProperty#objectProperty:oiref>=961,241,961,197,442,197,442,153:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectComplementOf#_class:oiref>=516,315,7,17,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataOneOf#constants:oiref>=676,363,21,17,0:oigroup>
 <oigroup:<oiref:java#Class#owl.NegativeDataPropertyAssertion:oiref>=224,19,188,59,1:oigroup>
@@ -530,6 +539,7 @@ class __options {
 <oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=310,259,65,32,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.DataOneOf#owl.DataRange:oiref>=838,377,838,455,462,455,462,425:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectMinCardinality#objectProperty:oiref>=387,153,7,17,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.AsymmetricObjectProperty#owl.Axiom:oiref>=968,300,968,441,408,441,408,411:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.FunctionalObjectProperty#objectProperty:oiref>=310,153,7,17,0:oigroup>
 <oigroup:<oiref:java#Class#owl.EquivalentObjectProperties:oiref>=926,461,164,59,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.DataExactCardinality#owl.Description:oiref>=579,460,579,345,478,345,478,315:oigroup>
@@ -661,7 +671,6 @@ class __options {
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.InverseObjectProperty#objectProperty:oiref>=222,654,78,17,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#targetIndividual:oiref>=377,301,7,17,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.FunctionalDataProperty#dataProperty:oiref>=794,37,69,17,0:oigroup>
-<oigroup:<oiref:java#Class#owl.AsymmetricObjectProperty:oiref>=886,241,164,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectExactCardinality#objectProperty:oiref>=789,167,623,167,623,143,458,143:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectMaxCardinality:oiref>=743,238,130,68,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.axiom.Axiom#annotations:oiref>=711,142,711,110,266,110,266,174:oigroup>
@@ -697,8 +706,8 @@ class __options {
 <oigroup:<oiref:java#Extends#owl.Individual#owl.OWLEntity:oiref>=440,260,648,260,648,230:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectAllValuesFrom:oiref>=234,319,128,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.EquivalentObjectProperties#objectProperties:oiref>=978,461,978,307,450,307,450,153:oigroup>
+<oigroup:<oiref:java#Class#owl.AsymmetricObjectProperty:oiref>=886,241,164,59,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.DataPropertyRange#owl.Axiom:oiref>=768,463,768,441,408,441,408,411:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AsymmetricObjectProperty#objectProperty:oiref>=431,153,7,17,0:oigroup>
 <oigroup:<oiref:java#Class#owl.FunctionalObjectProperty:oiref>=42,597,153,59,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DisjointClasses#classes:oiref>=493,315,21,17,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#objectProperty:oiref>=324,153,7,17,0:oigroup>
@@ -750,6 +759,7 @@ class __options {
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.SubClassOf#superClass:oiref>=714,224,65,17,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#subObjectProperties:oiref>=362,497,113,17,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectIntersectionOf#classes:oiref>=100,219,44,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AsymmetricObjectProperty#objectProperty:oiref>=431,153,7,17,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#sourceIndividual:oiref>=288,444,288,372,398,372,398,301:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.NegativeDataPropertyAssertion#sourceIndividual:oiref>=244,78,244,160,386,160,386,242:oigroup>
 <oigroup:<oiref:java#Class#owl.DataPropertyDomain:oiref>=155,90,127,59,1:oigroup>
