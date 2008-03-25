@@ -10,7 +10,7 @@ public class DisjointUnion extends Axiom {
      * @clientRole class
      * @directed
      */
-    /*#Description _class;*/
+    /*#OWLClass _class;*/
     /**
      * @link aggregation
      * @associates <{Description}>
