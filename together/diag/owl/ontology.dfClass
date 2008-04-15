@@ -69,12 +69,12 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Constant#datatypeURI:oiref>=314,484,7,17,0:oigroup>
+@__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.TypedConstant#datatypeURI:oiref>=314,484,7,17,0:oigroup>
 <oigroup:<oiref:java#Class#owl.Constant:oiref>=494,466,90,68,1:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=344,354,71,19,0:oigroup>
 <oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=433,274,65,32,0:oigroup>
 <oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.Ontology#axioms:oiref>=302,272,65,32,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.Constant#datatypeURI:oiref>=494,505,310,505:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.TypedConstant#datatypeURI:oiref>=494,505,310,505:oigroup>
 <oigroup:<oiref:java#Implements#owl.AnnotationProperty#owl.OWLEntity:oiref>=702,581,702,531:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Ontology#importedOntologies:oiref>=312,184,312,136,209,136,209,202,269,202:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Ontology#ontologyURI:oiref>=194,208,73,19,0:oigroup>
@@ -88,7 +88,7 @@ class __options {
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=684,435,95,19,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.AnnotationByConstant#annotationValue:oiref>=529,431,89,17,0:oigroup>
 <oigroup:<oiref:java#Class#owl.URI:oiref>=247,476,63,59,1:oigroup>
-<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Constant#datatypeURI:oiref>=423,505,67,17,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.TypedConstant#datatypeURI:oiref>=423,505,67,17,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Ontology#annotations:oiref>=560,181,5,17,0:oigroup>
 <oigroup:<oiref:java#Class#owl.Ontology:oiref>=269,184,63,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=667,472,70,59,1:oigroup>

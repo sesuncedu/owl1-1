@@ -75,7 +75,7 @@ class __options {
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=473,365,55,19,0:oigroup>
 <oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.EntityAnnotation#entityAnnotations:oiref>=376,215,65,32,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=414,342,13,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.Constant#datatypeURI:oiref>=330,317,236,317,236,346:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.TypedConstant#datatypeURI:oiref>=330,317,236,317,236,346:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=535,138,63,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=532,337,70,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.EntityAnnotation#entityAnnotations:oiref>=513,255,376,255,376,188:oigroup>

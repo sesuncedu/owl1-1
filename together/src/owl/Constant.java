@@ -4,12 +4,4 @@ package owl;
 
 public class Constant {
     public String value;
-
-    /**
-     * @supplierCardinality 1
-     * @directed
-     * @link aggregation
-     * @clientRole datatypeURI 
-     */
-    public URI datatypeURI;
 }

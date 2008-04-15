@@ -58,12 +58,12 @@ class __tags {
 class __options {
 }/**
 @__positions <oigroup:<oiref:java#Class#owl.Annotation:oiref>=395,64,70,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Constant#datatypeURI:oiref>=481,443,13,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.TypedConstant#datatypeURI:oiref>=481,443,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=395,93,272,93,272,439:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=339,247,339,314:oigroup>
 <oigroup:<oiref:java#Class#owl.AnnotationByEntity:oiref>=286,188,115,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=371,342,441,342,441,438:oigroup>
-<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Constant#datatypeURI:oiref>=527,388,73,19,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.TypedConstant#datatypeURI:oiref>=527,388,73,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.Constant:oiref>=481,320,90,68,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationByConstant#annotationValue:oiref>=515,299,7,17,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=328,293,7,17,0:oigroup>
@@ -79,7 +79,7 @@ class __options {
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=375,342,55,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.AnnotationByEntity#owl.Annotation:oiref>=343,188,343,164,435,164,435,123:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=422,415,13,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.Constant#datatypeURI:oiref>=519,388,519,468,477,468:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.TypedConstant#datatypeURI:oiref>=519,388,519,468,477,468:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.AnnotationByConstant#annotationValue:oiref>=530,246,89,17,0:oigroup>
 <oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=301,314,70,59,1:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=343,247,89,17,0:oigroup>
