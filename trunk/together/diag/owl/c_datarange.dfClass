@@ -88,7 +88,7 @@ class __options {
 <oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=633,336,72,32,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.DatatypeRestriction#owl.DataRange:oiref>=536,339,536,187,352,187,352,152:oigroup>
 <oigroup:<oiref:java#Class#owl.Datatype:oiref>=333,342,63,59,1:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.Constant#datatypeURI:oiref>=722,352,664,352,664,272,618,272:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.TypedConstant#datatypeURI:oiref>=722,352,664,352,664,272,618,272:oigroup>
 <oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=379,207,70,59,1:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=601,368,67,19,0:oigroup>
 */

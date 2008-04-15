@@ -2,5 +2,5 @@
 
 package owl;
 
-public abstract class Individual {
+public class String {
 }

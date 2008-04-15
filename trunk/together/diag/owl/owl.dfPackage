@@ -391,6 +391,31 @@ class reference10 {
 @__modelType reference 
 */
 class reference9 {
+}/**
+@__ref <oiref:java#Class#owl.NamedIndividual:oiref><oihard>
+@__modelType reference 
+*/
+class reference18 {
+}/**
+@__ref <oiref:java#Class#owl.AnonymousIndividual:oiref><oihard>
+@__modelType reference 
+*/
+class reference21 {
+}/**
+@__ref <oiref:java#Class#owl.UntypedConstant:oiref><oihard>
+@__modelType reference 
+*/
+class reference24 {
+}/**
+@__ref <oiref:java#Class#owl.TypedConstant:oiref><oihard>
+@__modelType reference 
+*/
+class reference26 {
+}/**
+@__ref <oiref:java#Class#owl.String:oiref><oihard>
+@__modelType reference 
+*/
+class reference28 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
