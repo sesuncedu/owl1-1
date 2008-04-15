@@ -3,5 +3,11 @@
 package owl;
 
 public class Constant {
+    /**
+     * @link aggregation
+     * @supplierCardinality 1
+     * @clientQualifier value
+     * @directed 
+     */
     public String value;
 }
