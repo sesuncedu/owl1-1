@@ -29,11 +29,6 @@ class reference7 {
 @__imported 
 */
 class reference1 {
-}/**
-@__ref <oiref:design#Class#idceasesvqn2qzesvy5lsf.node:oiref><oihard>
-@__modelType reference 
-*/
-class reference2 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
@@ -45,25 +40,21 @@ class __tags {
 class __options {
 }/**
 @__positions <oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=474,180,70,59,1:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=548,210,55,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.URI:oiref>=638,180,63,59,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.EntityAnnotation#owl.Axiom:oiref>=395,218,395,174,462,174,462,134:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=544,210,638,210:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=295,72,112,68,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.Declaration#owl.Axiom:oiref>=348,181,348,140:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationValue:oiref>=156,279,156,338:oigroup>
-<oigroup:<oiref:design#Class#idceasesvqn2qzesvy5lsf.node:oiref>=364,284,291,40,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Declaration#entity:oiref>=463,191,13,19,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.Declaration#entity:oiref>=389,212,34,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Declaration#entity:oiref>=385,212,474,212:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.EntityAnnotation#entity:oiref>=384,277,384,372,412,372:oigroup>
 <oigroup:<oiref:java#Class#owl.Declaration:oiref>=311,181,74,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.EntityAnnotation#entityAnnotations:oiref>=342,247,224,247:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=627,189,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=431,103,154,103,154,211:oigroup>
 */
 class __positions {
-}/**
-@shapeType Note
-@__modelType node
-@name Note1
-@text Declarations are not allowed on datatype entities. 
-*/
-class node {
 }
