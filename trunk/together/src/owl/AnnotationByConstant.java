@@ -5,7 +5,7 @@ package owl;
 public class AnnotationByConstant extends Annotation {
     /**
      * @supplierCardinality 1
-     * @clientRole annotationValue
+     * @supplierRole annotationValue
      * @directed
      */
     public Constant annotationValue;

@@ -5,8 +5,8 @@ package owl;
 public class Declaration extends Axiom {
     /**
      * @supplierCardinality 1
-     * @clientRole entity
+     * @supplierRole entity
      * @directed
      */
-    /*#OWLEntity entity;*/
+    OWLEntity entity;
 }

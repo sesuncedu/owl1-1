@@ -4,10 +4,9 @@ package owl;
 
 public class TypedConstant extends Constant {
     /**
-     * @supplierCardinality 1
      * @directed
-     * @link aggregation
-     * @clientRole datatypeURI 
+     * @supplierCardinality 1
+     * @supplierRole datatypeURI
      */
     public URI datatypeURI;
 }
