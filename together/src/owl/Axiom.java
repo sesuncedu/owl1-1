@@ -4,11 +4,9 @@ package owl;
 
 public abstract class Axiom {
     /**
-     * @link aggregation
      * @associates <{Annotation}>
-     * @associationAsClass <<set>>
      * @supplierCardinality *
-     * @clientRole annotations
+     * @supplierRole annotations
      * @directed
      */
     public Set annotations;

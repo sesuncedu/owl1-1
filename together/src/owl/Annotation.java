@@ -4,10 +4,9 @@ package owl;
 
 public class Annotation {
     /**
-     * @supplierCardinality 1
      * @directed
-     * @link aggregation
-     * @clientRole annotationProperty
+     * @supplierCardinality 1
+     * @supplierRole annotationProperty
      */
     public AnnotationProperty annotationProperty;
 }

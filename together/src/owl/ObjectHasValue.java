@@ -5,14 +5,14 @@ package owl;
 public class ObjectHasValue extends Description {
     /**
      * @supplierCardinality 1
-     * @clientRole individual
+     * @supplierRole individual
      * @directed
      */
-    /*#Individual individual;*/
+    Individual individual;
     /**
      * @supplierCardinality 1
-     * @clientRole objectProperty
+     * @supplierRole objectProperty
      * @directed
      */
-    /*#ObjectPropertyExpression objectProperty;*/
+    ObjectPropertyExpression objectProperty;
 }

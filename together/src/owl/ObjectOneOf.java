@@ -5,11 +5,9 @@ package owl;
 public class ObjectOneOf extends Description {
 
     /**
-     * @link aggregation
      * @associates <{Individual}>
-     * @associationAsClass <<set>>
      * @supplierCardinality 1 ..*
-     * @clientRole individuals
+     * @supplierRole individuals
      * @directed
      */
 	public Set individuals;

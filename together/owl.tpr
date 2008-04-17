@@ -41,3 +41,5 @@ referenced=Hide
 showPackageContents=false
 [newDiagramExpert]
 includeInCurrentDiagram=false
+[filter]
+e.state=on

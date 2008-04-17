@@ -6,14 +6,14 @@ public class ObjectMaxCardinality extends Description {
     int cardinality;
     /**
      * @supplierCardinality 0..1
-     * @clientRole class
+     * @supplierRole class
      * @directed
      */
-    /*#Description _class;*/
+    Description _class;
     /**
      * @supplierCardinality 1
-     * @clientRole objectProperty
+     * @supplierRole objectProperty
      * @directed
      */
-    /*#ObjectPropertyExpression objectProperty;*/
+    ObjectPropertyExpression objectProperty;
 }

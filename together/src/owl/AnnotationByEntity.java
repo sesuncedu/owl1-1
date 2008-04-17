@@ -5,7 +5,7 @@ package owl;
 public class AnnotationByEntity extends Annotation {
     /**
      * @supplierCardinality 1
-     * @clientRole annotationValue
+     * @supplierRole annotationValue
      * @directed
      */
     public OWLEntity annotationValue;

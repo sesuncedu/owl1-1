@@ -5,8 +5,8 @@ package owl;
 public class ObjectExistsSelf extends Description {
     /**
      * @supplierCardinality 1
-     * @clientRole objectProperty
+     * @supplierRole objectProperty
      * @directed
      */
-    /*#ObjectPropertyExpression objectProperty;*/
+    ObjectPropertyExpression objectProperty;
 }

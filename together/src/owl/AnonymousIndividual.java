@@ -3,5 +3,5 @@
 package owl;
 
 public class AnonymousIndividual implements Individual {
-    public int bnodeID;
+    int bnodeID;
 }

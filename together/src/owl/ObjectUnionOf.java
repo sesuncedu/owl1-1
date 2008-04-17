@@ -4,11 +4,9 @@ package owl;
 
 public class ObjectUnionOf extends Description {
     /**
-     * @link aggregation
      * @associates <{Description}>
-     * @associationAsClass <<set>>
      * @supplierCardinality 2 .. *
-     * @clientRole classes
+     * @supplierRole classes
      * @directed
      */
     public Set classes;

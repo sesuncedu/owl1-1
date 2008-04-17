@@ -5,14 +5,14 @@ package owl;
 public class ObjectAllValuesFrom extends Description {
     /**
      * @supplierCardinality 1
-     * @clientRole class
+     * @supplierRole class
      * @directed
      */
-    /*#Description _class;*/
+    Description _class;
     /**
      * @supplierCardinality 1
-     * @clientRole objectProperty
+     * @supplierRole objectProperty
      * @directed
      */
-    /*#ObjectPropertyExpression objectProperty;*/
+    ObjectPropertyExpression objectProperty;
 }

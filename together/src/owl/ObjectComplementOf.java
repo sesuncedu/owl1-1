@@ -5,7 +5,7 @@ package owl;
 public class ObjectComplementOf extends Description {
     /**
      * @supplierCardinality 1
-     * @clientRole class
+     * @supplierRole class
      * @directed
      */
     /*#Description _class;*/

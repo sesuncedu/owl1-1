@@ -5,34 +5,28 @@ import java.util.*;
 class Ontology {
     /**
      * @supplierCardinality 0..1
-     * @link aggregation 
-     * @clientRole ontologyURI
-     * @directed*/
+     * @supplierRole ontologyURI
+     * @directed
+     */
     URI ontologyURI;
     /**
-     * @link aggregation
      * @associates <{Axiom}>
-     * @associationAsClass <<set>>
      * @supplierCardinality *
-     * @clientRole axioms
+     * @supplierRole axioms
      * @directed
      */
     public Set axioms;
     /**
-     * @link aggregation
      * @associates <{Annotation}>
-     * @associationAsClass <<set>>
      * @supplierCardinality *
-     * @clientRole annotations
+     * @supplierRole annotations
      * @directed
      */
     public Set annotations;
     /**
-     * @link aggregation
      * @associates <{Ontology}>
-     * @associationAsClass <<set>>
      * @supplierCardinality *
-     * @clientRole importedOntologies
+     * @supplierRole importedOntologies
      * @directed
      */
     public Set importedOntologies;
