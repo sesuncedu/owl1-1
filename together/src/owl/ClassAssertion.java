@@ -4,15 +4,15 @@ package owl;
 
 public class ClassAssertion extends Axiom {
     /**
-     * @supplierCardinality 1
-     * @clientRole description
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole description
      */
-    /*#Description description;*/
+    Description description;
     /**
-     * @supplierCardinality 1
-     * @clientRole individual
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole individual
      */
-    /*#Individual individual;*/
+    Individual individual;
 }

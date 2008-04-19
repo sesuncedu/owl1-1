@@ -8,5 +8,5 @@ public class AnnotationByConstant extends Annotation {
      * @supplierRole annotationValue
      * @directed
      */
-    public Constant annotationValue;
+    Constant annotationValue;
 }

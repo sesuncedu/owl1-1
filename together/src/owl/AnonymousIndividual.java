@@ -3,5 +3,8 @@
 package owl;
 
 public class AnonymousIndividual implements Individual {
-    int bnodeID;
+    /**
+     * @alias bnodeID : int 
+     */
+    public int bnodeID;
 }

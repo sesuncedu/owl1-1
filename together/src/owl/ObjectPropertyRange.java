@@ -4,15 +4,15 @@ package owl;
 
 public class ObjectPropertyRange extends Axiom {
     /**
-     * @supplierCardinality 1
-     * @clientRole objectProperty
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole objectProperty
      */
-    /*#ObjectPropertyExpression objectProperty;*/
+    ObjectPropertyExpression objectProperty;
     /**
-     * @supplierCardinality 1
-     * @clientRole domain
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole domain
      */
-    /*#Description domain;*/
+    Description domain;
 }

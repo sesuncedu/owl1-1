@@ -4,15 +4,15 @@ package owl;
 
 public class SubClassOf extends Axiom {
     /**
-     * @supplierCardinality 1
-     * @clientRole subClass
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole subClass
      */
-    /*#Description subClass;*/
+    Description subClass;
     /**
-     * @supplierCardinality 1
-     * @clientRole superClass
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole superClass
      */
-    /*#Description superClass;*/
+    Description superClass;
 }

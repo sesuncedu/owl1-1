@@ -4,18 +4,16 @@ package owl;
 
 public class EntityAnnotation extends Axiom {
     /**
+     * @directed
      * @supplierCardinality 1
-     * @clientRole entity
-     * @directed
+     * @supplierRole entity
      */
-    /*#OWLEntity entity;*/
+    OWLEntity entity;
     /**
-     * @link aggregation
-     * @associates <{Annotation}>
-     * @associationAsClass <<set>>
-     * @supplierCardinality 1 ..  *
-     * @clientRole entityAnnotations
      * @directed
+     * @associates <{Annotation}>
+     * @supplierCardinality 1 ..  *
+     * @supplierRole entityAnnotations
      */
-    public Set entityAnnotations;
+    Set entityAnnotations;
 }

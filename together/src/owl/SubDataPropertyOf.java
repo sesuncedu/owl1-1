@@ -6,15 +6,15 @@ import java.util.*;
 
 public class SubDataPropertyOf extends Axiom {
     /**
-     * @supplierCardinality 1
-     * @clientRole subDataProperty
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole subDataProperty
      */
-    /*#DataPropertyExpression subDataProperty;*/
+    DataPropertyExpression subDataProperty;
     /**
-     * @supplierCardinality 1
-     * @clientRole superDataProperty
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole superDataProperty
      */
-    /*#DataPropertyExpression superdataProperty;*/
+    DataPropertyExpression superdataProperty;
 }

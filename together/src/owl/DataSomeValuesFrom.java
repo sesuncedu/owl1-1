@@ -4,18 +4,17 @@ package owl;
 
 public class DataSomeValuesFrom extends Description {
     /**
+     * @directed
      * @supplierCardinality 1
-     * @clientRole dataRange
-     * @directed
+     * @supplierRole dataRange
      */
-    /*#DataRange dataRange;*/
+    DataRange dataRange;
     /**
-     * @link aggregation
-     * @associates <{DataPropertyExpression}>
-     * @associationAsClass <<list>>
-     * @supplierCardinality 1 ..*
-     * @clientRole dataProperties
      * @directed
+     * @associates <{DataPropertyExpression}>
+     * @supplierCardinality 1 ..*
+     * @supplierRole dataProperties
+     * @supplierQualifier { ordered, nonunique }
      */
     public List dataProperties;
 }

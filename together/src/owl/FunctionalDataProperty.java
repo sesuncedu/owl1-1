@@ -4,9 +4,9 @@ package owl;
 
 public class FunctionalDataProperty extends Axiom {
     /**
-     * @supplierCardinality 1
-     * @clientRole dataProperty
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole dataProperty
      */
-    /*#DataPropertyExpression dataProperty;*/
+    DataPropertyExpression dataProperty;
 }

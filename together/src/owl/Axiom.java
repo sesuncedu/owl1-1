@@ -4,10 +4,10 @@ package owl;
 
 public abstract class Axiom {
     /**
+     * @directed
      * @associates <{Annotation}>
      * @supplierCardinality *
      * @supplierRole annotations
-     * @directed
      */
-    public Set annotations;
+    Set annotations;
 }

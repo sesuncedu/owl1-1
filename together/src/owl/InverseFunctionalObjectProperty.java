@@ -4,9 +4,9 @@ package owl;
 
 public class InverseFunctionalObjectProperty extends Axiom {
     /**
-     * @supplierCardinality 1
-     * @clientRole objectProperty
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole objectProperty
      */
-    /*#ObjectPropertyExpression objectProperty;*/
+    ObjectPropertyExpression objectProperty;
 }

@@ -5,14 +5,11 @@ package owl;
 import java.util.*;
 
 public class DisjointObjectProperties extends Axiom {
-
     /**
-     * @link aggregation
-     * @associates <{ObjectPropertyExpression}>
-     * @associationAsClass <<set>>
-     * @supplierCardinality 2 ..*
-     * @clientRole objectProperties
      * @directed
+     * @associates <{ObjectPropertyExpression}>
+     * @supplierCardinality 2 ..*
+     * @supplierRole objectProperties
      */
-    public Set objectProperties;
+    Set objectProperties;
 }

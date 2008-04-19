@@ -4,15 +4,15 @@ package owl;
 
 public class DataPropertyDomain extends Axiom {
     /**
-     * @supplierCardinality 1
-     * @clientRole dataProperty
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole dataProperty
      */
-    /*#DataPropertyExpression dataProperty;*/
+    DataPropertyExpression dataProperty;
     /**
-     * @supplierCardinality 1
-     * @clientRole domain
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole domain
      */
-    /*#Description domain;*/
+    Description domain;
 }

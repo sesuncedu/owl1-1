@@ -3,5 +3,8 @@
 package owl;
 
 public abstract class DataRange {
-    int arity;
+    /**
+     * @alias arity : int 
+     */
+    public int arity;
 }

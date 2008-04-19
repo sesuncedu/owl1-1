@@ -4,21 +4,21 @@ package owl;
 
 public class DataPropertyAssertion extends Axiom {
     /**
-     * @supplierCardinality 1
-     * @clientRole dataProperty
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole dataProperty
      */
-    /*#DataPropertyExpression dataProperty;*/
+    DataPropertyExpression dataProperty;
     /**
-     * @supplierCardinality 1
-     * @clientRole sourceIndividual
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole sourceIndividual
      */
-    /*#Individual sourceIndividual;*/
+    Individual sourceIndividual;
     /**
-     * @supplierCardinality 1
-     * @clientRole targetValue
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole targetValue
      */
-    /*#Constant targetVAlue;*/
+    Constant targetValue;
 }

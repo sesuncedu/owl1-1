@@ -4,9 +4,9 @@ package owl;
 
 public class DataComplementOf extends DataRange {
     /**
-     * @supplierCardinality 1
-     * @clientRole dataRange
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole dataRange
      */
-    /*#DataRange dataRange;*/
+    DataRange dataRange;
 }

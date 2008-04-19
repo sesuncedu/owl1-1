@@ -3,7 +3,10 @@
 package owl;
 
 public class ObjectExactCardinality extends Description {
-    int cardinality;
+    /**
+     * @alias cardinality : int
+     */
+    public int cardinality;
     /**
      * @supplierCardinality 0..1
      * @supplierRole class
