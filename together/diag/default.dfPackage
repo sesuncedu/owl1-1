@@ -48,10 +48,10 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:<oiref:design#Class#id4suvhesnkfgx6esnkjzjs.diagram:oiref>=10,10,63,63,1:oigroup>
-<oigroup:<oiref:design#Class#id18ig9esylhqwfesymp1av.diagram:oiref>=93,10,63,63,1:oigroup>
+@__positions <oigroup:<oiref:design#Class#id4suvhesnkfgx6esnkjzjs.diagram:oiref>=59,25,63,63,1:oigroup>
+<oigroup:<oiref:design#Class#id18ig9esylhqwfesymp1av.diagram:oiref>=142,25,63,63,1:oigroup>
 <oigroup:<oiref:design#Class#idyca0f9qsja43f9qso062.diagram:oiref>=540,318,63,63,1:oigroup>
-<oigroup:<oiref:design#Class#id18ig9esylhqwfesymp1av.diagram.link:oiref>=93,41,73,41:oigroup>
+<oigroup:<oiref:design#Class#id18ig9esylhqwfesymp1av.diagram.link:oiref>=142,56,122,56:oigroup>
 */
 class __positions {
 }
