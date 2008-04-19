@@ -6,18 +6,16 @@ import java.util.*;
 
 public class DisjointUnion extends Axiom {
     /**
+     * @directed
      * @supplierCardinality 1
-     * @clientRole class
-     * @directed
+     * @supplierRole class
      */
-    /*#OWLClass _class;*/
+    OWLClass _class;
     /**
-     * @link aggregation
-     * @associates <{Description}>
-     * @associationAsClass <<set>>
-     * @supplierCardinality 2 ..*
-     * @clientRole disjointClasses
      * @directed
+     * @associates <{Description}>
+     * @supplierCardinality 2 ..*
+     * @supplierRole classes
      */
-    public Set disjointClasses;
+    Set disjointClasses;
 }

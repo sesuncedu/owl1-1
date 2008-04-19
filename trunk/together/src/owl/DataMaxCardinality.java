@@ -3,17 +3,20 @@
 package owl;
 
 public class DataMaxCardinality extends Description {
-    int cardinality;
     /**
+     * @alias cardinality : int
+     */
+    public int cardinality;
+    /**
+     * @directed
      * @supplierCardinality 0..1
-     * @clientRole dataRange
-     * @directed
+     * @supplierRole dataRange
      */
-    /*#DataRange datarange;*/
+    DataRange datarange;
     /**
-     * @supplierCardinality 1
-     * @clientRole dataProperty
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole dataProperty
      */
-    /*#DataPropertyExpression dataProperty;*/
+    DataPropertyExpression dataProperty;
 }

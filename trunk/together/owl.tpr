@@ -39,7 +39,9 @@ inheritance=Vertical
 links=Rectilinear
 referenced=Hide
 showPackageContents=false
+detail=Analysis
 [newDiagramExpert]
 includeInCurrentDiagram=false
 [filter]
-e.state=on
+e.state=off
+g.state=on

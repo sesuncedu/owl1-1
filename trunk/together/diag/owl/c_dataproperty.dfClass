@@ -43,7 +43,7 @@ class __options {
 <oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=209,83,70,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.URI:oiref>=134,216,63,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=209,113,165,113,165,216:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=171,186,55,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=176,186,55,19,0:oigroup>
 <oigroup:<oiref:java#Implements#owl.DataProperty#owl.DataPropertyExpression:oiref>=272,217,272,188,378,188,378,144:oigroup>
 <oigroup:<oiref:java#Class#owl.DataProperty:oiref>=221,217,84,59,1:oigroup>
 <oigroup:<oiref:java#Implements#owl.DataProperty#owl.OWLEntity:oiref>=240,217,240,142:oigroup>

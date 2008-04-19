@@ -8,7 +8,7 @@ public abstract class OWLEntity {
      * @supplierCardinality 1
      * @supplierRole entityURI
      */
-    public URI entityURI;
+    URI entityURI;
 }
 
 

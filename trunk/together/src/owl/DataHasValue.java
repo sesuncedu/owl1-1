@@ -4,15 +4,15 @@ package owl;
 
 public class DataHasValue extends Description {
     /**
-     * @supplierCardinality 1
-     * @clientRole constant
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole constant
      */
-    /*#Constant constant;*/
+    Constant constant;
     /**
-     * @supplierCardinality 1
-     * @clientRole dataProperty
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole dataProperty
      */
-    /*#DataPropertyExpression dataProperty;*/
+    DataPropertyExpression dataProperty;
 }

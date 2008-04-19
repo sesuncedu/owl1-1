@@ -62,7 +62,7 @@ class __options {
 <oigroup:<oiref:java#Class#owl.ObjectAllValuesFrom:oiref>=139,176,128,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectHasValue:oiref>=439,174,100,59,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectHasValue#objectProperty:oiref>=437,309,13,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectHasValue#individual:oiref>=591,246,52,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectHasValue#individual:oiref>=591,246,58,19,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectAllValuesFrom#objectProperty:oiref>=220,378,84,19,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectHasValue#objectProperty:oiref>=457,308,84,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectAllValuesFrom#objectProperty:oiref>=193,235,193,369,309,369:oigroup>
@@ -79,7 +79,7 @@ class __options {
 <oigroup:<oiref:java#Class#owl.ObjectSomeValuesFrom:oiref>=617,175,147,59,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.ObjectAllValuesFrom#owl.Description:oiref>=215,176,215,142,428,142,428,110:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectSomeValuesFrom#_class:oiref>=477,54,13,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectAllValuesFrom#objectProperty:oiref>=292,340,7,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectAllValuesFrom#objectProperty:oiref>=292,340,13,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectExistsSelf:oiref>=300,176,103,59,1:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectSomeValuesFrom#_class:oiref>=479,86,36,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectHasValue#objectProperty:oiref>=450,233,450,339:oigroup>

@@ -51,17 +51,19 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectIntersectionOf#classes:oiref>=476,124,21,17,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectComplementOf#_class:oiref>=400,94,7,17,0:oigroup>
+@__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectIntersectionOf#classes:oiref>=474,119,27,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectComplementOf#_class:oiref>=400,94,13,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.ObjectComplementOf#owl.Description:oiref>=384,258,384,213,424,213,424,179:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectUnionOf#classes:oiref>=339,150,50,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.ObjectIntersectionOf#owl.Description:oiref>=616,256,616,213,424,213,424,179:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectOneOf#individuals:oiref>=484,366,21,17,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectIntersectionOf#classes:oiref>=470,156,44,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectOneOf#individuals:oiref>=484,366,27,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectIntersectionOf#classes:oiref>=470,156,50,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectIntersectionOf:oiref>=583,256,127,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.Individual:oiref>=485,395,63,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.Description:oiref>=387,120,75,59,1:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectOneOf#individuals:oiref>=521,367,59,17,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectComplementOf#_class:oiref>=428,91,30,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectUnionOf#classes:oiref>=354,123,30,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectOneOf#individuals:oiref>=521,367,65,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectComplementOf#_class:oiref>=428,91,36,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectUnionOf#classes:oiref>=179,253,179,150,387,150:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectOneOf:oiref>=470,256,82,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectComplementOf#_class:oiref>=386,317,386,353,122,353,122,79,418,79,418,120:oigroup>

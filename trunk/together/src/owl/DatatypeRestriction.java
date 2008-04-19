@@ -4,16 +4,16 @@ package owl;
 
 public class DatatypeRestriction extends DataRange {
     /**
+     * @directed
      * @supplierCardinality 1
-     * @clientRole datatype
-     * @directed
+     * @supplierRole datatype
      */
-    /*#Datatype datatype;*/
+    Datatype datatype;
     /**
-     * @supplierCardinality 1..*
-     * @clientRole restrictions
      * @directed
-     * @associationAsClass facetType
+     * @associates <{FacetConstantPair}>
+     * @supplierCardinality 1..*
+     * @supplierRole restrictions
      */
-    /*#Constant restrictions;*/
+    Set restrictions;
 }

@@ -6,18 +6,17 @@ import java.util.*;
 
 public class SubObjectPropertyOf extends Axiom {
     /**
-     * @link aggregation
+     * @directed
      * @associates <{ObjectPropertyExpression}>
-     * @associationAsClass <<list>>
-     * @supplierCardinality 1 ..*
-     * @clientRole subObjectProperties
-     * @directed
+     * @supplierCardinality 2 ..*
+     * @supplierRole subObjectProperties
+     * @supplierQualifier { ordered, nonunique }
      */
-    public List subObjectProperties;
+    List subObjectProperties;
     /**
-     * @supplierCardinality 1
-     * @clientRole superObjectProperty
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole superObjectProperty
      */
-    /*#ObjectPropertyExpression superObjectProperty;*/
+    ObjectPropertyExpression superObjectProperty;
 }

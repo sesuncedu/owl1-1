@@ -15,7 +15,7 @@ class Ontology {
      * @supplierRole axioms
      * @directed
      */
-    public Set axioms;
+    Set axioms;
     /**
      * @associates <{Annotation}>
      * @supplierCardinality *
@@ -29,5 +29,5 @@ class Ontology {
      * @supplierRole importedOntologies
      * @directed
      */
-    public Set importedOntologies;
+    Set importedOntologies;
 }

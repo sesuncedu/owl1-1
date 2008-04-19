@@ -4,15 +4,15 @@ package owl;
 
 public class InverseObjectProperties extends Axiom {
     /**
-     * @supplierCardinality 1
-     * @clientRole objectProperty1
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole objectProperty1
      */
-    /*#ObjectPropertyExpression objectProperty1;*/
+    ObjectPropertyExpression objectProperty1;
     /**
-     * @supplierCardinality 1
-     * @clientRole objectProperty2
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole objectProperty2
      */
-    /*#ObjectPropertyExpression objectProperty2;*/
+    ObjectPropertyExpression objectProperty2;
 }

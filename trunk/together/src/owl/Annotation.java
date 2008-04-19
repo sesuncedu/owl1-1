@@ -8,5 +8,5 @@ public class Annotation {
      * @supplierCardinality 1
      * @supplierRole annotationProperty
      */
-    public AnnotationProperty annotationProperty;
+    AnnotationProperty annotationProperty;
 }

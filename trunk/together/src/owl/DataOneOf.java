@@ -5,14 +5,11 @@ package owl;
 import java.util.*;
 
 public class DataOneOf extends DataRange {
-
     /**
-     * @link aggregation
-     * @associates <{Constant}>
-     * @associationAsClass <<set>>
-     * @supplierCardinality 1 ..*
-     * @clientRole constants
      * @directed
+     * @associates <{Constant}>
+     * @supplierCardinality 1 ..*
+     * @supplierRole constants
      */
-	public Set constants;
+	Set constants;
 }

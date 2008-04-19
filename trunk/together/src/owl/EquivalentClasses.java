@@ -5,14 +5,11 @@ package owl;
 import java.util.*;
 
 public class EquivalentClasses extends Axiom {
-
     /**
-     * @link aggregation
-     * @associates <{Description}>
-     * @associationAsClass <<set>>
-     * @supplierCardinality 2 ..*
-     * @clientRole classes
      * @directed
+     * @associates <{Description}>
+     * @supplierCardinality 2 ..*
+     * @supplierRole classes
      */
-    public Set classes;
+    Set classes;
 }

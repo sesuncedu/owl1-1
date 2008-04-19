@@ -5,14 +5,11 @@ package owl;
 import java.util.*;
 
 public class DifferentIndividuals extends Axiom {
-
     /**
-     * @link aggregation
-     * @associates <{Individual}>
-     * @associationAsClass <<set>>
-     * @supplierCardinality 2 ..*
-     * @clientRole individuals
      * @directed
+     * @associates <{Individual}>
+     * @supplierCardinality 2 ..*
+     * @supplierRole individuals
      */
-    public Set individuals;
+    Set individuals;
 }
