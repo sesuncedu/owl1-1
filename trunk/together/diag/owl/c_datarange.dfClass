@@ -90,11 +90,11 @@ class __options {
 <oigroup:MemberLink#<oiref:java#Member#owl.FacetConstantPair#constant:oiref>=764,330,764,276:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=672,340,24,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.DatatypeRestriction#owl.DataRange:oiref>=536,339,536,187,352,187,352,152:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=305,101,7,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=305,101,13,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.Datatype:oiref>=337,343,63,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=374,226,70,59,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.FacetConstantPair#constant:oiref>=750,284,13,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=251,124,61,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=251,124,67,19,0:oigroup>
 */
 class __positions {
 }

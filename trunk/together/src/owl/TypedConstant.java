@@ -8,5 +8,5 @@ public class TypedConstant extends Constant {
      * @supplierCardinality 1
      * @supplierRole datatypeURI
      */
-    public URI datatypeURI;
+    URI datatypeURI;
 }

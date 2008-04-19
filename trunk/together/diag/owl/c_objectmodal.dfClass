@@ -58,7 +58,7 @@ class __tags {
 class __options {
 }/**
 @__positions <oigroup:<oiref:java#Extends#owl.ObjectSomeValuesFrom#owl.Description:oiref>=663,175,663,142,428,142,428,110:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectSomeValuesFrom#objectProperty:oiref>=478,369,84,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectSomeValuesFrom#objectProperty:oiref>=473,366,84,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectAllValuesFrom:oiref>=139,176,128,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectHasValue:oiref>=439,174,100,59,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectHasValue#objectProperty:oiref>=437,309,13,19,0:oigroup>
@@ -68,8 +68,8 @@ class __options {
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectAllValuesFrom#objectProperty:oiref>=193,235,193,369,309,369:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectAllValuesFrom#_class:oiref>=368,51,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectHasValue#individual:oiref>=539,222,583,222,583,275:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectSomeValuesFrom#objectProperty:oiref>=479,342,13,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.ObjectPropertyExpression:oiref>=309,339,159,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectSomeValuesFrom#objectProperty:oiref>=473,343,13,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectPropertyExpression:oiref>=309,339,160,59,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.ObjectHasValue#owl.Description:oiref>=502,174,502,142,428,142,428,110:oigroup>
 <oigroup:<oiref:java#Extends#owl.ObjectExistsSelf#owl.Description:oiref>=350,176,350,142,428,142,428,110:oigroup>
 <oigroup:<oiref:java#Class#owl.Individual:oiref>=552,275,63,59,1:oigroup>
@@ -87,7 +87,7 @@ class __options {
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectHasValue#individual:oiref>=565,246,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectSomeValuesFrom#_class:oiref>=711,175,711,81,466,81:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectExistsSelf#objectProperty:oiref>=338,308,84,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.ObjectSomeValuesFrom#objectProperty:oiref>=669,234,669,366,468,366:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.ObjectSomeValuesFrom#objectProperty:oiref>=690,234,690,366,469,366:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectAllValuesFrom#_class:oiref>=355,84,36,19,0:oigroup>
 */
 class __positions {
