@@ -4,7 +4,7 @@ package owl;
 
 public class DataMinCardinality extends Description {
     /**
-     * @alias cardinality : int
+     * @alias cardinality : UnlimitedNatural
      */
     public int cardinality;
     /**

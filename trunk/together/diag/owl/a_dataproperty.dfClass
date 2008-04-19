@@ -96,7 +96,7 @@ class __options {
 <oigroup:<oiref:java#Class#owl.DataPropertyExpression:oiref>=192,434,406,59,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataPropertyDomain#domain:oiref>=613,259,48,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.EquivalentDataProperties#owl.Axiom:oiref>=363,183,363,149,432,149,432,100:oigroup>
-<oigroup:<oiref:java#Class#owl.DataRange:oiref>=721,282,73,68,1:oigroup>
+<oigroup:<oiref:java#Class#owl.DataRange:oiref>=721,282,143,68,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataPropertyRange#dataProperty:oiref>=699,241,699,547,544,547,544,493:oigroup>
 <oigroup:<oiref:java#Extends#owl.SubDataPropertyOf#owl.Axiom:oiref>=222,181,222,149,432,149,432,100:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DisjointDataProperties#dataProperties:oiref>=195,403,27,19,0:oigroup>

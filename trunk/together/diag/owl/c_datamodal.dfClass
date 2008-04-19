@@ -58,15 +58,15 @@ filter.g.state = on
 */
 class __options {
 }/**
-@__positions <oigroup:MemberLink#<oiref:java#Member#owl.DataSomeValuesFrom#dataRange:oiref>=147,249,147,351,190,351:oigroup>
+@__positions <oigroup:MemberLink#<oiref:java#Member#owl.DataSomeValuesFrom#dataRange:oiref>=152,249,152,353,189,353:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataHasValue#dataProperty:oiref>=555,247,555,351,506,351:oigroup>
 <oigroup:<oiref:java#Extends#owl.DataAllValuesFrom#owl.Description:oiref>=344,189,344,147,336,147,336,105:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataSomeValuesFrom#dataProperties:oiref>=396,396,87,19,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataSomeValuesFrom#dataProperties:oiref>=356,386,27,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.DataAllValuesFrom:oiref>=286,189,117,59,1:oigroup>
-<oigroup:<oiref:java#Class#owl.DataRange:oiref>=190,318,73,68,1:oigroup>
+<oigroup:<oiref:java#Class#owl.DataRange:oiref>=189,324,143,68,1:oigroup>
 <oigroup:Composite#supplierQualifier#MemberLink#<oiref:java#Member#owl.DataAllValuesFrom#dataProperties:oiref>=398,297,128,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataSomeValuesFrom#dataRange:oiref>=177,324,13,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataSomeValuesFrom#dataRange:oiref>=172,329,13,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.DataSomeValuesFrom:oiref>=107,190,136,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.DataHasValue:oiref>=511,188,89,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.Description:oiref>=299,46,75,59,1:oigroup>
@@ -74,20 +74,20 @@ class __options {
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataHasValue#dataProperty:oiref>=510,328,13,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.DataHasValue#owl.Description:oiref>=555,188,555,147,336,147,336,105:oigroup>
 <oigroup:<oiref:java#Class#owl.Constant:oiref>=605,325,63,59,1:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataSomeValuesFrom#dataRange:oiref>=125,351,67,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataSomeValuesFrom#dataRange:oiref>=118,354,67,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataAllValuesFrom#dataProperties:oiref>=388,248,388,324:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataHasValue#dataProperties:oiref>=488,249,488,324:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataAllValuesFrom#dataRange:oiref>=266,322,13,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataAllValuesFrom#dataRange:oiref>=228,301,13,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.DataPropertyExpression:oiref>=356,324,150,59,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataHasValue#constant:oiref>=621,300,13,19,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataAllValuesFrom#dataProperties:oiref>=361,295,27,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataHasValue#constant:oiref>=600,220,638,220,638,325:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataAllValuesFrom#dataRange:oiref>=267,350,67,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataAllValuesFrom#dataRange:oiref>=258,295,67,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.DataSomeValuesFrom#owl.Description:oiref>=175,190,175,147,336,147,336,105:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataSomeValuesFrom#dataProperties:oiref>=107,218,61,218,61,443,387,443,387,383:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataHasValue#dataProperty:oiref>=510,351,75,19,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataAllValuesFrom#dataProperties:oiref>=398,284,87,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.DataAllValuesFrom#dataRange:oiref>=337,248,337,350,263,350:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataAllValuesFrom#dataRange:oiref>=318,248,318,286,247,286,247,324:oigroup>
 <oigroup:Composite#supplierQualifier#MemberLink#<oiref:java#Member#owl.DataSomeValuesFrom#dataProperties:oiref>=396,383,128,19,0:oigroup>
 */
 class __positions {

@@ -4,7 +4,7 @@ package owl;
 
 public class ObjectExactCardinality extends Description {
     /**
-     * @alias cardinality : int
+     * @alias cardinality : UnlimitedNatural
      */
     public int cardinality;
     /**
