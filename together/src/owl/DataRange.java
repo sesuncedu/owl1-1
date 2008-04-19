@@ -4,7 +4,7 @@ package owl;
 
 public abstract class DataRange {
     /**
-     * @alias arity : int 
+     * @alias arity : UnlimitedNatural 
      */
     public int arity;
 }
