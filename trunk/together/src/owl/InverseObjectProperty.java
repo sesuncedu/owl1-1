@@ -4,9 +4,9 @@ package owl;
 
 public class InverseObjectProperty extends ObjectPropertyExpression {
     /**
+     * @directed
      * @supplierCardinality 1
      * @supplierRole objectProperty
-     * @directed
      */
-    ObjectPropertyExpression objectProperty;
+    ObjectProperty objectProperty;
 }
