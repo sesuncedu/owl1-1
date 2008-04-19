@@ -4,9 +4,9 @@ package owl;
 
 public class UntypedConstant implements Constant {
     /**
-     * @supplierCardinality 0..1
      * @directed
+     * @supplierCardinality 0..1
      * @supplierQualifier languageTag
      */
-    private String languageTag;
+    String languageTag;
 }

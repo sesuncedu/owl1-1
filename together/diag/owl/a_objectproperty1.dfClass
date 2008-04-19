@@ -75,7 +75,9 @@ class __options {
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectProperty2:oiref>=469,483,13,19,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DisjointObjectProperties#objectProperties:oiref>=167,417,27,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#domain:oiref>=680,248,680,299:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#domain:oiref>=687,271,42,17,0:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectPropertyExpression:oiref>=198,416,454,59,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#domain:oiref>=605,329,42,17,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#objectProperty:oiref>=552,249,552,374,691,374,691,445,652,445:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DisjointObjectProperties#objectProperties:oiref>=186,332,134,332,134,442,198,442:oigroup>
 <oigroup:<oiref:java#Class#owl.Description:oiref>=651,299,75,59,1:oigroup>
@@ -87,6 +89,7 @@ class __options {
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectProperty2:oiref>=499,481,91,19,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#superObjectProperty:oiref>=472,393,13,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.ObjectPropertyRange#owl.Axiom:oiref>=725,189,725,147,395,147,395,108:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#domain:oiref>=637,302,7,17,0:oigroup>
 <oigroup:Composite#supplierQualifier#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#subObjectProperties:oiref>=300,393,128,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectProperty1:oiref>=866,343,866,607,350,607,350,475:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#objectProperty:oiref>=660,418,13,19,0:oigroup>
@@ -95,14 +98,15 @@ class __options {
 <oigroup:MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectProperty2:oiref>=817,343,817,572,489,572,489,475:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.EquivalentObjectProperties#objectProperties:oiref>=116,207,70,207,70,530,221,530,221,475:oigroup>
 <oigroup:<oiref:java#Class#owl.SubObjectPropertyOf:oiref>=320,180,130,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#domain:oiref>=665,272,7,17,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#subObjectProperties:oiref>=300,378,119,19,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#superObjectProperty:oiref>=497,393,118,19,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#objectProperty:oiref>=658,446,84,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectPropertyDomain:oiref>=506,190,138,59,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.InverseObjectProperties#owl.Axiom:oiref>=842,284,842,147,395,147,395,108:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.SubClassOf#superClass:oiref>=253,191,381,191,381,413:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#subObjectProperties:oiref>=350,239,350,375,294,375,294,416:oigroup>
 <oigroup:<oiref:java#Extends#owl.SubObjectPropertyOf#owl.Axiom:oiref>=385,180,385,147,395,147,395,108:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#subObjectProperties:oiref>=350,239,350,375,294,375,294,416:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.EquivalentObjectProperties#objectProperties:oiref>=232,481,96,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.EquivalentObjectProperties:oiref>=116,177,164,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#superObjectProperty:oiref>=400,239,400,374,491,374,491,416:oigroup>

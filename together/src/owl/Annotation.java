@@ -2,7 +2,7 @@
 
 package owl;
 
-public class Annotation {
+public abstract class Annotation {
     /**
      * @directed
      * @supplierCardinality 1

@@ -2,5 +2,5 @@
 
 package owl;
 
-public class ObjectPropertyExpression {
+public abstract class ObjectPropertyExpression {
 }

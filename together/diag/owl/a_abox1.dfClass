@@ -51,21 +51,22 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DifferentIndividuals#individuals:oiref>=347,325,21,17,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.SameIndividual#individuals:oiref>=278,388,59,17,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ClassAssertion#description:oiref>=578,237,61,17,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ClassAssertion#individual:oiref>=424,353,7,17,0:oigroup>
+@__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DifferentIndividuals#individuals:oiref>=347,325,27,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.SameIndividual#individuals:oiref>=278,388,65,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ClassAssertion#description:oiref>=578,237,67,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ClassAssertion#individual:oiref>=424,353,13,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.DifferentIndividuals:oiref>=316,199,118,59,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.SameIndividual#owl.Axiom:oiref>=231,198,231,160,352,160,352,121:oigroup>
 <oigroup:<oiref:java#Class#owl.ClassAssertion:oiref>=467,200,96,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.Individual:oiref>=350,352,63,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.Description:oiref>=643,206,75,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ClassAssertion#description:oiref>=632,214,7,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.SameIndividual#individuals:oiref>=325,363,21,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ClassAssertion#description:oiref>=632,214,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.SameIndividual#individuals:oiref>=217,257,217,384,350,384:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ClassAssertion#description:oiref>=563,236,643,236:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ClassAssertion#individual:oiref>=421,382,52,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ClassAssertion#individual:oiref>=421,382,58,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.SameIndividual:oiref>=196,198,95,59,1:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DifferentIndividuals#individuals:oiref>=395,328,59,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DifferentIndividuals#individuals:oiref>=395,328,65,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.DifferentIndividuals#owl.Axiom:oiref>=375,199,375,160,352,160,352,121:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ClassAssertion#individual:oiref>=515,259,515,379,413,379:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=321,62,63,59,1:oigroup>
