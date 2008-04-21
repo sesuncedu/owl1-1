@@ -9,14 +9,14 @@ public class SubObjectPropertyOf extends Axiom {
      * @directed
      * @associates <{ObjectPropertyExpression}>
      * @supplierCardinality 2 ..*
-     * @supplierRole subObjectProperties
+     * @supplierRole subObjectPropertyExpressions
      * @supplierQualifier { ordered, nonunique }
      */
-    List subObjectProperties;
+    List subObjectPropertyExpressions;
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole superObjectProperty
+     * @supplierRole superObjectPropertyExpression
      */
-    ObjectPropertyExpression superObjectProperty;
+    ObjectPropertyExpression superObjectPropertyExpression;
 }

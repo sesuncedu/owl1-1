@@ -2,17 +2,17 @@
 
 package owl;
 
-public class ObjectSomeValuesFrom extends Description {
+public class ObjectSomeValuesFrom extends ClassExpression {
     /**
      * @supplierCardinality 1
-     * @supplierRole class
+     * @supplierRole classExpression
      * @directed
      */
-    Description _class;
+    ClassExpression classExpression;
     /**
      * @supplierCardinality 1
-     * @supplierRole objectProperty
+     * @supplierRole objectPropertyExpression
      * @directed
      */
-    ObjectPropertyExpression objectProperty;
+    ObjectPropertyExpression objectPropertyExpression;
 }

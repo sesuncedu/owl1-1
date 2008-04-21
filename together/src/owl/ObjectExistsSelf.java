@@ -2,11 +2,11 @@
 
 package owl;
 
-public class ObjectExistsSelf extends Description {
+public class ObjectExistsSelf extends ClassExpression {
     /**
      * @supplierCardinality 1
-     * @supplierRole objectProperty
+     * @supplierRole objectPropertyExpression
      * @directed
      */
-    ObjectPropertyExpression objectProperty;
+    ObjectPropertyExpression objectPropertyExpression;
 }

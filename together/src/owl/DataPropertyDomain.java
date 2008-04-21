@@ -6,13 +6,13 @@ public class DataPropertyDomain extends Axiom {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole dataProperty
+     * @supplierRole dataPropertyExpression
      */
-    DataPropertyExpression dataProperty;
+    DataPropertyExpression dataPropertyExpression;
     /**
      * @directed
      * @supplierCardinality 1
      * @supplierRole domain
      */
-    Description domain;
+    ClassExpression domain;
 }

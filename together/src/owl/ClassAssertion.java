@@ -2,13 +2,13 @@
 
 package owl;
 
-public class ClassAssertion extends Axiom {
+public class ClassAssertion extends Assertion {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole description
+     * @supplierRole classExpression
      */
-    Description description;
+    ClassExpression classExpression;
     /**
      * @directed
      * @supplierCardinality 1

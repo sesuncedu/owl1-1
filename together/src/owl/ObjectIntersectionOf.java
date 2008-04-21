@@ -4,13 +4,12 @@ package owl;
 
 import java.util.*;
 
-public class ObjectIntersectionOf extends Description {
-
+public class ObjectIntersectionOf extends ClassExpression {
     /**
-     * @associates <{Description}>
+     * @associates <{owl.ClassExpression}>
      * @supplierCardinality 2 ..*
-     * @supplierRole classes
+     * @supplierRole classExpressions
      * @directed
      */
-    public Set classes;
+    Set classExpressions;
 }

@@ -2,21 +2,21 @@
 
 package owl;
 
-public class ObjectMaxCardinality extends Description {
+public class ObjectMaxCardinality extends ClassExpression {
     /**
      * @alias cardinality : UnlimitedNatural
      */
     public int cardinality;
     /**
      * @supplierCardinality 0..1
-     * @supplierRole class
+     * @supplierRole classExpression
      * @directed
      */
-    Description _class;
+    ClassExpression classExpression;
     /**
      * @supplierCardinality 1
-     * @supplierRole objectProperty
+     * @supplierRole objectPropertyExpression
      * @directed
      */
-    ObjectPropertyExpression objectProperty;
+    ObjectPropertyExpression objectPropertyExpression;
 }

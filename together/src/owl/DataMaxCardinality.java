@@ -2,7 +2,7 @@
 
 package owl;
 
-public class DataMaxCardinality extends Description {
+public class DataMaxCardinality extends ClassExpression {
     /**
      * @alias cardinality : UnlimitedNatural
      */
@@ -12,11 +12,11 @@ public class DataMaxCardinality extends Description {
      * @supplierCardinality 0..1
      * @supplierRole dataRange
      */
-    DataRange datarange;
+    DataRange dataRange;
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole dataProperty
+     * @supplierRole dataPropertyExpression
      */
-    DataPropertyExpression dataProperty;
+    DataPropertyExpression dataPropertyExpression;
 }

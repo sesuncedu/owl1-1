@@ -6,7 +6,7 @@ public class TransitiveObjectProperty extends Axiom {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole objectProperty
+     * @supplierRole objectPropertyExpression
      */
-    ObjectPropertyExpression objectProperty;
+    ObjectPropertyExpression objectPropertyExpression;
 }

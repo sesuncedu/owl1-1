@@ -10,11 +10,11 @@ public class IsClassSubsumedBy extends RequestToOntology {
      * @clientRole subClass
      * @directed
      */
-    public Description subClass;
+    public ClassExpression subClass;
     /**
      * @supplierCardinality 1
      * @clientRole superClass
      * @directed
      */
-    public Description superClass;
+    public ClassExpression superClass;
 }

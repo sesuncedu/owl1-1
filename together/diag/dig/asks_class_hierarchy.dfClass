@@ -89,7 +89,7 @@ class __options {
 }/**
 @__positions <oigroup:MemberLink#<oiref:java#Member#dig.GetChildClassHierarchyNodes#_class:oiref>=392,367,392,535:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#dig.ClassHierarchyNode#entities:oiref>=782,348,782,425,615,425,615,503:oigroup>
-<oigroup:<oiref:java#Implements#owl.OWLClass#owl.Description:oiref>=739,514,373,514:oigroup>
+<oigroup:<oiref:java#Implements#owl.OWLClass#owl.ClassExpression:oiref>=739,514,373,514:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.ClassHierarchyNode#equivalentClasses:oiref>=345,594,24,19,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.ClassHierarchyNode#equivalentClasses:oiref>=753,402,109,19,0:oigroup>
 <oigroup:<oiref:java#Extends#dig.SetOfEntites#dig.Response:oiref>=720,167,720,149,636,149,636,107:oigroup>

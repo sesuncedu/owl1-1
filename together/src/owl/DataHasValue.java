@@ -2,7 +2,7 @@
 
 package owl;
 
-public class DataHasValue extends Description {
+public class DataHasValue extends ClassExpression {
     /**
      * @directed
      * @supplierCardinality 1
@@ -12,7 +12,7 @@ public class DataHasValue extends Description {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole dataProperty
+     * @supplierRole dataPropertyExpression
      */
-    DataPropertyExpression dataProperty;
+    DataPropertyExpression dataPropertyExpression;
 }
