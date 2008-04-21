@@ -2,11 +2,11 @@
 
 package owl;
 
-public class ObjectComplementOf extends Description {
+public class ObjectComplementOf extends ClassExpression {
     /**
-     * @supplierCardinality 1
-     * @supplierRole class
      * @directed
+     * @supplierCardinality 1
+     * @supplierRole classExpression
      */
-    /*#Description _class;*/
+    ClassExpression classExpression;
 }

@@ -2,5 +2,5 @@
 
 package owl;
 
-public class OWLClass implements Description,OWLEntity {
+public class OWLClass implements ClassExpression,OWLEntity {
 }

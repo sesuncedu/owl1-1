@@ -6,7 +6,7 @@ package idpu97esvhxhoaesvigiui;
 */
 class diagram {
 /**
-@__ref <oiref:java#Class#owl.Description:oiref><oihard>
+@__ref <oiref:java#Class#owl.ClassExpression:oiref><oihard>
 @__modelType reference
 @__imported 
 */
@@ -57,33 +57,33 @@ class __tags {
 class __options {
 }/**
 @__positions <oigroup:MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataProperty:oiref>=89,233,68,233,68,463,379,463,379,387:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataRange:oiref>=227,400,61,17,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataRange:oiref>=160,296,67,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataRange:oiref>=146,246,146,327:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataMaxCardinality#dataRange:oiref>=314,247,314,358,253,358:oigroup>
+<oigroup:<oiref:java#Extends#owl.DataMaxCardinality#owl.ClassExpression:oiref>=371,179,371,106:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataRange:oiref>=184,395,67,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataRange:oiref>=188,302,61,17,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataRange:oiref>=176,246,176,327:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataMaxCardinality#dataProperty:oiref>=394,247,394,328:oigroup>
-<oigroup:<oiref:java#Extends#owl.DataExactCardinality#owl.Description:oiref>=568,180,568,143,370,143,370,108:oigroup>
 <oigroup:<oiref:java#Class#owl.DataExactCardinality:oiref>=480,180,176,68,1:oigroup>
+<oigroup:<oiref:java#Class#owl.ClassExpression:oiref>=318,47,106,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.DataRange:oiref>=110,327,143,68,1:oigroup>
+<oigroup:<oiref:java#Extends#owl.DataMinCardinality#owl.ClassExpression:oiref>=177,178,177,143,371,143,371,106:oigroup>
 <oigroup:<oiref:design#Class#idpu97esvhxhoaesvigiui.node:oiref>=200,484,229,50,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataProperty:oiref>=496,354,69,17,0:oigroup>
-<oigroup:<oiref:java#Class#owl.Description:oiref>=333,49,75,59,1:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataMaxCardinality#dataProperty:oiref>=404,304,69,17,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataPropertyExpression:oiref>=549,248,549,360,492,360:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataMaxCardinality#dataRange:oiref>=261,335,20,17,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataMaxCardinality#dataPropertyExpression:oiref>=361,247,361,328:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataPropertyExpression:oiref>=397,393,7,17,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.DataExactCardinality#owl.ClassExpression:oiref>=568,180,568,143,371,143,371,106:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataMaxCardinality#dataRange:oiref>=262,361,61,17,0:oigroup>
 <oigroup:<oiref:java#Class#owl.DataMinCardinality:oiref>=89,178,176,68,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataProperty:oiref>=558,248,558,348,492,348:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataRange:oiref>=188,401,20,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataRange:oiref>=146,395,26,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataPropertyExpression:oiref>=89,209,58,209,58,463,416,463,416,387:oigroup>
 <oigroup:<oiref:java#Class#owl.DataPropertyExpression:oiref>=342,328,150,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataProperty:oiref>=360,387,13,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataMaxCardinality#datarange:oiref>=264,324,20,17,0:oigroup>
-<oigroup:<oiref:java#Extends#owl.DataMinCardinality#owl.Description:oiref>=177,178,177,143,370,143,370,108:oigroup>
 <oigroup:<oiref:java#Class#owl.DataMaxCardinality:oiref>=284,179,176,68,1:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataRange:oiref>=626,248,626,442,217,442,217,395:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataMaxCardinality#dataProperty:oiref>=377,300,7,17,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataProperty:oiref>=389,395,75,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataMaxCardinality#datarange:oiref>=259,361,61,17,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataProperty:oiref>=501,324,7,17,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataRange:oiref>=110,296,26,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataRange:oiref>=638,248,638,434,178,434,178,395:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataPropertyExpression:oiref>=422,392,131,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataMinCardinality#dataRange:oiref>=149,299,20,17,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataMaxCardinality#datarange:oiref>=310,247,310,353,253,353:oigroup>
-<oigroup:<oiref:java#Extends#owl.DataMaxCardinality#owl.Description:oiref>=371,179,371,143,370,143,370,108:oigroup>
 */
 class __positions {
 }/**

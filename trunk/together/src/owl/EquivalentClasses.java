@@ -7,9 +7,9 @@ import java.util.*;
 public class EquivalentClasses extends Axiom {
     /**
      * @directed
-     * @associates <{Description}>
+     * @associates <{owl.ClassExpression}>
      * @supplierCardinality 2 ..*
-     * @supplierRole classes
+     * @supplierRole classExpressions
      */
-    Set classes;
+    Set classExpressions;
 }

@@ -35,6 +35,12 @@ class reference42 {
 @__imported 
 */
 class reference43 {
+}/**
+@__ref <oiref:java#Class#owl.Assertion:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference13 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
@@ -45,31 +51,37 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#objectProperty:oiref>=244,431,13,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#sourceIndividual:oiref>=416,260,416,336:oigroup>
+@__positions <oigroup:MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#sourceIndividual:oiref>=528,306,528,410,464,410:oigroup>
 <oigroup:<oiref:java#Extends#owl.NegativeObjectPropertyAssertion#owl.Axiom:oiref>=489,201,489,167,337,167,337,116:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#targetIndividual:oiref>=474,375,89,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#sourceIndividual:oiref>=218,254,218,370,265,370:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#sourceIndividual:oiref>=164,372,96,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#targetIndividual:oiref>=421,358,83,17,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#sourceIndividual:oiref>=216,303,216,419,263,419:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#sourceIndividual:oiref>=169,419,90,17,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#objectProperty:oiref>=193,227,132,227,132,458,266,458:oigroup>
-<oigroup:<oiref:java#Class#owl.ObjectPropertyAssertion:oiref>=193,195,150,59,1:oigroup>
-<oigroup:<oiref:java#Class#owl.ObjectPropertyExpression:oiref>=266,427,199,59,0:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectPropertyAssertion:oiref>=191,244,150,59,1:oigroup>
+<oigroup:<oiref:java#Extends#owl.NegativeObjectPropertyAssertion#owl.Assertion:oiref>=484,247,484,212,362,212,362,176:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#objectPropertyExpression:oiref>=584,295,627,295,627,504,463,504:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectPropertyExpression:oiref>=264,476,199,59,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#objectPropertyExpression:oiref>=120,504,140,17,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.ObjectPropertyAssertion#owl.Axiom:oiref>=272,195,272,167,337,167,337,116:oigroup>
-<oigroup:<oiref:java#Class#owl.Individual:oiref>=265,336,201,59,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#targetIndividual:oiref>=473,343,13,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#objectProperty:oiref>=472,431,13,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#objectProperty:oiref>=474,459,84,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#targetIndividual:oiref>=268,306,13,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.NegativeObjectPropertyAssertion:oiref>=390,201,199,59,1:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#sourceIndividual:oiref>=426,309,96,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#targetIndividual:oiref>=526,260,526,369,466,369:oigroup>
+<oigroup:<oiref:java#Class#owl.Individual:oiref>=263,385,201,59,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#targetIndividual:oiref>=396,358,7,17,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.ObjectPropertyAssertion#owl.Assertion:oiref>=253,244,253,212,362,212,362,176:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#targetIndividual:oiref>=268,359,7,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#objectPropertyExpression:oiref>=467,504,140,17,0:oigroup>
+<oigroup:<oiref:java#Class#owl.NegativeObjectPropertyAssertion:oiref>=385,247,199,59,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#sourceIndividual:oiref>=468,410,90,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#objectPropertyExpression:oiref>=471,476,7,17,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#targetIndividual:oiref>=409,306,409,385:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#objectProperty:oiref>=589,233,645,233,645,457,465,457:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#targetIndividual:oiref>=286,254,286,336:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#targetIndividual:oiref>=297,310,89,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.Axiom:oiref>=306,57,63,59,1:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#objectProperty:oiref>=174,462,84,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#sourceIndividual:oiref>=403,308,13,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#sourceIndividual:oiref>=248,338,13,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#objectPropertyExpression:oiref>=249,476,7,17,0:oigroup>
+<oigroup:<oiref:java#Class#owl.Assertion:oiref>=330,117,65,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#targetIndividual:oiref>=284,303,284,385:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#targetIndividual:oiref>=293,359,83,17,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.Assertion#owl.Axiom:oiref>=361,117,361,72:oigroup>
+<oigroup:<oiref:java#Class#owl.Axiom:oiref>=329,13,63,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#objectPropertyExpression:oiref>=191,271,128,271,128,504,264,504:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.NegativeObjectPropertyAssertion#sourceIndividual:oiref>=468,389,7,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyAssertion#sourceIndividual:oiref>=252,398,7,17,0:oigroup>
 */
 class __positions {
 }

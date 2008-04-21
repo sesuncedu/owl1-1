@@ -30,7 +30,7 @@ class reference41 {
 */
 class reference42 {
 }/**
-@__ref <oiref:java#Class#owl.Description:oiref><oihard>
+@__ref <oiref:java#Class#owl.ClassExpression:oiref><oihard>
 @__modelType reference
 @__imported 
 */
@@ -75,7 +75,7 @@ class __options {
 <oigroup:<oiref:java#Extends#dig.RequestToOntology#dig.Request:oiref>=263,155,263,109:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#dig.IsInstanceOf#individual:oiref>=551,371,551,500:oigroup>
 <oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#dig.AreClassesDisjoint#classes:oiref>=239,491,65,32,0:oigroup>
-<oigroup:<oiref:java#Class#owl.Description:oiref>=98,421,98,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.ClassExpression:oiref>=98,421,98,59,1:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.IsClassSatisfiable#_class:oiref>=66,370,36,19,0:oigroup>
 <oigroup:<oiref:java#Extends#dig.AreClassesEquivalent#dig.RequestToOntology:oiref>=452,308,452,271,266,271,266,223:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#dig.IsInstanceOf#_class:oiref>=504,371,504,574,120,574,120,480:oigroup>

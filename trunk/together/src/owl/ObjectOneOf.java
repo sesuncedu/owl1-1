@@ -2,7 +2,7 @@
 
 package owl;
 
-public class ObjectOneOf extends Description {
+public class ObjectOneOf extends ClassExpression {
 
     /**
      * @associates <{Individual}>

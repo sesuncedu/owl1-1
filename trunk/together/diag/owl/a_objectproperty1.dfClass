@@ -42,7 +42,7 @@ class reference68 {
 */
 class reference69 {
 }/**
-@__ref <oiref:java#Class#owl.Description:oiref><oihard>
+@__ref <oiref:java#Class#owl.ClassExpression:oiref><oihard>
 @__modelType reference
 @__imported 
 */
@@ -69,56 +69,60 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectProperty1:oiref>=330,481,13,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#objectProperty:oiref>=629,481,84,19,0:oigroup>
+@__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#range:oiref>=674,282,7,17,0:oigroup>
 <oigroup:<oiref:java#Class#owl.DisjointObjectProperties:oiref>=186,284,148,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectProperty2:oiref>=469,483,13,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DisjointObjectProperties#objectProperties:oiref>=167,417,27,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#domain:oiref>=680,248,680,299:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#domain:oiref>=687,271,42,17,0:oigroup>
-<oigroup:<oiref:java#Class#owl.ObjectPropertyExpression:oiref>=198,416,454,59,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#domain:oiref>=605,329,42,17,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#objectPropertyExpression:oiref>=526,243,526,367,634,367,634,416:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#domain:oiref>=710,248,710,306,665,306:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.EquivalentObjectProperties#objectPropertyExpressions:oiref>=116,204,28,204,28,528,229,528,229,475:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectPropertyExpression:oiref>=190,416,534,59,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectPropertyExpression1:oiref>=929,340,929,566,430,566,430,475:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DisjointObjectProperties#objectPropertyExpressions:oiref>=166,419,21,17,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#objectProperty:oiref>=552,249,552,374,691,374,691,445,652,445:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DisjointObjectProperties#objectProperties:oiref>=186,332,134,332,134,442,198,442:oigroup>
-<oigroup:<oiref:java#Class#owl.Description:oiref>=651,299,75,59,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#objectPropertyExpression:oiref>=643,388,140,17,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.DisjointObjectProperties#owl.Axiom:oiref>=304,284,304,147,395,147,395,108:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#objectProperty:oiref>=751,248,751,536,623,536,623,475:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectPropertyExpression2:oiref>=881,340,881,526,636,526,636,475:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#objectPropertyExpression:oiref>=618,391,7,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#objectPropertyExpression:oiref>=728,442,146,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=364,49,63,59,1:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectProperty1:oiref>=360,483,91,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#subObjectProperties:oiref>=261,393,27,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectProperty2:oiref>=499,481,91,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#superObjectProperty:oiref>=472,393,13,19,0:oigroup>
-<oigroup:<oiref:java#Extends#owl.ObjectPropertyRange#owl.Axiom:oiref>=725,189,725,147,395,147,395,108:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#domain:oiref>=637,302,7,17,0:oigroup>
-<oigroup:Composite#supplierQualifier#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#subObjectProperties:oiref>=300,393,128,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.EquivalentObjectProperties#objectPropertyExpressions:oiref>=202,475,21,17,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.ObjectPropertyRange#owl.Axiom:oiref>=743,186,743,147,395,147,395,108:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#superObjectPropertyExpression:oiref>=345,239,345,368,208,368,208,416:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#range:oiref>=729,245,729,308,665,308:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.EquivalentObjectProperties#objectPropertyExpressions:oiref>=235,475,147,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#objectPropertyExpression:oiref>=728,419,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectProperty1:oiref>=866,343,866,607,350,607,350,475:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#objectProperty:oiref>=660,418,13,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DisjointObjectProperties#objectProperties:oiref>=98,444,96,19,0:oigroup>
-<oigroup:<oiref:java#Extends#owl.ObjectPropertyDomain#owl.Axiom:oiref>=575,190,575,147,395,147,395,108:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#objectPropertyExpression:oiref>=789,245,789,442,724,442:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#subObjectPropertyExpressions:oiref>=407,387,21,17,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.ObjectPropertyDomain#owl.Axiom:oiref>=569,184,569,147,395,147,395,108:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#subObjectPropertyExpressions:oiref>=392,239,392,369,434,369,434,416:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectProperty2:oiref>=817,343,817,572,489,572,489,475:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectPropertyExpression1:oiref>=437,480,147,17,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.EquivalentObjectProperties#objectProperties:oiref>=116,207,70,207,70,530,221,530,221,475:oigroup>
 <oigroup:<oiref:java#Class#owl.SubObjectPropertyOf:oiref>=320,180,130,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#domain:oiref>=665,272,7,17,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#subObjectProperties:oiref>=300,378,119,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#superObjectProperty:oiref>=497,393,118,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#objectProperty:oiref>=658,446,84,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.ObjectPropertyDomain:oiref>=506,190,138,59,1:oigroup>
-<oigroup:<oiref:java#Extends#owl.InverseObjectProperties#owl.Axiom:oiref>=842,284,842,147,395,147,395,108:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectPropertyExpression1:oiref>=413,477,7,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectPropertyExpression2:oiref>=642,479,147,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.InverseObjectProperties#objectPropertyExpression2:oiref>=618,478,7,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#range:oiref>=676,310,32,17,0:oigroup>
+<oigroup:<oiref:java#Class#owl.ClassExpression:oiref>=559,280,106,59,1:oigroup>
+<oigroup:<oiref:java#Extends#owl.InverseObjectProperties#owl.Axiom:oiref>=893,281,893,147,395,147,395,108:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectPropertyDomain:oiref>=500,184,138,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.SubClassOf#superClass:oiref>=253,191,381,191,381,413:oigroup>
 <oigroup:<oiref:java#Extends#owl.SubObjectPropertyOf#owl.Axiom:oiref>=385,180,385,147,395,147,395,108:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#subObjectProperties:oiref>=350,239,350,375,294,375,294,416:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.EquivalentObjectProperties#objectProperties:oiref>=232,481,96,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#superObjectPropertyExpression:oiref>=218,387,174,17,0:oigroup>
 <oigroup:<oiref:java#Class#owl.EquivalentObjectProperties:oiref>=116,177,164,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#superObjectProperty:oiref>=400,239,400,374,491,374,491,416:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#domain:oiref>=598,249,598,329,651,329:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.ObjectPropertyRange#objectProperty:oiref>=604,482,13,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.ObjectPropertyDomain#domain:oiref>=583,243,583,280:oigroup>
 <oigroup:<oiref:java#Extends#owl.SubClassOf#owl.Axiom:oiref>=218,180,218,147,420,147,420,117:oigroup>
 <oigroup:<oiref:java#Extends#owl.EquivalentObjectProperties#owl.Axiom:oiref>=198,177,198,147,395,147,395,108:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#superObjectPropertyExpression:oiref>=193,389,7,17,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.InverseObjectProperties#domain:oiref>=931,244,931,316,670,316,670,439:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.EquivalentObjectProperties#objectProperties:oiref>=188,481,27,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DisjointObjectProperties#objectPropertyExpressions:oiref>=186,332,143,332,143,446,190,446:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.SubClassOf#subClass:oiref>=253,215,411,215,411,413:oigroup>
-<oigroup:<oiref:java#Class#owl.ObjectPropertyRange:oiref>=660,189,131,59,1:oigroup>
-<oigroup:<oiref:java#Class#owl.InverseObjectProperties:oiref>=768,284,148,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectPropertyRange:oiref>=678,186,131,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.InverseObjectProperties:oiref>=819,281,148,59,1:oigroup>
 */
 class __positions {
 }

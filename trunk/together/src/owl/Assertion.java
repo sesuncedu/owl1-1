@@ -2,5 +2,5 @@
 
 package owl;
 
-public abstract class Description {
+public abstract class Assertion extends Axiom {
 }

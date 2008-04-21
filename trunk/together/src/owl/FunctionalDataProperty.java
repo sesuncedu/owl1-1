@@ -6,7 +6,7 @@ public class FunctionalDataProperty extends Axiom {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole dataProperty
+     * @supplierRole dataPropertyExpression
      */
-    DataPropertyExpression dataProperty;
+    DataPropertyExpression dataPropertyExpression;
 }

@@ -2,13 +2,13 @@
 
 package owl;
 
-public class NegativeDataPropertyAssertion extends Axiom {
+public class NegativeDataPropertyAssertion extends Assertion {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole dataProperty
+     * @supplierRole dataPropertyExpression
      */
-    DataPropertyExpression dataProperty;
+    DataPropertyExpression dataPropertyExpression;
     /**
      * @directed
      * @supplierCardinality 1

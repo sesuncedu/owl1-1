@@ -4,7 +4,7 @@ package owl;
 
 import java.util.*;
 
-public class DifferentIndividuals extends Axiom {
+public class DifferentIndividuals extends Assertion {
     /**
      * @directed
      * @associates <{Individual}>

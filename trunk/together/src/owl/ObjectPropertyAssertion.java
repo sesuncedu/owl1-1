@@ -2,13 +2,13 @@
 
 package owl;
 
-public class ObjectPropertyAssertion extends Axiom {
+public class ObjectPropertyAssertion extends Assertion {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole objectProperty
+     * @supplierRole objectPropertyExpression
      */
-    ObjectPropertyExpression objectProperty;
+    ObjectPropertyExpression objectPropertyExpression;
     /**
      * @directed
      * @supplierCardinality 1

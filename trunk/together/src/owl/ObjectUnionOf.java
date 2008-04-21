@@ -2,12 +2,12 @@
 
 package owl;
 
-public class ObjectUnionOf extends Description {
+public class ObjectUnionOf extends ClassExpression {
     /**
-     * @associates <{Description}>
+     * @associates <{owl.ClassExpression}>
      * @supplierCardinality 2 .. *
-     * @supplierRole classes
+     * @supplierRole classExpressions
      * @directed
      */
-    public Set classes;
+    Set classExpressions;
 }

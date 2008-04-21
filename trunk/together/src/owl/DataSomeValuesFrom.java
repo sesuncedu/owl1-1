@@ -2,7 +2,7 @@
 
 package owl;
 
-public class DataSomeValuesFrom extends Description {
+public class DataSomeValuesFrom extends ClassExpression {
     /**
      * @directed
      * @supplierCardinality 1
@@ -13,8 +13,8 @@ public class DataSomeValuesFrom extends Description {
      * @directed
      * @associates <{DataPropertyExpression}>
      * @supplierCardinality 1 ..*
-     * @supplierRole dataProperties
+     * @supplierRole dataPropertyExpressions
      * @supplierQualifier { ordered, nonunique }
      */
-    public List dataProperties;
+    List dataPropertyExpressions;
 }

@@ -9,7 +9,7 @@ public class DisjointDataProperties extends Axiom {
      * @directed
      * @associates <{DataPropertyExpression}>
      * @supplierCardinality 2 ..*
-     * @supplierRole dataProperties
+     * @supplierRole dataPropertyExpressions
      */
-    Set dataProperties;
+    Set dataPropertyExpressions;
 }

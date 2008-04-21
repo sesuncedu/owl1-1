@@ -2,7 +2,7 @@
 
 package owl;
 
-public class ObjectHasValue extends Description {
+public class ObjectHasValue extends ClassExpression {
     /**
      * @supplierCardinality 1
      * @supplierRole individual
@@ -11,8 +11,8 @@ public class ObjectHasValue extends Description {
     Individual individual;
     /**
      * @supplierCardinality 1
-     * @supplierRole objectProperty
+     * @supplierRole objectPropertyExpression
      * @directed
      */
-    ObjectPropertyExpression objectProperty;
+    ObjectPropertyExpression objectPropertyExpression;
 }

@@ -10,5 +10,5 @@ public class GetClassInstances extends RequestToOntology {
      * @clientRole class
      * @directed
      */
-    public Description _class;
+    public ClassExpression _class;
 }

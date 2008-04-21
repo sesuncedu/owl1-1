@@ -8,13 +8,13 @@ public class SubDataPropertyOf extends Axiom {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole subDataProperty
+     * @supplierRole subDataPropertyExpression
      */
-    DataPropertyExpression subDataProperty;
+    DataPropertyExpression subDataPropertyExpression;
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole superDataProperty
+     * @supplierRole superDataPropertyExpression
      */
-    DataPropertyExpression superdataProperty;
+    DataPropertyExpression superdataPropertyExpression;
 }

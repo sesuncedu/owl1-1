@@ -6,13 +6,13 @@ public class InverseObjectProperties extends Axiom {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole objectProperty1
+     * @supplierRole objectPropertyExpression1
      */
-    ObjectPropertyExpression objectProperty1;
+    ObjectPropertyExpression objectPropertyExpression1;
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole objectProperty2
+     * @supplierRole objectPropertyExpression2
      */
-    ObjectPropertyExpression objectProperty2;
+    ObjectPropertyExpression objectPropertyExpression2;
 }

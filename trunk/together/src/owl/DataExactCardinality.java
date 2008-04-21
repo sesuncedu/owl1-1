@@ -2,7 +2,7 @@
 
 package owl;
 
-public class DataExactCardinality extends Description {
+public class DataExactCardinality extends ClassExpression {
     /**
      * @alias cardinality : UnlimitedNatural
      */
@@ -16,7 +16,7 @@ public class DataExactCardinality extends Description {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole dataProperty
+     * @supplierRole dataPropertyExpression
      */
-    DataPropertyExpression dataProperty;
+    DataPropertyExpression dataPropertyExpression;
 }

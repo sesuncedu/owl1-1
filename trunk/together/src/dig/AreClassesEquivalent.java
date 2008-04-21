@@ -9,7 +9,7 @@ import owl.*;
 public class AreClassesEquivalent extends RequestToOntology {
     /**
      * @link aggregation
-     * @associates <{Description}>
+     * @associates <{owl.ClassExpression}>
      * @associationAsClass <<set>>
      * @supplierCardinality 2 ..*
      * @clientRole classes

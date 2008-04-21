@@ -9,7 +9,7 @@ import owl.*;
 public class AreClassesDisjoint extends RequestToOntology {
     /**
      * @link aggregation
-     * @associates <{Description}>
+     * @associates <{owl.ClassExpression}>
      * @associationAsClass <<set>>
      * @supplierCardinality 2 ..*
      * @clientRole classes

@@ -13,9 +13,9 @@ public class DisjointUnion extends Axiom {
     OWLClass _class;
     /**
      * @directed
-     * @associates <{Description}>
+     * @associates <{owl.ClassExpression}>
      * @supplierCardinality 2 ..*
-     * @supplierRole classes
+     * @supplierRole disjointClassExpressions
      */
-    Set disjointClasses;
+    Set disjointClassExpressions;
 }

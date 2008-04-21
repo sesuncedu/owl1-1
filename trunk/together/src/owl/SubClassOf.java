@@ -6,13 +6,13 @@ public class SubClassOf extends Axiom {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole subClass
+     * @supplierRole subClassExpression
      */
-    Description subClass;
+    ClassExpression subClassExpression;
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole superClass
+     * @supplierRole superClassExpression
      */
-    Description superClass;
+    ClassExpression superClassExpression;
 }
