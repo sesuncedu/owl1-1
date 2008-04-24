@@ -4,7 +4,7 @@ package owl;
 
 import java.util.*;
 
-public class DisjointClasses extends Axiom {
+public class DisjointClasses extends ClassAxiom {
     /**
      * @directed
      * @associates <{owl.ClassExpression}>

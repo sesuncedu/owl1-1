@@ -4,13 +4,13 @@ package owl;
 
 import java.util.*;
 
-public class DisjointUnion extends Axiom {
+public class DisjointUnion extends ClassAxiom {
     /**
      * @directed
      * @supplierCardinality 1
      * @supplierRole class
      */
-    OWLClass _class;
+    Class _class;
     /**
      * @directed
      * @associates <{owl.ClassExpression}>

@@ -2,7 +2,7 @@
 
 package owl;
 
-public class IrreflexiveObjectProperty extends Axiom {
+public class IrreflexiveObjectProperty extends ObjectPropertyAxiom {
     /**
      * @directed
      * @supplierCardinality 1

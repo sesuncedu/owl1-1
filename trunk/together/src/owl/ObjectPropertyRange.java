@@ -2,7 +2,7 @@
 
 package owl;
 
-public class ObjectPropertyRange extends Axiom {
+public class ObjectPropertyRange extends ObjectPropertyAxiom {
     /**
      * @directed
      * @supplierCardinality 1

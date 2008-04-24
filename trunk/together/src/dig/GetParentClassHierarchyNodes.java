@@ -10,6 +10,6 @@ public class GetParentClassHierarchyNodes extends RequestToOntology {
      * @clientRole class
      * @directed
      */
-    public OWLClass _class;
+    public Class _class;
     public boolean onlyDirectNodes;
 }

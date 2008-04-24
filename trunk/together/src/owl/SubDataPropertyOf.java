@@ -4,7 +4,7 @@ package owl;
 
 import java.util.*;
 
-public class SubDataPropertyOf extends Axiom {
+public class SubDataPropertyOf extends DataPropertyAxiom {
     /**
      * @directed
      * @supplierCardinality 1

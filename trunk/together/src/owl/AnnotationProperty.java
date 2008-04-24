@@ -2,5 +2,5 @@
 
 package owl;
 
-public class AnnotationProperty implements OWLEntity {
+public class AnnotationProperty implements Entity {
 }

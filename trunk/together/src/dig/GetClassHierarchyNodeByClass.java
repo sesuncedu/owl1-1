@@ -9,5 +9,5 @@ public class GetClassHierarchyNodeByClass extends RequestToOntology {
      * @supplierCardinality 1
      * @clientRole class
      * @directed*/
-    public OWLClass _class;
+    public Class _class;
 }

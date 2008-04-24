@@ -8,5 +8,5 @@ public class AnnotationByEntity extends Annotation {
      * @supplierRole annotationValue
      * @directed
      */
-    OWLEntity annotationValue;
+    Entity annotationValue;
 }

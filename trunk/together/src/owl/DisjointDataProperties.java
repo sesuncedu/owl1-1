@@ -4,7 +4,7 @@ package owl;
 
 import java.util.*;
 
-public class DisjointDataProperties extends Axiom {
+public class DisjointDataProperties extends DataPropertyAxiom {
     /**
      * @directed
      * @associates <{DataPropertyExpression}>

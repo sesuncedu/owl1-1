@@ -8,7 +8,7 @@ public class EntityAnnotation extends Axiom {
      * @supplierCardinality 1
      * @supplierRole entity
      */
-    OWLEntity entity;
+    Entity entity;
     /**
      * @directed
      * @associates <{Annotation}>

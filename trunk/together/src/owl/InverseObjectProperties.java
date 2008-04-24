@@ -2,7 +2,7 @@
 
 package owl;
 
-public class InverseObjectProperties extends Axiom {
+public class InverseObjectProperties extends ObjectPropertyAxiom {
     /**
      * @directed
      * @supplierCardinality 1

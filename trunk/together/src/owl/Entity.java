@@ -2,7 +2,7 @@
 
 package owl;
 
-public abstract class OWLEntity {
+public abstract class Entity {
     /**
      * @directed
      * @supplierCardinality 1
