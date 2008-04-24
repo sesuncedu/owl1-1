@@ -2,7 +2,7 @@
 
 package owl;
 
-public class TransitiveObjectProperty extends Axiom {
+public class TransitiveObjectProperty extends ObjectPropertyAxiom {
     /**
      * @directed
      * @supplierCardinality 1

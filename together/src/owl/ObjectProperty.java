@@ -2,5 +2,5 @@
 
 package owl;
 
-public class ObjectProperty implements OWLEntity,ObjectPropertyExpression {
+public class ObjectProperty implements Entity,ObjectPropertyExpression {
 }

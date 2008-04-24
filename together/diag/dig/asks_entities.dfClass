@@ -60,7 +60,7 @@ class reference65 {
 */
 class reference10 {
 }/**
-@__ref <oiref:java#Class#owl.OWLEntity:oiref><oihard>
+@__ref <oiref:java#Class#owl.Entity:oiref><oihard>
 @__modelType reference
 @__imported 
 */
@@ -97,7 +97,7 @@ class __options {
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.SetOfEntites#entities:oiref>=634,177,24,19,0:oigroup>
 <oigroup:<oiref:java#Extends#dig.GetAllOWLCLasses#dig.RequestToOntology:oiref>=157,405,157,287,253,287,253,233:oigroup>
 <oigroup:<oiref:java#Extends#dig.BooleanValue#dig.Response:oiref>=805,171,805,138,724,138,724,108:oigroup>
-<oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=662,169,93,68,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Entity:oiref>=662,169,93,68,1:oigroup>
 <oigroup:<oiref:java#Extends#dig.SetOfEntites#dig.Response:oiref>=483,172,483,108:oigroup>
 <oigroup:<oiref:java#Class#dig.GetAllOWLCLasses:oiref>=107,405,120,59,1:oigroup>
 */

@@ -48,7 +48,7 @@ class reference67 {
 */
 class reference1 {
 }/**
-@__ref <oiref:java#Class#owl.OWLClass:oiref><oihard>
+@__ref <oiref:java#Class#owl.Class:oiref><oihard>
 @__modelType reference
 @__imported 
 */
@@ -89,7 +89,7 @@ class __options {
 }/**
 @__positions <oigroup:MemberLink#<oiref:java#Member#dig.GetChildClassHierarchyNodes#_class:oiref>=392,367,392,535:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#dig.ClassHierarchyNode#entities:oiref>=782,348,782,425,615,425,615,503:oigroup>
-<oigroup:<oiref:java#Implements#owl.OWLClass#owl.ClassExpression:oiref>=739,514,373,514:oigroup>
+<oigroup:<oiref:java#Implements#owl.Class#owl.ClassExpression:oiref>=739,514,373,514:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.ClassHierarchyNode#equivalentClasses:oiref>=345,594,24,19,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.ClassHierarchyNode#equivalentClasses:oiref>=753,402,109,19,0:oigroup>
 <oigroup:<oiref:java#Extends#dig.SetOfEntites#dig.Response:oiref>=720,167,720,149,636,149,636,107:oigroup>
@@ -122,7 +122,7 @@ class __options {
 <oigroup:<oiref:java#Extends#dig.GetClassHierarchyNodeByID#dig.RequestToOntology:oiref>=180,300,180,271,296,271,296,233:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#dig.GetParentClassHierarchyNodes#_class:oiref>=515,462,36,19,0:oigroup>
 <oigroup:<oiref:java#Class#dig.GetParentClassHierarchyNodes:oiref>=417,394,189,68,1:oigroup>
-<oigroup:<oiref:java#Class#owl.OWLClass:oiref>=324,535,92,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Class:oiref>=324,535,92,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#dig.SetOfClassHierarchyNodes#nodes:oiref>=640,224,640,260,722,260,722,296:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#dig.SetOfEntites#entities:oiref>=718,226,718,369,618,369:oigroup>
 <oigroup:<oiref:java#Class#dig.GetClassHierarchy:oiref>=17,391,115,59,1:oigroup>

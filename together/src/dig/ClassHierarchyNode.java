@@ -10,7 +10,7 @@ public class ClassHierarchyNode {
     public String nodeID;
     /**
      * @link aggregationByValue
-     * @associates <{OWLClass}>
+     * @associates <{owl.Class}>
      * @associationAsClass <<set>>
      * @supplierCardinality 1..*
      * @clientRole equivalentClasses

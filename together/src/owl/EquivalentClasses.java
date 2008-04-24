@@ -4,7 +4,7 @@ package owl;
 
 import java.util.*;
 
-public class EquivalentClasses extends Axiom {
+public class EquivalentClasses extends ClassAxiom {
     /**
      * @directed
      * @associates <{owl.ClassExpression}>

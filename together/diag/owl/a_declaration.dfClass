@@ -18,7 +18,7 @@ class reference {
 */
 class reference65 {
 }/**
-@__ref <oiref:java#Class#owl.OWLEntity:oiref><oihard>
+@__ref <oiref:java#Class#owl.Entity:oiref><oihard>
 @__modelType reference
 @__imported 
 */
@@ -39,13 +39,12 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:<oiref:java#Class#owl.OWLEntity:oiref>=474,180,70,59,1:oigroup>
+@__positions <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=579,209,55,19,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Declaration#entity:oiref>=438,217,34,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.URI:oiref>=638,180,63,59,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.EntityAnnotation#owl.Axiom:oiref>=395,218,395,174,462,174,462,134:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=544,210,638,210:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=313,70,63,59,1:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=583,215,55,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=621,186,13,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.Declaration#owl.Axiom:oiref>=344,181,344,129:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationValue:oiref>=156,279,156,338:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Declaration#entity:oiref>=456,187,13,19,0:oigroup>
@@ -53,8 +52,9 @@ class __options {
 <oigroup:MemberLink#<oiref:java#Member#owl.EntityAnnotation#entity:oiref>=384,277,384,372,412,372:oigroup>
 <oigroup:<oiref:java#Class#owl.Declaration:oiref>=311,181,74,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.EntityAnnotation#entityAnnotations:oiref>=342,247,224,247:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.OWLEntity#entityURI:oiref>=621,185,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=431,103,154,103,154,211:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=537,209,638,209:oigroup>
+<oigroup:<oiref:java#Class#owl.Entity:oiref>=474,180,63,59,1:oigroup>
 */
 class __positions {
 }

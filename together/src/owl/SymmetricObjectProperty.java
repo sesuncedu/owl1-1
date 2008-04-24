@@ -2,7 +2,7 @@
 
 package owl;
 
-public class SymmetricObjectProperty extends Axiom {
+public class SymmetricObjectProperty extends ObjectPropertyAxiom {
     /**
      * @directed
      * @supplierCardinality 1

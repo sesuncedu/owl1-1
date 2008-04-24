@@ -2,5 +2,5 @@
 
 package owl;
 
-public class NamedIndividual implements OWLEntity,Individual {
+public class NamedIndividual implements Entity,Individual {
 }

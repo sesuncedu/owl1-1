@@ -2,5 +2,5 @@
 
 package owl;
 
-public class Datatype implements DataRange,OWLEntity {
+public class Datatype implements DataRange,Entity {
 }

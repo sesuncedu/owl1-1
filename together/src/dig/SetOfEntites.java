@@ -9,7 +9,7 @@ import owl.*;
 public class SetOfEntites extends Response {
     /**
      * @link aggregationByValue
-     * @associates <{OWLEntity}>
+     * @associates <{owl.Entity}>
      * @associationAsClass <<set>>
      * @supplierCardinality 0..*
      * @clientRole entities

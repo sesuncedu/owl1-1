@@ -4,7 +4,7 @@ package owl;
 
 import java.util.*;
 
-public class EquivalentObjectProperties extends Axiom {
+public class EquivalentObjectProperties extends ObjectPropertyAxiom {
     /**
      * @directed
      * @associates <{ObjectPropertyExpression}>

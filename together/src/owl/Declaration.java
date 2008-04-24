@@ -8,5 +8,5 @@ public class Declaration extends Axiom {
      * @supplierRole entity
      * @directed
      */
-    OWLEntity entity;
+    Entity entity;
 }

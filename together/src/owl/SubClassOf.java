@@ -2,7 +2,7 @@
 
 package owl;
 
-public class SubClassOf extends Axiom {
+public class SubClassOf extends ClassAxiom {
     /**
      * @directed
      * @supplierCardinality 1
