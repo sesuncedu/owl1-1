@@ -5,8 +5,8 @@ package owl;
 public class AnonymousIndividual implements Individual {
     /**
      * @directed
-     * @supplierCardinality 0..1
-     * @supplierQualifier nodeID
+     * @supplierCardinality 1
+     * @alias nodeID : String
      */
-    String nodeID;
+    public String nodeID;
 }

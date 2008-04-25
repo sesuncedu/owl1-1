@@ -5,10 +5,10 @@ import java.util.*;
 class Ontology {
     /**
      * @supplierCardinality 0..1
-     * @supplierRole ontologyURI
+     * @alias ontologyURI : URI [0..1]
      * @directed
      */
-    URI ontologyURI;
+    public URI ontologyURI;
     /**
      * @associates <{Axiom}>
      * @supplierCardinality *

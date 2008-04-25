@@ -2,11 +2,17 @@
 
 package owl;
 
-public abstract class Constant {
+public class Constant {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierQualifier value
+     * @alias lexicalValue : String
      */
-     String value;
+     public String lexicalValue;
+    /**
+     * @directed
+     * @supplierCardinality 1
+     * @supplierRole datatype
+     */
+    Datatype datatype;
 }

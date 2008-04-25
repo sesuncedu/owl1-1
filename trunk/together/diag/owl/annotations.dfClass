@@ -24,12 +24,6 @@ class reference1 {
 */
 class reference2 {
 }/**
-@__ref <oiref:java#Class#owl.URI:oiref><oihard>
-@__modelType reference
-@__imported 
-*/
-class reference3 {
-}/**
 @__ref <oiref:java#Class#owl.Entity:oiref><oihard>
 @__modelType reference
 @__imported 
@@ -47,6 +41,12 @@ class reference5 {
 @__imported 
 */
 class reference13 {
+}/**
+@__ref <oiref:java#Class#owl.Datatype:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference3 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
@@ -57,30 +57,31 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:<oiref:java#Class#owl.Annotation:oiref>=395,64,71,59,1:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=395,92,213,92,213,460,251,460:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=322,247,322,314:oigroup>
+@__positions <oigroup:<oiref:java#Class#owl.Annotation:oiref>=413,65,71,59,1:oigroup>
+<oigroup:<oiref:java#Implements#owl.Datatype#owl.Entity:oiref>=470,440,470,416,346,416,346,382:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=413,93,230,93,230,468,290,468:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Constant#datatype:oiref>=552,388,552,468,502,468:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=343,247,343,314:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Constant#datatype:oiref>=508,473,52,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.AnnotationByEntity:oiref>=286,188,115,59,1:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=138,462,109,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.AnnotationByConstant#annotationValue:oiref>=534,293,95,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.Entity:oiref>=301,314,63,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=411,410,13,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=439,413,55,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.Constant:oiref>=490,320,63,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationByConstant#annotationValue:oiref>=503,292,13,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=303,284,13,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=177,469,109,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.AnnotationByConstant#annotationValue:oiref>=556,293,95,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.Entity:oiref>=301,314,98,68,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Constant:oiref>=490,320,125,68,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationByConstant#annotationValue:oiref>=529,292,13,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=324,287,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationURI:oiref>=465,94,639,94,639,471,549,471:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=336,287,95,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.URI:oiref>=403,439,63,59,1:oigroup>
-<oigroup:<oiref:java#Extends#owl.AnnotationByConstant#owl.Annotation:oiref>=520,187,520,164,435,164,435,123:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.TypedConstant#datatypeURI:oiref>=519,388,519,468,477,468:oigroup>
-<oigroup:<oiref:java#Class#owl.AnnotationByConstant:oiref>=453,187,135,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=234,435,13,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.AnnotationByConstant#annotationValue:oiref>=521,246,521,320:oigroup>
-<oigroup:<oiref:java#Class#owl.AnnotationProperty:oiref>=251,439,119,59,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=353,290,95,19,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.AnnotationByConstant#owl.Annotation:oiref>=545,187,545,164,448,164,448,124:oigroup>
+<oigroup:<oiref:java#Class#owl.AnnotationByConstant:oiref>=478,187,135,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=273,444,13,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.AnnotationByConstant#annotationValue:oiref>=547,246,547,320:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Constant#datatype:oiref>=508,442,13,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.AnnotationProperty:oiref>=290,438,119,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=364,362,428,362,428,439:oigroup>
-<oigroup:<oiref:java#Extends#owl.AnnotationByEntity#owl.Annotation:oiref>=343,188,343,164,435,164,435,123:oigroup>
-<oigroup:<oiref:java#Implements#owl.AnnotationProperty#owl.Entity:oiref>=324,439,324,373:oigroup>
+<oigroup:<oiref:java#Extends#owl.AnnotationByEntity#owl.Annotation:oiref>=343,188,343,164,448,164,448,124:oigroup>
+<oigroup:<oiref:java#Implements#owl.AnnotationProperty#owl.Entity:oiref>=314,438,314,416,346,416,346,382:oigroup>
+<oigroup:<oiref:java#Class#owl.Datatype:oiref>=439,440,63,59,1:oigroup>
 */
 class __positions {
 }
