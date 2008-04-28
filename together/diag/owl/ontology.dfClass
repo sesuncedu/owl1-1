@@ -59,6 +59,12 @@ class reference14 {
 @__imported 
 */
 class reference1 {
+}/**
+@__ref <oiref:java#Class#owl.URI:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference10 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
@@ -69,49 +75,51 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:<oiref:java#Class#owl.Constant:oiref>=461,467,125,68,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Constant#datatype:oiref>=594,589,13,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.Ontology#importedOntologies:oiref>=310,184,310,148,200,148,200,201,269,201:oigroup>
+@__positions <oigroup:<oiref:java#Class#owl.Constant:oiref>=680,473,125,68,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Constant#datatype:oiref>=698,598,13,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Ontology#ontologyURI:oiref>=232,506,67,17,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Ontology#importedOntologies:oiref>=345,191,345,155,235,155,235,208,304,208:oigroup>
 <oigroup:<oiref:java#Extends#owl.EntityAnnotation#owl.Axiom:oiref>=341,437,341,393:oigroup>
 <oigroup:<oiref:java#Class#owl.Annotation:oiref>=569,187,71,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=308,335,63,59,1:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Constant#datatype:oiref>=557,622,52,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationByConstant#annotationValue:oiref>=519,438,13,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.Constant#datatype:oiref>=532,535,532,619,618,619:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=667,496,635,496,635,564,277,564,277,535:oigroup>
-<oigroup:<oiref:java#Class#owl.Entity:oiref>=667,472,98,68,1:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Ontology#importedOntologies:oiref>=156,201,115,19,0:oigroup>
-<oigroup:<oiref:java#Implements#owl.AnnotationProperty#owl.Entity:oiref>=815,593,815,573,713,573,713,540:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Ontology#annotations:oiref>=554,171,11,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.Ontology:oiref>=269,184,145,68,1:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.Ontology#annotations:oiref>=414,195,569,195:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=829,599,13,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=685,442,13,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Constant#datatype:oiref>=698,625,52,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Constant#datatype:oiref>=741,541,741,623,694,623:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=530,505,366,505:oigroup>
+<oigroup:<oiref:java#Class#owl.Entity:oiref>=530,474,63,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.URI:oiref>=303,475,63,59,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Ontology#importedOntologies:oiref>=191,208,109,17,0:oigroup>
+<oigroup:<oiref:java#Implements#owl.AnnotationProperty#owl.Entity:oiref>=511,593,511,567,561,567,561,533:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Ontology#annotations:oiref>=560,177,5,17,0:oigroup>
+<oigroup:<oiref:java#Class#owl.Ontology:oiref>=304,191,63,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Ontology#annotations:oiref>=367,199,569,199:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=502,652,13,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=543,448,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.EntityAnnotation#entityAnnotations:oiref>=388,464,770,464,770,227,733,227:oigroup>
-<oigroup:<oiref:java#Class#owl.AnnotationByEntity:oiref>=648,374,115,59,1:oigroup>
-<oigroup:<oiref:java#Class#owl.Datatype:oiref>=618,589,63,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=553,211,11,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Ontology#importedOntologies:oiref>=260,180,11,19,0:oigroup>
-<oigroup:<oiref:java#Extends#owl.AnnotationByEntity#owl.Annotation:oiref>=705,374,705,344,604,344,604,246:oigroup>
+<oigroup:<oiref:java#Class#owl.AnnotationByEntity:oiref>=505,376,115,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Datatype:oiref>=631,594,63,59,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=370,505,49,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Ontology#importedOntologies:oiref>=295,187,5,17,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.AnnotationByEntity#owl.Annotation:oiref>=562,376,562,344,604,344,604,246:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationURI:oiref>=639,208,807,208,807,586,259,586,259,535:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=716,447,95,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.AnnotationByConstant#annotationValue:oiref>=550,440,95,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Ontology#axioms:oiref>=349,309,46,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=640,218,855,218,855,622,825,622:oigroup>
-<oigroup:<oiref:java#Class#owl.AnnotationByConstant:oiref>=474,372,135,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Ontology#ontologyURI:oiref>=278,475,20,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=573,448,95,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.AnnotationByConstant#annotationValue:oiref>=749,450,95,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Ontology#axioms:oiref>=353,311,40,17,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=640,216,853,216,853,696,521,696,521,652:oigroup>
+<oigroup:<oiref:java#Class#owl.AnnotationByConstant:oiref>=672,378,135,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.EntityAnnotation#entity:oiref>=338,496,338,532:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.Ontology#ontologyURI:oiref>=269,231,201,231,201,499,247,499:oigroup>
-<oigroup:<oiref:java#Extends#owl.AnnotationByConstant#owl.Annotation:oiref>=541,372,541,344,604,344,604,246:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Ontology#annotations:oiref>=494,196,71,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.AnnotationByConstant#annotationValue:oiref>=535,431,535,467:oigroup>
-<oigroup:<oiref:java#Implements#owl.Datatype#owl.Entity:oiref>=649,589,649,573,713,573,713,540:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=494,234,71,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.AnnotationProperty:oiref>=706,593,119,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Ontology#axioms:oiref>=320,312,11,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=705,433,705,472:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Ontology#ontologyURI:oiref>=304,240,233,240,233,505,303,505:oigroup>
+<oigroup:<oiref:java#Extends#owl.AnnotationByConstant#owl.Annotation:oiref>=739,378,739,344,604,344,604,246:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.AnnotationByConstant#annotationValue:oiref>=741,437,741,473:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Ontology#annotations:oiref>=500,200,65,17,0:oigroup>
+<oigroup:<oiref:java#Implements#owl.Datatype#owl.Entity:oiref>=659,594,659,567,561,567,561,533:oigroup>
+<oigroup:<oiref:java#Class#owl.AnnotationProperty:oiref>=459,593,119,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Ontology#axioms:oiref>=328,310,5,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=370,482,13,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.AnnotationByEntity#annotationValue:oiref>=561,435,561,474:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=371,346,460,346,460,233,569,233:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=829,622,109,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.Ontology#axioms:oiref>=337,252,337,335:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=529,655,109,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Ontology#axioms:oiref>=339,250,339,335:oigroup>
 */
 class __positions {
 }

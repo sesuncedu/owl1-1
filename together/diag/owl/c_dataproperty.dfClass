@@ -36,9 +36,9 @@ class __options {
 @__positions <oigroup:<oiref:java#Class#owl.DataPropertyExpression:oiref>=191,86,150,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.DataProperty:oiref>=221,217,84,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=209,113,165,113,165,216:oigroup>
-<oigroup:<oiref:java#Class#owl.Entity:oiref>=73,85,98,68,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Entity:oiref>=88,86,63,59,1:oigroup>
 <oigroup:<oiref:java#Implements#owl.DataProperty#owl.DataPropertyExpression:oiref>=276,217,276,145:oigroup>
-<oigroup:<oiref:java#Implements#owl.DataProperty#owl.Entity:oiref>=248,217,248,184,122,184,122,153:oigroup>
+<oigroup:<oiref:java#Implements#owl.DataProperty#owl.Entity:oiref>=248,217,248,184,119,184,119,145:oigroup>
 */
 class __positions {
 }
