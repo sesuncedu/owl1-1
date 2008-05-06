@@ -426,6 +426,16 @@ class reference19 {
 @__modelType reference 
 */
 class reference8 {
+}/**
+@__ref <oiref:java#Class#owl.AnnotationByAnonymousIndividual:oiref><oihard>
+@__modelType reference 
+*/
+class reference14 {
+}/**
+@__ref <oiref:java#Class#owl.AnonymousIndividualAnnotation:oiref><oihard>
+@__modelType reference 
+*/
+class reference17 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
