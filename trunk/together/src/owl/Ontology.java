@@ -10,6 +10,12 @@ class Ontology {
      */
     URI ontologyURI;
     /**
+     * @supplierCardinality 0..1
+     * @supplierRole versionURI
+     * @directed
+     */
+    URI versionURI;
+    /**
      * @associates <{Axiom}>
      * @supplierCardinality *
      * @supplierRole axioms
