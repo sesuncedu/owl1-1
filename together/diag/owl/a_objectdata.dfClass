@@ -1,0 +1,97 @@
+package id1onawfhjbfetsfhjc9h2a;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#owl.Axiom:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#owl.ObjectPropertyExpression:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#owl.DataPropertyExpression:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference2 {
+}/**
+@__ref <oiref:java#Class#owl.ClassExpression:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference3 {
+}/**
+@__ref <oiref:java#Class#owl.KeyFor:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference17 {
+}/**
+@__ref <oiref:design#Class#id1onawfhjbfetsfhjc9h2a.node:oiref><oihard>
+@__modelType reference 
+*/
+class reference18 {
+}/**
+@__ref <oiref:java#Class#owl.ObjectAndDataPropertyAxiom:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference21 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.KeyFor#objectPropertyExpressions:oiref>=215,432,147,17,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.KeyFor#classExpression:oiref>=448,315,648,315,648,456:oigroup>
+<oigroup:<oiref:java#Extends#owl.KeyFor#owl.ObjectAndDataPropertyAxiom:oiref>=416,289,416,241:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.KeyFor#objectPropertyExpressions:oiref>=385,315,204,315,204,454:oigroup>
+<oigroup:<oiref:java#Extends#owl.ObjectAndDataPropertyAxiom#owl.Axiom:oiref>=414,182,414,142:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.KeyFor#classExpression:oiref>=609,432,26,17,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.KeyFor#dataPropertyExpressions:oiref>=418,348,418,454:oigroup>
+<oigroup:<oiref:design#Class#id1onawfhjbfetsfhjc9h2a.node:oiref>=546,235,299,45,0:oigroup>
+<oigroup:<oiref:design#Class#id1onawfhjbfetsfhjc9h2a.node.link:oiref>=448,300,695,300,695,280:oigroup>
+<oigroup:<oiref:java#Class#owl.ClassExpression:oiref>=608,456,106,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.KeyFor#objectPropertyExpressions:oiref>=169,430,24,17,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.KeyFor#owl.Axiom:oiref>=416,289,416,253:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectPropertyExpression:oiref>=151,454,160,59,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.KeyFor#dataPropertyExpressions:oiref>=429,430,138,17,0:oigroup>
+<oigroup:<oiref:java#Class#owl.KeyFor:oiref>=385,289,63,59,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.KeyFor#classExpression:oiref>=659,431,92,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.KeyFor#dataPropertyExpressions:oiref>=383,433,24,17,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.ClassExpression#owl.Axiom:oiref>=624,358,624,257,374,257,374,156:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectAndDataPropertyAxiom:oiref>=333,182,182,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.DataPropertyExpression:oiref>=388,454,150,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Axiom:oiref>=383,83,63,59,1:oigroup> 
+*/
+class __positions {
+}/**
+@shapeType Note
+@__modelType node
+@name Note1
+@text The associations objectPropertyExpressions and
+dataPropertyExpressions cannot both be empty. 
+*/
+class node {
+/**
+@shapeType NoteLink
+@__modelType link
+@__ref <oiref:java#Class#owl.KeyFor:oiref><oihard>
+@__reversed 
+*/
+class link {
+}}

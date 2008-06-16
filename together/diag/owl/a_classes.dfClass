@@ -65,12 +65,12 @@ class __options {
 }/**
 @__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.SubClassOf#subClassExpression:oiref>=306,390,13,19,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.SubClassOf#superClassExpression:oiref>=306,430,13,19,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.ClassExpression#owl.Axiom:oiref>=333,401,333,127,450,127,450,97:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DisjointUnion#disjointClassExpressions:oiref>=442,428,27,19,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.EquivalentClasses#classExpressions:oiref>=354,373,105,19,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.SubClassOf#superClassExpression:oiref>=187,452,133,19,0:oigroup>
 <oigroup:<oiref:java#Implements#owl.Class#owl.ClassExpression:oiref>=378,509,378,460:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.SubClassOf#subClassExpression:oiref>=253,312,253,413,323,413:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DisjointUnion#_class:oiref>=417,536,36,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=419,38,63,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.EquivalentClasses:oiref>=310,252,113,59,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.SubClassOf#owl.ClassAxiom:oiref>=224,253,224,229,450,229,450,190:oigroup>
@@ -100,7 +100,6 @@ class __options {
 <oigroup:<oiref:java#Extends#owl.SubClassOf#owl.Axiom:oiref>=231,220,231,196,435,196,435,145:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.SubClassOf#superClassExpression:oiref>=195,312,195,451,323,451:oigroup>
 <oigroup:<oiref:java#Extends#owl.DisjointClasses#owl.Axiom:oiref>=514,222,514,196,435,196,435,145:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DisjointUnion#_class:oiref>=415,510,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DisjointClasses#classes:oiref>=514,281,514,387,436,387:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DisjointUnion#_class:oiref>=678,283,714,283,714,536,407,536:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.EquivalentClasses#classExpressions:oiref>=314,373,27,19,0:oigroup>
