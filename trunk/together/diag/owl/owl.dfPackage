@@ -436,6 +436,16 @@ class reference14 {
 @__modelType reference 
 */
 class reference17 {
+}/**
+@__ref <oiref:java#Class#owl.KeyFor:oiref><oihard>
+@__modelType reference 
+*/
+class reference16 {
+}/**
+@__ref <oiref:java#Class#owl.ObjectAndDataPropertyAxiom:oiref><oihard>
+@__modelType reference 
+*/
+class reference20 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
