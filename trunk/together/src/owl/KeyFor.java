@@ -19,7 +19,7 @@ public class KeyFor extends ObjectAndDataPropertyAxiom {
     Set dataPropertyExpressions;
     /**
      * @directed
-     * @supplierCardinality 0 .. 1
+     * @supplierCardinality 1
      * @supplierRole classExpression
      */
     ClassExpression classExpression;
