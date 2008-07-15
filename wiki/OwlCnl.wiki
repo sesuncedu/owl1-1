@@ -58,7 +58,7 @@ What are their CNL counterparts?
     * Saxon genitive + noun (John's age is 20) is allowed?
 
   * Individual names
-    * Propernames?
+    * Proper names?
 
   * Anonymous individuals
     * Common nouns (e.g. There is a man that owns a car.)?
@@ -133,7 +133,7 @@ OWL axioms and (possible) corresponding CNL function words. (Note: data property
  * ACE and OWL
    * Translator ACE->OWL/SWRL is part of Attempto Parsing Engine
      * Web client: [http://attempto.ifi.uzh.ch/ape/] (switch on "OWL FSS" or "OWL RDF" in the menu)
-     * Source code: [http://attempto.ifi.uzh.ch/site/download/]
+     * Source code: [http://attempto.ifi.uzh.ch/site/downloads/]
    * Translator OWL->ACE
      * Web client: [http://attempto.ifi.uzh.ch/site/docs/owl_to_ace.html]
      * Source code available on request
