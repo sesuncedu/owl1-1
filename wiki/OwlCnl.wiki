@@ -131,7 +131,18 @@ OWL axioms and (possible) corresponding CNL function words. (Note: data property
 = Implementations =
 
  * ACE and OWL
-   * Implementation of ACE->OWL, see http://attempto.ifi.uzh.ch/ape/ (switch on "OWL FSS" or "OWL RDF" in the menu)
+   * Translator ACE->OWL/SWRL is part of Attempto Parsing Engine
+     * Web client: [http://attempto.ifi.uzh.ch/ape/] (switch on "OWL FSS" or "OWL RDF" in the menu)
+     * Source code: [http://attempto.ifi.uzh.ch/site/download/]
+   * Translator OWL->ACE
+     * Web client: [http://attempto.ifi.uzh.ch/site/docs/owl_to_ace.html]
+     * Source code available on request
+   * ACE View editor (plugin for Protege 4)
+     * Includes ACE->OWL/SWRL and OWL->ACE
+     * Binary available on request
+   * AceWiki
+     * Includes ACE->OWL/SWRL
+     * [http://attempto.ifi.uzh.ch/acewiki/]
 
 = TODO =  
  * Consideration of Empirical Studies - which approach has been found most effective?
