@@ -12,10 +12,10 @@ The mathematical nature of description logics has meant that domain experts find
 = Scoping Issues =
 
  * Language coverage alternatives
-   * All of OWL 1.1, including extralogical features, annotations, datatypes, etc.
+   * All of OWL 2, including extralogical features, annotations, datatypes, etc.
    * Concept expression language only (with axiomatic structure indicated otherwise, e.g., by indentation)
    * Some tractable fragment(s)
-   * Core OWL 1.1 axioms only (i.e., logical content only) 
+   * Core OWL 2 axioms only (i.e., logical content only) 
  * Strict roundtrippability
    * Syntax-preserving round-tripping?
    * Semantics-preserving round-tripping?
@@ -118,8 +118,8 @@ OWL axioms and (possible) corresponding CNL function words. (Note: data property
 
 == Some notes ==
 
- * Data-properties can be hard to handle, see e.g. the definition of data ranges in the OWL 1.1 spec: http://webont.org/owl/1.1/owl_specification.html#4.3
- * Some OWL 1.1 axioms (e.g. DisjointUnion) are a concise notation to express a large number of axioms. At least in some cases, graphical means seem better. e.g. the pie-chart visualization of DisjointUnion that Protege 4 offers seems better than any natural language representation.
+ * Data-properties can be hard to handle, see e.g. the definition of data ranges in the OWL 2 spec: http://www.w3.org/TR/owl2-syntax/#Data_Ranges
+ * Some OWL 2 axioms (e.g. DisjointUnion) are a concise notation to express a large number of axioms. At least in some cases, graphical means seem better. e.g. the pie-chart visualization of DisjointUnion that Protege 4 offers seems better than any natural language representation.
  * Long syntactic patterns - useful to convey meaning the first time, but tiresome to type 100 times... 
 
 = Next Steps =
@@ -131,13 +131,13 @@ OWL axioms and (possible) corresponding CNL function words. (Note: data property
   * Consideration of Empirical Studies - which approach has been found most effective?
       * Min Shi (Uli Sattler's student) conducting some empirical tests - Anne to chase  up current status / results 
     
-  * Start moving towards consensus on the best CNL translation for each OWL 1.1 construct
+  * Start moving towards consensus on the best CNL translation for each OWL 2 construct
 
 
 = Bibliography =
 
   * [http://attempto.ifi.uzh.ch/site/ Attempto group]'s work on CNL for OWL
-    * [http://webont.org/owled/2007/PapersPDF/submission_22.pdf Verbalizing OWL in Attempto Controlled English] is an OWLED07 paper which discusses the mapping of OWL 1.1 axioms to ACE sentences
+    * [http://webont.org/owled/2007/PapersPDF/submission_22.pdf Verbalizing OWL in Attempto Controlled English] is an OWLED07 paper which discusses the mapping of OWL 2 axioms to ACE sentences
     * [http://attempto.ifi.uzh.ch/site/docs/owlace_constructionrules.html OWL ACE Construction Rules] define sentence structures which are used when mapping OWL ontologies to ACE
     * [http://attempto.ifi.uzh.ch/site/docs/writing_owl_in_ace.html Writing OWL ontologies in ACE] discusses the other direction, i.e. mapping ACE sentences to OWL axioms. Note that a much larger subset of ACE than used for OWL->ACE is considered.
       * Implementation of ACE->OWL, see http://attempto.ifi.uzh.ch/ape/ (switch on "OWL FSS" in the menu)
