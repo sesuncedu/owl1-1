@@ -153,6 +153,7 @@ OWL axioms and (possible) corresponding CNL function words. (Note: data property
 = Bibliography =
 
   * [http://attempto.ifi.uzh.ch/site/ Attempto group]'s work on CNL for OWL
+    * [http://attempto.ifi.uzh.ch/site/pubs/papers/phd_kaljurand.pdf Kaarel Kaljurand. Attempto Controlled English as a Semantic Web Language. PhD thesis.]
     * [http://webont.org/owled/2007/PapersPDF/submission_22.pdf Verbalizing OWL in Attempto Controlled English] is an OWLED07 paper which discusses the mapping of OWL 2 axioms to ACE sentences
     * [http://attempto.ifi.uzh.ch/site/docs/owlace_constructionrules.html OWL ACE Construction Rules] define sentence structures which are used when mapping OWL ontologies to ACE
     * [http://attempto.ifi.uzh.ch/site/docs/writing_owl_in_ace.html Writing OWL ontologies in ACE] discusses the other direction, i.e. mapping ACE sentences to OWL axioms. Note that a much larger subset of ACE than used for OWL->ACE is considered.
