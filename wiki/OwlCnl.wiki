@@ -170,6 +170,8 @@ OWL axioms and (possible) corresponding CNL function words. (Note: data property
    * [http://www.ifi.uzh.ch/ddis/staff/goehring/btw/files/Kaufmann_Querix_Demo_ISWC2006.pdf Querix: A Natural Language Interface to Query Ontologies Based on Clarification Dialogs]
    * [http://www.ifi.uzh.ch/ddis/staff/goehring/btw/files/Kaufmann_NLP-Reduce_ESWC2007.pdf NLP-Reduce: A "naïve" but Domain-independent Natural Language Interface for Querying Ontologies] 
   * Rafaella Bernardi et al, University of Bozen-Bolzano, Italy, Controlled natural language for querying
+  * Review papers
+   * [http://eprints.ecs.soton.ac.uk/15735/ Smart, P. R. (2008) Controlled Natural Languages and the Semantic Web]
 
 = People =
 
