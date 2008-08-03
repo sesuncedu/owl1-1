@@ -16,5 +16,5 @@ public class GetDataPropertiesBetween extends RequestToOntology {
      * @clientRole targetConstant
      * @directed
      */
-    public Constant targetConstant;
+    public Literal targetConstant;
 }

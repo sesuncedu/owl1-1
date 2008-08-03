@@ -329,7 +329,7 @@ class reference191 {
 */
 class reference192 {
 }/**
-@__ref <oiref:java#Class#owl.Constant:oiref><oihard>
+@__ref <oiref:java#Class#owl.Literal:oiref><oihard>
 @__modelType reference 
 */
 class reference193 {
@@ -361,7 +361,7 @@ class reference1 {
 */
 class reference6 {
 }/**
-@__ref <oiref:java#Class#owl.AnnotationByConstant:oiref><oihard>
+@__ref <oiref:java#Class#owl.AnnotationByLiteral:oiref><oihard>
 @__modelType reference 
 */
 class reference4 {
@@ -717,7 +717,7 @@ class __options {
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#superObjectProperty:oiref>=307,497,112,17,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DataAllValuesFrom#dataProperties:oiref>=575,49,81,17,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataProperty:oiref>=593,439,69,17,0:oigroup>
-<oigroup:<oiref:java#Class#owl.Constant:oiref>=544,359,128,87,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Literal:oiref>=544,359,128,87,1:oigroup>
 <oigroup:<oiref:java#Implements#owl.DataProperty#owl.DataPropertyExpression:oiref>=580,611,580,379,534,379,534,148:oigroup>
 <oigroup:<oiref:java#Extends#owl.DataMaxCardinality#owl.ClassExpression:oiref>=136,302,136,345,478,345,478,315:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectPropertyDomain:oiref>=229,244,138,59,1:oigroup>

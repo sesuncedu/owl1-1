@@ -12,5 +12,5 @@ public class FacetConstantPair {
      * @supplierCardinality 1
      * @supplierRole constant
      */
-    Constant constant;
+    Literal constant;
 }

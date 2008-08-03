@@ -2,11 +2,11 @@
 
 package owl;
 
-public class AnnotationByConstant extends Annotation {
+public class AnnotationByLiteral extends Annotation {
     /**
      * @supplierCardinality 1
      * @supplierRole annotationValue
      * @directed
      */
-    Constant annotationValue;
+    Literal annotationValue;
 }
