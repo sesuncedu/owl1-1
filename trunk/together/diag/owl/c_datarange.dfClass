@@ -42,7 +42,7 @@ class reference7 {
 */
 class reference8 {
 }/**
-@__ref <oiref:java#Class#owl.FacetConstantPair:oiref><oihard>
+@__ref <oiref:java#Class#owl.FacetRestriction:oiref><oihard>
 @__modelType reference
 @__imported 
 */
@@ -59,28 +59,31 @@ class __options {
 }/**
 @__positions <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#datatype:oiref>=476,368,407,368:oigroup>
 <oigroup:<oiref:java#Implements#owl.Datatype#owl.Entity:oiref>=386,338,386,309,455,309,455,277:oigroup>
-<oigroup:<oiref:java#Class#owl.FacetConstantPair:oiref>=723,339,114,68,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.DataOneOf#owl.DataRange:oiref>=597,219,597,195,479,195,479,156:oigroup>
 <oigroup:<oiref:java#Class#owl.DataComplementOf:oiref>=225,217,120,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.FacetRestriction:oiref>=723,339,102,68,1:oigroup>
 <oigroup:<oiref:java#Class#owl.Literal:oiref>=718,218,125,68,1:oigroup>
 <oigroup:<oiref:java#Class#owl.DataRange:oiref>=409,88,143,68,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#dataRange:oiref>=469,372,396,372:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=633,248,718,248:oigroup>
 <oigroup:<oiref:java#Implements#owl.Datatype#owl.DataRange:oiref>=375,338,375,195,479,195,479,156:oigroup>
 <oigroup:<oiref:java#Class#owl.DatatypeRestriction:oiref>=476,339,121,59,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=658,371,67,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.DataComplementOf#owl.DataRange:oiref>=303,217,303,195,479,195,479,156:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=267,217,267,124,409,124:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.FacetRestriction#literal:oiref>=781,289,30,17,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=597,371,723,371:oigroup>
 <oigroup:<oiref:java#Class#owl.DataOneOf:oiref>=562,219,71,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictionValue:oiref>=332,400,445,400:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=676,255,37,17,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataOneOf#constants:oiref>=633,250,718,250:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.FacetConstantPair#constant:oiref>=771,339,771,286:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.FacetRestriction#constant:oiref>=771,339,771,286:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=701,350,24,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.DatatypeRestriction#owl.DataRange:oiref>=536,339,536,195,479,195,479,156:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=843,248,881,248,881,441,377,441,377,397:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=442,243,498,243,498,257,555,257:oigroup>
 <oigroup:<oiref:java#Class#owl.Datatype:oiref>=344,338,63,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=686,223,21,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.FacetRestriction#literal:oiref>=759,287,7,17,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.FacetRestriction#literal:oiref>=774,339,774,286:oigroup>
 */
 class __positions {
 }

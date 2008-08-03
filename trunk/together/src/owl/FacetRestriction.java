@@ -2,7 +2,7 @@
 
 package owl;
 
-public class FacetConstantPair {
+public class FacetRestriction {
     /**
      * @alias facet : String
      */
@@ -10,7 +10,7 @@ public class FacetConstantPair {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole constant
+     * @supplierRole literal
      */
-    Literal constant;
+    Literal literal;
 }
