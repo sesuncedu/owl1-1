@@ -397,7 +397,7 @@ class reference18 {
 */
 class reference21 {
 }/**
-@__ref <oiref:java#Class#owl.FacetConstantPair:oiref><oihard>
+@__ref <oiref:java#Class#owl.FacetRestriction:oiref><oihard>
 @__modelType reference 
 */
 class reference11 {
