@@ -6,9 +6,9 @@ public class DataHasValue extends ClassExpression {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole constant
+     * @supplierRole literal
      */
-    Constant constant;
+    Literal literal;
     /**
      * @directed
      * @supplierCardinality 1

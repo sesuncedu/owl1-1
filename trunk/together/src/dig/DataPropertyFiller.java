@@ -16,5 +16,5 @@ public class DataPropertyFiller {
      * @clientRole value
      * @directed
      */
-    public Constant value;
+    public Literal value;
 }

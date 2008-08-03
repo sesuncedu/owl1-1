@@ -2,7 +2,7 @@
 
 package owl;
 
-public class Constant {
+public class Literal {
     /**
      * @directed
      * @supplierCardinality 1

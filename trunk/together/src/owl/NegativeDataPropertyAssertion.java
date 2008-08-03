@@ -20,5 +20,5 @@ public class NegativeDataPropertyAssertion extends Assertion {
      * @supplierCardinality 1
      * @supplierRole targetValue
      */
-    Constant targetValue;
+    Literal targetValue;
 }

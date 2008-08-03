@@ -33,13 +33,11 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=577,214,49,17,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Declaration#entity:oiref>=436,216,28,17,0:oigroup>
+@__positions <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Declaration#entity:oiref>=436,216,34,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.EntityAnnotation#owl.Axiom:oiref>=395,218,395,174,462,174,462,134:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=313,70,63,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=615,183,7,17,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.Declaration#owl.Axiom:oiref>=344,181,344,129:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Declaration#entity:oiref>=461,184,7,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Declaration#entity:oiref>=461,184,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationValue:oiref>=156,279,156,338:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Declaration#entity:oiref>=385,212,474,212:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.EntityAnnotation#entity:oiref>=384,277,384,372,412,372:oigroup>

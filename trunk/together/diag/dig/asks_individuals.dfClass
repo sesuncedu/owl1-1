@@ -42,7 +42,7 @@ class reference64 {
 */
 class reference68 {
 }/**
-@__ref <oiref:java#Class#owl.Constant:oiref><oihard>
+@__ref <oiref:java#Class#owl.Literal:oiref><oihard>
 @__modelType reference
 @__imported 
 */
@@ -100,7 +100,7 @@ class __tags {
 class __options {
 }/**
 @__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#dig.DataPropertyFiller#dataProperty:oiref>=707,411,13,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.Constant:oiref>=473,409,128,87,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Literal:oiref>=473,409,128,87,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#dig.ObjectPropertyFiller#objectProperty:oiref>=916,371,916,438:oigroup>
 <oigroup:<oiref:java#Class#dig.GetObjectPropertiesBetween:oiref>=225,401,175,59,1:oigroup>
 <oigroup:<oiref:java#Class#dig.Request:oiref>=210,48,63,59,1:oigroup>

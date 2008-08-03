@@ -7,9 +7,9 @@ import java.util.*;
 public class DataOneOf extends DataRange {
     /**
      * @directed
-     * @associates <{Constant}>
+     * @associates <{owl.Literal}>
      * @supplierCardinality 1 ..*
-     * @supplierRole constants
+     * @supplierRole literals
      */
-	Set constants;
+	Set literals;
 }
