@@ -90,16 +90,19 @@ class __options {
 <oigroup:<oiref:java#Class#owl.AnonymousIndividual:oiref>=662,422,129,68,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationByLiteral#annotationValue:oiref>=507,291,13,19,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=231,436,13,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationAnnotations:oiref>=525,70,525,43,614,43,614,104,559,104:oigroup>
 <oigroup:<oiref:java#Extends#owl.AnnotationByLiteral#owl.Annotation:oiref>=528,186,528,164,523,164,523,129:oigroup>
 <oigroup:<oiref:java#Class#owl.AnnotationProperty:oiref>=246,433,119,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=535,382,535,465,458,465:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationByAnonymousIndividual#annotationValue:oiref>=705,394,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=364,362,428,362,428,439:oigroup>
 <oigroup:<oiref:java#Extends#owl.AnnotationByEntity#owl.Annotation:oiref>=380,186,380,164,523,164,523,129:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Annotation#annotationAnnotations:oiref>=565,77,21,17,0:oigroup>
 <oigroup:<oiref:java#Implements#owl.AnnotationProperty#owl.Entity:oiref>=305,433,305,412,369,412,369,371:oigroup>
 <oigroup:<oiref:java#Class#owl.Datatype:oiref>=395,435,63,59,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=463,438,13,19,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=462,470,52,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Annotation#annotationAnnotations:oiref>=567,110,123,17,0:oigroup>
 */
 class __positions {
 }
