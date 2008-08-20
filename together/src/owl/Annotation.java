@@ -9,4 +9,11 @@ public abstract class Annotation {
      * @supplierRole annotationProperty
      */
     AnnotationProperty annotationProperty;
+    /**
+     * @directed
+     * @associates <{Annotation}>
+     * @supplierCardinality 0 ..*
+     * @supplierRole annotationAnnotations
+     */
+    Set annotationAnnotations;
 }
