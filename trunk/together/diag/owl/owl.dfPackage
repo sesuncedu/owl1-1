@@ -441,11 +441,6 @@ class reference17 {
 @__modelType reference 
 */
 class reference16 {
-}/**
-@__ref <oiref:java#Class#owl.ObjectAndDataPropertyAxiom:oiref><oihard>
-@__modelType reference 
-*/
-class reference20 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
@@ -717,7 +712,6 @@ class __options {
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.SubObjectPropertyOf#superObjectProperty:oiref>=307,497,112,17,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DataAllValuesFrom#dataProperties:oiref>=575,49,81,17,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.DataExactCardinality#dataProperty:oiref>=593,439,69,17,0:oigroup>
-<oigroup:<oiref:java#Class#owl.Literal:oiref>=544,359,128,87,1:oigroup>
 <oigroup:<oiref:java#Implements#owl.DataProperty#owl.DataPropertyExpression:oiref>=580,611,580,379,534,379,534,148:oigroup>
 <oigroup:<oiref:java#Extends#owl.DataMaxCardinality#owl.ClassExpression:oiref>=136,302,136,345,478,345,478,315:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectPropertyDomain:oiref>=229,244,138,59,1:oigroup>
@@ -775,6 +769,7 @@ class __options {
 <oigroup:MemberLink#<oiref:java#Member#owl.Ontology#axioms:oiref>=446,232,446,292,430,292,430,352:oigroup>
 <oigroup:Composite#associationAsClass#MemberLink#<oiref:java#Member#owl.Ontology#importedOntologies:oiref>=490,315,65,32,0:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectMinCardinality#objectProperty:oiref>=439,519,78,17,0:oigroup>
+<oigroup:<oiref:java#Class#owl.Literal:oiref>=544,359,128,87,1:oigroup>
 <oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#owl.ObjectHasValue#individual:oiref>=632,334,52,17,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.SubClassOf#superClass:oiref>=710,224,710,240,502,240,502,256:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.ObjectExistsSelf#objectProperty:oiref>=47,402,47,277,306,277,306,153:oigroup>

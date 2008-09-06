@@ -2,7 +2,7 @@
 
 package owl;
 
-public class KeyFor extends ObjectAndDataPropertyAxiom {
+public class KeyFor extends Axiom {
     /**
      * @directed
      * @associates <{owl.ObjectPropertyExpression}>
