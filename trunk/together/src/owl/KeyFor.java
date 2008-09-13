@@ -6,14 +6,14 @@ public class KeyFor extends Axiom {
     /**
      * @directed
      * @associates <{owl.ObjectPropertyExpression}>
-     * @supplierCardinality 0 .. *
+     * @supplierCardinality *
      * @supplierRole objectPropertyExpressions
      */
     Set objectPropertyExpressions;
     /**
      * @directed
      * @associates <{owl.DataPropertyExpression}>
-     * @supplierCardinality 0 .. *
+     * @supplierCardinality *
      * @supplierRole dataPropertyExpressions
      */
     Set dataPropertyExpressions;

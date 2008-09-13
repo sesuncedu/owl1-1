@@ -97,7 +97,7 @@ class __options {
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationByAnonymousIndividual#annotationValue:oiref>=705,394,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=364,362,428,362,428,439:oigroup>
 <oigroup:<oiref:java#Extends#owl.AnnotationByEntity#owl.Annotation:oiref>=380,186,380,164,523,164,523,129:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Annotation#annotationAnnotations:oiref>=565,77,27,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Annotation#annotationAnnotations:oiref>=568,78,11,19,0:oigroup>
 <oigroup:<oiref:java#Implements#owl.AnnotationProperty#owl.Entity:oiref>=305,433,305,412,369,412,369,371:oigroup>
 <oigroup:<oiref:java#Class#owl.Datatype:oiref>=395,435,63,59,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=463,438,13,19,0:oigroup>

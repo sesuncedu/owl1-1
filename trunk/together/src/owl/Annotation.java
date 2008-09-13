@@ -12,7 +12,7 @@ public abstract class Annotation {
     /**
      * @directed
      * @associates <{Annotation}>
-     * @supplierCardinality 0 ..*
+     * @supplierCardinality *
      * @supplierRole annotationAnnotations
      */
     Set annotationAnnotations;
