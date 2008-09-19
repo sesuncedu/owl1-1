@@ -4,13 +4,13 @@ package owl;
 
 public class FacetRestriction {
     /**
-     * @alias facet : String
+     * @alias cinstrainingFacet : String
      */
-    public String facet;
+    public String cinstrainingFacet;
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole literal
+     * @supplierRole restrictionValue
      */
-    Literal literal;
+    Literal restrictionValue;
 }
