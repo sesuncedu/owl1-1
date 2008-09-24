@@ -4,9 +4,11 @@ package owl;
 
 public class FacetRestriction {
     /**
-     * @alias cinstrainingFacet : String
+     * @directed
+     * @supplierCardinality 1
+     * @supplierRole constrainingFacet
      */
-    public String cinstrainingFacet;
+    public URI constrainingFacet;
     /**
      * @directed
      * @supplierCardinality 1
