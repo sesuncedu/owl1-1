@@ -8,7 +8,7 @@ public class SubObjectPropertyOf extends ObjectPropertyAxiom {
     /**
      * @directed
      * @associates <{ObjectPropertyExpression}>
-     * @supplierCardinality 2 ..*
+     * @supplierCardinality 1 ..*
      * @supplierRole subObjectPropertyExpressions
      * @supplierQualifier { ordered, nonunique }
      */
