@@ -65,23 +65,27 @@ class __options {
 }/**
 @__positions <oigroup:MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=267,217,267,124,409,124:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=633,248,718,248:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=385,402,46,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=344,124,61,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=385,402,52,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.FacetRestriction:oiref>=740,336,102,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.FacetRestriction#literal:oiref>=774,339,774,286:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=690,221,21,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=690,221,27,19,0:oigroup>
 <oigroup:<oiref:java#Implements#owl.Datatype#owl.DataRange:oiref>=375,338,375,195,479,195,479,156:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#datatype:oiref>=411,368,46,17,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.DataOneOf#owl.DataRange:oiref>=597,219,597,195,479,195,479,156:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataOneOf#constants:oiref>=633,250,718,250:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=762,429,13,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.Literal:oiref>=718,218,125,68,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.DatatypeRestriction#owl.DataRange:oiref>=536,339,536,195,479,195,479,156:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=362,401,7,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=677,248,37,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=362,401,13,19,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=792,429,104,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=442,243,498,243,498,257,555,257:oigroup>
 <oigroup:<oiref:java#Class#owl.URI:oiref>=750,452,63,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.DataRange:oiref>=409,88,143,68,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictionValue:oiref>=332,400,445,400:oigroup>
 <oigroup:<oiref:java#Class#owl.DataOneOf:oiref>=562,219,71,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=398,103,7,17,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#dataRange:oiref>=469,372,396,372:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=781,395,781,452:oigroup>
 <oigroup:<oiref:java#Class#owl.DataComplementOf:oiref>=225,217,120,59,1:oigroup>
@@ -97,7 +101,7 @@ class __options {
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#datatype:oiref>=476,368,407,368:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=669,367,67,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.DatatypeRestriction:oiref>=476,339,121,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#datatype:oiref>=413,343,7,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#datatype:oiref>=413,343,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.FacetRestriction#restrictionValue:oiref>=779,336,779,286:oigroup>
 */
 class __positions {
