@@ -139,7 +139,7 @@ OWL axioms and (possible) corresponding CNL function words. (Note: data property
      * Source code available on request
    * ACE View editor (plugin for Protege 4)
      * Uses ACE->OWL/SWRL and OWL->ACE
-     * Binary available on request
+     * [http://attempto.ifi.uzh.ch/aceview/]
    * AceWiki
      * Uses ACE->OWL/SWRL
      * [http://attempto.ifi.uzh.ch/acewiki/]
