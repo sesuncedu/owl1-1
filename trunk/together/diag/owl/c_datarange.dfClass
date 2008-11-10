@@ -77,7 +77,7 @@ class __options {
 }/**
 @__positions <oigroup:MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=324,217,324,142,409,142:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=565,280,565,345:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=344,143,61,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=344,143,67,19,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=674,290,52,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.FacetRestriction:oiref>=748,357,102,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.FacetRestriction#literal:oiref>=774,339,774,286:oigroup>
@@ -100,7 +100,7 @@ class __options {
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictionValue:oiref>=332,400,445,400:oigroup>
 <oigroup:<oiref:java#Class#owl.DataOneOf:oiref>=530,221,71,59,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataIntersectionOf#dataRanges:oiref>=563,96,30,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=398,117,7,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=398,117,13,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.DataIntersectionOf:oiref>=919,225,116,59,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataUnionOf#dataRanges:oiref>=375,79,30,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#dataRange:oiref>=469,372,396,372:oigroup>

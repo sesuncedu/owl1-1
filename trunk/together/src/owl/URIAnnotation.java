@@ -2,18 +2,18 @@
 
 package owl;
 
-public class EntityAnnotation extends Axiom {
+public class URIAnnotation extends Axiom {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole entity
+     * @supplierRole uri
      */
-    Entity entity;
+    URI uri;
     /**
      * @directed
      * @associates <{Annotation}>
      * @supplierCardinality 1 ..  *
-     * @supplierRole entityAnnotations
+     * @supplierRole uriAnnotations
      */
-    Set entityAnnotations;
+    Set uriAnnotations;
 }
