@@ -53,6 +53,18 @@ class reference12 {
 @__imported 
 */
 class reference1 {
+}/**
+@__ref <oiref:java#Class#owl.DataUnionOf:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference23 {
+}/**
+@__ref <oiref:java#Class#owl.DataIntersectionOf:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference25 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
@@ -63,46 +75,56 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=267,217,267,124,409,124:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=633,248,718,248:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=344,124,61,17,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=385,402,52,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.FacetRestriction:oiref>=740,336,102,59,1:oigroup>
+@__positions <oigroup:MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=324,217,324,142,409,142:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=565,280,565,345:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=344,143,61,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=674,290,52,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.FacetRestriction:oiref>=748,357,102,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.FacetRestriction#literal:oiref>=774,339,774,286:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=690,221,27,19,0:oigroup>
-<oigroup:<oiref:java#Implements#owl.Datatype#owl.DataRange:oiref>=375,338,375,195,479,195,479,156:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#datatype:oiref>=411,368,46,17,0:oigroup>
-<oigroup:<oiref:java#Extends#owl.DataOneOf#owl.DataRange:oiref>=597,219,597,195,479,195,479,156:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=532,321,27,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataUnionOf#dataRanges:oiref>=464,277,464,329,255,329,255,103,409,103:oigroup>
+<oigroup:<oiref:java#Implements#owl.Datatype#owl.DataRange:oiref>=665,223,665,195,479,195,479,156:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#datatype:oiref>=701,253,52,19,0:oigroup>
+<oigroup:<oiref:java#Extends#owl.DataOneOf#owl.DataRange:oiref>=565,221,565,195,479,195,479,156:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataOneOf#constants:oiref>=633,250,718,250:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=762,429,13,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.Literal:oiref>=718,218,125,68,1:oigroup>
-<oigroup:<oiref:java#Extends#owl.DatatypeRestriction#owl.DataRange:oiref>=536,339,536,195,479,195,479,156:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=677,248,37,17,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=362,401,13,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=792,429,104,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=946,357,13,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.Literal:oiref>=503,345,125,68,1:oigroup>
+<oigroup:<oiref:java#Extends#owl.DatatypeRestriction#owl.DataRange:oiref>=824,224,824,195,479,195,479,156:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=577,320,43,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=648,289,13,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataUnionOf#dataRanges:oiref>=331,104,74,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=855,382,104,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=442,243,498,243,498,257,555,257:oigroup>
-<oigroup:<oiref:java#Class#owl.URI:oiref>=750,452,63,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.URI:oiref>=963,351,63,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.DataRange:oiref>=409,88,143,68,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictionValue:oiref>=332,400,445,400:oigroup>
-<oigroup:<oiref:java#Class#owl.DataOneOf:oiref>=562,219,71,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=398,103,7,17,0:oigroup>
+<oigroup:<oiref:java#Class#owl.DataOneOf:oiref>=530,221,71,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataIntersectionOf#dataRanges:oiref>=563,96,30,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataComplementOf#dataRange:oiref>=398,117,7,17,0:oigroup>
+<oigroup:<oiref:java#Class#owl.DataIntersectionOf:oiref>=919,225,116,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataUnionOf#dataRanges:oiref>=375,79,30,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#dataRange:oiref>=469,372,396,372:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=781,395,781,452:oigroup>
-<oigroup:<oiref:java#Class#owl.DataComplementOf:oiref>=225,217,120,59,1:oigroup>
-<oigroup:<oiref:java#Class#owl.Datatype:oiref>=344,338,63,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=711,335,24,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=850,381,963,381:oigroup>
+<oigroup:<oiref:java#Class#owl.DataComplementOf:oiref>=286,217,120,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Datatype:oiref>=634,223,63,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DataIntersectionOf#dataRanges:oiref>=1014,225,1014,122,552,122:oigroup>
+<oigroup:<oiref:java#Extends#owl.DataIntersectionOf#owl.DataRange:oiref>=977,225,977,195,479,195,479,156:oigroup>
+<oigroup:<oiref:java#Extends#owl.DataUnionOf#owl.DataRange:oiref>=464,218,464,195,479,195,479,156:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=761,330,24,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.FacetRestriction#constant:oiref>=771,339,771,286:oigroup>
-<oigroup:<oiref:java#Extends#owl.DataComplementOf#owl.DataRange:oiref>=303,217,303,195,479,195,479,156:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=843,248,898,248,898,538,377,538,377,397:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.FacetRestriction#restrictionValue:oiref>=760,286,13,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=597,366,740,366:oigroup>
+<oigroup:<oiref:java#Extends#owl.DataComplementOf#owl.DataRange:oiref>=368,217,368,195,479,195,479,156:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=628,362,667,362,667,282:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.FacetRestriction#restrictionValue:oiref>=632,365,13,19,0:oigroup>
 <oigroup:<oiref:java#Implements#owl.Datatype#owl.Entity:oiref>=386,338,386,309,455,309,455,277:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.FacetRestriction#restrictionValue:oiref>=785,286,91,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#datatype:oiref>=476,368,407,368:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=669,367,67,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.DatatypeRestriction:oiref>=476,339,121,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#datatype:oiref>=413,343,13,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.FacetRestriction#restrictionValue:oiref>=779,336,779,286:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=790,283,790,357:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.FacetRestriction#restrictionValue:oiref>=632,388,91,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataIntersectionOf#dataRanges:oiref>=562,122,74,19,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#datatype:oiref>=764,253,697,253:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=804,332,67,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.DatatypeRestriction:oiref>=764,224,121,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#datatype:oiref>=701,230,13,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.DataUnionOf:oiref>=424,218,80,59,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.FacetRestriction#restrictionValue:oiref>=748,388,628,388:oigroup>
 */
 class __positions {
 }
