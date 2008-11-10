@@ -2,11 +2,11 @@
 
 package owl;
 
-public class AnnotationByEntity extends Annotation {
+public class AnnotationByURI extends Annotation {
     /**
      * @supplierCardinality 1
      * @supplierRole annotationValue
      * @directed
      */
-    Entity annotationValue;
+    URI annotationValue;
 }

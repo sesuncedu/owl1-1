@@ -356,7 +356,7 @@ class link {
 */
 class reference1 {
 }/**
-@__ref <oiref:java#Class#owl.EntityAnnotation:oiref><oihard>
+@__ref <oiref:java#Class#owl.URIAnnotation:oiref><oihard>
 @__modelType reference 
 */
 class reference6 {
@@ -366,7 +366,7 @@ class reference6 {
 */
 class reference4 {
 }/**
-@__ref <oiref:java#Class#owl.AnnotationByEntity:oiref><oihard>
+@__ref <oiref:java#Class#owl.AnnotationByURI:oiref><oihard>
 @__modelType reference 
 */
 class reference7 {
