@@ -11,7 +11,7 @@ public class DatatypeRestriction extends DataRange {
     Datatype datatype;
     /**
      * @directed
-     * @associates <{owl.FacetRestriction}>
+     * @associates <{FacetRestriction}>
      * @supplierCardinality 1..*
      * @supplierRole restrictions
      */

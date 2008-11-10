@@ -441,6 +441,16 @@ class reference17 {
 @__modelType reference 
 */
 class reference16 {
+}/**
+@__ref <oiref:java#Class#owl.DataUnionOf:oiref><oihard>
+@__modelType reference 
+*/
+class reference22 {
+}/**
+@__ref <oiref:java#Class#owl.DataIntersectionOf:oiref><oihard>
+@__modelType reference 
+*/
+class reference24 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
