@@ -16,5 +16,5 @@ public class SubDataPropertyOf extends DataPropertyAxiom {
      * @supplierCardinality 1
      * @supplierRole superDataPropertyExpression
      */
-    DataPropertyExpression superdataPropertyExpression;
+    DataPropertyExpression superDataPropertyExpression;
 }

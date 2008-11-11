@@ -451,6 +451,21 @@ class reference22 {
 @__modelType reference 
 */
 class reference24 {
+}/**
+@__ref <oiref:java#Class#owl.AnnotationPropertyRange:oiref><oihard>
+@__modelType reference 
+*/
+class reference20 {
+}/**
+@__ref <oiref:java#Class#owl.AnnotationPropertyDomain:oiref><oihard>
+@__modelType reference 
+*/
+class reference23 {
+}/**
+@__ref <oiref:java#Class#owl.SubAnnotationPropertyOf:oiref><oihard>
+@__modelType reference 
+*/
+class reference25 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
