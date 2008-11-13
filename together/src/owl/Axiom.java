@@ -7,7 +7,7 @@ public abstract class Axiom {
      * @directed
      * @associates <{Annotation}>
      * @supplierCardinality *
-     * @supplierRole annotations
+     * @supplierRole axiomAnnotations
      */
-    Set annotations;
+    Set axiomAnnotations;
 }
