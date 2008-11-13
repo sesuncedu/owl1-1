@@ -2,7 +2,7 @@
 
 package owl;
 
-public class SubAnnotationPropertyOf extends Axiom {
+public class SubAnnotationPropertyOf extends AnnotationAxiom {
     /**
      * @directed
      * @supplierCardinality 1

@@ -2,7 +2,7 @@
 
 package owl;
 
-public class URIAnnotation extends Axiom {
+public class URIAnnotation extends AnnotationAxiom {
     /**
      * @directed
      * @supplierCardinality 1

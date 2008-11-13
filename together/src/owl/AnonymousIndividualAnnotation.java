@@ -2,7 +2,7 @@
 
 package owl;
 
-public class AnonymousIndividualAnnotation extends Axiom {
+public class AnonymousIndividualAnnotation extends AnnotationAxiom {
     /**
      * @directed
      * @supplierCardinality 1

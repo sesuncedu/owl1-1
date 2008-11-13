@@ -466,6 +466,11 @@ class reference23 {
 @__modelType reference 
 */
 class reference25 {
+}/**
+@__ref <oiref:java#Class#owl.AnnotationAxiom:oiref><oihard>
+@__modelType reference 
+*/
+class reference26 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
