@@ -36,29 +36,23 @@ class reference3 {
 */
 class reference4 {
 }/**
-@__ref <oiref:java#Class#owl.URIAnnotation:oiref><oihard>
-@__modelType reference
-@__imported 
-*/
-class reference5 {
-}/**
 @__ref <oiref:java#Class#owl.Assertion:oiref><oihard>
 @__modelType reference
 @__imported 
 */
 class reference6 {
 }/**
-@__ref <oiref:java#Class#owl.AnonymousIndividualAnnotation:oiref><oihard>
-@__modelType reference
-@__imported 
-*/
-class reference8 {
-}/**
 @__ref <oiref:java#Class#owl.HasKey:oiref><oihard>
 @__modelType reference
 @__imported 
 */
 class reference9 {
+}/**
+@__ref <oiref:java#Class#owl.AnnotationAxiom:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference5 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
@@ -70,25 +64,25 @@ class __tags {
 class __options {
 }/**
 @__positions <oigroup:<oiref:java#Extends#owl.AnonymousIndividualAnnotation#owl.Axiom:oiref>=834,313,834,200,505,200,505,169:oigroup>
-<oigroup:<oiref:java#Class#owl.Declaration:oiref>=288,230,74,59,1:oigroup>
-<oigroup:<oiref:java#Extends#owl.Declaration#owl.Axiom:oiref>=325,230,325,200,505,200,505,169:oigroup>
+<oigroup:<oiref:java#Class#owl.Declaration:oiref>=256,232,74,59,1:oigroup>
+<oigroup:<oiref:java#Extends#owl.Declaration#owl.Axiom:oiref>=293,232,293,200,505,200,505,169:oigroup>
+<oigroup:<oiref:java#Extends#owl.AnnotationAxiom#owl.Axiom:oiref>=736,236,736,200,505,200,505,169:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.AnonymousIndividualAnnotation#anonymousIndividualAnnotations:oiref>=932,313,932,158,736,158:oigroup>
-<oigroup:<oiref:java#Class#owl.ClassAxiom:oiref>=334,302,78,59,1:oigroup>
-<oigroup:<oiref:java#Class#owl.ObjectPropertyAxiom:oiref>=387,232,132,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.ClassAxiom:oiref>=316,306,78,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectPropertyAxiom:oiref>=380,232,132,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.URIAnnotation#entityAnnotations:oiref>=720,292,720,386,988,386,988,119,736,119:oigroup>
-<oigroup:<oiref:java#Extends#owl.ObjectPropertyAxiom#owl.Axiom:oiref>=453,232,453,200,505,200,505,169:oigroup>
-<oigroup:<oiref:java#Class#owl.DataPropertyAxiom:oiref>=472,304,122,59,1:oigroup>
-<oigroup:<oiref:java#Extends#owl.DataPropertyAxiom#owl.Axiom:oiref>=533,304,533,200,505,200,505,169:oigroup>
-<oigroup:<oiref:java#Class#owl.AnonymousIndividualAnnotation:oiref>=771,313,190,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.AnnotationAxiom:oiref>=683,236,107,59,1:oigroup>
+<oigroup:<oiref:java#Extends#owl.ObjectPropertyAxiom#owl.Axiom:oiref>=446,232,446,200,505,200,505,169:oigroup>
+<oigroup:<oiref:java#Class#owl.DataPropertyAxiom:oiref>=476,310,122,59,1:oigroup>
+<oigroup:<oiref:java#Extends#owl.DataPropertyAxiom#owl.Axiom:oiref>=537,310,537,200,505,200,505,169:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=537,136,665,136:oigroup>
 <oigroup:<oiref:java#Class#owl.HasKey:oiref>=561,232,63,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationAnnotations:oiref>=675,106,675,64,719,64,719,106:oigroup>
 <oigroup:<oiref:java#Extends#owl.HasKey#owl.Axiom:oiref>=592,232,592,200,505,200,505,169:oigroup>
 <oigroup:<oiref:java#Extends#owl.URIAnnotation#owl.Axiom:oiref>=709,233,709,200,505,200,505,169:oigroup>
-<oigroup:<oiref:java#Class#owl.Assertion:oiref>=613,306,65,59,1:oigroup>
-<oigroup:<oiref:java#Extends#owl.ClassAxiom#owl.Axiom:oiref>=373,302,373,200,505,200,505,169:oigroup>
-<oigroup:<oiref:java#Class#owl.URIAnnotation:oiref>=676,233,89,59,1:oigroup>
-<oigroup:<oiref:java#Extends#owl.Assertion#owl.Axiom:oiref>=645,306,645,200,505,200,505,169:oigroup>
+<oigroup:<oiref:java#Class#owl.Assertion:oiref>=618,314,65,59,1:oigroup>
+<oigroup:<oiref:java#Extends#owl.ClassAxiom#owl.Axiom:oiref>=355,306,355,200,505,200,505,169:oigroup>
+<oigroup:<oiref:java#Extends#owl.Assertion#owl.Axiom:oiref>=650,314,650,200,505,200,505,169:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=474,110,63,59,1:oigroup>
 */
 class __positions {
