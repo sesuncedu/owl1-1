@@ -81,7 +81,8 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.AnonymousIndividualAnnotation#anonymousIndividualAnnotations:oiref>=819,438,188,19,0:oigroup>
+@__positions <oigroup:MemberLink#<oiref:java#Member#owl.Axiom#axiomAnnotations:oiref>=559,170,1020,170,1020,492,982,492:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.AnonymousIndividualAnnotation#anonymousIndividualAnnotations:oiref>=819,438,188,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.URIAnnotation#uriAnnotations:oiref>=674,379,713,379,713,488,765,488:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Annotation#annotationAnnotations:oiref>=956,525,129,19,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.URIAnnotation#uriAnnotations:oiref>=734,466,33,19,0:oigroup>
@@ -91,6 +92,7 @@ class __options {
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.AnonymousIndividualAnnotation#anonymousIndividual:oiref>=856,297,123,19,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationPropertyRange#annotationProperty:oiref>=499,591,13,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.SubAnnotationPropertyOf#owl.AnnotationAxiom:oiref>=261,343,261,317,534,317,534,284:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Axiom#axiomAnnotations:oiref>=986,492,98,17,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.AnnotationPropertyDomain#owl.AnnotationAxiom:oiref>=369,436,369,317,534,317,534,284:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationPropertyDomain#annotationProperty:oiref>=353,592,13,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=496,138,63,59,1:oigroup>
@@ -101,6 +103,7 @@ class __options {
 <oigroup:MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=532,365,410,365:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.AnnotationPropertyRange#annotationProperty:oiref>=518,404,518,621:oigroup>
 <oigroup:<oiref:java#Class#owl.URI:oiref>=596,442,63,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Axiom#axiomAnnotations:oiref>=986,471,5,17,0:oigroup>
 <oigroup:<oiref:java#Implements#owl.AnnotationProperty#owl.Entity:oiref>=567,453,567,405:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationValue:oiref>=282,196,282,340:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.URIAnnotation#uri:oiref>=614,416,13,19,0:oigroup>
@@ -114,7 +117,6 @@ class __options {
 <oigroup:MemberLink#<oiref:java#Member#owl.URIAnnotation#entityAnnotations:oiref>=513,281,379,281,379,188:oigroup>
 <oigroup:<oiref:java#Extends#owl.AnnotationAxiom#owl.Axiom:oiref>=527,225,527,197:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.SubAnnotationPropertyOf#subAnnotationProperty:oiref>=215,592,130,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=986,465,11,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.SubAnnotationPropertyOf#owl.Axiom:oiref>=288,558,288,220,641,220,641,190:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationPropertyDomain#domain:oiref>=604,501,13,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.URIAnnotation:oiref>=585,347,89,59,1:oigroup>
@@ -137,7 +139,6 @@ class __options {
 <oigroup:MemberLink#<oiref:java#Member#owl.AnonymousIndividualAnnotation#anonymousIndividual:oiref>=847,353,847,290:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Annotation#annotationAnnotations:oiref>=933,526,11,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.AnnotationPropertyRange:oiref>=401,345,155,59,1:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Axiom#annotations:oiref>=986,488,71,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.AnnotationPropertyDomain#annotationProperty:oiref>=372,495,372,621:oigroup>
 <oigroup:<oiref:java#Class#owl.AnnotationProperty:oiref>=186,621,495,59,0:oigroup>
 <oigroup:<oiref:java#Class#owl.AnonymousIndividual:oiref>=770,222,129,68,1:oigroup>
