@@ -25,10 +25,10 @@ class Ontology {
     /**
      * @associates <{Annotation}>
      * @supplierCardinality *
-     * @supplierRole annotations
+     * @supplierRole ontologyAnnotations
      * @directed
      */
-    public Set annotations;
+    public Set ontologyAnnotations;
     /**
      * @associates <{Ontology}>
      * @supplierCardinality *
