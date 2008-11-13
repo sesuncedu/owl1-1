@@ -92,7 +92,7 @@ class __options {
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.AnonymousIndividualAnnotation#anonymousIndividual:oiref>=856,297,123,19,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationPropertyRange#annotationProperty:oiref>=499,591,13,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.SubAnnotationPropertyOf#owl.AnnotationAxiom:oiref>=261,343,261,317,534,317,534,284:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Axiom#axiomAnnotations:oiref>=986,492,98,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Axiom#axiomAnnotations:oiref>=986,492,104,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.AnnotationPropertyDomain#owl.AnnotationAxiom:oiref>=369,436,369,317,534,317,534,284:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.AnnotationPropertyDomain#annotationProperty:oiref>=353,592,13,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=496,138,63,59,1:oigroup>
@@ -103,7 +103,7 @@ class __options {
 <oigroup:MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=532,365,410,365:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.AnnotationPropertyRange#annotationProperty:oiref>=518,404,518,621:oigroup>
 <oigroup:<oiref:java#Class#owl.URI:oiref>=596,442,63,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Axiom#axiomAnnotations:oiref>=986,471,5,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Axiom#axiomAnnotations:oiref>=986,471,11,19,0:oigroup>
 <oigroup:<oiref:java#Implements#owl.AnnotationProperty#owl.Entity:oiref>=567,453,567,405:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationValue:oiref>=282,196,282,340:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.URIAnnotation#uri:oiref>=614,416,13,19,0:oigroup>
