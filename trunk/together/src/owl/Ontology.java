@@ -16,12 +16,18 @@ class Ontology {
      */
     URI versionURI;
     /**
-     * @associates <{Axiom}>
      * @supplierCardinality *
-     * @supplierRole axioms
+     * @supplierRole imports
      * @directed
      */
-    Set axioms;
+    URI imports;
+    /**
+     * @associates <{Ontology}>
+     * @supplierCardinality *
+     * @supplierRole / importedOntologies
+     * @directed
+     */
+    Set importedOntologies;
     /**
      * @associates <{Annotation}>
      * @supplierCardinality *
@@ -30,10 +36,10 @@ class Ontology {
      */
     public Set ontologyAnnotations;
     /**
-     * @associates <{Ontology}>
+     * @associates <{Axiom}>
      * @supplierCardinality *
-     * @supplierRole importedOntologies
+     * @supplierRole axioms
      * @directed
      */
-    Set importedOntologies;
+    Set axioms;
 }
