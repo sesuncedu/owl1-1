@@ -17,17 +17,24 @@ class Ontology {
     URI versionURI;
     /**
      * @supplierCardinality *
-     * @supplierRole imports
+     * @supplierRole directlyImports
      * @directed
      */
-    URI imports;
+    URI directlyImports;
     /**
      * @associates <{Ontology}>
      * @supplierCardinality *
-     * @supplierRole / importedOntologies
+     * @supplierRole / directlyImportsOntology
      * @directed
      */
-    Set importedOntologies;
+    Set directlyImportsOntology;
+    /**
+     * @associates <{Ontology}>
+     * @supplierCardinality *
+     * @supplierRole / importsOntology
+     * @directed
+     */
+    Set importsOntology;
     /**
      * @associates <{Annotation}>
      * @supplierCardinality *
