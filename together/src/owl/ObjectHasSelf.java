@@ -2,7 +2,7 @@
 
 package owl;
 
-public class ObjectExistsSelf extends ClassExpression {
+public class ObjectHasSelf extends ClassExpression {
     /**
      * @supplierCardinality 1
      * @supplierRole objectPropertyExpression
