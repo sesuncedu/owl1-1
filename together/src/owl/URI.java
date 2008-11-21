@@ -2,5 +2,5 @@
 
 package owl;
 
-public class URI {
+public class URI implements AnnotationSubject,AnnotationValue {
 }

@@ -2,7 +2,7 @@
 
 package owl;
 
-public class AnonymousIndividual implements Individual {
+public class AnonymousIndividual implements Individual,AnnotationSubject,AnnotationValue  {
     /**
      * @directed
      * @supplierCardinality 1
