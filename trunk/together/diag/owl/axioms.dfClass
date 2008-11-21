@@ -63,14 +63,14 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:<oiref:java#Extends#owl.AnonymousIndividualAnnotation#owl.Axiom:oiref>=834,313,834,200,505,200,505,169:oigroup>
+@__positions 
 <oigroup:<oiref:java#Class#owl.Declaration:oiref>=256,232,74,59,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.Declaration#owl.Axiom:oiref>=293,232,293,200,505,200,505,169:oigroup>
 <oigroup:<oiref:java#Extends#owl.AnnotationAxiom#owl.Axiom:oiref>=736,236,736,200,505,200,505,169:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.AnonymousIndividualAnnotation#anonymousIndividualAnnotations:oiref>=932,313,932,158,736,158:oigroup>
+
 <oigroup:<oiref:java#Class#owl.ClassAxiom:oiref>=316,306,78,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectPropertyAxiom:oiref>=380,232,132,59,1:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.URIAnnotation#entityAnnotations:oiref>=720,292,720,386,988,386,988,119,736,119:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.AnnotationAssertion#entityAnnotations:oiref>=720,292,720,386,988,386,988,119,736,119:oigroup>
 <oigroup:<oiref:java#Class#owl.AnnotationAxiom:oiref>=683,236,107,59,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.ObjectPropertyAxiom#owl.Axiom:oiref>=446,232,446,200,505,200,505,169:oigroup>
 <oigroup:<oiref:java#Class#owl.DataPropertyAxiom:oiref>=476,310,122,59,1:oigroup>
@@ -79,7 +79,7 @@ class __options {
 <oigroup:<oiref:java#Class#owl.HasKey:oiref>=561,232,63,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationAnnotations:oiref>=675,106,675,64,719,64,719,106:oigroup>
 <oigroup:<oiref:java#Extends#owl.HasKey#owl.Axiom:oiref>=592,232,592,200,505,200,505,169:oigroup>
-<oigroup:<oiref:java#Extends#owl.URIAnnotation#owl.Axiom:oiref>=709,233,709,200,505,200,505,169:oigroup>
+<oigroup:<oiref:java#Extends#owl.AnnotationAssertion#owl.Axiom:oiref>=709,233,709,200,505,200,505,169:oigroup>
 <oigroup:<oiref:java#Class#owl.Assertion:oiref>=618,314,65,59,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.ClassAxiom#owl.Axiom:oiref>=355,306,355,200,505,200,505,169:oigroup>
 <oigroup:<oiref:java#Extends#owl.Assertion#owl.Axiom:oiref>=650,314,650,200,505,200,505,169:oigroup>

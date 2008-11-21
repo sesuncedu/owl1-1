@@ -2,7 +2,7 @@
 
 package owl;
 
-public class Literal {
+public class Literal implements AnnotationValue {
     /**
      * @directed
      * @supplierCardinality 1

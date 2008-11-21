@@ -2,7 +2,14 @@
 
 package owl;
 
-public abstract class Annotation {
+public class Annotation {
+    /**
+     * @directed
+     * @associates <{Annotation}>
+     * @supplierCardinality *
+     * @supplierRole annotationAnnotations
+     */
+    Set annotationAnnotations;
     /**
      * @directed
      * @supplierCardinality 1
@@ -11,9 +18,8 @@ public abstract class Annotation {
     AnnotationProperty annotationProperty;
     /**
      * @directed
-     * @associates <{Annotation}>
-     * @supplierCardinality *
-     * @supplierRole annotationAnnotations
+     * @supplierCardinality 1
+     * @supplierRole annotationValue
      */
-    Set annotationAnnotations;
+    AnnotationValue annotationValue;
 }
