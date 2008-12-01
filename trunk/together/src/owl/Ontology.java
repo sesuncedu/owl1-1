@@ -5,22 +5,22 @@ import java.util.*;
 class Ontology {
     /**
      * @supplierCardinality 0..1
-     * @supplierRole ontologyURI
+     * @supplierRole ontologyIRI
      * @directed
      */
-    URI ontologyURI;
+    IRI ontologyIRI;
     /**
      * @supplierCardinality 0..1
-     * @supplierRole versionURI
+     * @supplierRole versionIRI
      * @directed
      */
-    URI versionURI;
+    IRI versionIRI;
     /**
      * @supplierCardinality *
      * @supplierRole directlyImportsDocuments
      * @directed
      */
-    URI directlyImportsDocuments;
+    IRI directlyImportsDocuments;
     /**
      * @associates <{Ontology}>
      * @supplierCardinality *

@@ -8,7 +8,7 @@ public class FacetRestriction {
      * @supplierCardinality 1
      * @supplierRole constrainingFacet
      */
-    public URI constrainingFacet;
+    public IRI constrainingFacet;
     /**
      * @directed
      * @supplierCardinality 1

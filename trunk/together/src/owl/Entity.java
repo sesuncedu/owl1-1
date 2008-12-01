@@ -6,9 +6,9 @@ public abstract class Entity {
     /**
      * @directed
      * @supplierCardinality 1
-     * @supplierRole entityURI
+     * @supplierRole entityIRI
      */
-    URI entityURI;
+    IRI entityIRI;
 }
 
 

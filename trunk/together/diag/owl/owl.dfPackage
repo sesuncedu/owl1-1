@@ -412,7 +412,7 @@ class reference15 {
 */
 class reference19 {
 }/**
-@__ref <oiref:java#Class#owl.URI:oiref><oihard>
+@__ref <oiref:java#Class#owl.IRI:oiref><oihard>
 @__modelType reference 
 */
 class reference8 {
