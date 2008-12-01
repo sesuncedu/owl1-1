@@ -48,7 +48,7 @@ class reference8 {
 */
 class reference12 {
 }/**
-@__ref <oiref:java#Class#owl.URI:oiref><oihard>
+@__ref <oiref:java#Class#owl.IRI:oiref><oihard>
 @__modelType reference
 @__imported 
 */
@@ -87,15 +87,14 @@ class __options {
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#datatype:oiref>=701,253,52,19,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.DataOneOf#owl.DataRange:oiref>=565,221,565,195,479,195,479,156:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataOneOf#constants:oiref>=633,250,718,250:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=946,357,13,19,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=953,357,13,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.Literal:oiref>=503,345,125,68,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.DatatypeRestriction#owl.DataRange:oiref>=824,224,824,195,479,195,479,156:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataOneOf#literals:oiref>=577,320,43,19,0:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=648,289,13,19,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataUnionOf#dataRanges:oiref>=331,104,74,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=855,382,104,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=866,382,104,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=442,243,498,243,498,257,555,257:oigroup>
-<oigroup:<oiref:java#Class#owl.URI:oiref>=963,351,63,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.DataRange:oiref>=409,88,143,68,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictionValue:oiref>=332,400,445,400:oigroup>
 <oigroup:<oiref:java#Class#owl.DataOneOf:oiref>=530,221,71,59,1:oigroup>
@@ -104,7 +103,7 @@ class __options {
 <oigroup:<oiref:java#Class#owl.DataIntersectionOf:oiref>=919,225,116,59,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DataUnionOf#dataRanges:oiref>=375,79,30,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#dataRange:oiref>=469,372,396,372:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=850,381,963,381:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.FacetRestriction#constrainingFacet:oiref>=850,381,970,381:oigroup>
 <oigroup:<oiref:java#Class#owl.DataComplementOf:oiref>=286,217,120,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.Datatype:oiref>=634,223,63,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DataIntersectionOf#dataRanges:oiref>=1014,225,1014,122,552,122:oigroup>
@@ -119,6 +118,7 @@ class __options {
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=790,283,790,357:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.FacetRestriction#restrictionValue:oiref>=632,388,91,19,0:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DataIntersectionOf#dataRanges:oiref>=562,122,74,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.IRI:oiref>=970,351,63,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeRestriction#datatype:oiref>=764,253,697,253:oigroup>
 <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeRestriction#restrictions:oiref>=804,332,67,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.DatatypeRestriction:oiref>=764,224,121,59,1:oigroup>

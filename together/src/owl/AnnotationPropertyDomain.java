@@ -14,5 +14,5 @@ public class AnnotationPropertyDomain extends AnnotationAxiom {
      * @supplierCardinality 1
      * @supplierRole domain
      */
-    URI domain;
+    IRI domain;
 }

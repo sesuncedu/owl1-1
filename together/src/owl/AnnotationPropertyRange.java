@@ -14,5 +14,5 @@ public class AnnotationPropertyRange extends AnnotationAxiom {
      * @supplierCardinality 1
      * @supplierRole range
      */
-    URI range;
+    IRI range;
 }
