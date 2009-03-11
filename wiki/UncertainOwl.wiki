@@ -28,8 +28,9 @@ The TF is working on three topics at the moment:
  * Fuzzy extensions
    * [http://www.image.ece.ntua.gr/papers/445.pdf Uncertainty and the Semantic Web]
    * [http://gaia.isti.cnr.it/~straccia/download/papers/JAIR01/JAIR01.pdf Reasoning within Fuzzy Description Logics]
-   * [http://web.comlab.ox.ac.uk/oucl/work/ian.horrocks/Publications/download/2007/SSPTH07.pdf Reasoning with Very Expressive Fuzzy Description Logics]
-   * [http://dl-web.man.ac.uk/~panz/Zhilin/pubc.php?type=paper&id=PSSTH05 f-SWRL: A Fuzzy Extension of SWRL] 
+   * [http://www.jair.org/media/2279/live-2279-3505-jair.pdf Reasoning with Very Expressive Fuzzy Description Logics]
+   * [http://www.abdn.ac.uk/~csc280/PSSTH05.pdf f-SWRL: A Fuzzy Extension of SWRL] 
+   * [http://www.abdn.ac.uk/~csc280/PSSTT08.pdf Scalable Querying Services over Fuzzy Ontologies] 
  * Probabilistic extensions
    * [http://www.kr.tuwien.ac.at/research/reports/rr0605.pdf Probabilistic Description Logics for the Semantic Web]
  * Possiblistic extensions  
