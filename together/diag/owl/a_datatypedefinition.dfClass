@@ -1,0 +1,56 @@
+package id31tbkfs8nsai6fs8nwx71;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#owl.DataRange:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#owl.Datatype:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#owl.Axiom:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference2 {
+}/**
+@__ref <oiref:java#Class#owl.DatatypeDefinition:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference5 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeDefinition#dataRange:oiref>=519,268,61,17,0:oigroup>
+<oigroup:<oiref:java#Implements#owl.Datatype#owl.DataRange:oiref>=659,364,659,295:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DatatypeDefinition#datatype:oiref>=610,371,7,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeDefinition#datatype:oiref>=573,408,46,17,0:oigroup>
+<oigroup:<oiref:java#Class#owl.DatatypeDefinition:oiref>=315,363,112,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DatatypeDefinition#dataRange:oiref>=575,236,7,17,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DatatypeDefinition#dataRange:oiref>=427,377,507,377,507,265,586,265:oigroup>
+<oigroup:<oiref:java#Class#owl.Axiom:oiref>=344,233,63,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.DataRange:oiref>=586,227,143,68,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.DatatypeDefinition#datatype:oiref>=427,400,628,400:oigroup>
+<oigroup:<oiref:java#Extends#owl.DatatypeDefinition#owl.Axiom:oiref>=375,363,375,292:oigroup>
+<oigroup:<oiref:java#Class#owl.Datatype:oiref>=628,364,63,59,1:oigroup>
+*/
+class __positions {
+}
