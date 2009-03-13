@@ -39,12 +39,12 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeDefinition#dataRange:oiref>=519,268,61,17,0:oigroup>
+@__positions <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeDefinition#dataRange:oiref>=519,268,67,19,0:oigroup>
 <oigroup:<oiref:java#Implements#owl.Datatype#owl.DataRange:oiref>=659,364,659,295:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DatatypeDefinition#datatype:oiref>=610,371,7,17,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeDefinition#datatype:oiref>=573,408,46,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DatatypeDefinition#datatype:oiref>=610,371,13,19,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.DatatypeDefinition#datatype:oiref>=573,408,52,19,0:oigroup>
 <oigroup:<oiref:java#Class#owl.DatatypeDefinition:oiref>=315,363,112,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DatatypeDefinition#dataRange:oiref>=575,236,7,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.DatatypeDefinition#dataRange:oiref>=575,236,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.DatatypeDefinition#dataRange:oiref>=427,377,507,377,507,265,586,265:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=344,233,63,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.DataRange:oiref>=586,227,143,68,1:oigroup>
