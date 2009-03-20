@@ -35,11 +35,6 @@ class reference3 {
 @__imported 
 */
 class reference17 {
-}/**
-@__ref <oiref:design#Class#id1onawfhjbfetsfhjc9h2a.node:oiref><oihard>
-@__modelType reference 
-*/
-class reference18 {
 }}/**
 @__tags
 @shapeType ClassDiagram 
@@ -50,40 +45,17 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.HasKey#classExpression:oiref>=609,376,13,19,0:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.HasKey#objectPropertyExpressions:oiref>=209,371,11,19,0:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.HasKey#dataPropertyExpressions:oiref>=447,372,144,19,0:oigroup>
-<oigroup:<oiref:design#Class#id1onawfhjbfetsfhjc9h2a.node:oiref>=546,235,299,45,0:oigroup>
-<oigroup:<oiref:design#Class#id1onawfhjbfetsfhjc9h2a.node.link:oiref>=448,300,695,300,695,280:oigroup>
-<oigroup:<oiref:java#Class#owl.ClassExpression:oiref>=594,399,106,59,1:oigroup>
-<oigroup:<oiref:java#Class#owl.ObjectPropertyExpression:oiref>=182,396,160,59,1:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.HasKey#classExpression:oiref>=636,374,98,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.HasKey:oiref>=385,289,63,59,1:oigroup>
-<oigroup:<oiref:java#Extends#owl.HasKey#owl.Axiom:oiref>=417,289,417,249:oigroup>
-<oigroup:<oiref:java#Extends#owl.ClassExpression#owl.Axiom:oiref>=624,358,624,257,374,257,374,156:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.HasKey#objectPropertyExpressions:oiref>=239,372,153,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.DataPropertyExpression:oiref>=387,397,150,59,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.HasKey#dataPropertyExpressions:oiref>=415,372,11,19,0:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.HasKey#objectPropertyExpressions:oiref>=385,326,228,326,228,396:oigroup>
-<oigroup:<oiref:java#Extends#owl.HasKey#owl.ObjectAndDataPropertyAxiom:oiref>=416,289,416,241:oigroup>
+@__positions <oigroup:MemberLink#<oiref:java#Member#owl.HasKey#objectPropertyExpressions:oiref>=385,326,228,326,228,396:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.HasKey#classExpression:oiref>=448,325,628,325,628,399:oigroup>
-<oigroup:MemberLink#<oiref:java#Member#owl.HasKey#dataPropertyExpressions:oiref>=435,348,435,397:oigroup>
+<oigroup:<oiref:java#Extends#owl.HasKey#owl.ObjectAndDataPropertyAxiom:oiref>=416,289,416,241:oigroup>
+<oigroup:<oiref:java#Class#owl.DataPropertyExpression:oiref>=387,397,150,59,1:oigroup>
+<oigroup:<oiref:java#Extends#owl.ClassExpression#owl.Axiom:oiref>=624,358,624,257,374,257,374,156:oigroup>
+<oigroup:<oiref:java#Class#owl.HasKey:oiref>=385,289,63,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.ClassExpression:oiref>=594,399,106,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=386,190,63,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.ObjectPropertyExpression:oiref>=182,396,160,59,1:oigroup>
+<oigroup:<oiref:java#Extends#owl.HasKey#owl.Axiom:oiref>=417,289,417,249:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#owl.HasKey#dataPropertyExpressions:oiref>=435,348,435,397:oigroup>
 */
 class __positions {
-}/**
-@shapeType Note
-@__modelType node
-@name Note1
-@text The associations objectPropertyExpressions and
-dataPropertyExpressions cannot both be empty. 
-*/
-class node {
-/**
-@shapeType NoteLink
-@__modelType link
-@__ref <oiref:java#Class#owl.HasKey:oiref><oihard>
-@__reversed 
-*/
-class link {
-}}
+}
