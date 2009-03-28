@@ -48,13 +48,19 @@ class __options {
 @__positions <oigroup:MemberLink#<oiref:java#Member#owl.HasKey#objectPropertyExpressions:oiref>=385,326,228,326,228,396:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.HasKey#classExpression:oiref>=448,325,628,325,628,399:oigroup>
 <oigroup:<oiref:java#Extends#owl.HasKey#owl.ObjectAndDataPropertyAxiom:oiref>=416,289,416,241:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.HasKey#classExpression:oiref>=632,378,92,17,0:oigroup>
 <oigroup:<oiref:java#Class#owl.DataPropertyExpression:oiref>=387,397,150,59,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.HasKey#dataPropertyExpressions:oiref>=439,376,138,17,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.HasKey#objectPropertyExpressions:oiref>=232,375,147,17,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.ClassExpression#owl.Axiom:oiref>=624,358,624,257,374,257,374,156:oigroup>
 <oigroup:<oiref:java#Class#owl.HasKey:oiref>=385,289,63,59,1:oigroup>
-<oigroup:<oiref:java#Class#owl.ClassExpression:oiref>=594,399,106,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.Axiom:oiref>=386,190,63,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.ClassExpression:oiref>=594,399,106,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.ObjectPropertyExpression:oiref>=182,396,160,59,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.HasKey#dataPropertyExpressions:oiref>=426,376,5,17,0:oigroup>
 <oigroup:<oiref:java#Extends#owl.HasKey#owl.Axiom:oiref>=417,289,417,249:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.HasKey#classExpression:oiref>=617,378,7,17,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.HasKey#objectPropertyExpressions:oiref>=219,375,5,17,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.HasKey#dataPropertyExpressions:oiref>=435,348,435,397:oigroup>
 */
 class __positions {

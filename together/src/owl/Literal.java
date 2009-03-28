@@ -6,9 +6,9 @@ public class Literal implements AnnotationValue {
     /**
      * @directed
      * @supplierCardinality 1
-     * @alias lexicalValue : String
+     * @alias lexicalForm : String
      */
-     public String lexicalValue;
+     public String lexicalForm;
     /**
      * @directed
      * @supplierCardinality 1

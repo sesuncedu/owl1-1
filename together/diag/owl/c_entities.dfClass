@@ -98,15 +98,16 @@ class __tags {
 */
 class __options {
 }/**
-@__positions <oigroup:<oiref:java#Class#owl.Individual:oiref>=697,281,63,59,1:oigroup>
+@__positions <oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=596,476,52,19,0:oigroup>
+<oigroup:<oiref:java#Class#owl.Individual:oiref>=697,281,63,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Literal#lexivalValue:oiref>=528,202,794,202:oigroup>
 <oigroup:<oiref:java#Implements#owl.AnonymousIndividual#owl.Individual:oiref>=808,419,808,389,730,389,730,340:oigroup>
 <oigroup:<oiref:java#Implements#owl.NamedIndividual#owl.Entity:oiref>=652,417,652,388,412,388,412,340:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Entity#entityIRI:oiref>=298,316,43,17,0:oigroup>
 <oigroup:<oiref:java#Implements#owl.Datatype#owl.DataRange:oiref>=582,417,582,348:oigroup>
 <oigroup:<oiref:java#Implements#owl.Class#owl.ClassExpression:oiref>=154,415,154,341:oigroup>
 <oigroup:<oiref:java#Class#owl.DataProperty:oiref>=315,417,84,59,1:oigroup>
-<oigroup:<oiref:java#Class#owl.Literal:oiref>=547,527,125,68,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Literal:oiref>=547,527,123,68,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=581,476,13,19,0:oigroup>
 <oigroup:<oiref:design#Class#id414jresvhxhoaesvibq9u.node.link:oiref>=555,476,555,494,433,494,433,525:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Literal#value:oiref>=528,202,794,202:oigroup>
 <oigroup:<oiref:java#Implements#owl.ObjectProperty#owl.Entity:oiref>=256,415,256,388,412,388,412,340:oigroup>
@@ -116,7 +117,6 @@ class __options {
 <oigroup:<oiref:java#Implements#owl.Class#owl.Entity:oiref>=180,415,180,388,412,388,412,340:oigroup>
 <oigroup:<oiref:java#Class#owl.NamedIndividual:oiref>=627,417,102,59,1:oigroup>
 <oigroup:<oiref:java#Class#owl.DataRange:oiref>=503,280,143,68,1:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Entity#entityIRI:oiref>=301,285,7,17,0:oigroup>
 <oigroup:<oiref:java#Implements#owl.DataProperty#owl.Entity:oiref>=357,417,357,388,412,388,412,340:oigroup>
 <oigroup:<oiref:java#Implements#owl.AnnotationProperty#owl.Entity:oiref>=469,418,469,388,412,388,412,340:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Literal#lexicalValue:oiref>=613,559,760,559:oigroup>
