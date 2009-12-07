@@ -2,5 +2,5 @@
 
 package owl;
 
-public class AnnotationSubject {
+public abstract class AnnotationSubject {
 }
