@@ -60,24 +60,20 @@ class __options {
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=488,98,364,98:oigroup>
 <oigroup:<oiref:java#Implements#owl.AnonymousIndividual#owl.AnnotationSubject:oiref>=439,326,439,303,477,303,477,247:oigroup>
 <oigroup:<oiref:java#Class#owl.IRI:oiref>=496,317,63,59,1:oigroup>
-<oigroup:<oiref:java#Class#owl.AnnotationValue:oiref>=475,188,102,59,1:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=368,98,109,19,0:oigroup>
-<oigroup:<oiref:java#Class#owl.Literal:oiref>=587,317,125,68,1:oigroup>
+<oigroup:<oiref:java#Class#owl.AnnotationValue:oiref>=475,188,104,59,1:oigroup>
+<oigroup:<oiref:java#Class#owl.Literal:oiref>=587,317,123,68,1:oigroup>
 <oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Annotation#annotationValue:oiref>=509,165,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationURI:oiref>=465,94,639,94,639,471,549,471:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationValue:oiref>=528,129,528,188:oigroup>
 <oigroup:<oiref:java#Class#owl.AnonymousIndividual:oiref>=343,313,129,68,1:oigroup>
 <oigroup:<oiref:java#Extends#owl.IRI#owl.AnnotationSubject:oiref>=344,328,249,328,249,367,98,367,98,337:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Annotation#annotationProperty:oiref>=368,77,13,19,0:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationAnnotations:oiref>=523,70,523,34,589,34,589,87,558,87:oigroup>
 <oigroup:<oiref:java#Implements#owl.IRI#owl.AnnotationSubject:oiref>=548,325,548,303,477,303,477,247:oigroup>
 <oigroup:<oiref:java#Class#owl.AnnotationProperty:oiref>=245,68,119,59,1:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Literal#datatype:oiref>=525,382,525,437:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Entity#entityURI:oiref>=338,323,239,323,239,274,140,274:oigroup>
-<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#owl.Annotation#annotationAnnotations:oiref>=562,66,11,19,0:oigroup>
 <oigroup:<oiref:java#Implements#owl.AnnotationProperty#owl.Entity:oiref>=305,433,305,412,369,412,369,371:oigroup>
 <oigroup:MemberLink#<oiref:java#Member#owl.Annotation#annotationSubject:oiref>=499,129,499,188:oigroup>
-<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#owl.Annotation#annotationAnnotations:oiref>=562,87,129,19,0:oigroup>
 */
 class __positions {
 }
