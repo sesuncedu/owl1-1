@@ -1,0 +1,3 @@
+The OWL 1.1 documents were accepted as a [Member Submission](http://www.w3.org/Submission/2006/10/) by the W3C. This does _not_ give them any official status; it merely communicates to the W3C that some members are interested in persuing this work and publishes the work in a highly visible location.
+
+However, there is now a [W3C OWL Working Group](http://www.w3.org/2007/OWL/wiki/OWL_Working_Group) which _is_ [chartered](http://www.w3.org/2007/06/OWLCharter.html) to produce official status versions (or successor versions). OWL 1.1 issues and queries are being migrated to the WG. This Google Code project will continue to support OWLED.

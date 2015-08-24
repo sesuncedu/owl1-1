@@ -1,0 +1,1 @@
+A colloquial name for the (now closed) [Web Ontology](http://www.w3.org/2001/sw/WebOnt/) Working Group.
